@@ -41,7 +41,11 @@
             margin-left: 3%;
         }
         #contenedor{
-            margin: 30px 300px;
+            /*margin: 30px 250px;*/
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
         }
         #row_content{
             background: #F9F5F1;
