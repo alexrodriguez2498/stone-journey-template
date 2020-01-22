@@ -47,6 +47,7 @@
         display: flex;
         justify-content: center;
         margin-top: 2rem;
+        
     }
 
     #replica {
@@ -61,13 +62,19 @@
     }
 
     #contenedor_derecho {
-        box-shadow: 1px 1px 10px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     }
 
     .properties {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+    }
+    #table1{
+        box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    }
+    #table2{
+        box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     }
 
 </style>
@@ -124,7 +131,7 @@
 
 <div class="container row" id="contenedor">
 
-    <div class="container col-md-3">
+    <div class="container col-md-3" >
         <i class="far fa-user-circle" id="icon_user"></i>
         <h4><b>Kelly Slater</b></h4> <br>
         <h6><b>+351 9339948</b></h6>
@@ -291,7 +298,7 @@
 
 
     <div class="row" style="margin: 3%;">
-        <div class="col-md-6">
+        <div class="col-md-6" id="table2">
 
             <h4><b>MILESTONES</b></h4>
             <table class="table">
@@ -351,7 +358,7 @@
         </div>
 
 
-        <div class="col-md-6">
+        <div class="col-md-6" id="table1">
 
             <h4><b>DOCUMENTS</b></h4>
             <table class="table">
