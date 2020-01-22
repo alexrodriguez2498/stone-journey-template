@@ -47,12 +47,24 @@
             justify-content: center;
             margin-top: 2rem;
         }
+        #replica{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
         #row_content{
             background: #F9F5F1;
         }
         #contenedor_derecho{
             box-shadow: 1px 1px 10px;
         }
+        .properties{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+     
     </style>
 
 
@@ -113,7 +125,7 @@
             <h6><b>+351 9339948</b></h6>
             <h6><b>Kelly@wsl.com</b></h6>
             <i class="fas fa-user-circle"></i>
-
+      
         </div>
 
         <div class="container col-md-9" id="contenedor_derecho">
@@ -204,6 +216,62 @@
             </div>
         </div>
     </div>
+    <div class="container row" id="replica">
+        <div class="container col-md-4" id="contenedor_1">
+            <div>
+                <h3><b>properties</b></h3>
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-body">
+                        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">      
+                            <b>Rossio 93</b>
+                    </div>
+                    <!-- Card image -->
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title"><a>Beauty in Motion</a></h4>
+                        <!-- Text -->
+                        <p class="card-text">Located Between the Romantic Avenida da Liberdade and the Charming Downtown</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container col-md-8" id="contenedor_2">
+            
+            <div class="properties">
+                <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+                <b>Rossio 93</b>
+                <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+                <b>Vila Maria Pia</b>
+            </div>
+        
+                                <!-- Card -->
+                    <div class="card card-cascade wider reverse">
+
+                        <!-- Card image -->
+                        <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="card-body ">
+
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Rossio 93</strong></h4>
+                        <!-- Subtitle -->
+                        <h6 class="card-subtitle">Praca da Figueira</h6>    
+                    </div>
+        </div>
+</div>
+   
 
     <div class="row" style="margin: 3%;">
         <div class="col-md-6">
