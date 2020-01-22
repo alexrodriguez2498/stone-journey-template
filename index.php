@@ -9,12 +9,12 @@
     }
 
     table {
-        border: 1px solid #ded6d6;
+        /*border: 1px solid #ded6d6;*/
         margin-bottom: 0 !important;
     }
 
     h4 {
-        border: 1px solid #ded6d6;
+        /*border: 1px solid #ded6d6;*/
         padding: 2%;
         margin-bottom: 0;
     }
@@ -55,6 +55,7 @@
         display: flex;
         justify-content: center;
         margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     #row_content {
@@ -297,7 +298,7 @@
     </div>
 
 
-    <div class="row" style="margin: 3%;">
+    <div class="row" style="margin-top: 3%;">
         <div class="col-md-6" id="table2">
 
             <h4><b>MILESTONES</b></h4>
@@ -345,16 +346,16 @@
                 </tbody>
             </table>
 
-            <div style="border: 1px solid #ded6d6;">
-                <div class="row justify-content-end margin-rigth-min">
-                    <div class="col-xs-4" style="padding: 0 !important;">
-                        <button type="button" class="btn btn-blue-grey btn-sm">VIEW ALL MILESTONES</button>
-                    </div>
-                    <div class="col-xs-4" style="padding: 0 !important;">
-                        <button type="button" class="btn btn-blue-grey btn-sm">CREATE NEW MILESTONE</button>
-                    </div>
-                </div>
-            </div>
+<!--            <div>-->
+<!--                <div class="row justify-content-end margin-rigth-min">-->
+<!--                    <div class="col-xs-4" style="padding: 0 !important;">-->
+<!--                        <button type="button" class="btn btn-blue-grey btn-sm">VIEW ALL MILESTONES</button>-->
+<!--                    </div>-->
+<!--                    <div class="col-xs-4" style="padding: 0 !important;">-->
+<!--                        <button type="button" class="btn btn-blue-grey btn-sm">CREATE NEW MILESTONE</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
 
 
@@ -405,16 +406,16 @@
                 </tbody>
             </table>
 
-            <div style="border: 1px solid #ded6d6;">
-                <div class="row justify-content-end margin-rigth-min">
-                    <div class="col-xs-4" style="padding: 0 !important;">
-                        <button type="button" class="btn btn-blue-grey btn-sm">VIEW ALL DOCUMENTS</button>
-                    </div>
-                    <div class="col-xs-4" style="padding: 0 !important;">
-                        <button type="button" class="btn btn-blue-grey btn-sm">CREATE NEW DOCUMENT</button>
-                    </div>
-                </div>
-            </div>
+<!--            <div>-->
+<!--                <div class="row justify-content-end margin-rigth-min">-->
+<!--                    <div class="col-xs-4" style="padding: 0 !important;">-->
+<!--                        <button type="button" class="btn btn-blue-grey btn-sm">VIEW ALL DOCUMENTS</button>-->
+<!--                    </div>-->
+<!--                    <div class="col-xs-4" style="padding: 0 !important;">-->
+<!--                        <button type="button" class="btn btn-blue-grey btn-sm">CREATE NEW DOCUMENT</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
     </div>
 	<?php get_footer(); ?>
