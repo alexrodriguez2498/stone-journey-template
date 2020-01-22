@@ -60,10 +60,17 @@
 
     #row_content {
         background: #F9F5F1;
+        height: 50px;
+        align-items: center;
+        font-size: 0.8rem;
+        font-weight: 1000;
+
     }
 
     #contenedor_derecho {
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        font-size: 0.8rem;
+        text-align: left;
     }
 
     .properties {
@@ -78,12 +85,56 @@
     #table2{
         box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     }
+    .action_btn_table{
+        display:flex;
+        align-items: flex-end;    
+        justify-content: flex-end;
+        height: 70px;
+
+    }
+    .action_btn{
+        /* margin: 10px; */
+        width: 2rem;
+    }
+    #last_container{
+        margin: 20%;
+        display: flex;
+        justify-content: center ;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .imagen{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    h3{
+        margin-bottom: 1.5rem;
+    }
+    .user_edit{
+        position: absolute;
+        top: 10rem;
+        right: 1rem;
+    }
+    .column{
+        width:100%;
+        height: 100%;
+    }
+    .tittle-text{
+        margin-left: 1rem;
+    }
+    .navbar-nav{
+        justify-content: flex-end;
+    }
+    .mb1{
+        display: flex;
+    }
 
 </style>
 
 
 <!--Navbar -->
 <nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding">
+<img src="http://localhost/wordpress/wp-content/uploads/2020/01/logo.jpg" alt="">
     <a class="navbar-brand tittle-text" href="#"><b>STONE JOURNEY</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
             aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
@@ -113,6 +164,7 @@
                 <a class="nav-link" href="#"><b class="small-text">MY PROFILE</b></a>
             </li>
         </ul>
+        <div>
         <ul class="navbar-nav ml-auto nav-flex-icons">
             <!--                <li class="nav-item active">-->
 
@@ -127,6 +179,7 @@
                 </a>
             </li>
         </ul>
+        </div>
     </div>
 </nav>
 <!--/.Navbar -->
@@ -134,31 +187,32 @@
 <div class="container row" id="contenedor">
 
     <div class="container col-md-3" >
-        <i class="far fa-user-circle" id="icon_user"></i>
-        <h4><b>Kelly Slater</b></h4> <br>
+        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/user-profile.png" alt="">
+        <i class="fas fa-user-edit fa-3x user_edit"></i> 
+        <h4><b>Kelly Slater</b></h4>  
         <h6><b>+351 9339948</b></h6>
         <h6><b>Kelly@wsl.com</b></h6>
-        <i class="fas fa-user-circle"></i>
+       
 
     </div>
 
     <div class="container col-md-9" id="contenedor_derecho">
         <div class="row" id="row_content">
-            <div class="col-md-4">
-                <i class="fas fa-user-circle"></i>
-                profile
+            <div class="col-md-4 ">
+                <i class="far fa-user-circle"></i>
+                PROFILE
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 ">
                 <i class="fas fa-building"></i>
-                properties
+                PROPERTIES
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 ">
                 <i class="fas fa-file-contract"></i>
-                representatives
+                REPRESENTATIVES
             </div>
         </div>
         <d class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 column">
                 <b>Name:</b> Kelly <br>
                 <b>Lastname:</b> Slater <br>
                 <b>Password:**********</b> <br>
@@ -168,7 +222,7 @@
                 <b>Company:</b> Empire Holding
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 column">
                 <b>Properties:</b> Rossio, Vila Maria Pia <br>
                 <b>Account Manager:</b> Mariana Vozone <br>
                 <b>Comission:</b> <br>
@@ -229,7 +283,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 column">
                 <b>Legal Representative:</b> Marco Coelho <br>
                 <b>Email:</b> mcoelho@gmail.com <br>
                 <b>Phone:</b> +351 93399448 <br> <br>
@@ -269,9 +323,9 @@
     <div class="container col-md-8" id="contenedor_2">
 
         <div class="properties">
-            <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+            <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" class="imagen" alt="">
             <b>Rossio 93</b>
-            <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+            <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" class="imagen" alt="">
             <b>Vila Maria Pia</b>
         </div>
 
@@ -297,8 +351,8 @@
             </div>
         </div>
     </div>
-
-
+</div>
+<div class="container" id="last_container">
     <div class="row" style="margin-top: 3%;">
         <div class="col-md-6" id="table2">
 
@@ -346,6 +400,11 @@
 
                 </tbody>
             </table>
+            <div class="action_btn_table">
+            <i class="far fa-calendar-alt action_btn"></i>
+            <i class="far fa-list-alt action_btn"></i>
+            <i class="fas fa-plus-circle action_btn"></i>
+            </div>
 
 <!--            <div>-->
 <!--                <div class="row justify-content-end margin-rigth-min">-->
@@ -403,10 +462,13 @@
                     <td>Public</td>
                     <td>20/02/2020</td>
                 </tr>
-
                 </tbody>
             </table>
-
+            <div class="action_btn_table ">
+            <i class="far fa-calendar-alt action_btn"></i>
+            <i class="far fa-list-alt action_btn"></i>
+            <i class="fas fa-plus-circle action_btn"></i>
+            </div>
 <!--            <div>-->
 <!--                <div class="row justify-content-end margin-rigth-min">-->
 <!--                    <div class="col-xs-4" style="padding: 0 !important;">-->
@@ -418,5 +480,9 @@
 <!--                </div>-->
 <!--            </div>-->
         </div>
+        
+       
+        
     </div>
+</div>
 	<?php get_footer(); ?>
