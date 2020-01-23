@@ -107,9 +107,11 @@
         margin-bottom: 1.5rem;
     }
     .user_edit{
+        background-color: white;
+        border-radius: 2rem;
         position: absolute;
-        top: 10rem;
-        right: 1rem;
+        top: 60%;
+        right: 0%;
     }
     .column{
         width:100%;
@@ -200,11 +202,11 @@
     <div class="container col-md-3" >
         <img src="http://localhost/wordpress/wp-content/uploads/2020/01/profile_woman.jpg" alt="">
         <i class="far fa-user-circle fa-3x user_edit"></i>
-        <h4><b>Kelly Slater</b></h4>  
-        <h6><b>+351 9339948</b></h6>
-        <h6><b>Kelly@wsl.com</b></h6>
-       
-
+        <div>
+            <h4><b>Kelly Slater</b></h4>
+            <h6><b>+351 9339948</b></h6>
+            <h6><b>Kelly@wsl.com</b></h6>
+        </div>
     </div>
 
     <div class="container col-md-9" id="contenedor_derecho">
