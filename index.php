@@ -71,6 +71,7 @@
         box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
         font-size: 0.8rem;
         text-align: left;
+        line-height: 1.3rem;
     }
 
     .properties {
@@ -122,13 +123,7 @@
     .tittle-text{
         margin-left: 1rem;
     }
-    .navbar-nav{
-        justify-content: flex-end;
-    }
-    .mb1{
-        display: flex;
-    }
-
+ 
 </style>
 
 
@@ -141,7 +136,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#"><b class="small-text">CLIENTS</b></a>
             </li>
@@ -179,7 +174,7 @@
                 </a>
             </li>
         </ul>
-        </div>
+    </div>
     </div>
 </nav>
 <!--/.Navbar -->
