@@ -98,6 +98,11 @@
         justify-content: center ;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        padding-left: 0;
+        padding-right: 0;
+        border-top: 1px solid #ded6d6;
+        padding-top: 1rem;
+}
     }
     .imagen{
         margin-right: 1rem;
@@ -123,7 +128,7 @@
     }
 
     .card{
-        border: 1px solid grey;
+        
         box-shadow: 0 0px 0px 0;
     }
 
@@ -210,7 +215,6 @@
 
     <div class="container col-md-3" >
         <img src="http://localhost/wordpress/wp-content/uploads/2020/01/profile_woman.jpg" alt="">
-        <i class="far fa-user-circle fa-3x user_edit"></i>
         <div>
             <h4><b>Kelly Slater</b></h4>
             <h6><b>+351 9339948</b></h6>
