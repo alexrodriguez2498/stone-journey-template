@@ -98,11 +98,6 @@
         justify-content: center ;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        padding-left: 0;
-        padding-right: 0;
-        border-top: 1px solid #ded6d6;
-        padding-top: 1rem;
-}
     }
     .imagen{
         margin-right: 1rem;
@@ -128,15 +123,13 @@
     }
 
     .card{
-        
         box-shadow: 0 0px 0px 0;
     }
 
     .container2 {
-        padding-left: 0;
-        padding-right: 0;
         border-top: 1px solid #ded6d6;
-        padding-top: 1rem;
+        border-bottom: 1px solid #ded6d6;
+        padding: 1rem 0;
     }
 
     .profile-content {
