@@ -63,7 +63,7 @@
         height: 50px;
         align-items: center;
         font-size: 0.8rem;
-        font-weight: 1000;
+        font-weight: bold;
 
     }
 
@@ -98,7 +98,7 @@
         width: 2rem;
     }
     #last_container{
-        margin: 20%;
+        /*margin: 20%;*/
         display: flex;
         justify-content: center ;
         margin-top: 2rem;
@@ -122,6 +122,22 @@
     }
     .tittle-text{
         margin-left: 1rem;
+    }
+
+    .container2 {
+        padding-left: 0;
+        padding-right: 0;
+        border-top: 1px solid #ded6d6;
+        padding-top: 1rem;
+    }
+
+    .profile-content {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    b {
+        font-weight: bold;
     }
  
 </style>
@@ -206,7 +222,7 @@
                 REPRESENTATIVES
             </div>
         </div>
-        <d class="row">
+        <d class="row profile-content">
             <div class="col-md-4 column">
                 <b>Name:</b> Kelly <br>
                 <b>Lastname:</b> Slater <br>
@@ -221,60 +237,60 @@
                 <b>Properties:</b> Rossio, Vila Maria Pia <br>
                 <b>Account Manager:</b> Mariana Vozone <br>
                 <b>Comission:</b> <br>
-                <b>Discount </b>
+                <b>Discount:</b> Yes <br>
                 <!-- radio button "yes"-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultInline1"
-                           name="inlineDefaultRadiosExample">
-                    <label class="custom-control-label" for="defaultInline1">Yes</label>
-                </div>
+<!--                <div class="custom-control custom-radio custom-control-inline">-->
+<!--                    <input type="radio" class="custom-control-input" id="defaultInline1"-->
+<!--                           name="inlineDefaultRadiosExample">-->
+<!--                    <label class="custom-control-label" for="defaultInline1">Yes</label>-->
+<!--                </div>-->
+<!---->
+                <!-- radio button "no"-->
+<!--                <div class="custom-control custom-radio custom-control-inline">-->
+<!--                    <input type="radio" class="custom-control-input" id="defaultInline2"-->
+<!--                           name="inlineDefaultRadiosExample">-->
+<!--                    <label class="custom-control-label" for="defaultInline2">No</label>-->
+<!--                </div>-->
+<!--                <br>-->
+
+                <b>Extra Works: </b> Yes <br>
+                <!-- radio button "yes"-->
+<!--                <div class="custom-control custom-radio custom-control-inline">-->
+<!--                    <input type="radio" class="custom-control-input" id="defaultInline1"-->
+<!--                           name="inlineDefaultRadiosExample">-->
+<!--                    <label class="custom-control-label" for="defaultInline1">Yes</label>-->
+<!--                </div>-->
 
                 <!-- radio button "no"-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultInline2"
-                           name="inlineDefaultRadiosExample">
-                    <label class="custom-control-label" for="defaultInline2">No</label>
-                </div>
-                <br>
+<!--                <div class="custom-control custom-radio custom-control-inline">-->
+<!--                    <input type="radio" class="custom-control-input" id="defaultInline2"-->
+<!--                           name="inlineDefaultRadiosExample">-->
+<!--                    <label class="custom-control-label" for="defaultInline2">No</label>-->
+<!--                </div>-->
+<!--                <br>-->
 
-                <b>Extra Works</b>
-                <!-- radio button "yes"-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultInline1"
-                           name="inlineDefaultRadiosExample">
-                    <label class="custom-control-label" for="defaultInline1">Yes</label>
-                </div>
-
-                <!-- radio button "no"-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultInline2"
-                           name="inlineDefaultRadiosExample">
-                    <label class="custom-control-label" for="defaultInline2">No</label>
-                </div>
-                <br>
-
-                <b>purpose</b>
+                <b>purpose: </b> Golden Visa <br>
                 <!-- radio button "investment"-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultInline1"
-                           name="inlineDefaultRadiosExample">
-                    <label class="custom-control-label" for="defaultInline1">Investment</label>
-                </div>
+<!--                <div class="custom-control custom-radio custom-control-inline">-->
+<!--                    <input type="radio" class="custom-control-input" id="defaultInline1"-->
+<!--                           name="inlineDefaultRadiosExample">-->
+<!--                    <label class="custom-control-label" for="defaultInline1">Investment</label>-->
+<!--                </div>-->
 
                 <!-- radio button "Golden Visa"-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultInline2"
-                           name="inlineDefaultRadiosExample">
-                    <label class="custom-control-label" for="defaultInline2">Golden Visa</label>
-                </div>
+<!--                <div class="custom-control custom-radio custom-control-inline">-->
+<!--                    <input type="radio" class="custom-control-input" id="defaultInline2"-->
+<!--                           name="inlineDefaultRadiosExample">-->
+<!--                    <label class="custom-control-label" for="defaultInline2">Golden Visa</label>-->
+<!--                </div>-->
 
                 <!-- radio button "Live"-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultInline3"
-                           name="inlineDefaultRadiosExample">
-                    <label class="custom-control-label" for="defaultInline3">Live</label>
-                </div>
-                <br>
+<!--                <div class="custom-control custom-radio custom-control-inline">-->
+<!--                    <input type="radio" class="custom-control-input" id="defaultInline3"-->
+<!--                           name="inlineDefaultRadiosExample">-->
+<!--                    <label class="custom-control-label" for="defaultInline3">Live</label>-->
+<!--                </div>-->
+<!--                <br>-->
 
             </div>
 
@@ -289,10 +305,10 @@
     </div>
 </div>
 </div>
-<div class="container row" id="replica">
+<div class="container row container2" id="replica">
     <div class="container col-md-4" id="contenedor_1">
         <div>
-            <h3><b>properties</b></h3>
+            <h3><b>PROPERTIES</b></h3>
             <!-- Card -->
             <div class="card">
                 <div class="card-body">
@@ -348,7 +364,7 @@
     </div>
 </div>
 <div class="container" id="last_container">
-    <div class="row" style="margin-top: 3%;">
+<!--    <div class="row" style="margin-top: 3%;">-->
         <div class="col-md-6" id="table2">
 
             <h4><b>MILESTONES</b></h4>
@@ -478,6 +494,6 @@
         
        
         
-    </div>
+<!--    </div>-->
 </div>
 	<?php get_footer(); ?>
