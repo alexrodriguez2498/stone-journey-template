@@ -105,6 +105,7 @@
     }
     h3{
         margin-bottom: 1.5rem;
+        margin-left: 1rem;
     }
     .user_edit{
         background-color: white;
@@ -142,6 +143,14 @@
         font-weight: bold;
     }
 
+    .btn-custom {
+        border-radius: 2rem;
+        border: 1px solid #ded6d6;
+        box-shadow: 0 1px 2px 0;
+        background-color: white;
+        margin-right: 1rem;
+    }
+
 </style>
 
 
@@ -167,15 +176,15 @@
             <li class="nav-item">
                 <a class="nav-link" href="#"><b class="small-text">MILESTONES</b></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><b class="small-text">STONE JOURNEY</b></a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#"><b class="small-text">STONE JOURNEY</b></a>-->
+<!--            </li>-->
             <li class="nav-item">
                 <a class="nav-link" href="#"><b class="small-text">CONTACTS</b></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><b class="small-text">MY PROFILE</b></a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#"><b class="small-text">MY PROFILE</b></a>-->
+<!--            </li>-->
         </ul>
         <div>
         <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -381,31 +390,31 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td><i class="fas fa-file-invoice-dollar"></i></td>
+                    <td><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
                     <td>Payment Summons</td>
                     <td>Private</td>
                     <td>20/02/2020</td>
                 </tr>
                 <tr>
-                    <td><i class="fas fa-file-signature"></i></td>
+                    <td><i class="fas fa-file-signature fa-2x"></i></td>
                     <td>Promissory Contract Payment</td>
                     <td>Private</td>
                     <td>20/02/2020</td>
                 </tr>
                 <tr>
-                    <td><i class="fas fa-file-invoice"></i></td>
+                    <td><i class="fas fa-file-invoice fa-2x"></i></td>
                     <td>Reservation Fee Reinforcement</td>
                     <td>Private</td>
                     <td>20/02/2020</td>
                 </tr>
                 <tr>
-                    <td><i class="fas fa-file-image"></i></td>
+                    <td><i class="fas fa-file-image fa-2x"></i></td>
                     <td>Reservation Form</td>
                     <td>Private</td>
                     <td>20/02/2020</td>
                 </tr>
                 <tr>
-                    <td><i class="fas fa-images"></i></td>
+                    <td><i class="fas fa-images fa-2x"></i></td>
                     <td>Welcome letter</td>
                     <td>Private</td>
                     <td>20/02/2020</td>
@@ -414,9 +423,12 @@
                 </tbody>
             </table>
             <div class="action_btn_table">
-            <i class="far fa-calendar-alt action_btn"></i>
-            <i class="far fa-list-alt action_btn"></i>
-            <i class="fas fa-plus-circle action_btn"></i>
+                <a class="btn-floating btn-lg btn-custom"><i class="far fa-calendar-alt"></i></a>
+                <a class="btn-floating btn-lg btn-custom"><i class="far fa-list-alt"></i></a>
+                <a class="btn-floating btn-lg btn-custom"><i class="fas fa-plus"></i></a>
+<!--            <i class="far fa-calendar-alt action_btn fa-2x"></i>-->
+<!--            <i class="far fa-list-alt action_btn fa-2x"></i>-->
+<!--            <i class="fas fa-plus action_btn fa-2x"></i>-->
             </div>
 
 <!--            <div>-->
@@ -446,31 +458,31 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td><i class="far fa-file-alt"></i></td>
+                    <td><i class="far fa-file-alt fa-2x"></i></td>
                     <td>Floor plan</td>
                     <td>Private</td>
                     <td>20/02/2020</td>
                 </tr>
                 <tr>
-                    <td><i class="far fa-file"></i></td>
+                    <td><i class="far fa-file fa-2x"></i></td>
                     <td>Document</td>
                     <td>Private</td>
                     <td>20/02/2020</td>
                 </tr>
                 <tr>
-                    <td><i class="far fa-images"></i></td>
+                    <td><i class="far fa-images fa-2x"></i></td>
                     <td>Photo Gallery</td>
                     <td>Private</td>
                     <td>20/02/2020</td>
                 </tr>
                 <tr>
-                    <td><i class="far fa-file-image"></i></td>
+                    <td><i class="far fa-file-image fa-2x"></i></td>
                     <td>Photo</td>
                     <td>Private</td>
                     <td>20/02/2020</td>
                 </tr>
                 <tr>
-                    <td><i class="far fa-file-image"></i></td>
+                    <td><i class="far fa-file-image fa-2x"></i></td>
                     <td>Photo</td>
                     <td>Public</td>
                     <td>20/02/2020</td>
@@ -478,9 +490,12 @@
                 </tbody>
             </table>
             <div class="action_btn_table ">
-            <i class="far fa-calendar-alt action_btn"></i>
-            <i class="far fa-list-alt action_btn"></i>
-            <i class="fas fa-plus-circle action_btn"></i>
+                <a class="btn-floating btn-lg btn-custom"><i class="far fa-calendar-alt"></i></a>
+                <a class="btn-floating btn-lg btn-custom"><i class="far fa-list-alt"></i></a>
+                <a class="btn-floating btn-lg btn-custom"><i class="fas fa-plus"></i></a>
+<!--            <i class="far fa-calendar-alt action_btn fa-2x"></i>-->
+<!--            <i class="far fa-list-alt action_btn fa-2x"></i>-->
+<!--            <i class="fas fa-plus action_btn fa-2x"></i>-->
             </div>
 <!--            <div>-->
 <!--                <div class="row justify-content-end margin-rigth-min">-->
