@@ -68,7 +68,6 @@
     }
 
     #contenedor_derecho {
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
         font-size: 0.8rem;
         text-align: left;
         line-height: 1.3rem;
@@ -80,12 +79,8 @@
         align-items: center;
         margin-bottom: 15px;
     }
-    #table1{
-        box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-    }
-    #table2{
-        box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-    }
+   
+
     .action_btn_table{
         display:flex;
         align-items: flex-end;    
@@ -122,6 +117,10 @@
     }
     .tittle-text{
         margin-left: 1rem;
+    }
+    .card{
+        border: 1px solid grey;
+        box-shadow: 0 0px 0px 0;
     }
  
 </style>
@@ -182,8 +181,8 @@
 <div class="container row" id="contenedor">
 
     <div class="container col-md-3" >
-        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/user-profile.png" alt="">
-        <i class="fas fa-user-edit fa-3x user_edit"></i> 
+        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/profile_woman.jpg" alt="">
+        <i class="far fa-user-circle fa-3x user_edit"></i> 
         <h4><b>Kelly Slater</b></h4>  
         <h6><b>+351 9339948</b></h6>
         <h6><b>Kelly@wsl.com</b></h6>
