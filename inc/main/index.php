@@ -2,6 +2,27 @@
 
 <style>
 
+    .container-custom {
+        display: flex;
+
+        flex-direction:row;
+        padding: 0;
+    }
+
+    @media(max-width: 576px) {
+        .container-custom {
+            flex-direction:column;
+        }
+    }
+
+    @media(min-width: 577px) {
+        .container-left{
+            margin-right: 0.5rem;
+        }
+
+        .container-right{
+            margin-left: 0.5rem;
+        }
 
 </style>
 
