@@ -81,7 +81,7 @@
 
                 <li class="nav-item avatar">
                     <a class="nav-link p-0" href="#">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/face.jpg"
+                        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg"
                              class="rounded-circle z-depth-0"
                              alt="avatar image" height="35">
                         <b class="small-text">Ana Magallanes</b>
@@ -108,7 +108,7 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/face.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>Ms. layne beachley</td>
@@ -116,7 +116,7 @@
                     <td>Rossio 93</td>
                 </tr>
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/face2.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face2.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>Mr. Gerry Lopez</td>
@@ -125,7 +125,7 @@
                 </tr>
 
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/face6_.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face6_.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>Mr. Rabbit KeKai</td>
@@ -134,7 +134,7 @@
                 </tr>
 
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/face5_.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face5_.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>Mr. Kelly Sister</td>
@@ -143,7 +143,7 @@
                 </tr>
 
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/face2.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face2.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>Ms. Carissa Moore</td>
@@ -181,7 +181,7 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/Building1.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>rossio 93</td>
@@ -189,7 +189,7 @@
                     <td>in development</td>
                 </tr>
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/Building2.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>Vila Maria Pia</td>
@@ -197,7 +197,7 @@
                     <td>Sold</td>
                 </tr>
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/Building3.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building3.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>Rosa</td>
@@ -205,7 +205,7 @@
                     <td>Completed</td>
                 </tr>
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/Building4.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building4.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>Santa Justa 60</td>
@@ -213,7 +213,7 @@
                     <td>Completed</td>
                 </tr>
                 <tr>
-                    <td><img src="http://localhost/wordpress/wp-content/uploads/2020/01/Building5.jpg"
+                    <td><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                              class="md-avatar rounded-circle"
                              alt="Responsive image" style="width:30px;"></td>
                     <td>Jardim da Gloria</td>

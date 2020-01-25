@@ -154,7 +154,7 @@
 
 <!--Navbar -->
 <nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding">
-<img src="http://localhost/wordpress/wp-content/uploads/2020/01/logo.jpg" alt="">
+<img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Logo.jpg" alt="">
     <a class="navbar-brand tittle-text" href="#"><b>STONE JOURNEY</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
             aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
@@ -192,7 +192,7 @@
 
             <li class="nav-item avatar">
                 <a class="nav-link p-0" href="#">
-                    <img src="http://localhost/wordpress/wp-content/uploads/2020/01/face.jpg"
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg"
                          class="rounded-circle z-depth-0"
                          alt="avatar image" height="35">
                     <b class="small-text">Ana Magallanes</b>
@@ -207,7 +207,7 @@
 <div class="container row" id="contenedor">
 
     <div class="container col-md-3" >
-        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/profile_woman.jpg" alt="">
+        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="">
         <div>
             <h4><b>Kelly Slater</b></h4>
             <h6><b>+351 9339948</b></h6>
@@ -320,7 +320,7 @@
             <!-- Card -->
             <div class="card">
                 <div class="card-body">
-                    <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
                     <b>Rossio 93</b>
                 </div>
                 <!-- Card image -->
@@ -342,9 +342,9 @@
     <div class="container col-md-8" id="contenedor_2">
 
         <div class="properties">
-            <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" class="imagen" alt="">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" class="imagen" alt="">
             <b>Rossio 93</b>
-            <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" class="imagen" alt="">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" class="imagen" alt="">
             <b>Vila Maria Pia</b>
         </div>
 

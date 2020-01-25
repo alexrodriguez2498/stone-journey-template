@@ -36,7 +36,7 @@
         margin-left: 2rem;
     }
     body{
-            background-image: url("http://localhost/wordpress/wp-content/uploads/2020/01/fondo.jpg");
+            background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/fondo.jpg");
             background-size: cover;
             background-attachment: fixed    ;
             background-repeat:no-repeat;
@@ -44,7 +44,7 @@
                 }
         @media(max-width:576px){
             body{
-                background-image: url("http://localhost/wordpress/wp-content/uploads/2020/01/fondo_3.jpg");
+                background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/fondo_3.jpg");
             }
         }
         @media(max-width:425px){
@@ -69,12 +69,13 @@
             #imagen{
               margin-left:20%;
           }
-          .navbar-brand{
-              margin-left:1rem;
-          }
-        
-            
+
         }
+
+    .navbar-brand{
+        margin-left:1rem;
+    }
+
         html{
             height:100%;
         }
@@ -106,7 +107,7 @@
 <!--Navbar -->
 <nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding">
 
-    <img src="http://localhost/wordpress/wp-content/uploads/2020/01/logo.jpg" id="imagen" alt="">
+    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Logo.jpg" id="imagen" alt="">
     <a class="navbar-brand tittle-text" href="#"><b>STONE   </b></a>
 
 
@@ -146,10 +147,10 @@
 
             <li class="nav-item avatar">
                 <a class="nav-link p-0" href="#">
-                    <img src="http://localhost/wordpress/wp-content/uploads/2020/01/face.jpg"
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg"
                          class="rounded-circle z-depth-0"
                          alt="avatar image" height="35">
-                    <b class="small-text">Ana Magallanes
+                    <b class="small-text">Ana Magallanes</b>
                 </a>
             </li>
         </ul>
