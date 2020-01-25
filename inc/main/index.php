@@ -19,11 +19,49 @@
         .container-left{
             margin-right: 0.5rem;
         }
+    
 
         .container-right{
             margin-left: 0.5rem;
         }
+    }
+    body{
+            background-image: url("http://localhost/wordpress/wp-content/uploads/2020/01/fondo.jpg");
+            background-size: cover;
+            background-attachment: scroll;
+            background-repeat:no-repeat;
+            background-position:center center;
+                }
+        @media(max-width:576px){
+            body{
+                background-image: url("http://localhost/wordpress/wp-content/uploads/2020/01/fondo_2.jpg");
+            }
+        }
+        html{
+            height:100%;
+        }
+        .customize-support{
+            height:100%;
+        }
+        #background_1{
+            background:white;
+        }
+        #background_2{
+            background:white;
 
+        }
+        #background_3{
+            background:white;
+
+        }
+        #background_4{
+            background:white;
+
+        }
+        #background_5{
+            background:white;
+
+        }
 </style>
 
 
