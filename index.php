@@ -10,8 +10,8 @@
     } elseif (strpos($_SERVER['REQUEST_URI'], 'profile') !== false) {
         require_once('inc/profile/index.php');
     } else {
-//	    require_once('inc/main/index.php');
-	    echo 'hello world';
+	    require_once('inc/main/index.php');
+//	    echo 'hello world';
     }
 ?>
 <?php  get_footer(); ?>
