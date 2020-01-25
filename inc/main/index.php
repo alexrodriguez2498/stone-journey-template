@@ -9,21 +9,31 @@
         padding: 0;
     }
 
+    .container-child-right {
+        margin: 0.5rem 0 0.5rem 0.5rem;
+    }
+    .container-child-left {
+        margin: 0.5rem 0.5rem 0.5rem 0;
+    }
+
     @media(max-width: 576px) {
         .container-custom {
             flex-direction:column;
         }
     }
 
-    @media(min-width: 577px) {
-        .container-left{
-            margin-right: 0.5rem;
-        }
-    
+    /*@media(min-width: 577px) {*/
+    /*    .container-left{*/
+    /*        margin-right: 0.5rem;*/
+    /*    }*/
 
-        .container-right{
-            margin-left: 0.5rem;
-        }
+    /*    .container-right{*/
+    /*        margin-left: 0.5rem;*/
+    /*    }*/
+
+    .container-box {
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
     body{
             background-image: url("http://localhost/wordpress/wp-content/uploads/2020/01/fondo.jpg");
@@ -117,37 +127,60 @@
 </nav>
 <!--/.Navbar -->
 
-<div class="container mt-5 py-4 z-depth-1">
+<div class="row mt-3 container-box">
+    <div class="mt-5 py-4 z-depth-1 col">
 
 
-    <!--Section: Content-->
-    <section class="px-md-2 mx-md-2 dark-grey-text">
-
-        <h3 class="font-weight-bold">Welcome Mariana</h3>
-        <span>This is your <b>Stone Journey Dashboard,</b> from here you can manage your Properties, Clients, Milestones and Documents.</span>
-
-    </section>
-    <!--Section: Content-->
-
-
-</div>
-
-<div class="container container-custom">
-    <div class=" mt-3 py-3 z-depth-1 col-md-6 col-xs-12 container-left">
+        <!--Section: Content-->
         <section class="px-md-2 mx-md-2 dark-grey-text">
 
-            <h4>Properties</h4>
+            <h3>Welcome Mariana</h3>
+            <h5>This is your <b>Stone Journey Dashboard,</b> from here you can manage your Properties, Clients, Milestones and Documents.</h5>
 
         </section>
-    </div>
+        <!--Section: Content-->
 
-    <div class=" mt-3 py-3 z-depth-1 col-md-6 col-xs-12 container-right">
-        <section class="px-md-2 mx-md-2 dark-grey-text">
 
-            <h4>Properties</h4>
-
-        </section>
     </div>
 </div>
+
+<!--<div class="container">-->
+    <div class="row mt-3 container-box">
+        <div class="py-3 z-depth-1 col container-child-left">
+            <section class="px-md-2 mx-md-2 dark-grey-text">
+
+                <h4>Properties</h4>
+
+            </section>
+        </div>
+
+        <div class=" py-3 z-depth-1 col container-child-right">
+            <section class="px-md-2 mx-md-2 dark-grey-text">
+
+                <h4>Clients&nbsp;&nbsp;&nbsp;</h4>
+
+            </section>
+        </div>
+    </div>
+    <div class="row mt-3 container-box">
+        <div class="py-3 z-depth-1 col container-child-left">
+            <section class="px-md-2 mx-md-2 dark-grey-text">
+
+                <h4>Milestones</h4>
+
+            </section>
+        </div>
+
+        <div class=" py-3 z-depth-1 col container-child-right">
+            <section class="px-md-2 mx-md-2 dark-grey-text">
+
+                <h4>Documents</h4>
+
+            </section>
+        </div>
+    </div>
+<!--</div>-->
+
+
 
 	<?php get_footer(); ?>
