@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
     .container-custom {
         display: flex;
@@ -11,9 +12,37 @@
 
     .container-child-right {
         margin: 0.5rem 0 0.5rem 0.5rem;
+        height: 100px;
+        display:flex;
+        align-items:center;
     }
     .container-child-left {
         margin: 0.5rem 0.5rem 0.5rem 0;
+        height: 100px;
+        display:flex;
+        align-items:center;
+    }
+    #background_1{
+        height:200px;
+        display:flex;
+        align-items:center;
+        padding:24px 30px;
+    }
+    #container__center h3{
+        font-size:45px;
+        font-weight:400;
+    }
+    #container__center p{
+        font-size:22px;
+    }
+    #imagen{
+        height: 25px;
+        width: 25px;
+    }
+    .tittle-text {
+        font-size:18px;
+        letter-spacing:1px;
+        font-weight:400;
     }
 
     @media(max-width: 576px) {
@@ -41,6 +70,7 @@
             background-attachment: fixed    ;
             background-repeat:no-repeat;
             background-position:center center;
+            font-family:"roboto";
                 }
         @media(max-width:576px){
             body{
@@ -58,7 +88,15 @@
             #background_5{
                 margin-left:0;
             }
+            /*                                                                     revisar lo que esta encerrado */
+            #background_1 h3{
+                font-size:16px;
+            }
+            .container-box-2{
+                margin-top:0;
+            }
         }
+        /*                                                                          revisar lo que esta encerrado */
         @media(min-width:1300px){
             .container-box{
                 margin: auto 20%;
@@ -71,10 +109,23 @@
           }
 
         }
+        @media(max-width:650px){
+            #background_1{
+                padding:10px 5px;
+            }
+            #background_1 h3{
+                font-size:30px;
+                text-align:center;
+            }
+        }
 
     .navbar-brand{
         margin-left:1rem;
     }
+    .navbar-collapse a{
+        margin:0 20px;
+    }
+    
 
         html{
             height:100%;
@@ -118,13 +169,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Clients</a>
+                <a class="nav-link" href="#">Dashboard</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Properties</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Documents</a>
+                <a class="nav-link" href="#">Clients</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Milestones</a>
@@ -133,7 +184,7 @@
 <!--                <a class="nav-link" href="#"><b class="small-text">STONE JOURNEY</b></a>-->
 <!--            </li>-->
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link" href="#">Documents</a>
             </li>
 <!--            <li class="nav-item">-->
 <!--                <a class="nav-link" href="#"><b class="small-text">MY PROFILE</b></a>-->
@@ -150,7 +201,7 @@
                     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg"
                          class="rounded-circle z-depth-0"
                          alt="avatar image" height="35">
-                    <b class="small-text">Ana Magallanes</b>
+                    <b class="small-text">Ana Magalhaes</b>
                 </a>
             </li>
         </ul>
@@ -164,10 +215,10 @@
 
 
         <!--Section: Content-->
-        <section class="px-md-2 mx-md-2 dark-grey-text">
+        <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center">
 
-            <h3>Welcome Mariana</h3>
-            <h5>This is your <b>Stone Journey Dashboard,</b> from here you can manage your Properties, Clients, Milestones and Documents.</h5>
+            <h3>Welcome Ana Malgahaes,</h3>
+            <p>This is your <strong>Stone Journey Dashboard,</strong> from here you can manage your Properties, Clients, Milestones and Documents.</p>
 
         </section>
         <!--Section: Content-->
@@ -194,7 +245,7 @@
             </section>
         </div>
     </div>
-    <div class="row mt-3 container-box">
+    <div class="row mt-3 container-box container_box_2">
         <div class="py-3 z-depth-1 col container-child-left" id="background_4">
             <section class="px-md-2 mx-md-2 dark-grey-text">
 
