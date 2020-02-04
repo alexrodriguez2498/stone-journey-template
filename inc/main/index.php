@@ -43,6 +43,7 @@
         font-size:18px;
         letter-spacing:1px;
         font-weight:400;
+        color:#947956;
     }
 
     @media(max-width: 576px) {
@@ -102,10 +103,10 @@
                 margin: auto 20%;
             }
             .navbar-collapse{
-                margin-right: 20%;
+                margin-right: 14%;
             }
             #imagen{
-              margin-left:20%;
+              margin-left:14%;
           }
 
         }
@@ -131,6 +132,10 @@
     }
     .avatar a{
         margin:0;
+        font-weight:100;
+    }
+    .nav-link{
+        font-weight:bold;
     }
     
 
