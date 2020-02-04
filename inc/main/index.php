@@ -132,9 +132,8 @@
     }
     .avatar a{
         margin:0;
-        font-weight:100;
     }
-    .nav-link{
+    .navbar .nav-bold{
         font-weight:bold;
     }
     
@@ -181,7 +180,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Dashboard</a>
+                <a class="nav-link nav-bold" href="#">Dashboard</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Properties</a>
