@@ -111,13 +111,17 @@
         }
         @media(max-width:650px){
             #background_1{
-                padding:10px 5px;
+                padding:10px 10px;
             }
             #background_1 h3{
                 font-size:30px;
                 text-align:center;
             }
+            #background_1 p{
+                text-align:center;
+            }
         }
+      
 
     .navbar-brand{
         margin-left:1rem;
