@@ -123,8 +123,9 @@
             #background_1 p{
                 text-align:center;
             }
-            .background_2-button{
-                justify-content:center;
+            /* .background_1-button .button{
+                display:flex;
+                justify-content:center; */
             }
         }
 
@@ -137,7 +138,7 @@
                 display: none;
             }
         }
-      
+       
 
     .navbar-brand{
         margin-left:1rem;
@@ -225,13 +226,28 @@
         .card{
             margin:20px;
         }
-        @media(max-width:885px){
+        @media(max-width:910px){
             .cards_container{
                 flex-direction:column;
             }
             .second_nav{
                 display:none;
             }
+            .card{
+                
+            }
+
+        }
+        /* .background_1-button{
+            display:flex;
+        } */
+        .cards_container .card h4{
+            font-weight:bold;
+        }
+        .cards_container .card .card-text strong{
+            font-weight:bold;
+            color:black;
+
         }
 
 </style>
@@ -319,7 +335,7 @@
         <div class="py-3 z-depth-1 col "id="background_2">
             <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
                 <!-- <div class="background_2-content"> -->
-                    <p><strong>filter by:</strong>Name</p>
+                    <p><strong>Filter by:</strong> Name</p>
                     <ul class="second_nav">
                         <li><a class="second_nav-item" href="#">Grid</a></li>
                         <li><a class="second_nav-item" href="#">Map</a></li>
