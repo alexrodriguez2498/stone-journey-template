@@ -10,7 +10,7 @@
         padding: 0;
     }
 
-    .container-child-right {
+    /* .container-child-right {
         margin: 0.5rem 0 0.5rem 0.5rem;
         height: 100px;
         display:flex;
@@ -20,7 +20,7 @@
         margin: 0.5rem 0.5rem 0.5rem 0;
         height: 100px;
         display:flex;
-        align-items:center;
+        align-items:center; */
     }
     #background_1{
         height:200px;
@@ -66,11 +66,12 @@
         margin-left: 2rem;
     }
     body{
-            background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/fondo.jpg");
-            background-size: cover;
-            background-attachment: fixed    ;
-            background-repeat:no-repeat;
-            background-position:center center;
+        background-color:#f4f1ee;
+            /* background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/fondo.jpg"); */
+            /* background-size: cover; */
+            /* background-attachment: fixed    ; */
+            /* background-repeat:no-repeat; */
+            /* background-position:center center; */
             font-family:"roboto";
                 }
         /*@media(max-width:576px){*/
@@ -122,6 +123,9 @@
             #background_1 p{
                 text-align:center;
             }
+            .background_2-button{
+                justify-content:center;
+            }
         }
 
         #search_icon {
@@ -160,6 +164,12 @@
         }
         #background_2{
             background:white;
+            height:80px;
+            display:flex;
+            align-items:center;
+            /* padding-bottom:0! important; */
+            justify-content:space-between;
+            padding:16px 30px 0px 30px!important;
 
         }
         #background_3{
@@ -179,6 +189,51 @@
             font-size: 0.75rem;
             font-weight: bold;
         }
+        .button{
+            color:white;
+            background:#947956;
+        }
+        .second_nav{
+            display:flex;
+            list-style:none;
+        }
+        .second_nav .second_nav-item{
+            color:black;
+            font-weight:bold;
+            padding:10px 50px;
+        }
+        .second_nav .search{
+            color:#9e9fa0;
+            border-bottom:1px solid #9e9fa0;
+            padding-left:100px;
+        }
+        .cards_container{
+            display:flex;
+            margin-top:30px;
+            justify-content:space-between;
+
+        }
+        .card-icon-title{
+            display:flex;
+            align-items:center;
+            padding:20px;
+        }
+        .card-icon-title h4{
+            padding-left:10px;
+            padding-top:10px;
+        }
+        .card{
+            margin:20px;
+        }
+        @media(max-width:885px){
+            .cards_container{
+                flex-direction:column;
+            }
+            .second_nav{
+                display:none;
+            }
+        }
+
 </style>
 
 
@@ -246,8 +301,11 @@
         <!--Section: Content-->
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center">
 
-            <h3>Welcome Ana Malgahaes,</h3>
-            <p>This is your <strong>Stone Journey Dashboard,</strong> from here you can manage your Properties, Clients, Milestones and Documents.</p>
+            <h3>Properties</h3>
+            <p>From this section you will be able to create and manage your properties.</p>
+            <div class="background_1-button">
+            <button type="button" class="btn button">CREATE PROPERTY</button>
+            </div>
 
         </section>
         <!--Section: Content-->
@@ -258,40 +316,102 @@
 
 <!--<div class="container">-->
     <div class="row mt-3 container-box">
-        <div class="py-3 z-depth-1 col container-child-left"id="background_2">
-            <section class="px-md-2 mx-md-2 dark-grey-text">
+        <div class="py-3 z-depth-1 col "id="background_2">
+            <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
+                <!-- <div class="background_2-content"> -->
+                    <p><strong>filter by:</strong>Name</p>
+                    <ul class="second_nav">
+                        <li><a class="second_nav-item" href="#">Grid</a></li>
+                        <li><a class="second_nav-item" href="#">Map</a></li>
+                        <li><a class="second_nav-item" href="#">List</a></li>
+                        <li><a class="search" href="#">search</a></li>
+                    </ul>
+                <!-- </div> -->
+                    <!-- <form class="form-inline md-form form-sm mt-0">
+                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                        aria-label="Search">
+                    </form> -->
+                <!-- </div> -->
 
-                <h4>Properties</h4>
-
-            </section>
+            <!-- </section> -->
         </div>
-
-        <div class=" py-3 z-depth-1 col container-child-right" id="background_3">
-            <section class="px-md-2 mx-md-2 dark-grey-text">
-
-                <h4>Clients&nbsp;&nbsp;&nbsp;</h4>
-
-            </section>
-        </div>
+<div class="cards_container">
+            <!-- Card -->
+<div class="card">
+<div class="card-icon-title">
+        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+        <h4>Rossio 93</h4>
     </div>
-    <div class="row mt-3 container-box container_box_2">
-        <div class="py-3 z-depth-1 col container-child-left" id="background_4">
-            <section class="px-md-2 mx-md-2 dark-grey-text">
+<!-- Card image -->
+<img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
 
-                <h4>Milestones</h4>
+<!-- Card content -->
+<div class="card-body">
 
-            </section>
-        </div>
+  <!-- Title -->
+  <h4 class="card-title"><a>Beauty in Motion</a></h4>
+  <!-- Text -->
+  <p class="card-text"><strong>Proyect status:</strong> On development <br> 
+                       <strong>Architech:</strong> DNSJ. Arq <br>
+                       <strong>Location:</strong> Lisboa</p>
 
-        <div class=" py-3 z-depth-1 col container-child-right"id="background_5">
-            <section class="px-md-2 mx-md-2 dark-grey-text">
 
-                <h4>Documents</h4>
+</div>
 
-            </section>
-        </div>
+</div>
+<!-- Card -->
+<!-- Card -->
+<div class="card">
+<div class="card-icon-title">
+        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+        <h4>Vila Maria Pia</h4>
     </div>
-<!--</div>-->
+  <!-- Card image -->
+  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+
+  <!-- Card content -->
+  <div class="card-body">
+
+    <!-- Title -->
+    <h4 class="card-title"><a>Majesty by the Sea</a></h4>
+    <!-- Text -->
+    <p class="card-text"><strong>Proyect status:</strong> On development <br> 
+                       <strong>Architech:</strong> DNSJ. Arq <br>
+                       <strong>Location:</strong> Lisboa</p>
+
+
+  </div>
+
+</div>
+<!-- Card -->
+<!-- Card -->
+<div class="card">
+    <div class="card-icon-title">
+        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+        <h4>Augusta 170</h4>
+    </div>
+  <!-- Card image -->
+  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+
+  <!-- Card content -->
+  <div class="card-body">
+
+    <!-- Title -->
+    <h4 class="card-title"><a>Made by History</a></h4>
+    <!-- Text -->
+    <p class="card-text"><strong>Proyect status:</strong> On development <br> 
+                       <strong>Architech:</strong> DNSJ. Arq <br>
+                       <strong>Location:</strong> Rua Augusta n° 170, Lisboa.</p>
+
+
+
+  </div>
+
+</div>
+<!-- Card -->
+        </div>
+
+       
 
 
 
