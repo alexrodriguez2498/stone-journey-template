@@ -36,8 +36,8 @@
         font-size:22px;
     }
     #imagen{
-        height: 25px;
-        width: 25px;
+        /*height: 25px;*/
+        width: 6rem;
     }
     .tittle-text {
         font-size:18px;
@@ -159,14 +159,19 @@
             background:white;
 
         }
+
+        .small-text {
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
 </style>
 
 
 <!--Navbar -->
 <nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding">
 
-    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Logo.jpg" id="imagen" alt="">
-    <a class="navbar-brand tittle-text" href="#"><b>STONE   </b></a>
+    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Logo.png" id="imagen" alt="">
+<!--    <a class="navbar-brand tittle-text" href="#"><b>STONE   </b></a>-->
 
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
