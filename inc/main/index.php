@@ -66,18 +66,18 @@
         margin-left: 2rem;
     }
     body{
-            background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/fondo.jpg");
+            background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/fondo.jpg");
             background-size: cover;
             background-attachment: fixed    ;
             background-repeat:no-repeat;
             background-position:center center;
             font-family:"roboto";
                 }
-        @media(max-width:576px){
-            body{
-                background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/fondo_3.jpg");
-            }
-        }
+        /*@media(max-width:576px){*/
+        /*    body{*/
+        /*        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/fondo_3.jpg");*/
+        /*    }*/
+        /*}*/
         @media(max-width:425px){
             .container-box{
                 display: flex;
@@ -100,7 +100,7 @@
         /*                                                                          revisar lo que esta encerrado */
         @media(min-width:1300px){
             .container-box{
-                margin: auto 20%;
+                margin: auto 15%;
             }
             .navbar-collapse{
                 margin-right: 14%;
@@ -113,6 +113,7 @@
         @media(max-width:650px){
             #background_1{
                 padding:10px 10px;
+                height: auto;
             }
             #background_1 h3{
                 font-size:30px;
@@ -120,6 +121,16 @@
             }
             #background_1 p{
                 text-align:center;
+            }
+        }
+
+        #search_icon {
+            color: #8c704a;
+        }
+
+        @media(min-width:991px){
+            #search_icon{
+                display: none;
             }
         }
       
@@ -178,11 +189,13 @@
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Logo.png" id="imagen" alt="">
 <!--    <a class="navbar-brand tittle-text" href="#"><b>STONE   </b></a>-->
 
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
-            aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <div>
+        <i class="fas fa-search" id="search_icon"></i>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+                aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
