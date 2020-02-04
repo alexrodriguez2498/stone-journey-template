@@ -129,6 +129,9 @@
     .navbar-collapse a{
         margin:0 20px;
     }
+    .avatar a{
+        margin:0;
+    }
     
 
         html{
