@@ -25,7 +25,7 @@
     #background_1{
         height:200px;
         /*display:flex;*/
-        align-items:center;
+        /*align-items:center;*/
         padding:24px 30px;
     }
     #container__center h3{
@@ -96,6 +96,13 @@
             .container-box-2{
                 margin-top:0;
             }
+
+            .container-child-right {
+                margin: 1rem 0 0.5rem 0.5rem;
+            }
+            .container-child-left {
+                margin: 0.5rem 0.5rem 1rem 0;
+            }
         }
         /*                                                                          revisar lo que esta encerrado */
         @media(min-width:1300px){
@@ -125,10 +132,10 @@
             }
             #background_1 h3{
                 font-size:30px;
-                text-align:center;
+                /*text-align:center;*/
             }
             #background_1 p{
-                text-align:center;
+                /*text-align:center;*/
             }
         }
 
