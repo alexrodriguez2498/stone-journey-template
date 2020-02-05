@@ -353,8 +353,18 @@
     }
     #td-special-2{
         text-align:end;
-        
-        
+        padding-top:3rem !important;
+    }
+    #last_container{
+        border-right:1px solid #dee2e6;
+        border-bottom:1px solid #dee2e6;
+        border-left:1px solid #dee2e6;
+        padding:2rem;
+    }
+    .images_container{
+        display:grid;
+        grid-template:250px 250px/ repeat(5, 1fr);
+
     }
 
 </style>
@@ -602,10 +612,15 @@
                 <tr>
                 </div>
 
-                <!-- <div class="container end_container">
-                    <p>New document</p>
-                    <i class="fas fa-plus"></i>
-                </div> -->
-                
+        <div class="container images_container">
+        <div class="image_content">contenido #1</div>
+        <div class="image_content">contenido #2</div>
+        <div class="image_content">contenido #3</div>
+        <div class="image_content">contenido #4</div>
+        <div class="image_content">contenido #5</div>
+        <div class="image_content">contenido #6</div>
+        <div class="image_content">contenido #7</div>
+        <div class="image_content">contenido #8</div>
+        </div>
   
 	<?php get_footer(); ?>
