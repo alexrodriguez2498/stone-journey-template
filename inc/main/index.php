@@ -13,13 +13,13 @@
     .container-child-right {
         margin: 0.5rem 0 0.5rem 0.5rem;
         height: 100px;
-        /*display:flex;*/
+        display:flex;
         align-items:center;
     }
     .container-child-left {
         margin: 0.5rem 0.5rem 0.5rem 0;
         height: 100px;
-        /*display:flex;*/
+        display:flex;
         align-items:center;
     }
     #background_1{
@@ -30,7 +30,7 @@
     }
     #container__center h3{
         font-size:45px;
-        font-weight:400;
+        font-weight:300;
     }
     #container__center p{
         font-size:22px;
@@ -99,9 +99,11 @@
 
             .container-child-right {
                 margin: 1rem 0 0.5rem 0.5rem;
+                display: block !important;
             }
             .container-child-left {
                 margin: 0.5rem 0.5rem 1rem 0;
+                display: block !important;
             }
         }
         /*                                                                          revisar lo que esta encerrado */
@@ -110,10 +112,10 @@
                 margin: auto 15%;
             }
             .navbar-collapse{
-                margin-right: 14%;
+                margin-right: 15%;
             }
             #imagen{
-              margin-left:14%;
+              margin-left:15%;
           }
 
         }
@@ -240,7 +242,7 @@
 
             <!--                </li>-->
 
-            <li class="nav-item avatar">
+            <li class="nav-item avatar" style="margin-left: 20px;">
                 <a class="nav-link p-0" href="#">
                     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg"
                          class="rounded-circle z-depth-0"
@@ -254,12 +256,12 @@
 </nav>
 <!--/.Navbar -->
 
-<div class="row mt-3 container-box" >
-    <div class="mt-5 py-4 z-depth-1 col" id="background_1">
+<div class="row mt-3 container-box">
+    <div class="py-3 z-depth-1 col" id="background_1" style="margin: 1rem 0.5rem 0.5rem 0;">
 
 
         <!--Section: Content-->
-        <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center">
+        <section class="px-sm-2 mx-sm-2 dark-grey-text" id="container__center" style="margin-top: 1rem;">
 
             <h3>Welcome Ana Malgahaes,</h3>
             <p>This is your <strong>Stone Journey Dashboard,</strong> from here you can manage your Properties, Clients, Milestones and Documents.</p>
@@ -274,7 +276,7 @@
 <!--<div class="container">-->
     <div class="row mt-3 container-box">
         <div class="py-3 z-depth-1 col container-child-left"id="background_2">
-            <section class="px-md-2 mx-md-2 dark-grey-text">
+            <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
                 <h4>Properties</h4>
 
@@ -282,7 +284,7 @@
         </div>
 
         <div class=" py-3 z-depth-1 col container-child-right" id="background_3">
-            <section class="px-md-2 mx-md-2 dark-grey-text">
+            <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
                 <h4>Clients&nbsp;&nbsp;&nbsp;</h4>
 
@@ -291,7 +293,7 @@
     </div>
     <div class="row mt-3 container-box container_box_2">
         <div class="py-3 z-depth-1 col container-child-left" id="background_4">
-            <section class="px-md-2 mx-md-2 dark-grey-text">
+            <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
                 <h4>Milestones</h4>
 
@@ -299,7 +301,7 @@
         </div>
 
         <div class=" py-3 z-depth-1 col container-child-right"id="background_5">
-            <section class="px-md-2 mx-md-2 dark-grey-text">
+            <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
                 <h4>Documents</h4>
 
