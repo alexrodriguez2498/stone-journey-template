@@ -275,13 +275,7 @@
         /* margin: 10px; */
         width: 2rem;
     }
-    #last_container{
-        /*margin: 20%;*/
-        display: flex;
-        justify-content: center ;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
+   
     .imagen{
         margin-right: 1rem;
         margin-left: 1rem;
@@ -356,6 +350,11 @@
     .end_container{
         display:flex;
         justify-content:flex-end;
+    }
+    #td-special-2{
+        text-align:end;
+        
+        
     }
 
 </style>
@@ -556,6 +555,7 @@
                     <td>Private</td>
                     <td>Financial</td>
                     <td>20/02/2020</td>
+                    
                 </tr>
                 <tr>
                     <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
@@ -585,6 +585,18 @@
                     <td>General</td>
                     <td>20/02/2020</td>
                 </tr>
+                <tr>
+                    <td><b></b></td>
+                    <td><b></b></td>
+                    <td><b></b></td>
+                    <td><b></b></td>
+                    <td id="td-special-2"> 
+                    New document
+                    <i class="fas fa-plus"></i>
+                    </td>
+                </tr>
+              
+                </tr>
                 <thead>
                 </tbody>
                 <tr>
@@ -594,6 +606,6 @@
                     <p>New document</p>
                     <i class="fas fa-plus"></i>
                 </div> -->
-                alskdjlkasjdl
+                
   
 	<?php get_footer(); ?>
