@@ -13,18 +13,18 @@
     .container-child-right {
         margin: 0.5rem 0 0.5rem 0.5rem;
         height: 100px;
-        display:flex;
+        /*display:flex;*/
         align-items:center;
     }
     .container-child-left {
         margin: 0.5rem 0.5rem 0.5rem 0;
         height: 100px;
-        display:flex;
+        /*display:flex;*/
         align-items:center;
     }
     #background_1{
         height:200px;
-        display:flex;
+        /*display:flex;*/
         align-items:center;
         padding:24px 30px;
     }

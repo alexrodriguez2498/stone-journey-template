@@ -4,8 +4,9 @@
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximun-scale=1.0; user-scalable=0;">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+<!--    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximun-scale=1.0; user-scalable=0;">-->
+    <meta  content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"  name="viewport"/>
+<!--    <meta http-equiv="x-ua-compatible" content="ie=edge">-->
     <title>
         <?php bloginfo( 'name'); ?>
     </title>
