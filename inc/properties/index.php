@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <style>
+
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
     .container-custom {
@@ -38,6 +39,7 @@
     #imagen{
         /*height: 25px;*/
         width: 6rem;
+
     }
     .tittle-text {
         font-size:18px;
@@ -108,8 +110,16 @@
             }
             #imagen{
               margin-left:14%;
-          }
-
+              /* padding-left:1rem; */
+            }
+        }
+        @media(max-width:1300px){
+            #imagen{
+                padding-left:1rem;
+            }
+            .navbar .collapse{
+                padding-right:1rem;
+            }
         }
         @media(max-width:650px){
             #background_1{
@@ -118,10 +128,10 @@
             }
             #background_1 h3{
                 font-size:30px;
-                text-align:center;
+                /* text-align:center; */
             }
             #background_1 p{
-                text-align:center;
+                /* text-align:center; */
             }
             /* .background_1-button .button{
                 display:flex;
@@ -247,12 +257,21 @@
         .cards_container .card .card-text strong{
             font-weight:bold;
             color:black;
-
+        }
+        #background_1 h4{
+            font-size:52px;
+        }
+        #background_1 p{
+            font-size:24px;
+            line-height:30px;
+        }
+        .card .card-body .card-text{
+            font-size:16px;
         }
 
 </style>
 
-
+<link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css" />
 <!--Navbar -->
 <nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding">
 
@@ -317,7 +336,7 @@
         <!--Section: Content-->
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center">
 
-            <h3>Properties</h3>
+            <h4>Properties</h4>
             <p>From this section you will be able to create and manage your properties.</p>
             <div class="background_1-button">
             <button type="button" class="btn button">CREATE PROPERTY</button>

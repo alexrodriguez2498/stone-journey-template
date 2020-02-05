@@ -22,12 +22,7 @@
         display:flex;
         align-items:center;
     }
-    #background_1{
-        height:200px;
-        display:flex;
-        align-items:center;
-        padding:24px 30px;
-    }
+   
     #container__center h3{
         font-size:45px;
         font-weight:400;
@@ -66,11 +61,11 @@
         margin-left: 2rem;
     }
     body{
-            background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/fondo.jpg");
+            /* background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/fondo.jpg");
             background-size: cover;
             background-attachment: fixed    ;
             background-repeat:no-repeat;
-            background-position:center center;
+            background-position:center center; */
             font-family:"roboto";
                 }
         /*@media(max-width:576px){*/
@@ -157,6 +152,14 @@
         }
         #background_1{
             background:white;
+            height:200px;
+            display:grid;
+            /* align-items:center; */
+            padding:24px 30px;
+            /* width:70px;
+            margin:10px;
+        } */
+        grid-template-columns:2fr 10fr;
         }
         #background_2{
             background:white;
@@ -242,18 +245,8 @@
 <div class="row mt-3 container-box" >
     <div class="mt-5 py-4 z-depth-1 col" id="background_1">
 
-
-        <!--Section: Content-->
-        <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center">
-
-            <h3>Welcome Ana Malgahaes,</h3>
-            <p>This is your <strong>Stone Journey Dashboard,</strong> from here you can manage your Properties, Clients, Milestones and Documents.</p>
-
-        </section>
-        <!--Section: Content-->
-
-
     </div>
+    
 </div>
 
 <!--<div class="container">-->
