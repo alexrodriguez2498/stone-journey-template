@@ -301,6 +301,8 @@
 
     .card{
         box-shadow: 0 0px 0px 0;
+        height:19rem;
+        border:1px solid #dee2e6;
     }
 
     .container2 {
@@ -312,7 +314,13 @@
     .profile-content {
         padding-top: 1rem;
         padding-bottom: 1rem;
+        margin-bottom:1rem;
+        line-height:2rem;
+        border-right:1px solid #dee2e6;
+        border-left:1px solid #dee2e6;
+        border-bottom:1px solid #dee2e6;
     }
+    
 
     b {
         font-weight: bold;
@@ -365,6 +373,10 @@
         display:grid;
         grid-template:250px 250px/ repeat(5, 1fr);
 
+    }
+    .card-title{
+        margin-bottom:0;
+        padding:0;
     }
 
 </style>
@@ -458,22 +470,26 @@
                 PROPERTIES
         </div>
         </div>
-        <d class="row profile-content">
-            <div class="col-md-4 column">
-                <b>Name:</b> Kelly <br>
-                <b>Lastname:</b> Slater <br>
-                <b>Password:**********</b> <br>
-                <b>Telephone:</b> +351 9339948 <br>
-                <b>Nationality:</b> United States <br>
-                <b>Birthday:</b> 21/10 <br>
-                <b>Company:</b> Empire Holding
+        <div class="row profile-content">
+            <div class="col-md-6 column">
+                <b>Property Name:</b> Kelly <br>
+                <b>Address:</b> Praca do Rossio, 93, Baixa, Lisboa, Portugal. <br>
+                <b>Location:</b> <u>www.googlemaps.com/rossio93</u> <br>
+                <b>About the property:</b> in the myriad of lights and wonders <br>
+                 of the city, the charming and centrally-located Roddio 93 <br>
+                  is home to a shining jewel: a re-imaginated classic. <br>
+                <b>Architect:</b> <b>Intergaup</b> <br>
+                <b>Foreseen conclusion::</b> 2019 <br>
+                <b>Users:</b> Residential and Retail <br>
+                <b>Website:</b> https://www.rossio93.pt 
+
 
             </div>
-            <div class="col-md-4 column">
+            <!-- <div class="col-md-6 column">
                 <b>Properties:</b> Rossio, Vila Maria Pia <br>
                 <b>Account Manager:</b> Mariana Vozone <br>
                 <b>Comission:</b> <br>
-                <b>Discount:</b> Yes <br>
+                <b>Discount:</b> Yes <br> -->
                 <!-- radio button "yes"-->
 <!--                <div class="custom-control custom-radio custom-control-inline">-->
 <!--                    <input type="radio" class="custom-control-input" id="defaultInline1"-->
@@ -489,7 +505,7 @@
 <!--                </div>-->
 <!--                <br>-->
 
-                <b>Extra Works: </b> Yes <br>
+                <!-- <b>Extra Works: </b> Yes <br> -->
                 <!-- radio button "yes"-->
 <!--                <div class="custom-control custom-radio custom-control-inline">-->
 <!--                    <input type="radio" class="custom-control-input" id="defaultInline1"-->
@@ -505,7 +521,7 @@
 <!--                </div>-->
 <!--                <br>-->
 
-                <b>purpose: </b> Golden Visa <br>
+                <!-- <b>purpose: </b> Golden Visa <br> -->
                 <!-- radio button "investment"-->
 <!--                <div class="custom-control custom-radio custom-control-inline">-->
 <!--                    <input type="radio" class="custom-control-input" id="defaultInline1"-->
@@ -528,15 +544,16 @@
 <!--                </div>-->
 <!--                <br>-->
 
-            </div>
+            <!-- </div> -->
 
-            <div class="col-md-4 column">
-                <b>Legal Representative:</b> Marco Coelho <br>
-                <b>Email:</b> mcoelho@gmail.com <br>
-                <b>Phone:</b> +351 93399448 <br> <br>
-                <b>Agent Representative:</b> Heidi Coelho <br>
-                <b>Email:</b> mcoelho@gmail.com <br>
-                <b>Phone:</b> +351 93399448
+            <div class="col-md-6 column">
+                <b>Status:</b> In development <br>
+                <b>Estimated date for beginning of construction:</b> Sep 12, 2020 <br>
+                <b>Estimated Delivery Date:</b> Sep 12, 2020 <br> 
+                <b>Number of Sellable Units:</b> 14 <br>
+                <b>Complention Bar % (Similar to a loading bar) <br>
+                  Upload gallery Images <br>
+                  Upload Documents</b>
             </div>
     </div>
 </div>
