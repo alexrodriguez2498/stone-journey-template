@@ -110,6 +110,14 @@
           }
 
         }
+        @media(max-width:1300px){
+            #imagen{
+                padding-left:1rem;
+            }
+            .navbar .collapse{
+                padding-right:1rem;
+            }
+            }
         @media(max-width:650px){
             #background_1{
                 padding:10px 10px;
@@ -192,7 +200,7 @@
         <i class="fas fa-search" id="search_icon"></i>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
                 aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
         </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
