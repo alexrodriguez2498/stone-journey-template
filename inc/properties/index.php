@@ -268,6 +268,9 @@
         .card .card-body .card-text{
             font-size:16px;
         }
+        .half_container{
+            justify-content:center;
+            
 
 </style>
 
@@ -350,7 +353,7 @@
 </div>
 
 <!--<div class="container">-->
-    <div class="row mt-3 container-box">
+    <div class="row mt-3 container-box half_container">
         <div class="py-3 z-depth-1 col "id="background_2">
             <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
                 <!-- <div class="background_2-content"> -->
