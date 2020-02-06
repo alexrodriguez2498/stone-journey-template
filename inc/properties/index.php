@@ -5,8 +5,8 @@
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
     #background_1 {
-        height: 200px;
-        display: flex;
+        /*height: 200px;*/
+        /*display: flex;*/
         align-items: center;
         padding: 24px 30px;
     }
@@ -82,7 +82,7 @@
 
     #background_2 {
         background: white;
-        display: flex;
+        /*display: flex;*/
         align-items: center;
         /* padding-bottom:0! important; */
         justify-content: space-between;
