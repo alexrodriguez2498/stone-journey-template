@@ -398,7 +398,7 @@
             <!-- Card -->
 <div class="card">
 <div class="card-icon-title">
-        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
         <h4>Rossio 93</h4>
     </div>
 <!-- Card image -->
