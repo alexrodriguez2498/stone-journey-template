@@ -464,10 +464,10 @@
 
     <div class="container col-md-9" id="contenedor_derecho">
         <div class="row row_content">
-            <div class="col ">
+            <div class="col d-flex ">
 
                 <i class="fas fa-building"></i>
-                PROPERTIES
+                <p>Property information</p> 
         </div>
         </div>
         <div class="row profile-content">

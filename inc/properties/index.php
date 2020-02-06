@@ -270,6 +270,7 @@
         }
         .half_container{
             justify-content:center;
+        }
             
 
 </style>
@@ -357,7 +358,21 @@
         <div class="py-3 z-depth-1 col "id="background_2">
             <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
                 <!-- <div class="background_2-content"> -->
-                    <p><strong>Filter by:</strong> Name</p>
+                   <!--Dropdown primary-->
+                        <div class="dropdown">
+
+                        <!--Trigger-->
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Filter by:</button>
+
+                        <!--Menu-->
+                        <div class="dropdown-menu dropdown-primary">
+                        <a class="dropdown-item" href="#">Name</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                        </div>
+                        <!--/Dropdown primary-->
                     <ul class="second_nav">
                         <li><a class="second_nav-item" href="#">Grid</a></li>
                         <li><a class="second_nav-item" href="#">Map</a></li>
