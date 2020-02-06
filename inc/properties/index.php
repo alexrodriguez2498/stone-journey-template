@@ -271,6 +271,10 @@
         .half_container{
             justify-content:center;
         }
+        #dropdownMenu1{
+          box-shadow:0 0 0 0;
+        
+        }
             
 
 </style>
@@ -396,7 +400,7 @@
         <h4>Rossio 93</h4>
     </div>
 <!-- Card image -->
-<img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+<img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg" alt="Card image cap">
 
 <!-- Card content -->
 <div class="card-body">
@@ -415,12 +419,12 @@
 <!-- Card -->
 <!-- Card -->
 <div class="card">
-<div class="card-icon-title">
+<div class="card-icon-title"
         <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
         <h4>Vila Maria Pia</h4>
     </div>
   <!-- Card image -->
-  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+  <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg" alt="Card image cap">
 
   <!-- Card content -->
   <div class="card-body">
@@ -444,7 +448,7 @@
         <h4>Augusta 170</h4>
     </div>
   <!-- Card image -->
-  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+  <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Aungusta170_ima.jpg" alt="Card image cap">
 
   <!-- Card content -->
   <div class="card-body">
