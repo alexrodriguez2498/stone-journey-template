@@ -245,30 +245,34 @@
         <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
         <!-- <div class="background_2-content"> -->
         <!--Dropdown primary-->
-        <div style=" display: flex;">
-            <p><strong>Filter by:</strong></p>
-            <div class="dropdown" style="line-height: 2.3rem;">
 
-                <!--Trigger-->
-                <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false" style="padding-left: 1rem;"> Name
-                </button>
+        <div class="row justify-content-between">
+            <div style=" display: flex;">
+                <p><strong>Filter by:</strong></p>
+                <div class="dropdown" style="line-height: 2.3rem;">
 
-                <!--Menu-->
-                <div class="dropdown-menu dropdown-primary">
-                    <a class="dropdown-item" href="#">Name</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <!--Trigger-->
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="padding-left: 1rem;"> Name
+                    </button>
+
+                    <!--Menu-->
+                    <div class="dropdown-menu dropdown-primary">
+                        <a class="dropdown-item" href="#">Name</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                 </div>
             </div>
+            <!--/Dropdown primary-->
+            <ul class="second_nav">
+                <li><a class="second_nav-item" href="#">Grid</a></li>
+                <li><a class="second_nav-item" href="#">Map</a></li>
+                <li><a class="second_nav-item" href="#">List</a></li>
+                <li><a class="search" href="#">search</a></li>
+            </ul>
         </div>
-        <!--/Dropdown primary-->
-        <ul class="second_nav">
-            <li><a class="second_nav-item" href="#">Grid</a></li>
-            <li><a class="second_nav-item" href="#">Map</a></li>
-            <li><a class="second_nav-item" href="#">List</a></li>
-            <li><a class="search" href="#">search</a></li>
-        </ul>
+
         <!-- </div> -->
         <!-- <form class="form-inline md-form form-sm mt-0">
         <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
