@@ -273,6 +273,8 @@
         }
         #dropdownMenu1{
           box-shadow:0 0 0 0;
+          margin:0;
+          padding-top:0;
         
         }
             
@@ -346,7 +348,7 @@
 
             <h4>Properties</h4>
             <p>From this section you will be able to create and manage your properties.</p>
-            <div class="background_1-button">
+            <div class="row justify-content-md-end background_1-button">
             <button type="button" class="btn button">CREATE PROPERTY</button>
             </div>
 
@@ -419,8 +421,8 @@
 <!-- Card -->
 <!-- Card -->
 <div class="card">
-<div class="card-icon-title"
-        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+<div class="card-icon-title">
+        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
         <h4>Vila Maria Pia</h4>
     </div>
   <!-- Card image -->
@@ -444,7 +446,7 @@
 <!-- Card -->
 <div class="card">
     <div class="card-icon-title">
-        <img src="http://localhost/wordpress/wp-content/uploads/2020/01/building1.jpg" alt="">
+        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
         <h4>Augusta 170</h4>
     </div>
   <!-- Card image -->
