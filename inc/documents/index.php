@@ -341,5 +341,93 @@
     </table>
 </div>
 
+<div class="container" id="ultimate_container"style="background:white; padding-top:1rem; margin-top:2rem;     margin-left: 0; margin-right: 0; max-width: 100%;">
 
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+                                                <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
+                <i class="fas fa-file-invoice-dollar fa-2x"></i>
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title"><b>Payment Summons</b></h5>
+                <p class="card-text"style="margin:0;">Rossio <br>
+                                    Payment Summons <br>
+                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+            </div>
+    
+        </div>
+  
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+                                         <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
+                <i class="fas fa-file-signature fa-2x"></i>
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title"><b>Promissory Contract Payment</b></h5>
+                <p class="card-text"style="margin:0;">Rossio <br>
+                                    Payment Summons <br>
+                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+            </div>
+    
+        </div>
+
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+                                                <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
+                <i class="fas fa-file-invoice fa-2x"></i>
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title"><b>Reservation Fee Reinforcement</b></h5>
+                <p class="card-text"style="margin:0;">Rossio <br>
+                                    Payment Summons <br>
+                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+            </div>
+        
+        </div>
+
+    </div>
+  
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+                                                <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
+                <i class="fas fa-file-image fa-2x"></i>
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title"><b>Reservation Form</b></h5>
+                <p class="card-text"style="margin:0;">Rossio <br>
+                                    Payment Summons <br>
+                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+            </div>
+        
+        </div>
+
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+                                                <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
+                <i class="fas fa-images fa-2x"></i>
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title"><b>Reservation Form</b></h5>
+                <p class="card-text"style="margin:0;">Rossio <br>
+                                    Payment Summons <br>
+                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+            </div>
+            
+        </div>
+
+    </div>
+
+</div>
+  
     <?php get_footer(); ?>
