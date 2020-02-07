@@ -281,7 +281,8 @@
 
         <!-- </section> -->
     </div>
-    <div class="container d-none d-md-block" id="last_container"style="background:white; padding-top:1rem; margin-top:2rem;     margin-left: 0; margin-right: 0; max-width: 100%;">
+    <div class="container d-none d-md-block" id="last_container"style="background:white; padding-top:1rem; margin-top:2rem;     margin-left: 0; margin-right: 0; max-width: 100%; -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
     <table class="table">
         <thead>
         <tr>
@@ -341,7 +342,8 @@
     </table>
 </div>
 
-<div class="container d-block d-md-none" id="ultimate_container"style="background:white; padding-top:1rem; margin-top:2rem;     margin-left: 0; margin-right: 0; max-width: 100%;">
+<div class="container d-block d-md-none" id="ultimate_container" style="background:#f4f1ee; padding-top:1rem;     margin-left: 0; margin-right: 0; max-width: 100%; padding-left: 0;
+    padding-right: 0;">
 
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
@@ -351,9 +353,9 @@
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Payment Summons</b></h5>
-                <p class="card-text"style="margin:0;">Rossio <br>
+                <p class="card-text"style="margin:0;"> <strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
-                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+                                    Fiancial</p>
             </div>
     
         </div>
@@ -368,9 +370,9 @@
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Promissory Contract Payment</b></h5>
-                <p class="card-text"style="margin:0;">Rossio <br>
+                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
-                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+                                    Fiancial  </p>
             </div>
     
         </div>
@@ -385,9 +387,9 @@
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Reservation Fee Reinforcement</b></h5>
-                <p class="card-text"style="margin:0;">Rossio <br>
+                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
-                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+                                    Fiancial</p>
             </div>
         
         </div>
@@ -402,9 +404,9 @@
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Reservation Form</b></h5>
-                <p class="card-text"style="margin:0;">Rossio <br>
+                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
-                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+                                    Fiancial  </p>
             </div>
         
         </div>
@@ -419,9 +421,9 @@
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Reservation Form</b></h5>
-                <p class="card-text"style="margin:0;">Rossio <br>
+                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
-                                    Fiancial  <strong class="d-flex justify-content-end">20/02/2020</strong></p>  
+                                    Fiancial</p>
             </div>
             
         </div>
