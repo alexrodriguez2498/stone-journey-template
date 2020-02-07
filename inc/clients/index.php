@@ -125,12 +125,18 @@
         color: #9e9fa0;
         border-bottom: 1px solid #9e9fa0;
         padding-left: 100px;
+        
+    }
+    .second_nav .second_nav-item-decoration{
+        color: black;
+        font-weight: bold;
+        border-bottom:1px solid black;
     }
 
-    .cards_container {
+    .clients_container {
         display: flex;
         /*margin-top: 30px;*/
-        justify-content: space-between;
+        justify-content: space-around;
 
     }
 
@@ -146,16 +152,18 @@
     }
 
     .card {
-        margin: 20px;
+        margin: 10px;
+        width: 15rem;
+        height: 19rem;
     }
 
-    .card-one {
+    /* .card-one {
         margin-left: 0 !important;
     }
 
     .card-three {
         margin-right: 0 !important;
-    }
+    } */
 
     @media (max-width: 910px) {
         .cards_container {
@@ -166,8 +174,9 @@
             display: none;
         }
 
-        .card {
-
+        .clients-container .card {
+            width: 15rem;
+            height: 22rem;
         }
 
     }
@@ -226,10 +235,10 @@
         <!--Section: Content-->
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center" style="width: 100%;">
 
-            <h3>Properties</h3>
-            <p>From this section you will be able to create and manage your properties.</p>
+            <h3>Clientss</h3>
+            <p>From this section you can quickly acces your clients. You can easily find them, filter them by property, nationality or type of investment.</p>
             <div class="row justify-content-end background_1-button">
-                <button type="button" class="btn button">CREATE PROPERTY</button>
+                <button type="button" class="btn button">ADD CLIENT</button>
             </div>
 
         </section>
@@ -266,8 +275,7 @@
             </div>
             <!--/Dropdown primary-->
             <ul class="second_nav">
-                <li><a class="second_nav-item" href="#">Grid</a></li>
-                <li><a class="second_nav-item" href="#">Map</a></li>
+                <li><a class="second_nav-item-decoration" href="#">Grid</a></li>
                 <li><a class="second_nav-item" href="#">List</a></li>
                 <li><a class="search" href="#">search</a></li>
             </ul>
@@ -282,13 +290,10 @@
 
         <!-- </section> -->
     </div>
-    <div class="cards_container mt-2" style="width: 100%;">
+    <div class="clients_container d-flex flex-wrap" style="width: 100%;">
         <!-- Card -->
         <div class="card card-one">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
-                <h4>Rossio 93</h4>
-            </div>
+
             <!-- Card image -->
             <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
                  alt="Card image cap">
@@ -297,11 +302,11 @@
             <div class="card-body">
 
                 <!-- Title -->
-                <h4 class="card-title"><a>Beauty in Motion</a></h4>
+                <h4 class="card-title"><a>Sofia Muller</a></h4>
                 <!-- Text -->
-                <p class="card-text"><strong>Proyect status:</strong> On development <br>
-                    <strong>Architech:</strong> DNSJ. Arq <br>
-                    <strong>Location:</strong> Lisboa</p>
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
 
 
             </div>
@@ -310,10 +315,7 @@
         <!-- Card -->
         <!-- Card -->
         <div class="card">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-                <h4>Vila Maria Pia</h4>
-            </div>
+
             <!-- Card image -->
             <img class="card-img-top"
                  src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
@@ -323,11 +325,11 @@
             <div class="card-body">
 
                 <!-- Title -->
-                <h4 class="card-title"><a>Majesty by the Sea</a></h4>
+                <h4 class="card-title"><a>Ana Peter</a></h4>
                 <!-- Text -->
-                <p class="card-text"><strong>Proyect status:</strong> On development <br>
-                    <strong>Architech:</strong> DNSJ. Arq <br>
-                    <strong>Location:</strong> Lisboa</p>
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
 
 
             </div>
@@ -335,11 +337,54 @@
         </div>
         <!-- Card -->
         <!-- Card -->
-        <div class="card card-three">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-                <h4>Augusta 170</h4>
+         <!-- Card -->
+         <div class="card">
+
+            <!-- Card image -->
+            <img class="card-img-top"
+                src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
+                alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Carlos Newman</a></h4>
+                <!-- Text -->
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
+
+
             </div>
+
+            </div>
+            <!-- Card -->
+         <!-- Card -->
+        <div class="card">
+
+            <!-- Card image -->
+            <img class="card-img-top"
+                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
+                 alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Maria Jones</a></h4>
+                <!-- Text -->
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
+
+
+            </div>
+
+        </div>
+         <!-- Card -->
+         <div class="card card-three">
+
             <!-- Card image -->
             <img class="card-img-top"
                  src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Aungusta170_ima.jpg"
@@ -349,11 +394,125 @@
             <div class="card-body">
 
                 <!-- Title -->
-                <h4 class="card-title"><a>Made by History</a></h4>
+                <h4 class="card-title"><a>Hans Vollenwider</a></h4>
                 <!-- Text -->
-                <p class="card-text"><strong>Proyect status:</strong> On development <br>
-                    <strong>Architech:</strong> DNSJ. Arq <br>
-                    <strong>Location:</strong> Rua Augusta n° 170, Lisboa.</p>
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
+
+
+            </div>
+
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+          <div class="card card-one">
+
+            <!-- Card image -->
+            <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
+                 alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Arthur Les Jardins</a></h4>
+                <!-- Text -->
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
+
+
+            </div>
+
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="card">
+
+            <!-- Card image -->
+            <img class="card-img-top"
+                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
+                 alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Peter Thomas</a></h4>
+                <!-- Text -->
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
+
+
+            </div>
+
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+         <!-- Card -->
+         <div class="card">
+
+            <!-- Card image -->
+            <img class="card-img-top"
+                src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
+                alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Cristian Alder</a></h4>
+                <!-- Text -->
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
+
+
+            </div>
+
+            </div>
+<!-- Card -->
+        <!-- Card -->
+        <div class="card">
+
+            <!-- Card image -->
+            <img class="card-img-top"
+                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
+                 alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Federico Da Silva</a></h4>
+                <!-- Text -->
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
+
+
+            </div>
+
+        </div>
+         <!-- Card -->
+         <div class="card card-three">
+
+            <!-- Card image -->
+            <img class="card-img-top"
+                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Aungusta170_ima.jpg"
+                 alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Carlota De la Fuente</a></h4>
+                <!-- Text -->
+                <p class="card-text">+351 93399448 <br>
+                                    Rossio 93 <br>
+                                    ana@cto.com </p>
 
 
             </div>
