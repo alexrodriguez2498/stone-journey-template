@@ -133,10 +133,10 @@
         border-bottom:1px solid black;
     }
 
-    .clients_container {
+    .cards_container {
         display: flex;
         /*margin-top: 30px;*/
-        justify-content: space-around;
+        justify-content: space-between;
 
     }
 
@@ -152,18 +152,18 @@
     }
 
     .card {
-        margin: 10px;
+        margin: 20px;
         width: 15rem;
-        height: 19rem;
+        height: 22rem;
     }
 
-    /* .card-one {
+    .card-one {
         margin-left: 0 !important;
     }
 
     .card-three {
         margin-right: 0 !important;
-    } */
+    }
 
     @media (max-width: 910px) {
         .cards_container {
@@ -290,236 +290,305 @@
 
         <!-- </section> -->
     </div>
-    <div class="clients_container d-flex flex-wrap" style="width: 100%;">
-        <!-- Card -->
-        <div class="card card-one">
+    </div>
+    <div class=" container clients_containerp " style="width: 100%;">
+     <!-- Grid row -->
+<div class="row" style="width: 100%;">
 
-            <!-- Card image -->
-            <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
-                 alt="Card image cap">
+<!-- Grid column -->
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
 
-            <!-- Card content -->
-            <div class="card-body">
+  <!--Card-->
+  <div class="card">
 
-                <!-- Title -->
-                <h4 class="card-title"><a>Sofia Muller</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-        </div>
-        <!-- Card -->
-        <!-- Card -->
-        <div class="card">
-
-            <!-- Card image -->
-            <img class="card-img-top"
-                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
-                 alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Ana Peter</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-        </div>
-        <!-- Card -->
-        <!-- Card -->
-         <!-- Card -->
-         <div class="card">
-
-            <!-- Card image -->
-            <img class="card-img-top"
-                src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
-                alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Carlos Newman</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-            </div>
-            <!-- Card -->
-         <!-- Card -->
-        <div class="card">
-
-            <!-- Card image -->
-            <img class="card-img-top"
-                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
-                 alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Maria Jones</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-        </div>
-         <!-- Card -->
-         <div class="card card-three">
-
-            <!-- Card image -->
-            <img class="card-img-top"
-                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Aungusta170_ima.jpg"
-                 alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Hans Vollenwider</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-        </div>
-        <!-- Card -->
-        <!-- Card -->
-          <div class="card card-one">
-
-            <!-- Card image -->
-            <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
-                 alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Arthur Les Jardins</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-        </div>
-        <!-- Card -->
-        <!-- Card -->
-        <div class="card">
-
-            <!-- Card image -->
-            <img class="card-img-top"
-                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
-                 alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Peter Thomas</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-        </div>
-        <!-- Card -->
-        <!-- Card -->
-         <!-- Card -->
-         <div class="card">
-
-            <!-- Card image -->
-            <img class="card-img-top"
-                src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
-                alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Cristian Alder</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-            </div>
-<!-- Card -->
-        <!-- Card -->
-        <div class="card">
-
-            <!-- Card image -->
-            <img class="card-img-top"
-                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
-                 alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Federico Da Silva</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-        </div>
-         <!-- Card -->
-         <div class="card card-three">
-
-            <!-- Card image -->
-            <img class="card-img-top"
-                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Aungusta170_ima.jpg"
-                 alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Carlota De la Fuente</a></h4>
-                <!-- Text -->
-                <p class="card-text">+351 93399448 <br>
-                                    Rossio 93 <br>
-                                    ana@cto.com </p>
-
-
-            </div>
-
-        </div>
-        <!-- Card -->
+    <!--Card image-->
+    <div class="view">
+      <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+        alt="photo">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
     </div>
 
+    <!--Card content-->
+    <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+        card's content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+
+  </div>
+  <!--/.Card-->
+
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+  <!--Card-->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view">
+      <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+        alt="photo">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+        card's content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+
+  </div>
+  <!--/.Card-->
+
+</div>
+<!-- Grid column -->
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+  <!--Card-->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view">
+      <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+        alt="photo">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+        card's content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+
+  </div>
+  <!--/.Card-->
+
+</div>
+<!-- Grid column -->
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+  <!--Card-->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view">
+      <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+        alt="photo">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+        card's content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+
+  </div>
+  <!--/.Card-->
+
+</div>
+<!-- Grid column -->
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+  <!--Card-->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view">
+      <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+        alt="photo">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+        card's content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+
+  </div>
+  <!--/.Card-->
+
+</div>
+<!-- Grid column -->
+<div class="row">
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+<!--Card-->
+<div class="card">
+
+  <!--Card image-->
+  <div class="view">
+    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+      alt="photo">
+    <a href="#">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+    <!--Title-->
+    <h4 class="card-title">Card title</h4>
+    <!--Text-->
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+      card's content.</p>
+    <a href="#" class="btn btn-primary">Button</a>
+  </div>
+
+</div>
+<!--/.Card-->
+
+</div>
+<!-- Grid column -->
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+  <!--Card-->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view">
+      <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+        alt="photo">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+        card's content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+
+  </div>
+  <!--/.Card-->
+
+</div>
+<!-- Grid column -->
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+  <!--Card-->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view">
+      <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+        alt="photo">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+        card's content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+
+  </div>
+  <!--/.Card-->
+
+</div>
+<!-- Grid column -->
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+  <!--Card-->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view">
+      <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+        alt="photo">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+        card's content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+
+  </div>
+  <!--/.Card-->
+
+</div>
+<!-- Grid column -->
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+
+  <!--Card-->
+  <div class="card">
+
+    <!--Card image-->
+    <div class="view">
+      <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top"
+        alt="photo">
+      <a href="#">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+      <!--Title-->
+      <h4 class="card-title">Card title</h4>
+      <!--Text-->
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+        card's content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+
+  </div>
+  <!--/.Card-->
+
+</div>
+<!-- Grid column -->
+</div>
 
     <?php get_footer(); ?>
