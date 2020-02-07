@@ -219,7 +219,13 @@
         background:#947956;
     }
     
-   
+   .footer-details-1 {
+       color: white;
+   }
+
+    .footer-details-2 {
+        color: white;
+    }
 
 
 </style>
