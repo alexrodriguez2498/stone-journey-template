@@ -214,6 +214,13 @@
             margin-right: 0 !important;
         }
     }
+    .card-footer{
+        justify-content:space-between;
+        background:#947956;
+    }
+    
+   
+
 
 </style>
 
@@ -266,8 +273,8 @@
             </div>
             <!--/Dropdown primary-->
             <ul class="second_nav">
+                <li><a class="second_nav-item" href="#">Calendar</a></li>
                 <li><a class="second_nav-item" href="#">Grid</a></li>
-                <li><a class="second_nav-item" href="#">Map</a></li>
                 <li><a class="second_nav-item" href="#">List</a></li>
                 <li><a class="search" href="#">search</a></li>
             </ul>
@@ -282,13 +289,10 @@
 
         <!-- </section> -->
     </div>
-    <div class="cards_container mt-2" style="width: 100%;">
+    <div class="cards_container mt-2" style="width: 100%; margin-top:1.5rem!important;">
         <!-- Card -->
         <div class="card card-one">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
-                <h4>Rossio 93</h4>
-            </div>
+           
             <!-- Card image -->
             <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
                  alt="Card image cap">
@@ -297,23 +301,35 @@
             <div class="card-body">
 
                 <!-- Title -->
-                <h4 class="card-title"><a>Beauty in Motion</a></h4>
+                <h4 class="card-title"><a>Welcome letter</a></h4>
                 <!-- Text -->
-                <p class="card-text"><strong>Proyect status:</strong> On development <br>
-                    <strong>Architech:</strong> DNSJ. Arq <br>
-                    <strong>Location:</strong> Lisboa</p>
+                <p class="card-text"><strong>Property:</strong> Rossio <br>
+                    <strong>Adressee:</strong> Ana Humble <br>
+                    <strong>Unit:</strong> A1 <br>
+                    <strong>Category:</strong> General</p>
 
 
             </div>
+            <div class="card-footer text-muted d-flex mt-4">
+            <div class="footer-details-1">
+            16/06/2020    
+            </div>
+
+            <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            </div>
+            
 
         </div>
+        
         <!-- Card -->
         <!-- Card -->
         <div class="card">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-                <h4>Vila Maria Pia</h4>
-            </div>
+            
             <!-- Card image -->
             <img class="card-img-top"
                  src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
@@ -323,23 +339,35 @@
             <div class="card-body">
 
                 <!-- Title -->
-                <h4 class="card-title"><a>Majesty by the Sea</a></h4>
+                <h4 class="card-title"><a>Promissory Contract</a></h4>
                 <!-- Text -->
-                <p class="card-text"><strong>Proyect status:</strong> On development <br>
-                    <strong>Architech:</strong> DNSJ. Arq <br>
-                    <strong>Location:</strong> Lisboa</p>
+                <p class="card-text"><strong>Property:</strong> Rossio <br>
+                    <strong>Adressee:</strong> Ana Humble <br>
+                    <strong>Unit:</strong> A1 <br>
+                    <strong>Category:</strong> General</p>
 
 
             </div>
+             <!-- Card footer -->
+            <div class="card-footer text-muted d-flex mt-4">
+            <div class="footer-details-1">
+            16/06/2020    
+            </div>
+
+            <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            </div>
+            
 
         </div>
         <!-- Card -->
         <!-- Card -->
         <div class="card card-three">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-                <h4>Augusta 170</h4>
-            </div>
+           
             <!-- Card image -->
             <img class="card-img-top"
                  src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Aungusta170_ima.jpg"
@@ -349,16 +377,33 @@
             <div class="card-body">
 
                 <!-- Title -->
-                <h4 class="card-title"><a>Made by History</a></h4>
+                <h4 class="card-title"><a>Final Floor Plan 1A</a></h4>
                 <!-- Text -->
-                <p class="card-text"><strong>Proyect status:</strong> On development <br>
-                    <strong>Architech:</strong> DNSJ. Arq <br>
-                    <strong>Location:</strong> Rua Augusta n° 170, Lisboa.</p>
+                <p class="card-text"><strong>Property:</strong> Rossio <br>
+                    <strong>Adressee:</strong> Ana Humble <br>
+                    <strong>Unit:</strong> A1 <br>
+                    <strong>Category:</strong> General</p>
 
 
             </div>
+            <div class="card-footer text-muted d-flex mt-4">
+            <div class="footer-details-1">
+            16/06/2020    
+            </div>
+
+            <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            </div>
+            
 
         </div>
+
+        </div>
+        
         <!-- Card -->
     </div>
 
