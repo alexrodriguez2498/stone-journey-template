@@ -287,8 +287,9 @@
         <tr>
             <th scope="col"><b></b></th>
             <th scope="col"><b>Name</b></th>
-            <th scope th_special="col"><b>Owner</b></th>
-            <th scope th_special="col"><b>Category</b></th>
+            <th scope="col"><b>Adressee</b></th>
+            <th scope="col"><b>Milestone</b></th>
+            <th scope="col"><b>Category</b></th>
             <th scope="col"><b>Date</b></th>
         </tr>
         </thead>
@@ -296,7 +297,8 @@
         <tr>
             <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
             <td>Payment Summons</td>
-            <td>Private</td>
+            <td>Rossio</td>
+            <td>Payment Summons</td>
             <td>Financial</td>
             <td>20/02/2020</td>
 
@@ -304,28 +306,32 @@
         <tr>
             <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
             <td>Promissory Contract Payment</td>
-            <td>Private</td>
+            <td>Rossio</td>
+            <td>Promissory Contract Payment</td>
             <td>Legal</td>
             <td>20/02/2020</td>
         </tr>
         <tr>
             <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
             <td>Reservation Fee Reinforcement</td>
-            <td>Private</td>
+            <td>Rossio</td>
+            <td>Reservation Fee Reinforcement</td>
             <td>Financial</td>
             <td>20/02/2020</td>
         </tr>
         <tr>
             <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
             <td>Reservation Form</td>
-            <td>Private</td>
+            <td>Rossio</td>
+            <td>Reservation Form</td>
             <td>Legal</td>
             <td>20/02/2020</td>
         </tr>
         <tr>
             <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
             <td>Welcome letter</td>
-            <td>Private</td>
+            <td>Rossio, Ana Humble</td>
+            <td>Welcome letter</td>
             <td>General</td>
             <td>20/02/2020</td>
         </tr>
