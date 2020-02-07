@@ -226,10 +226,10 @@
         <!--Section: Content-->
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center" style="width: 100%;">
 
-            <h3>Properties</h3>
-            <p>From this section you will be able to create and manage your properties.</p>
+            <h3>Documents</h3>
+            <p>This is your <strong>Stone Journey Dashboard</strong>, from here you can manage your Properties, Clients, Milestones and Documents</p>
             <div class="row justify-content-end background_1-button">
-                <button type="button" class="btn button">CREATE PROPERTY</button>
+                <button type="button" class="btn button">ADD DOCUMENT</button>
             </div>
 
         </section>
@@ -266,8 +266,7 @@
             </div>
             <!--/Dropdown primary-->
             <ul class="second_nav">
-                <li><a class="second_nav-item" href="#">Grid</a></li>
-                <li><a class="second_nav-item" href="#">Map</a></li>
+                
                 <li><a class="second_nav-item" href="#">List</a></li>
                 <li><a class="search" href="#">search</a></li>
             </ul>
@@ -282,85 +281,59 @@
 
         <!-- </section> -->
     </div>
-    <div class="cards_container mt-2" style="width: 100%;">
-        <!-- Card -->
-        <div class="card card-one">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
-                <h4>Rossio 93</h4>
-            </div>
-            <!-- Card image -->
-            <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
-                 alt="Card image cap">
+    <div class="container" id="last_container"style="background:white; padding-top:1rem; margin-top:2rem;">
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col"><b></b></th>
+            <th scope="col"><b>Name</b></th>
+            <th scope th_special="col"><b>Owner</b></th>
+            <th scope th_special="col"><b>Category</b></th>
+            <th scope="col"><b>Date</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
+            <td>Payment Summons</td>
+            <td>Private</td>
+            <td>Financial</td>
+            <td>20/02/2020</td>
 
-            <!-- Card content -->
-            <div class="card-body">
+        </tr>
+        <tr>
+            <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
+            <td>Promissory Contract Payment</td>
+            <td>Private</td>
+            <td>Legal</td>
+            <td>20/02/2020</td>
+        </tr>
+        <tr>
+            <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
+            <td>Reservation Fee Reinforcement</td>
+            <td>Private</td>
+            <td>Financial</td>
+            <td>20/02/2020</td>
+        </tr>
+        <tr>
+            <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
+            <td>Reservation Form</td>
+            <td>Private</td>
+            <td>Legal</td>
+            <td>20/02/2020</td>
+        </tr>
+        <tr>
+            <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
+            <td>Welcome letter</td>
+            <td>Private</td>
+            <td>General</td>
+            <td>20/02/2020</td>
+        </tr>
+    
 
-                <!-- Title -->
-                <h4 class="card-title"><a>Beauty in Motion</a></h4>
-                <!-- Text -->
-                <p class="card-text"><strong>Proyect status:</strong> On development <br>
-                    <strong>Architech:</strong> DNSJ. Arq <br>
-                    <strong>Location:</strong> Lisboa</p>
-
-
-            </div>
-
-        </div>
-        <!-- Card -->
-        <!-- Card -->
-        <div class="card">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-                <h4>Vila Maria Pia</h4>
-            </div>
-            <!-- Card image -->
-            <img class="card-img-top"
-                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
-                 alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Majesty by the Sea</a></h4>
-                <!-- Text -->
-                <p class="card-text"><strong>Proyect status:</strong> On development <br>
-                    <strong>Architech:</strong> DNSJ. Arq <br>
-                    <strong>Location:</strong> Lisboa</p>
-
-
-            </div>
-
-        </div>
-        <!-- Card -->
-        <!-- Card -->
-        <div class="card card-three">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-                <h4>Augusta 170</h4>
-            </div>
-            <!-- Card image -->
-            <img class="card-img-top"
-                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Aungusta170_ima.jpg"
-                 alt="Card image cap">
-
-            <!-- Card content -->
-            <div class="card-body">
-
-                <!-- Title -->
-                <h4 class="card-title"><a>Made by History</a></h4>
-                <!-- Text -->
-                <p class="card-text"><strong>Proyect status:</strong> On development <br>
-                    <strong>Architech:</strong> DNSJ. Arq <br>
-                    <strong>Location:</strong> Rua Augusta n° 170, Lisboa.</p>
-
-
-            </div>
-
-        </div>
-        <!-- Card -->
-    </div>
+        </tbody>
+    </table>
+</div>
 
 
     <?php get_footer(); ?>
