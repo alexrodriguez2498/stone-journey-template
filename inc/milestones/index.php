@@ -233,10 +233,10 @@
         <!--Section: Content-->
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center" style="width: 100%;">
 
-            <h3>Properties</h3>
-            <p>From this section you will be able to create and manage your properties.</p>
+            <h3>Milestones</h3>
+            <p>This is your ....</p>
             <div class="row justify-content-end background_1-button">
-                <button type="button" class="btn button">CREATE PROPERTY</button>
+                <button type="button" class="btn button">ADD MILESTONE</button>
             </div>
 
         </section>
