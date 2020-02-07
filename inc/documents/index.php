@@ -281,7 +281,7 @@
 
         <!-- </section> -->
     </div>
-    <div class="container" id="last_container"style="background:white; padding-top:1rem; margin-top:2rem;     margin-left: 0; margin-right: 0; max-width: 100%;">
+    <div class="container d-none d-md-block" id="last_container"style="background:white; padding-top:1rem; margin-top:2rem;     margin-left: 0; margin-right: 0; max-width: 100%;">
     <table class="table">
         <thead>
         <tr>
@@ -341,7 +341,7 @@
     </table>
 </div>
 
-<div class="container" id="ultimate_container"style="background:white; padding-top:1rem; margin-top:2rem;     margin-left: 0; margin-right: 0; max-width: 100%;">
+<div class="container d-block d-md-none" id="ultimate_container"style="background:white; padding-top:1rem; margin-top:2rem;     margin-left: 0; margin-right: 0; max-width: 100%;">
 
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
