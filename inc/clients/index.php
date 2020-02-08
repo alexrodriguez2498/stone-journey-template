@@ -176,7 +176,7 @@
         }
 
         .clients-container .card {
-            width: 15rem;
+            /*width: 15rem;*/
             height: 22rem;
         }
 
