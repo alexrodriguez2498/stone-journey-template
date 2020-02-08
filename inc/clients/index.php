@@ -308,7 +308,7 @@
         <!-- </section> -->
     </div>
 </div>
-<div class="container clients-container"style="margin-top:2rem;">
+<div class="container-box clients-container"style="margin-top:2rem;">
 <div class="row row-cols-2 row-cols-md-5">
   <div class="col mb-4">
     <div class="card h-100">
