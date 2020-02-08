@@ -309,7 +309,7 @@
     </div>
 </div>
 <div class="container-box clients-container"style="margin-top:2rem;">
-<div class="row row-cols-2 row-cols-md-5">
+<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5">
   <div class="col mb-4">
     <div class="card h-100">
       <!--Card image-->
