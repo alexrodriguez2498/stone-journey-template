@@ -214,6 +214,10 @@
             margin-right: 0 !important;
         }
     }
+    .card-title{
+        display:flex;
+        justify-content:space-between;
+    }
 
 </style>
 
@@ -352,7 +356,7 @@
                 <i class="fas fa-file-invoice-dollar fa-2x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title"><b>Payment Summons</b></h5>
+                <h5 class="card-title"><b>Payment Summons</b> <i class="fas fa-ellipsis-v"></i></h5>
                 <p class="card-text"style="margin:0;"> <strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
                                     Fiancial</p>
@@ -369,7 +373,7 @@
                 <i class="fas fa-file-signature fa-2x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title"><b>Promissory Contract Payment</b></h5>
+                <h5 class="card-title"><b>Promissory Contract Payment</b> <i class="fas fa-ellipsis-v"></i></h5>
                 <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
                                     Fiancial  </p>
@@ -386,7 +390,7 @@
                 <i class="fas fa-file-invoice fa-2x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title"><b>Reservation Fee Reinforcement</b></h5>
+                <h5 class="card-title"><b>Reservation Fee Reinforcement</b> <i class="fas fa-ellipsis-v"></i></h5>
                 <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
                                     Fiancial</p>
@@ -403,7 +407,7 @@
                 <i class="fas fa-file-image fa-2x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title"><b>Reservation Form</b></h5>
+                <h5 class="card-title"><b>Reservation Form</b> <i class="fas fa-ellipsis-v"></i></h5>
                 <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
                                     Fiancial  </p>
@@ -420,7 +424,7 @@
                 <i class="fas fa-images fa-2x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title"><b>Reservation Form</b></h5>
+                <h5 class="card-title"><b>Reservation Form</b> <i class="fas fa-ellipsis-v"></i></h5>
                 <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
                                     Payment Summons <br>
                                     Fiancial</p>
