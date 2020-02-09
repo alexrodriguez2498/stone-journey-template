@@ -82,6 +82,8 @@
             padding-left: 1.5rem;
             padding-right: 1.5rem;
             height: auto;
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
         }
         #background_1 h3 {
             font-size: 30px;
@@ -141,10 +143,30 @@
         line-height:1.25rem;
     }
     .card-body{
-        padding:1rem;
+        padding:0.5rem;
     }
     .card-img-top{
-        height:13rem;
+        height:auto;
+    }
+    .col mb-4 {
+        height: fit-content;
+    }
+
+    @media (max-width: 450px) {
+        .card-title {
+            font-size: 1rem !important;
+        }
+        .card-text {
+            font-size: 0.75rem !important;
+            line-height: initial;
+        }
+        #background_1 p {
+            font-size: 1rem !important;
+            line-height: initial;
+        }
+        .add-button {
+            padding: 0.5rem 1rem !important;
+        }
     }
                                                                                         /* END OF CARDS SECTION */
 </style>
@@ -162,7 +184,7 @@
             <p>From this section you can quickly acces your clients. You can easily find them, filter them by property,
                 nationality or type of investment.</p>
             <div class="row justify-content-end background_1-button">
-                <button type="button" class="btn button">ADD CLIENT</button>
+                <button type="button" class="btn button z-depth-1 add-button">ADD CLIENT</button>
             </div>
 
         </section>
@@ -206,10 +228,10 @@
 <div class="container-box clients-container"style="margin-top:2rem;">
 <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5">
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
           alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
@@ -230,10 +252,10 @@
     <!-- Card -->
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
           alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
@@ -254,10 +276,10 @@
     <!-- Card -->
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
         </a>
@@ -277,10 +299,10 @@
     <!-- Card -->
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
         </a>
@@ -300,10 +322,10 @@
     <!-- Card -->
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
         </a>
@@ -323,10 +345,10 @@
     <!-- Card -->
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
           alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
@@ -347,10 +369,10 @@
     <!-- Card -->
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
           alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
@@ -371,10 +393,10 @@
     <!-- Card -->
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
         </a>
@@ -394,10 +416,10 @@
     <!-- Card -->
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
         </a>
@@ -417,10 +439,10 @@
     <!-- Card -->
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 z-depth-1">
       <!--Card image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Card image cap">
         <a href="#!">
           <div class="mask rgba-white-slight"></div>
         </a>

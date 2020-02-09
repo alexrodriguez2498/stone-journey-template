@@ -66,6 +66,8 @@
             padding-left: 1.5rem;
             padding-right: 1.5rem;
             height: auto;
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
         }
 
         #background_1 h3 {
@@ -219,6 +221,35 @@
         justify-content:space-between;
     }
 
+
+
+    .card-body{
+        padding:0.5rem;
+    }
+    .card-img-top{
+        height:auto;
+    }
+    .col mb-4 {
+        height: fit-content;
+    }
+
+    @media (max-width: 450px) {
+        .card-title {
+            font-size: 1rem !important;
+        }
+        .card-text {
+            font-size: 0.75rem !important;
+            line-height: initial;
+        }
+        #background_1 p {
+            font-size: 1rem !important;
+            line-height: initial;
+        }
+        .add-button {
+            padding: 0.5rem 1rem !important;
+        }
+    }
+
 </style>
 
 <link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
@@ -233,7 +264,7 @@
             <h3>Documents</h3>
             <p>This is your <strong>Stone Journey Dashboard</strong>, from here you can manage your Properties, Clients, Milestones and Documents</p>
             <div class="row justify-content-end background_1-button">
-                <button type="button" class="btn button">ADD DOCUMENT</button>
+                <button type="button" class="btn button z-depth-1 add-button">ADD DOCUMENT</button>
             </div>
 
         </section>
@@ -352,8 +383,8 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
                                                 <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
-                <i class="fas fa-file-invoice-dollar fa-2x"></i>
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <i class="fas fa-file-invoice-dollar fa-3x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Payment Summons</b> <i class="fas fa-ellipsis-v"></i></h5>
@@ -369,8 +400,8 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
                                          <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
-                <i class="fas fa-file-signature fa-2x"></i>
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <i class="fas fa-file-signature fa-3x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Promissory Contract Payment</b> <i class="fas fa-ellipsis-v"></i></h5>
@@ -386,8 +417,8 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
                                                 <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
-                <i class="fas fa-file-invoice fa-2x"></i>
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <i class="fas fa-file-invoice fa-3x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Reservation Fee Reinforcement</b> <i class="fas fa-ellipsis-v"></i></h5>
@@ -403,8 +434,8 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
                                                 <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
-                <i class="fas fa-file-image fa-2x"></i>
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <i class="fas fa-file-image fa-3x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Reservation Form</b> <i class="fas fa-ellipsis-v"></i></h5>
@@ -420,8 +451,8 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
                                                 <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:2rem; padding-right:2rem;">
-                <i class="fas fa-images fa-2x"></i>
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <i class="fas fa-images fa-3x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
                 <h5 class="card-title"><b>Reservation Form</b> <i class="fas fa-ellipsis-v"></i></h5>

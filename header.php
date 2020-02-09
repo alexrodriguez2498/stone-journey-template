@@ -75,10 +75,15 @@
             padding-right:1rem;
         }
     }
+
+    .z-depth-1, .chip:active {
+        -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06) !important;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06) !important;
+    }
 </style>
 
 <!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding">
+<nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding z-depth-1">
 
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Logo.png" id="imagen" alt="">
 
@@ -86,7 +91,7 @@
         <i class="fas fa-search" id="search_icon"></i>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
                 aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-ellipsis-v"></i>
+            <i class="fas fa-bars" style="color: #8c704a;"></i>
         </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-555">

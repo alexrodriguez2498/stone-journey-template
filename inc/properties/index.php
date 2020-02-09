@@ -66,6 +66,8 @@
             padding-left: 1.5rem;
             padding-right: 1.5rem;
             height: auto;
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
         }
 
         #background_1 h3 {
@@ -215,6 +217,33 @@
         }
     }
 
+    .card-body{
+        padding:0.5rem;
+    }
+    .card-img-top{
+        height:auto;
+    }
+    .col mb-4 {
+        height: fit-content;
+    }
+
+    @media (max-width: 450px) {
+        .card-title {
+            font-size: 1rem !important;
+        }
+        .card-text {
+            font-size: 0.75rem !important;
+            line-height: initial;
+        }
+        #background_1 p {
+            font-size: 1rem !important;
+            line-height: initial;
+        }
+        .add-button {
+            padding: 0.5rem 1rem !important;
+        }
+    }
+
 </style>
 
 <link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
@@ -229,7 +258,7 @@
             <h3>Properties</h3>
             <p>From this section you will be able to create and manage your properties.</p>
             <div class="row justify-content-end background_1-button">
-                <button type="button" class="btn button">CREATE PROPERTY</button>
+                <button type="button" class="btn button z-depth-1 add-button">CREATE PROPERTY</button>
             </div>
 
         </section>

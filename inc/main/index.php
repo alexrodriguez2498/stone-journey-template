@@ -129,6 +129,30 @@
 
     }
 
+    .card-body{
+        padding:0.5rem;
+    }
+    .card-img-top{
+        height:auto;
+    }
+    .col mb-4 {
+        height: fit-content;
+    }
+
+    @media (max-width: 450px) {
+        .card-title {
+            font-size: 1rem !important;
+        }
+        .card-text {
+            font-size: 0.75rem !important;
+            line-height: initial;
+        }
+        #background_1 p {
+            font-size: 1rem !important;
+            line-height: initial;
+        }
+    }
+
 </style>
 
 <div class="row mt-3 container-box">
