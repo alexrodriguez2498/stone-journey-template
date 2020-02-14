@@ -399,7 +399,18 @@
         </div>
         <!-- Card -->
         
+        </div>
     </div>
+    <section class="footer navbar navbar-fixed-bottom bg-white" >
+    <div class="container-box">
+        <div class="row mt-10rem">
+            <div class="col">
+                <p style="color:#8f734e ;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>
+            </div>
+        </div>
+    </div>
+    </section>
+  
 
 
     <?php get_footer(); ?>
