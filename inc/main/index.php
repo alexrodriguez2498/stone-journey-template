@@ -152,6 +152,67 @@
             line-height: initial;
         }
     }
+    #background_2:hover{
+        background: #8f734e;
+    }
+    #background_3:hover{
+        background-color: #8f734e;
+    }
+    #background_4:hover{
+        background-color: #8f734e;
+    }
+    #background_5:hover{
+        background-color: #8f734e;
+    }
+    #background_2 section {
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width:inherit;
+    }
+    #background_3 section {
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width:inherit;
+    }
+    #background_4 section {
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width:inherit;
+    }
+    #background_5 section {
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width:inherit;
+    }
+    #background_2 section .fa-ellipsis-v {
+        color:#b6bcbf;
+    }
+    #background_3 section .fa-ellipsis-v {
+        color:#b6bcbf;
+    } 
+    #background_4 section .fa-ellipsis-v {
+        color:#b6bcbf;
+    }
+    #background_5 section .fa-ellipsis-v {
+        color:#b6bcbf;
+    }
+    #background_2:hover section .fa-ellipsis-v, #background_2:hover section h4 {
+        color:white;
+    }
+    #background_3:hover section .fa-ellipsis-v, #background_3:hover section h4 {
+        color:white;
+    } 
+    #background_4:hover section .fa-ellipsis-v, #background_4:hover section h4 {
+        color:white;
+    }
+    #background_5:hover section .fa-ellipsis-v, #background_5:hover section h4 {
+        color:white;
+    }
+    
 
 </style>
 
@@ -179,14 +240,29 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
             <h4>Properties</h4>
-
+            <div class="nav-item dropdown">
+                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"></a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">View grid</a>
+                <a class="dropdown-item" href="#">View list</a>
+                <a class="dropdown-item" href="#">Create new</a>
+            </div>
         </section>
     </div>
 
     <div class=" py-3 z-depth-1 col container-child-right" id="background_3">
-        <section class="px-sm-2 mx-sm-2 dark-grey-text">
+        <section class="px-sm-2 mx-sm-2 dark-grey-text ">
 
             <h4>Clients&nbsp;&nbsp;&nbsp;</h4>
+            <div class="nav-item dropdown">
+                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"></a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">View grid</a>
+                <a class="dropdown-item" href="#">View list</a>
+                <a class="dropdown-item" href="#">Create new</a>
+            </div>
 
         </section>
     </div>
@@ -196,6 +272,14 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
             <h4>Milestones</h4>
+            <div class="nav-item dropdown">
+                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"></a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">View grid</a>
+                <a class="dropdown-item" href="#">View list</a>
+                <a class="dropdown-item" href="#">Create new</a>
+            </div>
 
         </section>
     </div>
@@ -204,11 +288,31 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
             <h4>Documents</h4>
+            <div class="nav-item dropdown">
+                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"></a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">View grid</a>
+                <a class="dropdown-item" href="#">View list</a>
+                <a class="dropdown-item" href="#">Create new</a>
+            </div>
+    
+
+
 
         </section>
     </div>
 </div>
 <!--</div>-->
+<section class="footer navbar navbar-fixed-bottom bg-white" >
+    <div class="container-box">
+        <div class="row mt-10rem">
+            <div class="col">
+                <p style="color:#8f734e ;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php get_footer(); ?>

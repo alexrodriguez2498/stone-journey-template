@@ -83,9 +83,9 @@
 </style>
 
 <!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding z-depth-1">
+<nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding z-depth-1 pb-0">
 
-    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Logo.png" id="imagen" alt="">
+    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Logo.png" id="imagen" style="padding-bottom:16px; alt=">
 
     <div>
         <i class="fas fa-search" id="search_icon"></i>
@@ -96,25 +96,25 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link nav-bold" href="#">Dashboard</a>
+            <li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
+                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Dashboard</a>
+            </li> 
+            <li class="nav-item" >
+                <a class="nav-link" style="padding-bottom:24px;" href="#">Properties</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Properties</a>
+            <li class="nav-item" >
+                <a class="nav-link" style="padding-bottom:24px;" href="#">Clients</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Clients</a>
+            <li class="nav-item" >
+                <a class="nav-link" style="padding-bottom:24px;" href="#">Milestones</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Milestones</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Documents</a>
+            <li class="nav-item" >
+                <a class="nav-link" style="padding-bottom:24px;" href="#">Documents</a>
             </li>
         </ul>
         <div>
             <ul class="navbar-nav ml-auto nav-flex-icons">
-                <li class="nav-item avatar" style="margin-left: 20px;">
+                <li class="nav-item avatar" style="margin-left: 20px; padding-bottom:16px;">
                     <a class="nav-link p-0" href="#">
                         <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg"
                              class="rounded-circle z-depth-0"
@@ -122,6 +122,13 @@
                         <b class="small-text">Ana Magalhaes</b>
                     </a>
                 </li>
+                <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"style="margin:0;" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false"></a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Profile</a>
+          <a class="dropdown-item" href="#">Log out</a>
+        </li>
             </ul>
         </div>
     </div>

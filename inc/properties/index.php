@@ -120,7 +120,7 @@
     .second_nav .second_nav-item {
         color: black;
         font-weight: bold;
-        padding: 10px 50px;
+        padding: 10px 100px;
     }
 
     .second_nav .search {
@@ -275,29 +275,38 @@
         <!-- <div class="background_2-content"> -->
         <!--Dropdown primary-->
 
-        <div class="row justify-content-between">
-            <div style=" display: flex;">
-                <p><strong>Filter by:</strong></p>
+        <div class="row justify-content-between" style="height:45px;">
+            <div class="d-flex">
+                <p><strong>Filter by</strong></p>
                 <div class="dropdown" style="line-height: 2.3rem;">
 
                     <!--Trigger-->
                     <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false" style="padding-left: 1rem;"> Name
+                            aria-haspopup="true" aria-expanded="false" style="padding-left: 5px;"> 
                     </button>
 
                     <!--Menu-->
-                    <div class="dropdown-menu dropdown-primary">
-                        <a class="dropdown-item" href="#">Name</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu dropdown-primary p-0">
+                        <h6 class="dropdown-header" style="background:#f4f1ee;">Proyect Status</h6>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
                     </div>
                 </div>
+                <ul class="second_nav">
+                <li class="nav-item">
+                    <a class="nav-link second_nav-item" style="border-bottom:1.5px solid #967c5c;"  href="#">Grid</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link second_nav-item" href="#">List</a>
+                </li>
+               
+            </ul>
             </div>
+          
             <!--/Dropdown primary-->
             <ul class="second_nav">
-                <li><a class="second_nav-item" href="#">Grid</a></li>
-                <li><a class="second_nav-item" href="#">Map</a></li>
-                <li><a class="second_nav-item" href="#">List</a></li>
+               
                 <li><a class="search" href="#">search</a></li>
             </ul>
         </div>
@@ -389,6 +398,7 @@
 
         </div>
         <!-- Card -->
+        
     </div>
 
 
