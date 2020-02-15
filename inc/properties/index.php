@@ -93,7 +93,7 @@
         align-items: center;
         /* padding-bottom:0! important; */
         justify-content: space-between;
-        padding: 16px 30px 0px 30px !important;
+        padding: 16px 30px 20px 30px !important;
 
     }
 
@@ -319,8 +319,8 @@
                     </div>
                 </div>
                 <ul class="second_nav">
-                <li class="nav-item">
-                    <a class="nav-link second_nav-item" style="border-bottom:1.5px solid #967c5c;"  href="#">Grid</a>
+                <li class="nav-item" style="border-bottom:1.5px solid #967c5c;">
+                    <a class="nav-link second_nav-item"   href="#">Grid</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link second_nav-item" href="#">List</a>
