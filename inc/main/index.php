@@ -251,13 +251,14 @@
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">View grid</a>
                 <a class="dropdown-item" href="#">View list</a>
                 <a class="dropdown-item" href="#">Create new</a>
             </div>
         </section>
     </div>
+  
 
     <div class=" py-3 z-depth-1 col container-child-right" id="background_3">
         <section class="px-sm-2 mx-sm-2 dark-grey-text ">

@@ -297,56 +297,7 @@
         <!-- <div class="background_2-content"> -->
         <!--Dropdown primary-->
 
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg  middle-nav pb-0">
-
-        <!-- Navbar brand -->
-       
-
-        <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
-
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto">
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"><strong>Filter by</strong></a>
-                <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                <h6 class="dropdown-header" style="background:#f4f1ee;">Proyect Status</h6>
-                        <a class="dropdown-item"  href="#">Architech</a>
-                        <a class="dropdown-item"  href="#">Location</a>
-                        <a class="dropdown-item"  href="#">Name</a>
-                </div>
-            </li>
-            
-            <li class="nav-item nav-space" style="border-bottom: 1.5px solid #967c5c; padding-bottom:16px;">
-                <a class="nav-link" href="#">Grid</a>
-            </li>
-            <li class="nav-item nav-space" style="padding-bottom:16px;">
-                <a class="nav-link" href="#">List</a>
-            </li>
-
-
-            </ul>
-            <!-- Links -->
-
-            <form class="form-inline">
-            <div class="md-form my-0" style="padding-bottom:16px;">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            </div>
-            </form>
-        </div>
-        <!-- Collapsible content -->
-
-        </nav>
-        <!--/.Navbar-->
+      
         <div class="row justify-content-between" style="height:45px;">
             <div class="d-flex">
                 <p><strong>Filter by</strong></p>
@@ -359,7 +310,7 @@
 
                     <!--Menu-->
                     <div class="dropdown-menu  p-0">
-                        <h6 class="dropdown-header" style="background:#f4f1ee;">Proyect Status</h6>
+										<a class="dropdown-item">Proyect Status</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
@@ -379,7 +330,11 @@
             <!--/Dropdown primary-->
             <ul class="second_nav">
                
-                <li><a class="search" href="#">search</a></li>
+						<form class="form-inline">
+            <div class="md-form my-0" style="padding-bottom:16px;">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+            </form>
             </ul>
         </div>
 
@@ -404,7 +359,7 @@
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                <h6 class="dropdown-header" style="background:#f4f1ee;">Edit property</h6>
+                <a class="dropdown-item">Edit property</a>
                 <a class="dropdown-item" href="#">Delete</a>
             </div>
             </div>
@@ -439,7 +394,7 @@
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <h6 class="dropdown-header" style="background:#f4f1ee;">Edit property</h6>
+						<a class="dropdown-item">Edit property</a>
                 <a class="dropdown-item" href="#">Delete</a>
             </div>
             </div>
@@ -475,7 +430,7 @@
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                <h6 class="dropdown-header" style="background:#f4f1ee;">Edit property</h6>
+						<a class="dropdown-item">Edit property</a>
                 <a class="dropdown-item" href="#">Delete</a>
             </div>
             </div>
