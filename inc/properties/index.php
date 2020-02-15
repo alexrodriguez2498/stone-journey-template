@@ -262,7 +262,7 @@
         box-sizing:border-box!important;
     }
     .dropdown-item:hover{
-        background:#967c5c!important;
+        background:#f9f8f6!important;
     }
    
 
