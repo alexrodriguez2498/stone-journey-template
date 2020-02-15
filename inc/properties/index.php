@@ -261,8 +261,10 @@
     .middle-nav{
         box-sizing:border-box!important;
     }
-    .dropdown-item:hover{
+    .dropdown .dropdown-menu .dropdown-item:hover{
         background:#f9f8f6!important;
+        color: #000 !important;
+        box-shadow: none;
     }
    
 
