@@ -80,6 +80,10 @@
         -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06) !important;
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06) !important;
     }
+    .dropdown-item:hover{
+        background:#967c5c;
+    }
+   
 </style>
 
 <!--Navbar -->
@@ -125,7 +129,7 @@
                 <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"style="margin:0;" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false"></a>
-        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Profile</a>
           <a class="dropdown-item" href="#">Log out</a>
         </li>

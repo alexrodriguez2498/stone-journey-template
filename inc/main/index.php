@@ -212,6 +212,14 @@
     #background_5:hover section .fa-ellipsis-v, #background_5:hover section h4 {
         color:white;
     }
+    .dropdown-item:hover{
+        background:#967c5c!important;
+    }
+     footer{
+        position:fixed;
+        width:100%;
+    }
+
     
 
 </style>
@@ -243,7 +251,7 @@
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View grid</a>
                 <a class="dropdown-item" href="#">View list</a>
                 <a class="dropdown-item" href="#">Create new</a>
@@ -258,7 +266,7 @@
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View grid</a>
                 <a class="dropdown-item" href="#">View list</a>
                 <a class="dropdown-item" href="#">Create new</a>
@@ -275,7 +283,7 @@
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View grid</a>
                 <a class="dropdown-item" href="#">View list</a>
                 <a class="dropdown-item" href="#">Create new</a>
@@ -291,7 +299,7 @@
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View grid</a>
                 <a class="dropdown-item" href="#">View list</a>
                 <a class="dropdown-item" href="#">Create new</a>
@@ -304,15 +312,18 @@
     </div>
 </div>
 <!--</div>-->
-<section class="footer navbar navbar-fixed-bottom bg-white" >
-    <div class="container-box">
-        <div class="row mt-10rem">
-            <div class="col">
-                <p style="color:#8f734e ;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>
-            </div>
+   <!-- Footer -->
+   <footer class="page-footer font-small " style="background:white;">
+        <div class="container-box">
+             <!-- Copyright -->
+            <div class=" text-left py-3">
+            <p style="color:#8f734e ;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>        </div>
+            <!-- Copyright -->
         </div>
-    </div>
-</section>
+       
+
+        </footer>
+        <!-- Footer -->
 
 
 <?php get_footer(); ?>

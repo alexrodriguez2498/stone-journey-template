@@ -26,7 +26,12 @@
     }
 
     body {
-        background-color: #f4f1ee;
+        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/fondo.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* background-opacity:0.5; */
         font-family: "roboto";
     }
 
@@ -243,6 +248,23 @@
             padding: 0.5rem 1rem !important;
         }
     }
+    /* footer{
+        position:fixed;
+        width:100%;
+    } */
+    .middle-nav a{
+        color:black;
+    }
+    .middle-nav .nav-space{
+        padding:0 100px;
+    }
+    .middle-nav{
+        box-sizing:border-box!important;
+    }
+    .dropdown-item:hover{
+        background:#967c5c!important;
+    }
+   
 
 </style>
 
@@ -275,6 +297,56 @@
         <!-- <div class="background_2-content"> -->
         <!--Dropdown primary-->
 
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg  middle-nav pb-0">
+
+        <!-- Navbar brand -->
+       
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"><strong>Filter by</strong></a>
+                <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                <h6 class="dropdown-header" style="background:#f4f1ee;">Proyect Status</h6>
+                        <a class="dropdown-item"  href="#">Architech</a>
+                        <a class="dropdown-item"  href="#">Location</a>
+                        <a class="dropdown-item"  href="#">Name</a>
+                </div>
+            </li>
+            
+            <li class="nav-item nav-space" style="border-bottom: 1.5px solid #967c5c; padding-bottom:16px;">
+                <a class="nav-link" href="#">Grid</a>
+            </li>
+            <li class="nav-item nav-space" style="padding-bottom:16px;">
+                <a class="nav-link" href="#">List</a>
+            </li>
+
+
+            </ul>
+            <!-- Links -->
+
+            <form class="form-inline">
+            <div class="md-form my-0" style="padding-bottom:16px;">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+            </form>
+        </div>
+        <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
         <div class="row justify-content-between" style="height:45px;">
             <div class="d-flex">
                 <p><strong>Filter by</strong></p>
@@ -286,7 +358,7 @@
                     </button>
 
                     <!--Menu-->
-                    <div class="dropdown-menu dropdown-primary p-0">
+                    <div class="dropdown-menu  p-0">
                         <h6 class="dropdown-header" style="background:#f4f1ee;">Proyect Status</h6>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
@@ -323,9 +395,19 @@
     <div class="cards_container mt-2" style="width: 100%;">
         <!-- Card -->
         <div class="card card-one">
-            <div class="card-icon-title">
+            <div class="card-icon-title d-flex justify-content-between">
+                <div class="card-title-right d-flex ">
                 <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
-                <h4>Rossio 93</h4>
+                <h4>Rossio 93 </h4>
+                </div>
+                <div class="nav-item dropdown">
+                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"></a>
+            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                <h6 class="dropdown-header" style="background:#f4f1ee;">Edit property</h6>
+                <a class="dropdown-item" href="#">Delete</a>
+            </div>
+            </div>
             </div>
             <!-- Card image -->
             <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
@@ -348,9 +430,19 @@
         <!-- Card -->
         <!-- Card -->
         <div class="card">
-            <div class="card-icon-title">
+            <div class="card-icon-title d-flex justify-content-between">
+            <div class="card-title-right d-flex ">
                 <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
                 <h4>Vila Maria Pia</h4>
+                </div>
+                <div class="nav-item dropdown align-self-right">
+                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <h6 class="dropdown-header" style="background:#f4f1ee;">Edit property</h6>
+                <a class="dropdown-item" href="#">Delete</a>
+            </div>
+            </div>
             </div>
             <!-- Card image -->
             <img class="card-img-top"
@@ -374,9 +466,19 @@
         <!-- Card -->
         <!-- Card -->
         <div class="card card-three">
-            <div class="card-icon-title">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+        <div class="card-icon-title d-flex justify-content-between">
+            <div class="card-title-right d-flex ">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
                 <h4>Augusta 170</h4>
+                </div>
+                <div class="nav-item dropdown">
+                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"></a>
+            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                <h6 class="dropdown-header" style="background:#f4f1ee;">Edit property</h6>
+                <a class="dropdown-item" href="#">Delete</a>
+            </div>
+            </div>
             </div>
             <!-- Card image -->
             <img class="card-img-top"
@@ -387,6 +489,7 @@
             <div class="card-body">
 
                 <!-- Title -->
+
                 <h4 class="card-title"><a>Made by History</a></h4>
                 <!-- Text -->
                 <p class="card-text"><strong>Proyect status:</strong> On development <br>
@@ -401,15 +504,18 @@
         
         </div>
     </div>
-    <section class="footer navbar navbar-fixed-bottom bg-white" >
-    <div class="container-box">
-        <div class="row mt-10rem">
-            <div class="col">
-                <p style="color:#8f734e ;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>
-            </div>
+   <!-- Footer -->
+        <footer class="page-footer font-small " style="background:white;">
+        <div class="container-box">
+             <!-- Copyright -->
+            <div class=" text-left py-3">
+            <p style="color:#8f734e ;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>        </div>
+            <!-- Copyright -->
         </div>
-    </div>
-    </section>
+       
+
+        </footer>
+        <!-- Footer -->
   
 
 
