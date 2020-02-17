@@ -58,7 +58,7 @@
         }
     }
 
-    @media(min-width:1300px){
+    @media(min-width:1400px){
         .navbar-collapse{
             margin-right: 15%;
         }
@@ -67,7 +67,7 @@
         }
 
     }
-    @media(max-width:1300px){
+    @media(max-width:1400px){
         #imagen{
             padding-left:1rem;
         }
