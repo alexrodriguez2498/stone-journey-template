@@ -302,12 +302,12 @@
       
         <div class="row justify-content-between" style="height:45px;">
             <div class="d-flex">
-                <p><strong>Filter by</strong></p>
+                <p style="padding-top:10px;"><strong>Filter by</strong></p>
                 <div class="dropdown" style="line-height: 2.3rem;">
 
                     <!--Trigger-->
                     <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false" style="padding-left: 5px;"> 
+                            aria-haspopup="true" aria-expanded="false" style="padding-left: 5px; padding-top:14px;"> 
                     </button>
 
                     <!--Menu-->
