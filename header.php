@@ -28,6 +28,7 @@
 
     #search_icon {
         color: #8c704a;
+        padding-bottom:1rem;
     }
 
     .small-text {
@@ -83,6 +84,8 @@
     .dropdown-item:hover{
         background:#f9f8f6!important;
     }
+    .navbar .dropdown .dropdown-menu{
+         }
    
 </style>
 

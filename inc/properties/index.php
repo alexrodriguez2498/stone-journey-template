@@ -281,8 +281,8 @@
 
             <h3>Properties</h3>
             <p>From this section you will be able to create and manage your properties.</p>
-            <div class="row justify-content-end background_1-button">
-                <button type="button" class="btn button z-depth-1 add-button">CREATE PROPERTY</button>
+            <div class="row  background_1-button">
+                <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE PROPERTY</button>
             </div>
 
         </section>
