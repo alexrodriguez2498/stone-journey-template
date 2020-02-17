@@ -60,7 +60,7 @@
     }
 
     /*                                                                          revisar lo que esta encerrado */
-    @media (min-width: 1300px) {
+    @media (min-width: 1400px) {
         .container-box {
             margin: auto 15%;
         }
@@ -466,7 +466,7 @@
         <div class="container-box">
              <!-- Copyright -->
             <div class=" text-left py-3">
-            <p style="color:#8f734e ;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>        </div>
+            <p style="color:#8f734e ; margin-bottom: 0;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>        </div>
             <!-- Copyright -->
         </div>
        

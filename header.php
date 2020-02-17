@@ -59,7 +59,7 @@
         }
     }
 
-    @media(min-width:1300px){
+    @media(min-width:1400px){
         .navbar-collapse{
             margin-right: 15%;
         }
@@ -68,7 +68,7 @@
         }
 
     }
-    @media(max-width:1300px){
+    @media(max-width:1400px){
         #imagen{
             padding-left:1rem;
         }
@@ -103,21 +103,65 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
+            <?php
+                if (strpos($_SERVER['REQUEST_URI'], 'main') !== false) {
+                    echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
                 <a class="nav-link pb-24" style="color:#8f734e;" href="#">Dashboard</a>
-            </li> 
-            <li class="nav-item" >
+            </li> ';
+                } else {
+                    echo '<li class="nav-item" >
+                <a class="nav-link" style="padding-bottom:24px;" href="#">Dashboard</a>
+            </li>';
+                }
+            ?>
+
+            <?php
+            if (strpos($_SERVER['REQUEST_URI'], 'properties') !== false) {
+                echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
+                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Properties</a>
+            </li> ';
+            } else {
+                echo '<li class="nav-item" >
                 <a class="nav-link" style="padding-bottom:24px;" href="#">Properties</a>
-            </li>
-            <li class="nav-item" >
+            </li>';
+            }
+            ?>
+
+            <?php
+            if (strpos($_SERVER['REQUEST_URI'], 'clients') !== false) {
+                echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
+                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Clients</a>
+            </li> ';
+            } else {
+                echo '<li class="nav-item" >
                 <a class="nav-link" style="padding-bottom:24px;" href="#">Clients</a>
-            </li>
-            <li class="nav-item" >
+            </li>';
+            }
+            ?>
+
+            <?php
+            if (strpos($_SERVER['REQUEST_URI'], 'milestones') !== false) {
+                echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
+                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Milestones</a>
+            </li> ';
+            } else {
+                echo '<li class="nav-item" >
                 <a class="nav-link" style="padding-bottom:24px;" href="#">Milestones</a>
-            </li>
-            <li class="nav-item" >
+            </li>';
+            }
+            ?>
+
+            <?php
+            if (strpos($_SERVER['REQUEST_URI'], 'documents') !== false) {
+                echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
+                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Documents</a>
+            </li> ';
+            } else {
+                echo '<li class="nav-item" >
                 <a class="nav-link" style="padding-bottom:24px;" href="#">Documents</a>
-            </li>
+            </li>';
+            }
+            ?>
         </ul>
         <div>
             <ul class="navbar-nav ml-auto nav-flex-icons">
