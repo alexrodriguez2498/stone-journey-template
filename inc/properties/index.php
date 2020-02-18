@@ -26,7 +26,7 @@
     }
 
     body {
-        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/fondo.jpg");
+        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -291,6 +291,16 @@
         height: fit-content;
         padding-bottom: 10px;
     }
+    #last_container {
+        border: 1px solid #dee2e6;
+        background:#ffffff;
+        padding: 2rem;
+    }
+    #last_container table tbody tr td{
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+  
 
 </style>
 
@@ -487,6 +497,121 @@
 
     </div>
 </div>
+
+<div class="container-box" id="last_container">
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col"><b></b></th>
+            <th scope="col"><b>PROPERTY</b></th>
+            <th scope="col"><b>ARCHITECH</b></th>
+            <th scope="col"><b>ADRESS</b></th>
+            <th scope="col"><b>LOCATION</b></th>
+            <th scope="col"><b>STATUS</b></th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>    
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">DNSJ Arc</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Lisboa</td>
+            <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div></td>
+
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt=""></td>
+            <td class="td_text">Vila Maria Pia</td>
+            <td class="td_text">DNSJ Arc</td>
+            <td class="td_text">Vila Maria Pia</td>
+            <td class="td_text">Estpril</td>
+            <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div></td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt=""></td>
+            <td class="td_text">Augusta 170</td>
+            <td class="td_text">DNSJ Arc</td>
+            <td class="td_text">Augusta 170</td>
+            <td class="td_text">Lisboa</td>
+            <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div></td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
+            <td class="td_text">Santa Isabel</td>
+            <td class="td_text">DNSJ Arc</td>
+            <td class="td_text">Santa Isabel</td>
+            <td class="td_text">Lisboa</td>
+            <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div></td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt=""></td>
+            <td>Santa Justa</td>
+            <td>DNSJ Arc</td>
+            <td>Santa Justa</td>
+            <td>Lisboa</td>
+            <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div></td>
+        </tr>
+        <tr>
+            <td><b></b></td>
+            <td><b></b></td>
+            <td><b></b></td>
+            <td><b></b></td>
+            <td><b></b></td>
+            
+            <td id="td-special-2 d-flex ">
+            <nav aria-label="Page navigation example">
+            <ul class="pagination pg-blue justify-content-end">
+            <li class="page-item ">
+            <a class="page-link" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item"style="padding-right:10px;"><a class="page-link"style="background:#947956a1;color:white;">1</a></li>
+            <li class="page-item active">
+            <a class="page-link" style="background:#947956";>2 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="page-item ">
+            <a class="page-link">Next</a>   
+            </li>
+        </ul>
+        </nav>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
 
 
 <?php get_footer(); ?>
