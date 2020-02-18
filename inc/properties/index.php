@@ -273,6 +273,10 @@
         }
     }
 
+    footer{
+        width:100%;
+    }
+
 </style>
 
 <link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
