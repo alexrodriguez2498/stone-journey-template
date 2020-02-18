@@ -218,8 +218,8 @@
         box-shadow: none;
     }
      footer{
-        position:fixed;
-        width:100%;
+        /* position:fixed;
+        width:100%; */
     }
 
     

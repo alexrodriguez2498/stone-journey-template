@@ -26,7 +26,7 @@
     }
 
     body {
-        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/fondo.jpg");
+        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -462,16 +462,16 @@
         </div>
     </div>
    <!-- Footer -->
-        <footer class="page-footer font-small " style="background:white;">
-        <div class="container-box">
+        <!-- <footer class="page-footer font-small " style="background:white;">
+        <div class="container-box"> -->
              <!-- Copyright -->
-            <div class=" text-left py-3">
-            <p style="color:#8f734e ; margin-bottom: 0;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>        </div>
+            <!-- <div class=" text-left py-3">
+            <p style="color:#8f734e ; margin-bottom: 0;"> <small> © 2020 | All rights reserved | Av. da Liberdade 240, 1250 096 Liosboa | T. +351 210 416 350 | M. +351 965 915 993 | sales@stonecapital.pt | Stone Capital</small></p>        </div> -->
             <!-- Copyright -->
-        </div>
+        <!-- </div>
        
 
-        </footer>
+        </footer> -->
         <!-- Footer -->
   
 
