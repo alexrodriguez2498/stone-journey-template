@@ -298,6 +298,15 @@
         padding-bottom:0.5rem;
     }
   
+    #seach {
+        border-bottom: 1px solid #947956 !important;
+        box-shadow: 0 1px 0 0 #947956 !important;
+    }
+
+    #seach:focus {
+        border-bottom: 1px solid #947956 !important;
+        box-shadow: 0 1px 0 0 #947956 !important;
+    }
 
 </style>
 
@@ -367,7 +376,7 @@
 
                 <form class="form-inline">
                     <div class="md-form my-0" style="padding-bottom:16px;">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        <input id="seach" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     </div>
                 </form>
             </ul>
