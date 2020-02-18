@@ -94,7 +94,7 @@
 
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Logo.png" id="imagen" style="padding-bottom:16px; alt=">
 
-    <div>
+    <div style="margin-top: -0.3rem;">
         <i class="fas fa-search" id="search_icon"></i>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
                 aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">

@@ -8,7 +8,7 @@
         /*height: 200px;*/
         /*display: flex;*/
         align-items: center;
-        padding: 24px 30px;
+        padding: 15px 15px;
     }
 
     #container__center h3 {
@@ -93,7 +93,7 @@
         align-items: center;
         /* padding-bottom:0! important; */
         justify-content: space-between;
-        padding: 16px 30px 20px 30px !important;
+        padding: 8px 30px 10px 30px !important;
 
     }
 
@@ -223,7 +223,7 @@
     }
 
     .card-body{
-        padding:0.5rem;
+        padding:1rem;
     }
     .card-img-top{
         height:auto;
@@ -266,7 +266,12 @@
         color: #000 !important;
         box-shadow: none;
     }
-   
+
+    @media (min-width: 900px) and (max-width: 995px) {
+        .tittleCardCustom {
+            font-size: 1.2rem !important;
+        }
+    }
 
 </style>
 
@@ -301,7 +306,7 @@
 
       
         <div class="row justify-content-between" style="height:45px;">
-            <div class="d-flex">
+            <div class="d-flex" style="margin-left: 1rem;">
                 <p style="padding-top:10px;"><strong>Filter by</strong></p>
                 <div class="dropdown" style="line-height: 2.3rem;">
 
@@ -319,7 +324,7 @@
                     </div>
                 </div>
                 <ul class="second_nav">
-                <li class="nav-item" style="border-bottom:1.5px solid #967c5c;">
+                <li class="nav-item" style="border-bottom:1.5px solid #967c5c;     height: fit-content;padding-bottom: 10px;">
                     <a class="nav-link second_nav-item"   href="#">Grid</a>
                 </li>
                 <li class="nav-item">
@@ -355,13 +360,13 @@
             <div class="card-icon-title d-flex justify-content-between">
                 <div class="card-title-right d-flex ">
                 <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
-                <h4>Rossio 93 </h4>
+                <h4 class="tittleCardCustom">Rossio 93 </h4>
                 </div>
                 <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item">Edit property</a>
+                <a class="dropdown-item">Edit Property</a>
                 <a class="dropdown-item" href="#">Delete</a>
             </div>
             </div>
@@ -390,13 +395,13 @@
             <div class="card-icon-title d-flex justify-content-between">
             <div class="card-title-right d-flex ">
                 <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-                <h4>Vila Maria Pia</h4>
+                <h4 class="tittleCardCustom">Vila Maria Pia</h4>
                 </div>
                 <div class="nav-item dropdown align-self-right">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit property</a>
+						<a class="dropdown-item">Edit Property</a>
                 <a class="dropdown-item" href="#">Delete</a>
             </div>
             </div>
@@ -426,13 +431,13 @@
         <div class="card-icon-title d-flex justify-content-between">
             <div class="card-title-right d-flex ">
             <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-                <h4>Augusta 170</h4>
+                <h4 class="tittleCardCustom">Augusta 170</h4>
                 </div>
                 <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit property</a>
+						<a class="dropdown-item">Edit Property</a>
                 <a class="dropdown-item" href="#">Delete</a>
             </div>
             </div>
