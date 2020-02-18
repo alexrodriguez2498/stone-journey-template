@@ -59,7 +59,7 @@
         }
     }
 
-    @media(min-width:1401px){
+    @media(min-width:1441px){
         .navbar-collapse{
             margin-right: 15%;
         }
@@ -69,7 +69,7 @@
 
     }
 
-    @media(max-width:1400px){
+    @media(max-width:1440px){
         .navbar-collapse{
             margin-right: 2%;
         }
@@ -78,7 +78,7 @@
         }
 
     }
-    @media(max-width:1400px){
+    @media(max-width:1440px){
         #imagen{
             padding-left:1rem;
         }
@@ -93,8 +93,13 @@
     }
     .dropdown-item:hover{
         background:#f9f8f6!important;
+        color: #000 !important;
+        box-shadow: none;
     }
-    .navbar .dropdown .dropdown-menu{
+    .navbar .dropdown .dropdown-menu .dropdown-item:hover{
+        background:#f9f8f6!important;
+        color: #000 !important;
+        box-shadow: none;
          }
    
 </style>

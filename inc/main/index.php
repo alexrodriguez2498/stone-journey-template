@@ -75,13 +75,13 @@
         }
 
         .container-child-left {
-            margin: 0.5rem 0.5rem 1rem 0;
+            margin: 0.5rem 0.5rem 0 0;
             display: block !important;
         }
     }
 
     /*                                                                          revisar lo que esta encerrado */
-    @media (min-width: 1400px) {
+    @media (min-width: 1440px) {
         .container-box {
             margin: auto 15%;
         }
@@ -212,25 +212,33 @@
     #background_5:hover section .fa-ellipsis-v, #background_5:hover section h4 {
         color:white;
     }
-    .dropdown .dropdown-menu .dropdown-item:hover{
+
+    .dropleft .dropdown-menu .dropdown-item:hover{
         background:#f9f8f6!important;
         color: #000 !important;
         box-shadow: none;
     }
+
      footer{
         position:fixed;
         width:100%;
     }
 
-    @media (max-height: 850px) {
-        footer{
-            position:relative !important;
-        }
-    }
+    /*@media (max-height: 850px) and (max-width: 398px) {*/
+    /*    footer{*/
+    /*        position:relative !important;*/
+    /*    }*/
+    /*}*/
+
+    /*@media (height: 731px) and (width: 411px) {*/
+    /*    footer{*/
+    /*        position:relative !important;*/
+    /*    }*/
+    /*}*/
 
 </style>
 
-<div class="row mt-3 container-box">
+<div class="row container-box">
     <div class="py-3 z-depth-1 col" id="background_1" style="margin: 1rem 0rem 0.5rem 0;">
 
 
@@ -249,7 +257,7 @@
 </div>
 
 <!--<div class="container">-->
-<div class="row mt-3 container-box">
+<div class="row container-box">
     <div class="py-3 z-depth-1 col container-child-left" id="background_2">
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
@@ -282,7 +290,7 @@
         </section>
     </div>
 </div>
-<div class="row mt-3 container-box container_box_2">
+<div class="row container-box container_box_2" style="margin-bottom: 10rem;">
     <div class="py-3 z-depth-1 col container-child-left" id="background_4">
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
