@@ -222,7 +222,11 @@
         width:100%;
     }
 
-    
+    @media (max-height: 850px) {
+        footer{
+            position:relative !important;
+        }
+    }
 
 </style>
 
@@ -250,7 +254,7 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
             <h4>Properties</h4>
-            <div class="nav-item dropdown">
+            <div class="nav-item dropleft">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -266,7 +270,7 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text ">
 
             <h4>Clients&nbsp;&nbsp;&nbsp;</h4>
-            <div class="nav-item dropdown">
+            <div class="nav-item dropleft">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -283,7 +287,7 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
             <h4>Milestones</h4>
-            <div class="nav-item dropdown">
+            <div class="nav-item dropleft">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -299,7 +303,7 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
             <h4>Documents</h4>
-            <div class="nav-item dropdown">
+            <div class="nav-item dropleft">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -315,18 +319,6 @@
     </div>
 </div>
 <!--</div>-->
-   <!-- Footer -->
-   <footer class="page-footer font-small " style="background:white;">
-        <div class="container-box">
-             <!-- Copyright -->
-            <div class=" text-left py-3">
-            <p style="color:#8f734e ; margin-bottom: 0 !important;"> <small> © 2020 | All rights reserved</small></p>        </div>
-            <!-- Copyright -->
-        </div>
-       
-
-        </footer>
-        <!-- Footer -->
 
 
 <?php get_footer(); ?>
