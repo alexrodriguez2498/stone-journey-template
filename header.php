@@ -101,7 +101,11 @@
         color: #000 !important;
         box-shadow: none;
          }
-   
+
+    .dropdown-menu-custom {
+        margin-left: -4em;
+    }
+
 </style>
 
 <!--Navbar -->
@@ -147,7 +151,7 @@
                 <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" style="margin:0;" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false"></a>
-        <div class="dropdown-menu " style="margin-left: -10rem;" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Profile</a>
           <a class="dropdown-item" href="#">Log out</a>
         </li>

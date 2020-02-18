@@ -219,6 +219,16 @@
         box-shadow: none;
     }
 
+    .dropdown .dropdown-menu .dropdown-item:hover{
+        background:#f9f8f6!important;
+        color: #000 !important;
+        box-shadow: none;
+    }
+
+    .dropdown .dropdown-menu
+        left: -4rem !important;
+    }
+
     /*@media (max-height: 850px) and (max-width: 398px) {*/
     /*    footer{*/
     /*        position:relative !important;*/
@@ -257,10 +267,10 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
             <h4>Properties</h4>
-            <div class="nav-item dropleft">
+            <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View Grid</a>
                 <a class="dropdown-item" href="#">View List</a>
                 <a class="dropdown-item" href="#">Create New</a>
@@ -273,10 +283,10 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text ">
 
             <h4>Clients&nbsp;&nbsp;&nbsp;</h4>
-            <div class="nav-item dropleft">
+            <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View Grid</a>
                 <a class="dropdown-item" href="#">View List</a>
                 <a class="dropdown-item" href="#">Create New</a>
@@ -290,10 +300,10 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
             <h4>Milestones</h4>
-            <div class="nav-item dropleft">
+            <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View Grid</a>
                 <a class="dropdown-item" href="#">View List</a>
                 <a class="dropdown-item" href="#">Create New</a>
@@ -306,10 +316,10 @@
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
             <h4>Documents</h4>
-            <div class="nav-item dropleft">
+            <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View Grid</a>
                 <a class="dropdown-item" href="#">View List</a>
                 <a class="dropdown-item" href="#">Create New</a>
