@@ -270,7 +270,7 @@
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View Grid</a>
                 <a class="dropdown-item" href="#">View List</a>
                 <a class="dropdown-item" href="#">Create New</a>
@@ -286,7 +286,7 @@
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View Grid</a>
                 <a class="dropdown-item" href="#">View List</a>
                 <a class="dropdown-item" href="#">Create New</a>
@@ -303,7 +303,7 @@
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View Grid</a>
                 <a class="dropdown-item" href="#">View List</a>
                 <a class="dropdown-item" href="#">Create New</a>
@@ -319,7 +319,7 @@
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu dropdown-menu-custom" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">View Grid</a>
                 <a class="dropdown-item" href="#">View List</a>
                 <a class="dropdown-item" href="#">Create New</a>

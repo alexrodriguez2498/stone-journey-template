@@ -337,7 +337,7 @@
                     </button>
 
                     <!--Menu-->
-                    <div class="dropdown-menu  p-0">
+                    <div class="dropdown-menu dropdown-menu-right  p-0">
                         <a class="dropdown-item">Proyect Status</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
@@ -386,7 +386,7 @@
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
                         <a class="dropdown-item" href="#">Delete</a>
                     </div>
@@ -421,7 +421,7 @@
                 <div class="nav-item dropdown align-self-right">
                     <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
                         <a class="dropdown-item" href="#">Delete</a>
                     </div>
@@ -457,7 +457,7 @@
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
                         <a class="dropdown-item" href="#">Delete</a>
                     </div>
