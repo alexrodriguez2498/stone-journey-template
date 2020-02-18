@@ -59,7 +59,7 @@
         }
     }
 
-    @media(min-width:1300px){
+    @media(min-width:1401px){
         .navbar-collapse{
             margin-right: 15%;
         }
@@ -68,7 +68,17 @@
         }
 
     }
-    @media(max-width:1300px){
+
+    @media(max-width:1400px){
+        .navbar-collapse{
+            margin-right: 2%;
+        }
+        #imagen{
+            margin-left:2%;
+        }
+
+    }
+    @media(max-width:1400px){
         #imagen{
             padding-left:1rem;
         }
@@ -94,7 +104,7 @@
 
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Logo.png" id="imagen" style="padding-bottom:16px; alt=">
 
-    <div>
+    <div style="margin-top: -0.3rem;">
         <i class="fas fa-search" id="search_icon"></i>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
                 aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
@@ -130,9 +140,9 @@
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"style="margin:0;" data-toggle="dropdown"
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" style="margin:0;" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false"></a>
-        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu " style="margin-left: -10rem;" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Profile</a>
           <a class="dropdown-item" href="#">Log out</a>
         </li>
