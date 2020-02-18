@@ -219,11 +219,6 @@
         box-shadow: none;
     }
 
-     footer{
-        position:fixed;
-        width:100%;
-    }
-
     /*@media (max-height: 850px) and (max-width: 398px) {*/
     /*    footer{*/
     /*        position:relative !important;*/

@@ -26,7 +26,7 @@
     }
 
     body {
-        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
+        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/fondo.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -222,12 +222,14 @@
         }
     }
 
-    .card-body{
-        padding:1rem;
+    .card-body {
+        padding: 1rem;
     }
-    .card-img-top{
-        height:auto;
+
+    .card-img-top {
+        height: auto;
     }
+
     .col mb-4 {
         height: fit-content;
     }
@@ -236,33 +238,40 @@
         .card-title {
             font-size: 1rem !important;
         }
+
         .card-text {
             font-size: 0.75rem !important;
             line-height: initial;
         }
+
         #background_1 p {
             font-size: 1rem !important;
             line-height: initial;
         }
+
         .add-button {
             padding: 0.5rem 1rem !important;
         }
     }
+
     /* footer{
         position:fixed;
         width:100%;
     } */
-    .middle-nav a{
-        color:black;
+    .middle-nav a {
+        color: black;
     }
-    .middle-nav .nav-space{
-        padding:0 100px;
+
+    .middle-nav .nav-space {
+        padding: 0 100px;
     }
-    .middle-nav{
-        box-sizing:border-box!important;
+
+    .middle-nav {
+        box-sizing: border-box !important;
     }
-    .dropdown .dropdown-menu .dropdown-item:hover{
-        background:#f9f8f6!important;
+
+    .dropdown .dropdown-menu .dropdown-item:hover {
+        background: #f9f8f6 !important;
         color: #000 !important;
         box-shadow: none;
     }
@@ -273,8 +282,14 @@
         }
     }
 
-    footer{
-        width:100%;
+    footer {
+        width: 100%;
+    }
+
+    .nav-item-selected-custom {
+        border-bottom: 1.5px solid #967c5c;
+        height: fit-content;
+        padding-bottom: 10px;
     }
 
 </style>
@@ -291,7 +306,9 @@
             <h3>Properties</h3>
             <p>From this section you will be able to create and manage your properties.</p>
             <div class="row  background_1-button">
-                <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE PROPERTY</button>
+                <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE
+                    PROPERTY
+                </button>
             </div>
 
         </section>
@@ -302,13 +319,13 @@
 </div>
 
 <!--<div class="container">-->
-<div class="row mt-4 container-box half_container">
+<div class="row mt-4 container-box half_container" style="margin-bottom: 10rem;">
     <div class="py-3 z-depth-1 col " id="background_2">
         <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
         <!-- <div class="background_2-content"> -->
         <!--Dropdown primary-->
 
-      
+
         <div class="row justify-content-between" style="height:45px;">
             <div class="d-flex" style="margin-left: 1rem;">
                 <p style="padding-top:10px;"><strong>Filter by</strong></p>
@@ -316,36 +333,36 @@
 
                     <!--Trigger-->
                     <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false" style="padding-left: 5px; padding-top:14px;"> 
+                            aria-haspopup="true" aria-expanded="false" style="padding-left: 5px; padding-top:14px;">
                     </button>
 
                     <!--Menu-->
                     <div class="dropdown-menu  p-0">
-										<a class="dropdown-item">Proyect Status</a>
+                        <a class="dropdown-item">Proyect Status</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
                     </div>
                 </div>
                 <ul class="second_nav">
-                <li class="nav-item" style="border-bottom:1.5px solid #967c5c;     height: fit-content;padding-bottom: 10px;">
-                    <a class="nav-link second_nav-item"   href="#">Grid</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link second_nav-item" href="#">List</a>
-                </li>
-               
-            </ul>
+                    <li id="tabGrid" class="nav-item nav-item-selected-custom">
+                        <a class="nav-link second_nav-item" href="#">Grid</a>
+                    </li>
+                    <li id="tabList" class="nav-item">
+                        <a class="nav-link second_nav-item" href="#">List</a>
+                    </li>
+
+                </ul>
             </div>
-          
+
             <!--/Dropdown primary-->
             <ul class="second_nav">
-               
-						<form class="form-inline">
-            <div class="md-form my-0" style="padding-bottom:16px;">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            </div>
-            </form>
+
+                <form class="form-inline">
+                    <div class="md-form my-0" style="padding-bottom:16px;">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                </form>
             </ul>
         </div>
 
@@ -363,17 +380,17 @@
         <div class="card card-one">
             <div class="card-icon-title d-flex justify-content-between">
                 <div class="card-title-right d-flex ">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
-                <h4 class="tittleCardCustom">Rossio 93 </h4>
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+                    <h4 class="tittleCardCustom">Rossio 93 </h4>
                 </div>
                 <div class="nav-item dropdown">
-                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item">Edit Property</a>
-                <a class="dropdown-item" href="#">Delete</a>
-            </div>
-            </div>
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+                </div>
             </div>
             <!-- Card image -->
             <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
@@ -397,18 +414,18 @@
         <!-- Card -->
         <div class="card">
             <div class="card-icon-title d-flex justify-content-between">
-            <div class="card-title-right d-flex ">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-                <h4 class="tittleCardCustom">Vila Maria Pia</h4>
+                <div class="card-title-right d-flex ">
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+                    <h4 class="tittleCardCustom">Vila Maria Pia</h4>
                 </div>
                 <div class="nav-item dropdown align-self-right">
-                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-                <a class="dropdown-item" href="#">Delete</a>
-            </div>
-            </div>
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+                </div>
             </div>
             <!-- Card image -->
             <img class="card-img-top"
@@ -432,19 +449,19 @@
         <!-- Card -->
         <!-- Card -->
         <div class="card card-three">
-        <div class="card-icon-title d-flex justify-content-between">
-            <div class="card-title-right d-flex ">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-                <h4 class="tittleCardCustom">Augusta 170</h4>
+            <div class="card-icon-title d-flex justify-content-between">
+                <div class="card-title-right d-flex ">
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+                    <h4 class="tittleCardCustom">Augusta 170</h4>
                 </div>
                 <div class="nav-item dropdown">
-                <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"></a>
-            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-                <a class="dropdown-item" href="#">Delete</a>
-            </div>
-            </div>
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+                </div>
             </div>
             <!-- Card image -->
             <img class="card-img-top"
@@ -467,10 +484,9 @@
 
         </div>
         <!-- Card -->
-        
-        </div>
+
     </div>
+</div>
 
 
-
-    <?php get_footer(); ?>
+<?php get_footer(); ?>
