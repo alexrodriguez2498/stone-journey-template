@@ -32,3 +32,16 @@ Author URI: https://mdbootstrap.com
 
 .card-avatar img {
   width: 100px; }
+
+
+
+/**********************COMMONS HERE*************************/
+
+.box-center {
+  max-width: 1440px !important;
+  margin: auto !important;
+}
+.container-box {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}

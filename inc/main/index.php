@@ -80,14 +80,6 @@
         }
     }
 
-    /*                                                                          revisar lo que esta encerrado */
-    @media (min-width: 1440px) {
-        .container-box {
-            margin: auto 15%;
-        }
-
-    }
-
     @media (max-width: 650px) {
         #background_1 {
             padding: 0 1rem;
@@ -225,26 +217,16 @@
         box-shadow: none;
     }
 
-    .dropdown .dropdown-menu
+    .dropdown .dropdown-menu{
         left: -4rem !important;
     }
 
-    /*@media (max-height: 850px) and (max-width: 398px) {*/
-    /*    footer{*/
-    /*        position:relative !important;*/
-    /*    }*/
-    /*}*/
 
-    /*@media (height: 731px) and (width: 411px) {*/
-    /*    footer{*/
-    /*        position:relative !important;*/
-    /*    }*/
-    /*}*/
 
 </style>
 
-<div class="row container-box">
-    <div class="py-3 z-depth-1 col" id="background_1" style="margin: 1rem 0rem 0.5rem 0;">
+<div class="row container box-center">
+    <div class="py-3 z-depth-1 col" id="background_1" style="margin: 1rem 0 0.5rem 0;">
 
 
         <!--Section: Content-->
@@ -262,7 +244,7 @@
 </div>
 
 <!--<div class="container">-->
-<div class="row container-box">
+<div class="row container box-center container-box">
     <div class="py-3 z-depth-1 col container-child-left" id="background_2">
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
@@ -295,7 +277,7 @@
         </section>
     </div>
 </div>
-<div class="row container-box container_box_2" style="margin-bottom: 10rem;">
+<div class="row container box-center container-box container_box_2" style="margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col container-child-left" id="background_4">
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 

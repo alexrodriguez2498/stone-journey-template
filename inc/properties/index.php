@@ -20,10 +20,7 @@
         font-size: 22px;
     }
 
-    .container-box {
-        margin-right: 2rem;
-        margin-left: 2rem;
-    }
+
 
     body {
         background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
@@ -56,13 +53,6 @@
 
         .container-box-2 {
             margin-top: 0;
-        }
-    }
-
-    /*                                                                          revisar lo que esta encerrado */
-    @media (min-width: 1440px) {
-        .container-box {
-            margin: auto 15%;
         }
     }
 
@@ -278,10 +268,6 @@
         }
     }
 
-    footer {
-        width: 100%;
-    }
-
     .nav-item-selected-custom {
         border-bottom: 1.5px solid #967c5c;
         height: fit-content;
@@ -315,7 +301,7 @@
 
 <link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
 
-<div class="row container-box" style="margin-top: 2rem;">
+<div class="row container box-center container-box py-3" style="margin-top: 2rem;">
     <div class="py-4 z-depth-1 col" id="background_1">
 
 
@@ -337,7 +323,7 @@
 </div>
 
 <!--<div class="container">-->
-<div class="row mt-4 container-box half_container" style="margin-bottom: 10rem;">
+<div class="row mt-4 container box-center container-box container-box half_container" style="margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col " id="background_2">
         <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
         <!-- <div class="background_2-content"> -->
