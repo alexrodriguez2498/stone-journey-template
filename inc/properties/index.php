@@ -307,6 +307,9 @@
         border-bottom: 1px solid #947956 !important;
         box-shadow: 0 1px 0 0 #947956 !important;
     }
+    .mobile-card-content strong{
+        font-weight:900;
+    }
 
 </style>
 
@@ -329,8 +332,7 @@
 
         </section>
         <!--Section: Content-->
-
-
+ 
     </div>
 </div>
 

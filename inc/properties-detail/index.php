@@ -36,11 +36,13 @@
     }
 
     .row_content {
-        background: #F9F5F1;
         height: 50px;
         align-items: center;
         font-size: 0.8rem;
         font-weight: bold;
+        border-right: 1px solid #dee2e6;
+        border-left: 1px solid #dee2e6;
+        border-top: 1px solid #dee2e6;
     }
 
     #contenedor_derecho {
@@ -67,9 +69,9 @@
 
     .profile-content {
         padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-bottom:1.85rem;
         margin-bottom: 1rem;
-        line-height: 2rem;
+        line-height: 1.85rem;
         border-right: 1px solid #dee2e6;
         border-left: 1px solid #dee2e6;
         border-bottom: 1px solid #dee2e6;
@@ -87,20 +89,26 @@
     .middle_container {
         display: flex;
         align-items: center;
+        padding-bottom:2rem;
+        padding-top:2rem;
+        margin-top:30px;
     }
 
     .middle_container ul {
         display: flex;
         align-items: center;
+        margin:0;
+        padding:0;
+ 
     }
 
     .middle_container ul li {
-        margin: 1rem 4rem 0 4rem;
+        margin:2rem 1.5rem;
         align-items: center;
         display: flex;
     }
 
-    .middle_container ul li:nth-child(3) {
+    .middle_container ul li .special {
         border-bottom: 1px solid black;
     }
 
@@ -114,18 +122,31 @@
         border-bottom: 1px solid #dee2e6;
         border-left: 1px solid #dee2e6;
         padding: 2rem;
+        padding-top:0;
     }
 
     .images_container {
         display: grid;
         grid-template: 250px 250px/ repeat(5, 1fr);
+        padding-top:1rem;
+        grid-gap:5px;
+        padding-left:0;
+        padding-right:0;
+        margin-top:30px;
+        margin-bottom:40px;
 
+    }
+    .images_container .image_content {
+        background-image:url('https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
     }
 
     .card-title {
         margin-bottom: 0;
         padding: 0;
     }
+
 
 </style>
 
@@ -136,7 +157,7 @@
         <div class="card">
 
             <!-- Card image -->
-            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+            <img class="card-img-top" style="height:12rem;" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
                  alt="Card image cap">
 
             <!-- Card content -->
@@ -155,45 +176,43 @@
 
     <div class="container col-md-9" id="contenedor_derecho">
         <div class="row row_content">
-            <div class="col d-flex ">
+            <div class="col d-flex align-items-center">
 
-                <i class="fas fa-building"></i>
-                <p>Property information</p>
+                <i class="fas fa-building" style=></i>
+                <h3> <b>Property information</b> </h3>
             </div>
         </div>
         <div class="row profile-content">
             <div class="col-md-6 column">
                 <b>Property Name:</b> Kelly <br>
+                <b>Architect:</b> <b>Intergaup</b> <br> 
                 <b>Address:</b> Praca do Rossio, 93, Baixa, Lisboa, Portugal. <br>
                 <b>Location:</b> <u>www.googlemaps.com/rossio93</u> <br>
                 <b>About the property:</b> in the myriad of lights and wonders <br>
                 of the city, the charming and centrally-located Roddio 93 <br>
                 is home to a shining jewel: a re-imaginated classic. <br>
-                <b>Architect:</b> <b>Intergaup</b> <br>
-                <b>Foreseen conclusion::</b> 2019 <br>
-                <b>Users:</b> Residential and Retail <br>
-                <b>Website:</b> https://www.rossio93.pt
+               
 
 
             </div>
 
             <div class="col-md-6 column">
+                <b>Foreseen conclusion::</b> 2019 <br>
+                <b>Users:</b> Residential and Retail <br>
+                <b>Website:</b> https://www.rossio93.pt <br>
                 <b>Status:</b> In development <br>
                 <b>Estimated date for beginning of construction:</b> Sep 12, 2020 <br>
                 <b>Estimated Delivery Date:</b> Sep 12, 2020 <br>
                 <b>Number of Sellable Units:</b> 14 <br>
-                <b>Complention Bar % (Similar to a loading bar) <br>
-                    Upload gallery Images <br>
-                    Upload Documents</b>
-            </div>
+                
         </div>
     </div>
 </div>
 <div class="container row_content middle_container">
     <ul>
-        <li>Clients</li>
-        <li>Milestones</li>
-        <li>Documents</li>
+        <li><h4><b>Clients</b></h4></li>
+        <li><h4><b class="special">Milestones</b></h4></li>
+        <li><h4><b>Documents</b></h4></li>
     </ul>
 </div>
 <div class="container" id="last_container">
@@ -201,62 +220,154 @@
         <thead>
         <tr>
             <th scope="col"><b></b></th>
-            <th scope="col"><b>Name</b></th>
-            <th scope th_special="col"><b>Owner</b></th>
-            <th scope th_special="col"><b>Category</b></th>
-            <th scope="col"><b>Date</b></th>
+            <th scope="col"><b>NAME</b></th>
+            <th scope="col"><b>PROPERTY</b></th>
+            <th scope="col"><b>OWNER</b></th>
+            <th scope="col"><b>ADDRESSEE</b></th>
+            <th scope="col"><b>UNIT</b></th>
+            <th scope="col"><b>CATEGORY</b></th>
+            <th scope="col"><b>DATE</b></th>
+            <th scope="col"><b></b></th>
+
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
             <td>Payment Summons</td>
+            <td>Rossio</td>
             <td>Private</td>
-            <td>Financial</td>
+            <td>Ana Humble</td>
+            <td>A1</td>
+            <td>General</td>
             <td>20/02/2020</td>
+            <td class="d-flex align-items-center"> <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
 
         </tr>
         <tr>
-            <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt=""></td>
             <td>Promissory Contract Payment</td>
+            <td>Rossio</td>
             <td>Private</td>
-            <td>Legal</td>
-            <td>20/02/2020</td>
-        </tr>
-        <tr>
-            <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
-            <td>Reservation Fee Reinforcement</td>
-            <td>Private</td>
-            <td>Financial</td>
-            <td>20/02/2020</td>
-        </tr>
-        <tr>
-            <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
-            <td>Reservation Form</td>
-            <td>Private</td>
-            <td>Legal</td>
-            <td>20/02/2020</td>
-        </tr>
-        <tr>
-            <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
-            <td>Welcome letter</td>
-            <td>Private</td>
+            <td>Ana Humble</td>
+            <td>A1</td>
             <td>General</td>
             <td>20/02/2020</td>
+            <td class="d-flex align-items-center"> <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt=""></td>
+            <td>Reservation Fee Reinforcement</td>
+            <td>Rossio</td>
+            <td>Private</td>
+            <td>Ana Humble</td>
+            <td>A1</td>
+            <td>General</td>
+            <td>20/02/2020</td>
+            <td class="d-flex align-items-center"> <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
+            <td>Reservation Form</td>
+            <td>Rossio</td>
+            <td>Private</td>
+            <td>Ana Humble</td>
+            <td>A1</td>
+            <td>General</td>
+            <td>20/02/2020</td>
+            <td class="d-flex align-items-center"> <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt=""></td>
+            <td>Welcome letter</td>
+            <td>Rossio</td>
+            <td>Private</td>
+            <td>Ana Humble</td>
+            <td>A1</td>
+            <td>General</td>
+            <td>20/02/2020</td>
+            <td class="d-flex align-items-center"> <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
         </tr>
         <tr>
             <td><b></b></td>
             <td><b></b></td>
             <td><b></b></td>
             <td><b></b></td>
-            <td id="td-special-2">
-                New document
-                <i class="fas fa-plus"></i>
-            </td>
+            <td><b></b></td>
+            <td><b></b></td>
+            <td><b></b></td>
+            <td><b></b></td>
+            <td></td>
         </tr>
 
         </tbody>
     </table>
+    <div class="d-flex justify-content-end"> 
+        <button type="button" class="btn btn-blue-grey"style="background:#979797 !important;">VIEW ALL MILESTONES</button>
+        <button type="button" class="btn btn-blue-grey"style="background:#979797 !important;">CREATE NEW PROPERTY</button>
+</div>
+            
+           
 </div>
 
 <div class="container images_container">
@@ -269,5 +380,33 @@
     <div class="image_content">contenido #7</div>
     <div class="image_content">contenido #8</div>
 </div>
+
+<div class="container p-0 map_container">
+<!-- Card -->
+<div class="card">
+
+  <!-- Card image -->
+  <div class="view overlay">
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+      alt="Card image cap">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!-- Card content -->
+  <div class="card-body">
+
+    <!-- Title -->
+    <h4 class="card-title">Rossio 93</h4>
+    <!-- Text -->
+    <p class="card-text">Praca da Figueira</p>
+    <!-- Button -->
+    <a href="#" class="btn btn-primary">Button</a>
+
+  </div>
+
+</div>
+<!-- Card --></div>
 
 <?php get_footer(); ?>
