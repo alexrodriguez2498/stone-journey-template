@@ -428,10 +428,10 @@
                     <li id="tabGrid" class="nav-item nav-item-selected-custom" onclick="clickGrid()">
                         <a class="nav-link second_nav-item" href="#">Clients</a>
                     </li>
-                    <li id="tabList" class="nav-item" onclick="clickTable()">
+                    <li id="tabList" class="nav-item">
                         <a class="nav-link second_nav-item" href="#">Milestones</a>
                     </li>
-                    <li id="tabList" class="nav-item" onclick="clickTable()">
+                    <li id="tabList" class="nav-item">
                         <a class="nav-link second_nav-item" href="#">Documents</a>
                     </li>
 
