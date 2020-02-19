@@ -319,8 +319,8 @@
 
 <link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
 
-<div class="row container box-center container-box " style="margin-top: 2rem;">
-    <div class=" col" id="background_1">
+<div class="row container box-center container-box p-0" style="margin-top: 2rem;">
+    <div class=" col" id="background_1"style="border-bottom: 1.5px solid #947956;>
 
 
         <!--Section: Content-->
@@ -663,7 +663,7 @@
                             <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE PROPERTY </button>
     </div>
     </div>
-    </div>
+ 
     <div class="container container-box box-center images_container" style="margin-bottom: 10rem !important;">
     <div class="image_content">contenido #1</div>
     <div class="image_content">contenido #2</div>
