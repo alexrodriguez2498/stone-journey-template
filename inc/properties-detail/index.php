@@ -2,6 +2,16 @@
 
 <style>
 
+    body {
+        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* background-opacity:0.5; */
+        font-family: "roboto";
+    }
+
     td {
         padding-top: 0.5rem !important;
         padding-bottom: 0.5rem !important;
@@ -147,6 +157,12 @@
         padding: 0;
     }
 
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: auto;
+        padding: 0.5rem;
+    }
 
 </style>
 
@@ -381,7 +397,7 @@
     <div class="image_content">contenido #8</div>
 </div>
 
-<div class="container p-0 map_container">
+<div class="container p-0 map_container" style="    margin-bottom: 10rem;">
 <!-- Card -->
 <div class="card">
 
@@ -406,6 +422,7 @@
   </div>
 
 </div>
-<!-- Card --></div>
+<!-- Card -->
+</div>
 
 <?php get_footer(); ?>

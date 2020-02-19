@@ -505,7 +505,7 @@
 
     </div>
 
-    <div class=" d-none d-md-block mt-2 last_container_table" style="width: 100%;" id="table">
+    <div class=" d-none d-md-block mt-2 last_container_table w-100" style="width: 100%;" id="table">
         <table class="table" style="margin-bottom: 0 !important;">
             <thead>
             <tr>
@@ -618,138 +618,142 @@
             </tbody>
         </table>
     </div>
+
+    <div class="d-block d-md-none w-100" id="table2">
+
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+                </div>
+                <div class="mobile-card-content"style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Rossio</b>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div> </h5>
+
+                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
+                        <strong>ADRESS: </strong> Rossio<br>
+                        <strong>LOCATION: </strong> Lisboa  <br>
+                        <strong>STATUS: </strong> On Development</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+                </div>
+                <div class="mobile-card-content"style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Vila Maria Pia</b>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div> </h5>
+
+                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
+                        <strong>ADRESS: </strong> Vila Maria Pia<br>
+                        <strong>LOCATION: </strong> Estpril  <br>
+                        <strong>STATUS: </strong> On Development</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+                </div>
+                <div class="mobile-card-content"style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Augusta 170</b>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div> </h5>
+
+                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
+                        <strong>ADRESS: </strong> Augusta 170<br>
+                        <strong>LOCATION: </strong> Lisboa  <br>
+                        <strong>STATUS: </strong> On Development</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+                </div>
+                <div class="mobile-card-content"style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Isable</b>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div> </h5>
+
+                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
+                        <strong>ADRESS: </strong> Santa Isabel<br>
+                        <strong>LOCATION: </strong> Lisboa  <br>
+                        <strong>STATUS: </strong> On Development</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Justa</b>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div> </h5>
+
+                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
+                        <strong>ADRESS: </strong> Sanya Justa<br>
+                        <strong>LOCATION: </strong> Lisboa  <br>
+                        <strong>STATUS: </strong> On Development</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 </div>
-<div class="container-box d-block d-md-none" >
-
-    <div class="card ">
-        <div class="card-body d-flex" style="padding:1rem;">
-                                                <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-            </div>
-            <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Rossio</b>  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
-                            <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
-                
-                <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                                    <strong>ADRESS: </strong> Rossio<br>
-                                    <strong>LOCATION: </strong> Lisboa  <br>
-                                    <strong>STATUS: </strong> On Development</p>
-            </div>
-    
-        </div>
-  
-    </div>
-
-    <div class="card ">
-        <div class="card-body d-flex" style="padding:1rem;">
-                                         <!-- card content -->
-         <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-         <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-        </div>
-            <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Vila Maria Pia</b>  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
-                            <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
-                
-                <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                                    <strong>ADRESS: </strong> Vila Maria Pia<br>
-                                    <strong>LOCATION: </strong> Estpril  <br>
-                                    <strong>STATUS: </strong> On Development</p>
-            </div>
-    
-        </div>
-  
-    </div>
-
-    <div class="card ">
-        <div class="card-body d-flex" style="padding:1rem;">
-                                                <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
-            </div>
-            <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Augusta 170</b>  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
-                            <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
-                
-                <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                                    <strong>ADRESS: </strong> Augusta 170<br>
-                                    <strong>LOCATION: </strong> Lisboa  <br>
-                                    <strong>STATUS: </strong> On Development</p>
-            </div>
-    
-        </div>
-  
-    </div>
-    <div class="card ">
-        <div class="card-body d-flex" style="padding:1rem;">
-                                                <!-- card content -->
-         <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-            </div>
-            <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Isable</b>  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
-                            <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
-                
-                <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                                    <strong>ADRESS: </strong> Santa Isabel<br>
-                                    <strong>LOCATION: </strong> Lisboa  <br>
-                                    <strong>STATUS: </strong> On Development</p>
-            </div>
-    
-        </div>
-  
-    </div>
-
-    <div class="card ">
-        <div class="card-body d-flex" style="padding:1rem;">
-                                                <!-- card content -->   
-         <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-         <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-         </div>
-            <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Justa</b>  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
-                            <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
-                
-                <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                                    <strong>ADRESS: </strong> Sanya Justa<br>
-                                    <strong>LOCATION: </strong> Lisboa  <br>
-                                    <strong>STATUS: </strong> On Development</p>
-            </div>
-    
-        </div>
-  
-    </div>
 
 <script>
-    document.getElementById('table').style.display = 'none';
+    document.getElementById('table').style.cssText = 'display:none !important';
+    document.getElementById('table2').style.cssText = 'display:none !important';
 
     function clickGrid() {
-        document.getElementById('table').style.display = 'none';
+        document.getElementById('table').style.cssText = 'display:none !important';
+        document.getElementById('table2').style.cssText = 'display:none !important';
         document.getElementById('grid').style.display = 'flex';
 
 
@@ -760,6 +764,7 @@
     function clickTable() {
         document.getElementById('grid').style.display = 'none';
         document.getElementById('table').style.display = 'flex';
+        document.getElementById('table2').style.display = 'flex';
 
         document.getElementById('tabGrid').classList.remove("nav-item-selected-custom");
         document.getElementById('tabList').classList.add("nav-item-selected-custom");

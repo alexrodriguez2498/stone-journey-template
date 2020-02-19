@@ -4,6 +4,11 @@
         position:fixed;
         width:100%;
     }
+
+    .container-box {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
 </style>
 <!-- Footer -->
 <footer class="page-footer font-small " style="background:white;">
