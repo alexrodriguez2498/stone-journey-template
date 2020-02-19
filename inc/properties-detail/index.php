@@ -311,13 +311,16 @@
         background-repeat:no-repeat;
         background-size:cover;
     }
+    b{
+        font-weight:bold;
+    }
 
 </style>
 
 <link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
 
-<div class="row container box-center container-box py-3" style="margin-top: 2rem;">
-    <div class="py-4 z-depth-1 col" id="background_1">
+<div class="row container box-center container-box " style="margin-top: 2rem;">
+    <div class=" col" id="background_1">
 
 
         <!--Section: Content-->
@@ -332,58 +335,62 @@
   
 </div>
 
-<div class="row container box-center container-box py-3" style="margin-top: 2rem;">
-    <div class="py-4 z-depth-1 col-md-2" id="background_1">
+<div class="container container-box box-center d-flex">
+    <div class="row  " style="margin-top: 2rem;">
+        <div class="  col" id="background_1">
 
 
-        <!--Section: Content-->
-        <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
+            <!--Section: Content-->
+            <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
 
-        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" style="width:15rem;" alt="">
 
-        </section>
-        <!--Section: Content-->
- 
-    </div>
-    <div class="py-4 z-depth-1 col-md-10" id="background_1">
-
-
-        <!--Section: Content-->
-        <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
-
-        <p> <b>Architech:</b> Intergaup <br>
-            <b>Adress:</b> Praca do Rossio, 93, Baixa, Lisboa, Portugal <br>
-            <b>Location:</b> <u>www.googlemaps.com/rossio93</u></p>
-
-        </section>
-        <!--Section: Content-->
-
+            </section>
+            <!--Section: Content-->
+    
         </div>
+    </div>
+    <div class="row container" style="margin-top: 2rem;">
+        <div class="col border-bottom pb-0" id="background_1">
+
+
+            <!--Section: Content-->
+          
+
+            <p style="line-height:3rem;"> <b>Architech:</b> Intergaup <br>
+                <b>Adress:</b> Praca do Rossio, 93, Baixa, Lisboa, Portugal <br>
+                <b>Location:</b> <u>www.googlemaps.com/rossio93</u></p>
+
+         
+            <!--Section: Content-->
+
+            </div>
+    </div>
 </div>
-<div class="row container box-center container-box py-3" style="margin-top: 2rem;">
+<div class="row container box-center container-box" style="margin-top: 2rem;">
   
-    <div class="py-4 z-depth-1 col" id="background_1">
+    <div class=" col pb-0 pt-5" id="background_1">
 
 
         <!--Section: Content-->
         <section class="px-md-2 mx-md-2 dark-grey-text"  style="width: 100%;">
 
         
-        <p><b>About the property:</b> in the myriad lights and wonders of the city, the charming and centrally-located Rossio 93 is home to a shining jewel: a re-imagined classic.</p>
+        <p class="border-bottom pb-4"><b>About the property:</b> in the myriad lights and wonders of the city, the charming and centrally-located Rossio 93 is home to a shining jewel: a re-imagined classic.</p>
 
         </section>
         <!--Section: Content-->
 
         </div>
 </div>
-<div class="row container box-center container-box py-3" style="margin-top: 2rem;">
-    <div class="py-4 z-depth-1 col" id="background_1">
+<div class="row container box-center container-box " style="margin-top: 2rem;">
+    <div class="col pt-0" id="background_1">
 
 
         <!--Section: Content-->
         <section class="px-md-2 mx-md-2 dark-grey-text"  style="width: 100%;">
 
-        <p style="line-height:2rem;">
+        <p style="line-height:3rem;">
             <b>Foreseen conclusion:</b> 2019 <br>
             <b>Uses:</b> Residential and Retail <br>
             <b>Website:</b> https://www.rossio93.pt <br>
@@ -395,13 +402,13 @@
         <!--Section: Content-->
  
     </div>
-    <div class="py-4 z-depth-1 col" id="background_1">
+    <div class="col pt-0" id="background_1">
 
 
         <!--Section: Content-->
         <section class="px-md-2 mx-md-2 dark-grey-text"  style="width: 100%;">
 
-        <p style="line-height:2rem;">
+        <p style="line-height:3rem;">
             <b>Estimated date for beginning of construction:</b> Sep 12, 2020 <br>
             <b>Estimated Delivery Date:</b> Sep 12, 2020 <br>
             <b>Number of Sellable Units:</b> 14
@@ -411,14 +418,15 @@
         <!--Section: Content-->
 
         </div>
+        
 </div>
+
+
 
 <!--<div class="container">-->
 <div class="row mt-4 container box-center container-box container-box half_container" style="margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col " id="background_2">
-        <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
-        <!-- <div class="background_2-content"> -->
-        <!--Dropdown primary-->
+      
 
 
         <div class="row justify-content-between" style="height:45px;">
@@ -449,18 +457,11 @@
             </ul>
         </div>
 
-        <!-- </div> -->
-        <!-- <form class="form-inline md-form form-sm mt-0">
-        <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
-            aria-label="Search">
-        </form> -->
-        <!-- </div> -->
 
         <!-- </section> -->
     </div>
-
-
-    <div class=" mt-2 last_container_table w-100" style="width: 100%;" id="table">
+    </div>
+    <div class=" container container-box box-center mt-2 last_container_table w-100" style="width: 100%;" id="table">
         <table class="table" style="margin-bottom: 0 !important;">
             <thead>
             <tr>
