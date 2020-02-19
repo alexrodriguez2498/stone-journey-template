@@ -11,4 +11,11 @@
     </div>
 </footer>
 <!-- Footer -->
+
+<script>
+    $(document).ready(function() {
+        $('.mdb-select').materialSelect();
+    });
+</script>
+
 </body>

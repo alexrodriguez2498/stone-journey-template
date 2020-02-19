@@ -11,6 +11,8 @@
         <?php bloginfo( 'name'); ?>
     </title>
     <?php wp_head(); ?>
+
+    <link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 

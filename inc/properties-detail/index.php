@@ -317,10 +317,15 @@
 
 </style>
 
+<<<<<<< HEAD
 <link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
 
 <div class="row container box-center container-box p-0" style="margin-top: 2rem;">
     <div class=" col" id="background_1"style="border-bottom: 1.5px solid #947956;>
+=======
+<div class="row container box-center container-box py-3" style="margin-top: 2rem;">
+    <div class="py-4 z-depth-1 col" id="background_1">
+>>>>>>> 5113b093f850ff38462d2c3e82a7c49d7cf0278b
 
 
         <!--Section: Content-->
@@ -347,7 +352,7 @@
 
             </section>
             <!--Section: Content-->
-    
+
         </div>
     </div>
     <div class="row container" style="margin-top: 2rem;">
@@ -355,13 +360,13 @@
 
 
             <!--Section: Content-->
-          
+
 
             <p style="line-height:3rem;"> <b>Architech:</b> Intergaup <br>
                 <b>Adress:</b> Praca do Rossio, 93, Baixa, Lisboa, Portugal <br>
                 <b>Location:</b> <u>www.googlemaps.com/rossio93</u></p>
 
-         
+
             <!--Section: Content-->
 
             </div>
@@ -418,7 +423,7 @@
         <!--Section: Content-->
 
         </div>
-        
+
 </div>
 
 
@@ -426,7 +431,7 @@
 <!--<div class="container">-->
 <div class="row mt-4 container box-center container-box container-box half_container" style="margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col " id="background_2">
-      
+
 
 
         <div class="row justify-content-between" style="height:45px;">

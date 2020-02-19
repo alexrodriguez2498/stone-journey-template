@@ -257,8 +257,6 @@
 
 </style>
 
-<link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
-
 <div class="row container-box" style="margin-top: 2rem;">
     <div class="py-4 z-depth-1 col" id="background_1">
 
