@@ -178,7 +178,7 @@
         <div class="row row_content">
             <div class="col d-flex align-items-center">
 
-                <i class="fas fa-building" style=></i>
+                <i class="fas fa-building fa-3x" style=></i>
                 <h3> <b>Property information</b> </h3>
             </div>
         </div>
@@ -401,8 +401,7 @@
     <h4 class="card-title">Rossio 93</h4>
     <!-- Text -->
     <p class="card-text">Praca da Figueira</p>
-    <!-- Button -->
-    <a href="#" class="btn btn-primary">Button</a>
+    
 
   </div>
 
