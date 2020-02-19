@@ -298,7 +298,7 @@
     }
     .images_container {
         display: grid;
-        grid-template: 250px 250px/ repeat(6, 1fr);
+        grid-template: 250px 0/ repeat(6, 1fr);
         padding-top:1rem;
         grid-gap: 0 5px;
         padding-left:0;
@@ -663,7 +663,7 @@
     </div>
     </div>
     </div>
-    <div class="container container-box box-center images_container">
+    <div class="container container-box box-center images_container" style="margin-bottom: 10rem !important;">
     <div class="image_content">contenido #1</div>
     <div class="image_content">contenido #2</div>
     <div class="image_content">contenido #3</div>
