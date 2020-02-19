@@ -11,6 +11,8 @@
         require_once('inc/profile-demo/index.php');
     } elseif (strpos($_SERVER['REQUEST_URI'], 'properties-detail') !== false) {
         require_once('inc/properties-detail/index.php');
+    } elseif (strpos($_SERVER['REQUEST_URI'], 'properties-new') !== false) {
+        require_once('inc/properties-new/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'properties') !== false) {
         require_once('inc/properties/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'clients') !== false) {
