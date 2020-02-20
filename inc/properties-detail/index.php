@@ -421,6 +421,22 @@
             <div class="d-flex" style="margin-left: 1rem;">
                
                 <ul class="second_nav">
+                <p style="padding-top:10px;"><strong>Filter by</strong></p>
+                <div class="dropdown" style="line-height: 2.3rem;">
+
+                    <!--Trigger-->
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="padding-left: 5px; padding-top:14px;">
+                    </button>
+
+                    <!--Menu-->
+                    <div class="dropdown-menu dropdown-menu-right  p-0">
+                        <a class="dropdown-item">Proyect Status</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
+                    </div>
+                </div>
                     <li id="tabGrid" class="nav-item nav-item-selected-custom" onclick="clickGrid()">
                         <a class="nav-link second_nav-item" href="#">Clients</a>
                     </li>
@@ -625,6 +641,7 @@
                 <td><b></b></td>
                 <td><b></b></td>
                 <td><b></b></td>
+                <td><b></b></td>
                
                    
                         </ul>
@@ -635,9 +652,10 @@
             </tbody>
            
         </table>
-        <div class="table-footer">
+        <div class="table-footer d-flex justify-content-between align-items-center">
+            <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE PROPERTY </button>
         <nav aria-label="Page navigation example">
-                        <ul class="pagination pagination-sm pg-blue justify-content-end align-items-center">
+                        <ul class="pagination pagination-sm pg-blue ">
                             <li class="page-item ">
                                 <a class="page-link" tabindex="-1">Previous</a>
                             </li>
@@ -648,7 +666,7 @@
                             <li class="page-item ">
                                 <a class="page-link">Next</a>
                             </li>
-                            <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE PROPERTY </button>
+                            
     </div>
     </div>
     </div>
