@@ -158,7 +158,7 @@
             flex-direction: column;
         }
 
-        .second_nav {
+        .second_nav .second_nav-item {
             display: none;
         }
 
