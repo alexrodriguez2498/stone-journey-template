@@ -167,8 +167,8 @@
                         <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
-                        <input type="text" id="name" class="form-control">
-                        <label for="name">Choose your file</label>
+                        <input type="text" id="form10" class="form-control">
+                        <label for="form10">Choose your file</label>
                     </div>
                 </div>
                 <div class="col-md-6 d-flex">
@@ -177,8 +177,8 @@
                         <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
-                        <input type="text" id="name" class="form-control">
-                        <label for="name">Choose your file</label>
+                        <input type="text" id="form11" class="form-control">
+                        <label for="form11">Choose your file</label>
                     </div>
                 </div>
             </div>
@@ -189,8 +189,8 @@
                         <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
-                        <input type="text" id="name" class="form-control">
-                        <label for="name">Choose your file</label>
+                        <input type="text" id="form12" class="form-control">
+                        <label for="form12">Choose your file</label>
                     </div>
                 </div>
                 <div class="col-md-6 d-flex">
@@ -199,7 +199,7 @@
                         <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
-                        <input type="text" id="name" class="form-control">
+                        <input type="text" id="form13" class="form-control">
                         <label for="name">Choose your file</label>
                     </div>
                 </div>
