@@ -244,7 +244,7 @@
 </div>
 
 <!--<div class="container">-->
-<div class="row container box-center container-box">
+<div class="row container box-center container-box" style="background: no-repeat;">
     <div class="py-3 z-depth-1 col container-child-left" id="background_2">
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
@@ -277,7 +277,7 @@
         </section>
     </div>
 </div>
-<div class="row container box-center container-box container_box_2" style="margin-bottom: 10rem !important;">
+<div class="row container box-center container-box container_box_2" style="background: no-repeat; margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col container-child-left" id="background_4">
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
