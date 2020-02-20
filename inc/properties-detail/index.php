@@ -327,7 +327,7 @@
 <div class="row container box-center container-box d-flex">
 
     <div class="row w-100" style="margin-top: 1rem;">
-        <div class="col-sm-3 pb-0" id="background_1">
+        <div class="col-sm-2 pb-0" id="background_1">
 
 
             <!--Section: Content-->
@@ -339,13 +339,13 @@
             <!--Section: Content-->
 
         </div>
-        <div class="col-sm-9 border-bottom pb-0  d-flex" id="background_1">
+        <div class="col-sm-10 border-bottom pb-0  d-flex" id="background_1">
 
 
             <!--Section: Content-->
 
 
-            <p style="line-height:3rem;"> <b>Architech:</b> Intergaup <br>
+            <p style="line-height:3rem;"> <b>Architech:</b> Intergaup. <br>
                 <b>Adress:</b> Praca do Rossio, 93, Baixa, Lisboa, Portugal <br>
                 <b>Location:</b> <u>www.googlemaps.com/rossio93</u></p>
 
@@ -412,7 +412,7 @@
 
 
 <!--<div class="container">-->
-<div class="row mt-4 container box-center container-box container-box half_container" style="padding:0; ">
+<div class="row mt-4 container box-center container-box container-box half_container" style="padding:0; margin-top: 1.5rem !important;">
     <div class="py-3  col " id="background_2">
 
 
@@ -465,7 +465,7 @@
         <!-- </section> -->
     </div>
     </div>
-    <div class=" container container-box box-center mt-2 last_container_table w-100" style="width: 100%;" id="table">
+    <div class=" container container-box box-center mt-2 last_container_table w-100" style="width: 100%; margin-top: .5rem !important;" id="table">
         <table class="table" style="margin-bottom: 0 !important;">
             <thead>
             <tr>
