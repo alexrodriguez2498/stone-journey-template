@@ -23,7 +23,7 @@
 
 </style>
 
-<div class="row container box-center container-box py-3">
+<div class="row container box-center container-box py-3" style="margin-bottom: 10rem !important;">
     <div class="py-4 z-depth-1 col" id="background_1">
 
 
