@@ -12,9 +12,14 @@
         font-family: "roboto";
     }
 
-    .form-check-input[type="checkbox"]:checked+label:before {
-        border-right: 2px solid #8c6f49 !important;
-        border-bottom: 2px solid #8c6f49 !important;
+    /*.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {*/
+    /*    border-color: #8f734e !important;*/
+    /*    background-color: #8f734e !important;*/
+    /*}*/
+
+    .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+        background-color: #8f734e;
+        border-radius: 50rem;
     }
     .footer-form{
         padding-right:1rem;
