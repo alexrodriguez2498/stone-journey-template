@@ -2,13 +2,10 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-<!--    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximun-scale=1.0; user-scalable=0;">-->
-    <meta  content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"  name="viewport"/>
-<!--    <meta http-equiv="x-ua-compatible" content="ie=edge">-->
+    <meta content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" name="viewport"/>
     <title>
-        <?php bloginfo( 'name'); ?>
+        <?php bloginfo('name'); ?>
     </title>
     <?php wp_head(); ?>
 
@@ -17,20 +14,15 @@
 <body>
 
 <style>
-    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-    body{
-        font-family:"roboto";
-    }
-
-    #imagen{
+    #imagen {
         /*height: 25px;*/
         width: 6rem;
     }
 
     #search_icon {
         color: #8c704a;
-        padding-bottom:1rem;
+        padding-bottom: 1rem;
     }
 
     .small-text {
@@ -41,51 +33,29 @@
     .navbar {
         padding: 1rem 1rem;
     }
-    .navbar-collapse a{
-        margin:0 20px;
-    }
-    .avatar a{
-        margin:0;
-    }
-    .navbar .nav-bold{
-        font-weight:bold;
+
+    .navbar-collapse a {
+        margin: 0 20px;
     }
 
-    html{
-        height:100%;
+    .avatar a {
+        margin: 0;
     }
 
-    @media(min-width:991px){
-        #search_icon{
+    .navbar .nav-bold {
+        font-weight: bold;
+    }
+
+    @media (min-width: 991px) {
+        #search_icon {
             display: none;
         }
     }
 
-    .z-depth-1, .chip:active {
-        -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06) !important;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06) !important;
-    }
-    .dropdown-item:hover{
-        background:#f9f8f6!important;
-        color: #000 !important;
-        box-shadow: none;
-    }
-    .navbar .dropdown .dropdown-menu .dropdown-item:hover{
-        background:#f9f8f6!important;
-        color: #000 !important;
-        box-shadow: none;
-         }
 
 
 
-    /*.box-center {*/
-    /*    max-width: 1440px !important;*/
-    /*    margin: auto !important;*/
-    /*}*/
-    /*.container-box {*/
-    /*    margin-right: 2rem;*/
-    /*    margin-left: 2rem;*/
-    /*}*/
+
 
 </style>
 
@@ -93,11 +63,13 @@
 <nav class="mb-1 navbar navbar-expand-lg navbar-light white lighten-1 navbar-padding z-depth-1 pb-0">
 
     <div class="container box-center">
-        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Logo.png" id="imagen" style="padding-bottom:16px; alt=">
+        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Logo.png" id="imagen" class="pb"
+             style="padding-bottom:16px; alt=">
 
         <div style="margin-top: -0.3rem;">
             <i class="fas fa-search" id="search_icon"></i>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent-555"
                     aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars" style="color: #8c704a;"></i>
             </button>
@@ -107,11 +79,11 @@
                 <?php
                 if (strpos($_SERVER['REQUEST_URI'], 'main') !== false) {
                     echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
-                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Dashboard</a>
+                <a class="nav-link pb-24" style="color:#8f734e;" href="main">Dashboard</a>
             </li> ';
                 } else {
                     echo '<li class="nav-item" >
-                <a class="nav-link" style="padding-bottom:24px;" href="#">Dashboard</a>
+                <a class="nav-link" style="padding-bottom:24px;" href="main">Dashboard</a>
             </li>';
                 }
                 ?>
@@ -119,11 +91,11 @@
                 <?php
                 if (strpos($_SERVER['REQUEST_URI'], 'properties') !== false) {
                     echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
-                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Properties</a>
+                <a class="nav-link pb-24" style="color:#8f734e;" href="properties">Properties</a>
             </li> ';
                 } else {
                     echo '<li class="nav-item" >
-                <a class="nav-link" style="padding-bottom:24px;" href="#">Properties</a>
+                <a class="nav-link" style="padding-bottom:24px;" href="properties">Properties</a>
             </li>';
                 }
                 ?>
@@ -131,11 +103,11 @@
                 <?php
                 if (strpos($_SERVER['REQUEST_URI'], 'clients') !== false) {
                     echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
-                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Clients</a>
+                <a class="nav-link pb-24" style="color:#8f734e;" href="clients">Clients</a>
             </li> ';
                 } else {
                     echo '<li class="nav-item" >
-                <a class="nav-link" style="padding-bottom:24px;" href="#">Clients</a>
+                <a class="nav-link" style="padding-bottom:24px;" href="clients">Clients</a>
             </li>';
                 }
                 ?>
@@ -143,11 +115,11 @@
                 <?php
                 if (strpos($_SERVER['REQUEST_URI'], 'milestones') !== false) {
                     echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
-                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Milestones</a>
+                <a class="nav-link pb-24" style="color:#8f734e;" href="milestones">Milestones</a>
             </li> ';
                 } else {
                     echo '<li class="nav-item" >
-                <a class="nav-link" style="padding-bottom:24px;" href="#">Milestones</a>
+                <a class="nav-link" style="padding-bottom:24px;" href="milestones">Milestones</a>
             </li>';
                 }
                 ?>
@@ -155,11 +127,11 @@
                 <?php
                 if (strpos($_SERVER['REQUEST_URI'], 'documents') !== false) {
                     echo '<li class="nav-item" style="border-bottom:1.5px solid #8f734e;">
-                <a class="nav-link pb-24" style="color:#8f734e;" href="#">Documents</a>
+                <a class="nav-link pb-24" style="color:#8f734e;" href="documents">Documents</a>
             </li> ';
                 } else {
                     echo '<li class="nav-item" >
-                <a class="nav-link" style="padding-bottom:24px;" href="#">Documents</a>
+                <a class="nav-link" style="padding-bottom:24px;" href="documents">Documents</a>
             </li>';
                 }
                 ?>
@@ -175,7 +147,8 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" style="margin:0;" data-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" style="margin:0;"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Profile</a>

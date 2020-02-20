@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 
 <style>
-    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
     .container-child-right {
         margin: 0.5rem 0 0.5rem 0.5rem;
         height: 100px;
@@ -18,9 +16,6 @@
     }
 
     #background_1 {
-        /*height: 200px;*/
-        /*display:flex;*/
-        /*align-items:center;*/
         padding: 15px 15px;
     }
 
@@ -121,24 +116,11 @@
 
     }
 
-    .card-body{
-        padding:0.5rem;
-    }
-    .card-img-top{
-        height:auto;
-    }
     .col mb-4 {
         height: fit-content;
     }
 
     @media (max-width: 450px) {
-        .card-title {
-            font-size: 1rem !important;
-        }
-        .card-text {
-            font-size: 0.75rem !important;
-            line-height: initial;
-        }
         #background_1 p {
             font-size: 1rem !important;
             line-height: initial;
@@ -237,31 +219,21 @@
     .dropdown .dropdown-menu{
         left: -4rem !important;
     }
-
-
-
 </style>
 
 <div class="row container box-center">
     <div class="py-3 z-depth-1 col" id="background_1" style="margin: 1rem 0 0.5rem 0;">
-
-
-        <!--Section: Content-->
         <section class="px-sm-2 mx-sm-2 dark-grey-text" id="container__center" style="margin-top: 1rem;">
-
             <h3>Welcome Ana Malgahaes,</h3>
-            <p>This is your <strong>Stone Journey Dashboard,</strong> from here you can manage your Properties, Clients,
-                Milestones and Documents.</p>
-
+            <p>
+                This is your <strong>Stone Journey Dashboard,</strong> from here you can manage your Properties, Clients,
+                Milestones and Documents.
+            </p>
         </section>
-        <!--Section: Content-->
-
-
     </div>
 </div>
 
-<!--<div class="container">-->
-<div class="row container box-center container-box" style="background: no-repeat;">
+<div class="row container box-center container-box background-none">
     <div class="py-3 z-depth-1 col container-child-left" id="background_2">
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
@@ -294,7 +266,7 @@
         </section>
     </div>
 </div>
-<div class="row container box-center container-box container_box_2" style="background: no-repeat; margin-bottom: 10rem !important;">
+<div class="row container box-center container-box container_box_2 background-none" style="margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col container-child-left" id="background_4">
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
 
@@ -313,7 +285,6 @@
 
     <div class=" py-3 z-depth-1 col container-child-right" id="background_5">
         <section class="px-sm-2 mx-sm-2 dark-grey-text">
-
             <h4>Documents</h4>
             <div class="nav-item dropdown">
                 <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -323,14 +294,9 @@
                 <a class="dropdown-item" href="#">View List</a>
                 <a class="dropdown-item" href="#">Create New</a>
             </div>
-    
-
-
-
         </section>
     </div>
 </div>
-<!--</div>-->
 
 
 <?php get_footer(); ?>

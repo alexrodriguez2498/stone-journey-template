@@ -328,7 +328,7 @@
 
 </style>
 
-<div class="row container box-center container-box py-3" style="margin-top: 2rem;">
+<div class="row container box-center container-box py-3 background-none" style="margin-top: 2rem;">
     <div class="py-4 z-depth-1 col" id="background_1">
 
 
@@ -350,7 +350,7 @@
 </div>
 
 <!--<div class="container">-->
-<div class="row mt-4 container box-center container-box container-box half_container" style="margin-bottom: 10rem !important;">
+<div class="row mt-4 container box-center container-box container-box half_container background-none" style="margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col " id="background_2">
         <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
         <!-- <div class="background_2-content"> -->
