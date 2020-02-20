@@ -298,7 +298,7 @@
     }
     .images_container {
         display: grid;
-        grid-template: 250px 0/ repeat(6, 1fr);
+        grid-template: 250px / repeat(6, 1fr);
         padding-top:1rem;
         grid-gap: 0 5px;
         padding-left:0;
@@ -372,7 +372,7 @@
         </div>
 </div>
 <div class="row container box-center container-box " style="margin-top: 2rem;">
-    <div class="col pt-0" id="background_1">
+    <div class=" col-sm-12 col-md-6 pt-0" id="background_1">
 
 
         <!--Section: Content-->
@@ -390,7 +390,7 @@
         <!--Section: Content-->
  
     </div>
-    <div class="col pt-0" id="background_1">
+    <div class="col-sm-12 col-md-6 pt-0" id="background_1">
 
 
         <!--Section: Content-->
@@ -431,7 +431,7 @@
 
                     <!--Menu-->
                     <div class="dropdown-menu dropdown-menu-right  p-0">
-                        <a class="dropdown-item">Proyect Status</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
@@ -465,7 +465,7 @@
         <!-- </section> -->
     </div>
     </div>
-    <div class=" container container-box box-center mt-2 last_container_table w-100" style="width: 100%; margin-top: .5rem !important;" id="table">
+    <div class=" container container-box box-center mt-2 last_container_table w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="table">
         <table class="table" style="margin-bottom: 0 !important;">
             <thead>
             <tr>
@@ -669,7 +669,313 @@
                             
     </div>
     </div>
+ 
+
+<div class="d-block d-md-none w-100" id="table2">
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+        </div>
+        <div class="mobile-card-content"style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+                <p class="card-text"style="margin:0;">
+                
+                    <b>EMAIL: </b> email@email.com<br>
+                    <b>PROPERTY: </b> Rossio 93  <br>
+                    <b>PHONE: </b> +123 456 789<br>
+                    <b>NATIONALITY: </b> Portuhuese <br>
+                    <b>LEGAL REPRESENTATIVE: </b> Ana Flores
+
+            </p>
+        </div>
+
     </div>
+    </div>
+</div>
+
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+        </div>
+        <div class="mobile-card-content"style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+                <p class="card-text"style="margin:0;">
+                
+                    <b>EMAIL: </b> email@email.com<br>
+                    <b>PROPERTY: </b> Vila Maria Pia  <br>
+                    <b>PHONE: </b> +123 456 789<br>
+                    <b>NATIONALITY: </b> English <br>
+                    <b>LEGAL REPRESENTATIVE: </b> Jose Lamego
+
+            </p>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+        </div>
+        <div class="mobile-card-content"style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+                 <p class="card-text"style="margin:0;">
+
+                    <b>EMAIL: </b> email@email.com<br>
+                    <b>PROPERTY: </b> Rosa  <br>
+                    <b>PHONE: </b> +123 456 789<br>
+                    <b>NATIONALITY: </b> American <br>
+                    <b>LEGAL REPRESENTATIVE: </b> Rita Rufia
+
+            </p>
+        </div>
+        </div>
+    </div>
+
+</div>
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+        </div>
+        <div class="mobile-card-content"style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater</b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+                <p class="card-text"style="margin:0;">
+                
+                    <b>EMAIL: </b> email@email.com<br>
+                    <b>PROPERTY: </b> Santa Justa 60  <br>
+                    <b>PHONE: </b> +123 456 789<br>
+                    <b>NATIONALITY: </b> Spanish <br>
+                    <b>LEGAL REPRESENTATIVE: </b> Danny Ocean
+
+            </p>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+        </div>
+        <div class="mobile-card-content" style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Carissa Moore</b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+            <p class="card-text"style="margin:0;">
+                
+                <b>EMAIL: </b> email@email.com<br>
+                <b>PROPERTY: </b> Jardim da Gloria  <br>
+                <b>PHONE: </b> +123 456 789<br>
+                <b>NATIONALITY: </b> Portuguese <br>
+                <b>LEGAL REPRESENTATIVE: </b> Oscar Barreto
+
+            </p>
+        </div>
+
+     </div>
+
+    </div>
+</div>
+
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+        </div>
+        <div class="mobile-card-content"style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+                <p class="card-text"style="margin:0;">
+                
+                    <b>EMAIL: </b> email@email.com<br>
+                    <b>PROPERTY: </b> Rossio 93  <br>
+                    <b>PHONE: </b> +123 456 789<br>
+                    <b>NATIONALITY: </b> Portuhuese <br>
+                    <b>LEGAL REPRESENTATIVE: </b> Ana Flores
+
+            </p>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+        </div>
+        <div class="mobile-card-content"style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+                <p class="card-text"style="margin:0;">
+                
+                    <b>EMAIL: </b> email@email.com<br>
+                    <b>PROPERTY: </b> Vila Maria Pia  <br>
+                    <b>PHONE: </b> +123 456 789<br>
+                    <b>NATIONALITY: </b> English <br>
+                    <b>LEGAL REPRESENTATIVE: </b> Jose Lamego
+
+            </p>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+        </div>
+        <div class="mobile-card-content"style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+                 <p class="card-text"style="margin:0;">
+                    
+                    <b>EMAIL: </b> email@email.com<br>
+                    <b>PROPERTY: </b> Rosa  <br>
+                    <b>PHONE: </b> +123 456 789<br>
+                    <b>NATIONALITY: </b> American <br>
+                    <b>LEGAL REPRESENTATIVE: </b> Rita Rufia
+
+            </p>
+        </div>
+        </div>
+    </div>
+
+</div>
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+        </div>
+        <div class="mobile-card-content"style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater </b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+                <p class="card-text"style="margin:0;">
+                
+                    <b>EMAIL: </b> email@email.com<br>
+                    <b>PROPERTY: </b> Santa Justa 60  <br>
+                    <b>PHONE: </b> +123 456 789<br>
+                    <b>NATIONALITY: </b> Spanish <br>
+                    <b>LEGAL REPRESENTATIVE: </b> Danny Ocean
+
+            </p>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="card ">
+    <div class="card-body d-flex" style="padding:1rem;">
+        <!-- card content -->
+        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+        </div>
+        <div class="mobile-card-content" style="width:100%;">
+            <h5 class="card-title d-flex justify-content-between mb-0"><b> Ms. Carissa Moore </b>  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div> </h5>
+
+            <p class="card-text"style="margin:0;">
+                
+                <b>EMAIL: </b> email@email.com<br>
+                <b>PROPERTY: </b> Jardim da Gloria  <br>
+                <b>PHONE: </b> +123 456 789<br>
+                <b>NATIONALITY: </b> Portuguese <br>
+                <b>LEGAL REPRESENTATIVE: </b> Oscar Barreto
+
+            </p>
+        </div>
+
+     </div>
+
+    </div>
+</div>
+</div>
+
+
+
+
     <div class="container container-box box-center images_container" style="margin-bottom: 10rem !important;">
     <div class="image_content">contenido #1</div>
     <div class="image_content">contenido #2</div>

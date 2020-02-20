@@ -145,7 +145,7 @@
         }
     }
     #background_2:hover{
-        background: #8f734e;
+        background-color: #8f734e;
     }
     #background_3:hover{
         background-color: #8f734e;
@@ -156,6 +156,23 @@
     #background_5:hover{
         background-color: #8f734e;
     }
+
+    #background_2{
+        transition:color 0.5s;
+    }
+    #background_3{
+        transition:color 0.5s;
+
+    }
+    #background_4{
+        transition:color 0.5s;
+
+    }
+    #background_5{
+        transition:color 0.5s;
+
+    }
+    
     #background_2 section {
         display:flex;
         flex-direction: row;

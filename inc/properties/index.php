@@ -369,7 +369,7 @@
 
                     <!--Menu-->
                     <div class="dropdown-menu dropdown-menu-right  p-0">
-                        <a class="dropdown-item">Proyect Status</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
