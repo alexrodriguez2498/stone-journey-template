@@ -317,46 +317,29 @@
 
 </style>
 
-<<<<<<< HEAD
-<link href="http://allfont.es/allfont.css?fonts=roboto-light" rel="stylesheet" type="text/css"/>
+<div class="row container box-center container-box py-3 d-flex" style="margin-top: 2rem !important; border-bottom: 2px solid #8c6f49; padding-bottom: .5rem !important;">
 
-<div class="row container box-center container-box p-0" style="margin-top: 2rem;">
-    <div class=" col" id="background_1"style="border-bottom: 1.5px solid #947956;>
-=======
-<div class="row container box-center container-box py-3" style="margin-top: 2rem;">
-    <div class="py-4 z-depth-1 col" id="background_1">
->>>>>>> 5113b093f850ff38462d2c3e82a7c49d7cf0278b
-
-
-        <!--Section: Content-->
-        <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
-
-        <h2>Rossio 93 - Beauty in motion</h2>
-
-        </section>
-        <!--Section: Content-->
- 
-    </div>
-  
+    <section class="px-md-2 mx-md-2 dark-grey-text w-100">
+        <h3 class="h3">Rossio 93 - Beauty in motion</h3>
+    </section>
 </div>
 
-<div class="container container-box box-center d-flex">
-    <div class="row  " style="margin-top: 2rem;">
-        <div class="  col" id="background_1">
+<div class="row container box-center container-box d-flex">
+
+    <div class="row w-100" style="margin-top: 1rem;">
+        <div class="col-sm-3 pb-0" id="background_1">
 
 
             <!--Section: Content-->
-            <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
+            <section class="px-md-2 mx-md-2 dark-grey-text w-100" >
 
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" style="width:15rem;" alt="">
+            <img class="w-100" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="">
 
             </section>
             <!--Section: Content-->
 
         </div>
-    </div>
-    <div class="row container" style="margin-top: 2rem;">
-        <div class="col border-bottom pb-0" id="background_1">
+        <div class="col-sm-9 border-bottom pb-0  d-flex" id="background_1">
 
 
             <!--Section: Content-->
@@ -668,7 +651,7 @@
                             <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE PROPERTY </button>
     </div>
     </div>
- 
+    </div>
     <div class="container container-box box-center images_container" style="margin-bottom: 10rem !important;">
     <div class="image_content">contenido #1</div>
     <div class="image_content">contenido #2</div>
