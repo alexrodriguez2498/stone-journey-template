@@ -216,9 +216,9 @@
         box-shadow: none;
     }
 
-    .dropdown .dropdown-menu{
-        left: -4rem !important;
-    }
+    /*.dropdown .dropdown-menu{*/
+    /*    left: -4rem !important;*/
+    /*}*/
 </style>
 
 <div class="row container box-center">

@@ -20,11 +20,6 @@
         width: 6rem;
     }
 
-    #search_icon {
-        color: #8c704a;
-        padding-bottom: 1rem;
-    }
-
     .small-text {
         font-size: 0.75rem;
         font-weight: bold;
@@ -46,17 +41,6 @@
         font-weight: bold;
     }
 
-    @media (min-width: 991px) {
-        #search_icon {
-            display: none;
-        }
-    }
-
-
-
-
-
-
 </style>
 
 <!--Navbar -->
@@ -67,7 +51,6 @@
              style="padding-bottom:16px; alt=">
 
         <div style="margin-top: -0.3rem;">
-            <i class="fas fa-search" id="search_icon"></i>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent-555"
                     aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">

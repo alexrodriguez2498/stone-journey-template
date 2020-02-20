@@ -326,6 +326,12 @@
         font-weight:900;
     }
 
+    .icon_size_custom {
+        font-size: 1.4rem !important;
+        height: fit-content;
+        line-height: inherit;
+    }
+
 </style>
 
 <div class="row container box-center container-box py-3 background-none" style="margin-top: 2rem;">
@@ -397,8 +403,8 @@
 <!--                    <i class="fas fa-th-large fa-2x second_nav_icon" style="padding: .5rem; color: #947956;"></i>-->
             </ul>
 
-            <i id="iconGrid" class="fas fa-th-large fa-2x second_nav_icon" onclick="clickGrid()"></i>
-            <i id="iconTable" class="fas fa-list fa-2x second_nav_icon" onclick="clickTable()"></i>
+            <i id="iconGrid" class="fas fa-th-large fa-2x second_nav_icon icon_size_custom" onclick="clickGrid()"></i>
+            <i id="iconTable" class="fas fa-list fa-2x second_nav_icon icon_size_custom" onclick="clickTable()"></i>
 
         </div>
 
@@ -420,7 +426,7 @@
                     <h4 class="tittleCardCustom">Rossio 93 </h4>
                 </div>
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -455,7 +461,7 @@
                     <h4 class="tittleCardCustom">Vila Maria Pia</h4>
                 </div>
                 <div class="nav-item dropdown align-self-right">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -491,7 +497,7 @@
                     <h4 class="tittleCardCustom">Augusta 170</h4>
                 </div>
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -544,7 +550,7 @@
                 <td class="td_text">Rossio</td>
                 <td class="td_text">Lisboa</td>
                 <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -559,7 +565,7 @@
                 <td class="td_text">Vila Maria Pia</td>
                 <td class="td_text">Estpril</td>
                 <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -573,7 +579,7 @@
                 <td class="td_text">Augusta 170</td>
                 <td class="td_text">Lisboa</td>
                 <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -587,7 +593,7 @@
                 <td class="td_text">Santa Isabel</td>
                 <td class="td_text">Lisboa</td>
                 <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -601,7 +607,7 @@
                 <td>Santa Justa</td>
                 <td>Lisboa</td>
                 <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -647,7 +653,7 @@
                 </div>
                 <div class="mobile-card-content"style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Rossio</b>  <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item">Edit Property</a>
@@ -672,7 +678,7 @@
                 </div>
                 <div class="mobile-card-content"style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Vila Maria Pia</b>  <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item">Edit Property</a>
@@ -697,7 +703,7 @@
                 </div>
                 <div class="mobile-card-content"style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Augusta 170</b>  <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item">Edit Property</a>
@@ -721,7 +727,7 @@
                 </div>
                 <div class="mobile-card-content"style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Isable</b>  <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item">Edit Property</a>
@@ -746,7 +752,7 @@
                 </div>
                 <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Justa</b>  <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item">Edit Property</a>

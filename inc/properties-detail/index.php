@@ -292,7 +292,7 @@
             <td class="td_text">Portuguese</td>
             <td class="d-flex td_text justify-content-between"> Ana Flores
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -311,7 +311,7 @@
             <td class="td_text">English</td>
             <td class="d-flex td_text justify-content-between">Jose Lamergo
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -329,7 +329,7 @@
             <td class="td_text">American</td>
             <td class="d-flex td_text justify-content-between">Rita Rufia
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -347,7 +347,7 @@
             <td class="td_text">Spanish</td>
             <td class="d-flex td_text justify-content-between">Danny Ocean
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -365,7 +365,7 @@
             <td class="td_text">Portuguese</td>
             <td class="d-flex td_text justify-content-between"> Oscar Barreto
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -384,7 +384,7 @@
             <td class="td_text">Portuguese</td>
             <td class="d-flex td_text justify-content-between"> Ana Flores
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -403,7 +403,7 @@
             <td class="td_text">English</td>
             <td class="d-flex td_text justify-content-between">Jose Lamergo
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -421,7 +421,7 @@
             <td class="td_text">American</td>
             <td class="d-flex td_text justify-content-between">Rita Rufia
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -439,7 +439,7 @@
             <td class="td_text">Spanish</td>
             <td class="d-flex td_text justify-content-between">Danny Ocean
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -457,7 +457,7 @@
             <td class="td_text">Portuguese</td>
             <td class="d-flex td_text justify-content-between"> Oscar Barreto
                 <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
@@ -480,7 +480,7 @@
 
     </table>
     <div class="table-footer d-flex justify-content-between align-items-center">
-        <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE PROPERTY</button>
+        <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem; margin-top: -1rem;">CREATE CLIENTS</button>
         <nav aria-label="Page navigation example">
             <ul class="pagination pagination-sm pg-blue ">
                 <li class="page-item ">
@@ -511,7 +511,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -542,7 +542,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -573,7 +573,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -603,7 +603,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -634,7 +634,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Carissa Moore</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -666,7 +666,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -697,7 +697,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -728,7 +728,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -758,7 +758,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater </b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -789,7 +789,7 @@
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b> Ms. Carissa Moore </b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
