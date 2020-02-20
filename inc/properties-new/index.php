@@ -19,6 +19,10 @@
     .footer-form{
         padding-right:1rem;
     }
+    .custom-control{
+        padding-left:3rem;
+    }
+   
   
 
 </style>
@@ -90,18 +94,35 @@
 
                 <div class="col-md-6">
                     <h5>Properties Status</h5>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
-                        <label class="form-check-label" for="materialChecked2">Completed</label>
+                    <!-- Group of default radios - option 1 -->
+                    <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadiosLeft">
+                    <label class="custom-control-label" for="defaultGroupExample1"> Completed</label>
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="materialChecked3">
-                        <label class="form-check-label" for="materialChecked3">Current</label>
+
+                    <!-- Group of default radios - option 2 -->
+                    <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadiosLeft" checked>
+                    <label class="custom-control-label" for="defaultGroupExample2">Current</label>
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="materialChecked4">
-                        <label class="form-check-label" for="materialChecked4">Sold</label>
+
+                    <!-- Group of default radios - option 3 -->
+                    <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample3" name="groupOfDefaultRadiosLeft">
+                    <label class="custom-control-label" for="defaultGroupExample3">Sold</label>
                     </div>
+    <!-- <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+        <label class="form-check-label" for="materialChecked2">Completed</label>
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="materialChecked3">
+        <label class="form-check-label" for="materialChecked3">Current</label>
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="materialChecked4">
+        <label class="form-check-label" for="materialChecked4">Sold</label>
+    </div> -->
                     <div class="md-form">
                         <input type="text" id="name" class="form-control">
                         <label for="name">Website</label>
@@ -109,26 +130,56 @@
                 </div>
                 <div class="col-md-5">
                     <h5>Progression</h5>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="materialChecked5" checked>
-                        <label class="form-check-label" for="materialChecked5">[1]Promissory Contract</label>
+                    <!-- Group of default radios - option 1 -->
+                    <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample4" name="groupOfDefaultRadiosRight">
+                    <label class="custom-control-label" for="defaultGroupExample4">[1]Promissory Contract</label>
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="materialChecked6">
-                        <label class="form-check-label" for="materialChecked6">[2]Licence Construction</label>
+
+                    <!-- Group of default radios - option 2 -->
+                    <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample5" name="groupOfDefaultRadiosRight" checked>
+                    <label class="custom-control-label" for="defaultGroupExample5">[2]Licence Construction</label>
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="materialChecked7">
-                        <label class="form-check-label" for="materialChecked7">[3]Construction Completed</label>
+
+                    <!-- Group of default radios - option 3 -->
+                    <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample6" name="groupOfDefaultRadiosRight">
+                    <label class="custom-control-label" for="defaultGroupExample6">[3]Construction Completed</label>
+                    </div><!-- Group of default radios - option 4 -->
+                    <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample7" name="groupOfDefaultRadiosRight">
+                    <label class="custom-control-label" for="defaultGroupExample7">[4]Habitation License</label>
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="materialChecked8" checked>
-                        <label class="form-check-label" for="materialChecked8">[4]Habitation License</label>
+
+                    <!-- Group of default radios - option 5 -->
+                    <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample8" name="groupOfDefaultRadiosRight" >
+                    <label class="custom-control-label" for="defaultGroupExample8">[5]Completion od Sale</label>
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="materialChecked9">
-                        <label class="form-check-label" for="materialChecked9">[5]Completion od Sale</label>
-                    </div>
+
+
+
+    <!-- <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="materialChecked5" checked>
+        <label class="form-check-label" for="materialChecked5">[1]Promissory Contract</label>
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="materialChecked6">
+        <label class="form-check-label" for="materialChecked6">[2]Licence Construction</label>
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="materialChecked7">
+        <label class="form-check-label" for="materialChecked7">[3]Construction Completed</label>
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="materialChecked8" checked>
+        <label class="form-check-label" for="materialChecked8">[4]Habitation License</label>
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="materialChecked9">
+        <label class="form-check-label" for="materialChecked9">[5]Completion od Sale</label>
+    </div> -->
                    
 
                 </div>
