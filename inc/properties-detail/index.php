@@ -817,37 +817,37 @@
 <div class="container container-box box-center " style="margin-bottom: 10rem !important;">
 <div class="mdb-lightbox">
 
-<figure class="col-md-2">
+<figure class="col-sm-6 col-md-2">
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
       class="img-fluid">
   </a>
 </figure>
 
-<figure class="col-md-2">
+<figure class="col-sm-6 col-md-2">
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
       class="img-fluid" />
   </a>
 </figure>
 
-<figure class="col-md-2">
+<figure class="col-sm-6 col-md-2">
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
       class="img-fluid" />
   </a>
 </figure>
 
-<figure class="col-md-2">
+<figure class="col-sm-6 col-md-2">
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
       class="img-fluid" />
   </a>
 </figure>
 
-<figure class="col-md-2">
+<figure class="col-sm-6 col-md-2">
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
       class="img-fluid" />
   </a>
 </figure>
 
-<figure class="col-md-2">
+<figure class="col-sm-6 col-md-2">
     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
       class="img-fluid" />
   </a>
