@@ -88,7 +88,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <h5>Properties Status</h5>
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="md-form">
                         <input type="text" id="name" class="form-control">
-                        <label for="name">Name</label>
+                        <label for="name">Website</label>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -144,19 +144,22 @@
                 </div>
             </div>
             <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="md-form ">
                         <input type="text" id="Estimated-date-for-begining-of-construction" class="form-control">
                         <label for="Estimated-date-for-begining-of-construction">Estimated date for begining of construction</label>
                     </div>
                 </div>
-                <div class="col-md-7">
+            </div>
+            <div class="row">
+                <div class="col-md-6">
                 <div class="md-form ">
                         <input type="text" id="Estimated-delivery-date" class="form-control">
                         <label for="Estimated-delivery-date">Estimated delivery date</label>
                     </div>
                 </div>
             </div>
+       
             <div class="row">
                 <div class="col-md-6 d-flex">
                     <div class="footer-form">
