@@ -5,22 +5,10 @@
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
     #background_1 {
-        /*height: 200px;*/
-        /*display: flex;*/
+   
         align-items: center;
         padding: 15px 15px;
     }
-
-    #container__center h3 {
-        font-size: 45px;
-        font-weight: 400;
-    }
-
-    #container__center p {
-        font-size: 22px;
-    }
-
-
     body {
         background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
         background-size: cover;
@@ -30,275 +18,82 @@
         /* background-opacity:0.5; */
         font-family: "roboto";
     }
-
-    @media (max-width: 425px) {
-        .container-box {
-            display: flex;
-            flex-direction: column;
-        }
-
-        #background_3 {
-            margin-left: 0;
-        }
-
-        #background_5 {
-            margin-left: 0;
-        }
-
-        /*                                                                     revisar lo que esta encerrado */
-        #background_1 h3 {
-            font-size: 16px;
-        }
-
-        .container-box-2 {
-            margin-top: 0;
-        }
-    }
-
-    @media (max-width: 650px) {
-        #background_1 {
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-            height: auto;
-            padding-top: 1rem !important;
-            padding-bottom: 1rem !important;
-        }
-
-        #background_1 h3 {
-            font-size: 30px;
-        }
-
-        #background_1 p {
-        }
-    }
-
-    #background_1 {
-        background: white;
-    }
-
     #background_2 {
-        background: white;
-        /*display: flex;*/
-        align-items: center;
-        /* padding-bottom:0! important; */
-        justify-content: space-between;
         padding: 8px 30px 10px 30px !important;
-
     }
-
-    #background_3 {
-        background: white;
-
-    }
-
-    #background_4 {
-        background: white;
-
-    }
-
-    #background_5 {
-        background: white;
-
-    }
-
     .button {
         color: white;
         background: #947956;
     }
-
     .second_nav {
         display: flex;
         list-style: none;
     }
-
     .second_nav .second_nav-item {
         color: black;
         font-weight: bold;
         padding: 10px 50px;
     }
-
-    .second_nav .search {
-        color: #9e9fa0;
-        border-bottom: 1px solid #9e9fa0;
-        padding-left: 100px;
-    }
-
-    .cards_container {
-        display: flex;
-        /*margin-top: 30px;*/
-        justify-content: space-between;
-
-    }
-
-    .card-icon-title {
-        display: flex;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .card-icon-title h4 {
-        padding-left: 10px;
-        padding-top: 10px;
-    }
-
     .card {
         margin: 20px;
     }
-
-    .card-one {
-        margin-left: 0 !important;
-    }
-
-    .card-three {
-        margin-right: 0 !important;
-    }
-
-    @media (max-width: 910px) {
-        .cards_container {
-            flex-direction: column;
-        }
-
+    @media (max-width: 938px) {
+        
         .second_nav .second_nav-item {
             display: none;
         }
-
     }
-
-    /* .background_1-button{
-        display:flex;
-    } */
-    .cards_container .card h4 {
-        font-weight: bold;
-    }
-
-    .cards_container .card .card-text strong {
-        font-weight: bold;
-        color: black;
-    }
-
-    #background_1 h4 {
-        font-size: 52px;
-    }
-
     #background_1 p {
         font-size: 1.43rem;
         line-height: 30px;
     }
-
     .card .card-body .card-text {
-        font-size: 16px;
+        font-size: 1rem;
     }
-
-    .half_container {
-        justify-content: center;
-    }
-
     #dropdownMenu1 {
         box-shadow: 0 0 0 0;
         margin: 0;
         padding-top: 0;
-
     }
-
     @media (max-width: 915px) {
         .card {
             margin-left: 0 !important;
             margin-right: 0 !important;
         }
     }
-
-    .card-body {
-        padding: 1rem;
-    }
-
-    .card-img-top {
-        height: auto;
-    }
-
-    .col mb-4 {
-        height: fit-content;
-    }
-
-    @media (max-width: 450px) {
-        .card-title {
-            font-size: 1rem !important;
-        }
-
-        .card-text {
-            font-size: 0.75rem !important;
-            line-height: initial;
-        }
-
-        #background_1 p {
-            font-size: 1rem !important;
-            line-height: initial;
-        }
-
-        .add-button {
-            padding: 0.5rem 1rem !important;
-        }
-    }
-
-    /* footer{
-        position:fixed;
-        width:100%;
-    } */
-    .middle-nav a {
-        color: black;
-    }
-
-    .middle-nav .nav-space {
-        padding: 0 100px;
-    }
-
-    .middle-nav {
-        box-sizing: border-box !important;
-    }
-
     .dropdown .dropdown-menu .dropdown-item:hover {
         background: #f9f8f6 !important;
         color: #000 !important;
         box-shadow: none;
     }
-
     @media (min-width: 900px) and (max-width: 995px) {
         .tittleCardCustom {
             font-size: 1.2rem !important;
         }
     }
-
     .nav-item-selected-custom {
         border-bottom: 1.5px solid #967c5c;
         height: fit-content;
         padding-bottom: 10px;
     }
-
     .last_container_table {
         border: 1px solid #dee2e6;
         background: #ffffff;
         padding: 1rem;
         padding-bottom: 0 !important;
     }
-
     .last_container_table table tbody tr td {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
-
     #seach {
         border-bottom: 1px solid #947956 !important;
         box-shadow: 0 1px 0 0 #947956 !important;
     }
-
     #seach:focus {
         border-bottom: 1px solid #947956 !important;
         box-shadow: 0 1px 0 0 #947956 !important;
     }
-
-    .mobile-card-content strong {
-        font-weight: 900;
-    }
-
     .images_container {
         display: grid;
         grid-template: 250px / repeat(6, 1fr);
@@ -309,17 +104,14 @@
         margin-top: 30px;
         margin-bottom: 40px;
     }
-
     .images_container .image_content {
         background-image: url('https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     b {
         font-weight: bold;
     }
-
 </style>
 
 <div class="row container box-center container-box py-3 d-flex"
