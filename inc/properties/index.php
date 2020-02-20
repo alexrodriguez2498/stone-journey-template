@@ -112,6 +112,12 @@
         list-style: none;
     }
 
+    .second_nav_icon {
+        display: none;
+        padding: .5rem;
+        color: #947956;
+    }
+
     .second_nav .second_nav-item {
         color: black;
         font-weight: bold;
@@ -122,6 +128,13 @@
         color: #9e9fa0;
         border-bottom: 1px solid #9e9fa0;
         padding-left: 100px;
+    }
+
+    @media (max-width: 470px) {
+        #searchContainer {
+            width: 40%;
+            padding-left: 0;
+        }
     }
 
     .cards_container {
@@ -161,6 +174,22 @@
 
         .second_nav {
             display: none;
+        }
+
+        .second_nav_icon {
+            display: flex;
+        }
+
+    }
+
+    @media (min-width: 911px) {
+
+        /*.second_nav {*/
+        /*    display: none !important;*/
+        /*}*/
+
+        .second_nav_icon {
+            display: none !important;
         }
 
     }
@@ -355,17 +384,22 @@
                     </li>
 
                 </ul>
+
             </div>
 
             <!--/Dropdown primary-->
-            <ul class="">
-
-                <form class="form-inline">
-                    <div class="md-form my-0" style="padding-bottom:16px;">
-                        <input id="seach" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    </div>
-                </form>
+            <ul class="d-flex" id="searchContainer">
+                    <form class="form-inline">
+                        <div class="md-form my-0" style="padding-bottom:16px;">
+                            <input id="seach" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        </div>
+                    </form>
+<!--                    <i class="fas fa-th-large fa-2x second_nav_icon" style="padding: .5rem; color: #947956;"></i>-->
             </ul>
+
+            <i id="iconGrid" class="fas fa-th-large fa-2x second_nav_icon" onclick="clickGrid()"></i>
+            <i id="iconTable" class="fas fa-list fa-2x second_nav_icon" onclick="clickTable()"></i>
+
         </div>
 
         <!-- </div> -->
@@ -734,11 +768,14 @@
 <script>
     document.getElementById('table').style.cssText = 'display:none !important';
     document.getElementById('table2').style.cssText = 'display:none !important';
+    document.getElementById('iconGrid').style.cssText = 'display:none !important';
 
     function clickGrid() {
         document.getElementById('table').style.cssText = 'display:none !important';
         document.getElementById('table2').style.cssText = 'display:none !important';
+        document.getElementById('iconGrid').style.cssText = 'display:none !important';
         document.getElementById('grid').style.display = 'flex';
+        document.getElementById('iconTable').style.display = 'flex';
 
 
         document.getElementById('tabList').classList.remove("nav-item-selected-custom");
@@ -747,8 +784,10 @@
 
     function clickTable() {
         document.getElementById('grid').style.display = 'none';
+        document.getElementById('iconTable').style.display = 'none';
         document.getElementById('table').style.display = 'flex';
         document.getElementById('table2').style.display = 'flex';
+        document.getElementById('iconGrid').style.display = 'flex';
 
         document.getElementById('tabGrid').classList.remove("nav-item-selected-custom");
         document.getElementById('tabList').classList.add("nav-item-selected-custom");

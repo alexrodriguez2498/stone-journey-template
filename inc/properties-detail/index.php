@@ -437,7 +437,7 @@
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
                     </div>
                 </div>
-                    <li id="tabGrid" class="nav-item nav-item-selected-custom" onclick="clickGrid()">
+                    <li id="tabGrid" class="nav-item nav-item-selected-custom">
                         <a class="nav-link second_nav-item" href="#">Clients</a>
                     </li>
                     <li id="tabList" class="nav-item">
