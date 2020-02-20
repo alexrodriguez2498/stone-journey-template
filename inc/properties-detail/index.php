@@ -814,14 +814,51 @@
 </div>
 
 
-<div class="container container-box box-center images_container" style="margin-bottom: 10rem !important;">
-    <div class="image_content">contenido #1</div>
-    <div class="image_content">contenido #2</div>
-    <div class="image_content">contenido #3</div>
-    <div class="image_content">contenido #4</div>
-    <div class="image_content">contenido #5</div>
-    <div class="image_content">contenido #6</div>
+<div class="container container-box box-center " style="margin-bottom: 10rem !important;">
+<div class="mdb-lightbox">
+
+<figure class="col-md-2">
+    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
+      class="img-fluid">
+  </a>
+</figure>
+
+<figure class="col-md-2">
+    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
+      class="img-fluid" />
+  </a>
+</figure>
+
+<figure class="col-md-2">
+    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
+      class="img-fluid" />
+  </a>
+</figure>
+
+<figure class="col-md-2">
+    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
+      class="img-fluid" />
+  </a>
+</figure>
+
+<figure class="col-md-2">
+    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
+      class="img-fluid" />
+  </a>
+</figure>
+
+<figure class="col-md-2">
+    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
+      class="img-fluid" />
+  </a>
+</figure>
+
+
+
 </div>
 
+</div>
+</div>
+</div>
 
 <?php get_footer(); ?>
