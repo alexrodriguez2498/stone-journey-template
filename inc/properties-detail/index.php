@@ -182,7 +182,7 @@
     }
 
     #background_1 p {
-        font-size: 24px;
+        font-size: 1.43rem;
         line-height: 30px;
     }
 
@@ -412,7 +412,7 @@
 
 
 <!--<div class="container">-->
-<div class="row mt-4 container box-center container-box container-box half_container" style="margin-bottom: 10rem !important;">
+<div class="row mt-4 container box-center container-box container-box half_container" >
     <div class="py-3 z-depth-1 col " id="background_2">
 
 
