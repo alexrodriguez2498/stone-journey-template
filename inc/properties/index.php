@@ -358,7 +358,7 @@
             </div>
 
             <!--/Dropdown primary-->
-            <ul class="second_nav">
+            <ul class="">
 
                 <form class="form-inline">
                     <div class="md-form my-0" style="padding-bottom:16px;">
