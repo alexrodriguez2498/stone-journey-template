@@ -412,8 +412,8 @@
 
 
 <!--<div class="container">-->
-<div class="row mt-4 container box-center container-box container-box half_container" >
-    <div class="py-3 z-depth-1 col " id="background_2">
+<div class="row mt-4 container box-center container-box container-box half_container" style="padding:0; ">
+    <div class="py-3  col " id="background_2">
 
 
 
