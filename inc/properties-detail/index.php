@@ -162,7 +162,7 @@
         .second_nav {
             display: none;
         }
-
+      
     }
 
     /* .background_1-button{
@@ -313,6 +313,10 @@
     }
     b{
         font-weight:bold;
+        color:black;
+    }
+    #table table tbody tr td{
+        font-size:1.1rem;
     }
 
 </style>
@@ -420,7 +424,7 @@
         <div class="row justify-content-between" style="height:45px;">
             <div class="d-flex" style="margin-left: 1rem;">
                
-                <ul class="second_nav">
+                <ul class="second_nav ">
                 <p style="padding-top:10px;"><strong>Filter by</strong></p>
                 <div class="dropdown" style="line-height: 2.3rem;">
 
@@ -451,7 +455,7 @@
             </div>
 
             <!--/Dropdown primary-->
-            <ul class="second_nav">
+            <ul >
 
                 <form class="form-inline">
                     <div class="md-form my-0" style="padding-bottom:16px;">
@@ -465,9 +469,9 @@
         <!-- </section> -->
     </div>
     </div>
-    <div class=" container container-box box-center mt-2 last_container_table w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="table">
-        <table class="table" style="margin-bottom: 0 !important;">
-            <thead>
+<div class=" container container-box box-center mt-2 last_container_table w-100 d-none d-lg-block" style="width: 100%; margin-top: .5rem !important;" id="table">
+    <table class="table" style="margin-bottom: 0 !important;">
+        <thead>
             <tr>
                 <th scope="col"><b></b></th>
                 <th scope="col"><b>NAME</b></th>
@@ -479,8 +483,8 @@
 
 
             </tr>
-            </thead>
-            <tbody>
+        </thead>
+        <tbody>
             <tr>
                 <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
                 <td class="td_text">Ms. Layne Beachley</td>
@@ -490,7 +494,7 @@
                 <td class="td_text">Portuguese</td>
                 <td class="d-flex td_text justify-content-between"> Ana Flores  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
@@ -506,7 +510,7 @@
                 <td class="td_text">English</td>
                 <td class="d-flex td_text justify-content-between">Jose Lamergo  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
@@ -521,7 +525,7 @@
                 <td class="td_text">American</td>
                 <td class="d-flex td_text justify-content-between">Rita Rufia  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
@@ -536,7 +540,7 @@
                 <td class="td_text">Spanish</td>
                 <td class="d-flex td_text justify-content-between">Danny Ocean  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
@@ -551,13 +555,13 @@
                 <td class="td_text">Portuguese</td>
                 <td class="d-flex td_text justify-content-between"> Oscar Barreto  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div></td>
             </tr>
-            
+        
             <tr>
                 <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
                 <td class="td_text">Ms. Layne Beachley</td>
@@ -567,7 +571,7 @@
                 <td class="td_text">Portuguese</td>
                 <td class="d-flex td_text justify-content-between"> Ana Flores  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
@@ -583,7 +587,7 @@
                 <td class="td_text">English</td>
                 <td class="d-flex td_text justify-content-between">Jose Lamergo  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
@@ -598,7 +602,7 @@
                 <td class="td_text">American</td>
                 <td class="d-flex td_text justify-content-between">Rita Rufia  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
@@ -613,7 +617,7 @@
                 <td class="td_text">Spanish</td>
                 <td class="d-flex td_text justify-content-between">Danny Ocean  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
@@ -628,7 +632,7 @@
                 <td class="td_text">Portuguese</td>
                 <td class="d-flex td_text justify-content-between"> Oscar Barreto  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
@@ -642,348 +646,358 @@
                 <td><b></b></td>
                 <td><b></b></td>
                 <td><b></b></td>
-               
-                   
-                        </ul>
-                    </nav>
+            </tr>    
+        </tbody>
+    </table>
 
-            </tr>
-                
-            </tbody>
-           
-        </table>
-        <div class="table-footer d-flex justify-content-between align-items-center">
-            <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE PROPERTY </button>
-        <nav aria-label="Page navigation example">
-                        <ul class="pagination pagination-sm pg-blue ">
-                            <li class="page-item ">
-                                <a class="page-link" tabindex="-1">Previous</a>
-                            </li>
-                            <li class="page-item"style="padding-right:10px;"><a class="page-link"style="background:#947956a1;color:white;">1</a></li>
-                            <li class="page-item active">
-                                <a class="page-link" style="background:#947956";>2 <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="page-item ">
-                                <a class="page-link">Next</a>
-                            </li>
-                            
+    <div class="table-footer d-flex justify-content-between align-items-center pb-3">
+        <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem;">CREATE PROPERTY </button>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm pg-blue ">
+                    <li class="page-item ">
+                        <a class="page-link" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item"style="padding-right:10px;">
+                        <a class="page-link"style="background:#947956a1;color:white;">1</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" style="background:#947956";>2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item ">
+                        <a class="page-link">Next</a>
+                    </li>
+                    
     </div>
-    </div>
+</div>
+
  
 
-<div class="d-block d-md-none w-100" id="table2">
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-        </div>
-        <div class="mobile-card-content"style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
+<section class="d-block d-lg-none w-100" >
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
 
-                <p class="card-text"style="margin:0;">
-                
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Rossio 93  <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Portuhuese <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Ana Flores
+            <!-- card content -->
 
-            </p>
-        </div>
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b> 
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </h5>
 
-    </div>
-    </div>
-</div>
-
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-        </div>
-        <div class="mobile-card-content"style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
-
-                <p class="card-text"style="margin:0;">
-                
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Vila Maria Pia  <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> English <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Jose Lamego
-
-            </p>
-        </div>
-
-    </div>
-    </div>
-</div>
-
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
-        </div>
-        <div class="mobile-card-content"style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
-
-                 <p class="card-text"style="margin:0;">
-
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Rosa  <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> American <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Rita Rufia
-
-            </p>
-        </div>
-        </div>
-    </div>
-
-</div>
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-        </div>
-        <div class="mobile-card-content"style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater</b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
-
-                <p class="card-text"style="margin:0;">
-                
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Santa Justa 60  <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Spanish <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Danny Ocean
-
-            </p>
-        </div>
-
-    </div>
-    </div>
-</div>
-
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-        </div>
-        <div class="mobile-card-content" style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Carissa Moore</b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
-
-            <p class="card-text"style="margin:0;">
-                
-                <b>EMAIL: </b> email@email.com<br>
-                <b>PROPERTY: </b> Jardim da Gloria  <br>
-                <b>PHONE: </b> +123 456 789<br>
-                <b>NATIONALITY: </b> Portuguese <br>
-                <b>LEGAL REPRESENTATIVE: </b> Oscar Barreto
-
-            </p>
-        </div>
-
-     </div>
-
-    </div>
-</div>
-
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
-        </div>
-        <div class="mobile-card-content"style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
-
-                <p class="card-text"style="margin:0;">
-                
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Rossio 93  <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Portuhuese <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Ana Flores
-
-            </p>
-        </div>
-
-    </div>
-    </div>
-</div>
-
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
-        </div>
-        <div class="mobile-card-content"style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
-
-                <p class="card-text"style="margin:0;">
-                
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Vila Maria Pia  <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> English <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Jose Lamego
-
-            </p>
-        </div>
-
-    </div>
-    </div>
-</div>
-
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
-        </div>
-        <div class="mobile-card-content"style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
-
-                 <p class="card-text"style="margin:0;">
+                    <p class="card-text"style="margin:0;">
                     
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Rosa  <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> American <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Rita Rufia
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Rossio 93  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> Portuhuese <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Ana Flores
 
-            </p>
-        </div>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
-</div>
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+
+            <!-- card content -->
+
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </h5>
+
+                    <p class="card-text"style="margin:0;">
+                    
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Vila Maria Pia  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> English <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Jose Lamego
+
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="mobile-card-content"style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater </b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
-
-                <p class="card-text"style="margin:0;">
-                
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Santa Justa 60  <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Spanish <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Danny Ocean
-
-            </p>
-        </div>
-
     </div>
-    </div>
-</div>
 
-<div class="card ">
-    <div class="card-body d-flex" style="padding:1rem;">
-        <!-- card content -->
-        <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b> 
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </h5>
+
+                    <p class="card-text"style="margin:0;">
+
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Rosa  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> American <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Rita Rufia
+
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="mobile-card-content" style="width:100%;">
-            <h5 class="card-title d-flex justify-content-between mb-0"><b> Ms. Carissa Moore </b>  <div class="nav-item dropdown">
-                    <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
-                    </div> </h5>
-
-            <p class="card-text"style="margin:0;">
-                
-                <b>EMAIL: </b> email@email.com<br>
-                <b>PROPERTY: </b> Jardim da Gloria  <br>
-                <b>PHONE: </b> +123 456 789<br>
-                <b>NATIONALITY: </b> Portuguese <br>
-                <b>LEGAL REPRESENTATIVE: </b> Oscar Barreto
-
-            </p>
-        </div>
-
-     </div>
-
     </div>
-</div>
-</div>
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater</b>
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> 
+                </h5>
+
+                    <p class="card-text"style="margin:0;">
+                    
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Santa Justa 60  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> Spanish <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Danny Ocean
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+            </div>
+            <div class="mobile-card-content" style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Carissa Moore</b>  
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> 
+                </h5>
+
+                    <p class="card-text"style="margin:0;">
+                        
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Jardim da Gloria  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> Portuguese <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Oscar Barreto
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>  
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> 
+                </h5>
+
+                    <p class="card-text"style="margin:0;">
+                    
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Rossio 93  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> Portuhuese <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Ana Flores
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>  
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> 
+                </h5>
+
+                    <p class="card-text"style="margin:0;">
+                    
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Vila Maria Pia  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> English <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Jose Lamego
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>  
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> 
+                </h5>
+
+                    <p class="card-text"style="margin:0;">
+                        
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Rosa  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> American <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Rita Rufia
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater </b>  
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> 
+                </h5>
+
+                    <p class="card-text"style="margin:0;">
+                    
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Santa Justa 60  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> Spanish <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Danny Ocean
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+            </div>
+            <div class="mobile-card-content" style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b> Ms. Carissa Moore </b>  \
+                <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> 
+                </h5>
+
+                    <p class="card-text"style="margin:0;">
+                        
+                        <b>EMAIL: </b> email@email.com<br>
+                        <b>PROPERTY: </b> Jardim da Gloria  <br>
+                        <b>PHONE: </b> +123 456 789<br>
+                        <b>NATIONALITY: </b> Portuguese <br>
+                        <b>LEGAL REPRESENTATIVE: </b> Oscar Barreto
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
 
-    <div class="container container-box box-center images_container" style="margin-bottom: 10rem !important;">
+<div class="container container-box box-center images_container" style="margin-bottom: 10rem !important;">
     <div class="image_content">contenido #1</div>
     <div class="image_content">contenido #2</div>
     <div class="image_content">contenido #3</div>
     <div class="image_content">contenido #4</div>
     <div class="image_content">contenido #5</div>
     <div class="image_content">contenido #6</div>
-    </div>
+</div>
 
 
     
