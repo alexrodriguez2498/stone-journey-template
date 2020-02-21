@@ -847,7 +847,22 @@
                 <td><b></b></td>
                 <td><b></b></td>
                 <td><b></b></td>
-                <td><b></b></td>
+                <td id="td-special-2 d-flex ">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination pagination-sm pg-blue justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"style="padding-right:10px;"><a class="page-link"style="background:#947956a1;color:white;">1</a></li>
+                            <li class="page-item active">
+                                <a class="page-link" style="background:#947956";>2 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="page-item ">
+                                <a class="page-link">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </td>
 
             </tr>
 
