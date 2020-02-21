@@ -42,7 +42,8 @@
         background: white;
         align-items: center;
         justify-content: space-between;
-        padding: 16px 30px 0px 30px !important;
+        padding: 8px 30px 10px 30px !important;
+
     }
 
     #background_1 h4 {
@@ -111,10 +112,6 @@
     @media (max-width: 910px) {
         .second_nav {
             display: none;
-        }
-
-        .card {
-            height: 22rem;
         }
     }
 
@@ -198,10 +195,116 @@
         }
     }
 
+
+
+
+
+    .card_custom {
+        margin: 20px !important;
+    }
+
+    @media (max-width: 915px) {
+        .card_custom {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    }
+
+    .second_nav {
+        display: flex;
+        list-style: none;
+    }
+
+    .second_nav_icon {
+        display: none;
+        padding: .5rem;
+        color: #947956;
+    }
+
+    .second_nav .second_nav-item {
+        color: black;
+        font-weight: bold;
+        padding: 10px 100px;
+    }
+
+    .second_nav .search {
+        color: #9e9fa0;
+        border-bottom: 1px solid #9e9fa0;
+        padding-left: 100px;
+    }
+
+    @media (max-width: 470px) {
+        #searchContainer {
+            width: 40%;
+            padding-left: 0;
+        }
+    }
+
+    @media (max-width: 910px) {
+
+        .second_nav {
+            display: none;
+        }
+
+        .second_nav_icon {
+            display: flex;
+        }
+
+    }
+
+    @media (min-width: 911px) {
+
+        .second_nav_icon {
+            display: none !important;
+        }
+
+    }
+
+    .half_container {
+        justify-content: center;
+    }
+
+    .dropdown .dropdown-menu .dropdown-item:hover {
+        background: #f9f8f6 !important;
+        color: #000 !important;
+        box-shadow: none;
+    }
+
+    .nav-item-selected-custom {
+        border-bottom: 1.5px solid #967c5c;
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+    .last_container_table {
+        border: 1px solid #dee2e6;
+        background:#ffffff;
+        padding: 1rem;
+        padding-bottom: 0 !important;
+    }
+    .last_container_table table tbody tr td{
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+
+    #seach {
+        border-bottom: 1px solid #947956 !important;
+        box-shadow: 0 1px 0 0 #947956 !important;
+    }
+
+    #seach:focus {
+        border-bottom: 1px solid #947956 !important;
+        box-shadow: 0 1px 0 0 #947956 !important;
+    }
+
+    .icon_size_custom {
+        font-size: 1.4rem !important;
+        height: fit-content;
+        line-height: inherit;
+    }
     /* END OF CARDS SECTION */
 </style>
 
-<div class="row container-box" style="margin-top: 2rem;">
+<div class="row container box-center container-box py-3 background-none" style="margin-top: 2rem;">
     <div class="py-4 z-depth-1 col" id="background_1">
 
 
@@ -221,292 +324,777 @@
 </div>
 
 <!--<div class="container">-->
-<div class="row mt-4 container-box half_container">
+<div class="row mt-4 container box-center container-box container-box half_container background-none" style="margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col " id="background_2">
-
+        <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
+        <!-- <div class="background_2-content"> -->
         <!--Dropdown primary-->
-        <div class="row justify-content-between">
-            <div style=" display: flex;">
-                <p><strong>Filter by:</strong></p>
+
+
+        <div class="row justify-content-between" style="height:45px;">
+            <div class="d-flex" style="margin-left: 1rem;">
+                <p style="padding-top:10px;"><strong>Filter by</strong></p>
                 <div class="dropdown" style="line-height: 2.3rem;">
 
                     <!--Trigger-->
                     <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false" style="padding-left: 1rem;"> Name
+                            aria-haspopup="true" aria-expanded="false" style="padding-left: 5px; padding-top:14px;">
                     </button>
 
                     <!--Menu-->
-                    <div class="dropdown-menu dropdown-primary">
-                        <a class="dropdown-item" href="#">Name</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu dropdown-menu-right  p-0">
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
                     </div>
                 </div>
+                <ul class="second_nav">
+                    <li id="tabGrid" class="nav-item nav-item-selected-custom" onclick="clickGrid()">
+                        <a class="nav-link second_nav-item" href="#">Grid</a>
+                    </li>
+                    <li id="tabList" class="nav-item" onclick="clickTable()">
+                        <a class="nav-link second_nav-item" href="#">List</a>
+                    </li>
+
+                </ul>
+
             </div>
+
             <!--/Dropdown primary-->
-            <ul class="second_nav">
-
-                <li><a class="second_nav-item-decoration" href="#">Grid</a></li>
-                <li><a class="second_nav-item" href="#">List</a></li>
-                <li><a class="search" href="#">search</a></li>
+            <ul class="d-flex" id="searchContainer">
+                <form class="form-inline">
+                    <div class="md-form my-0" style="padding-bottom:16px;">
+                        <input id="seach" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                </form>
+                <!--                    <i class="fas fa-th-large fa-2x second_nav_icon" style="padding: .5rem; color: #947956;"></i>-->
             </ul>
+
+            <i id="iconGrid" class="fas fa-th-large fa-2x second_nav_icon icon_size_custom" onclick="clickGrid()"></i>
+            <i id="iconTable" class="fas fa-list fa-2x second_nav_icon icon_size_custom" onclick="clickTable()"></i>
+
+        </div>
+
+        <!-- </div> -->
+        <!-- <form class="form-inline md-form form-sm mt-0">
+        <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+            aria-label="Search">
+        </form> -->
+        <!-- </div> -->
+
+        <!-- </section> -->
+    </div>
+    <div class="cards_container mt-3" style="width: 100%;" id="grid">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5">
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Sofia Muller</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Ana Peter</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Carlos Newman</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Maria Jones</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Hans Vollenwider</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Arthur Les Jardins</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Peter Thomas</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Cristian ALder</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Federico Da Silva</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100 z-depth-1">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top"
+                             src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                             alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+
+                        <!--Title-->
+                        <h4 class="card-title"><strong>Carlota De la Fuente</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+            </div>
+        </div>
+
+    </div>
+
+    <div class=" d-none d-md-block mt-3 last_container_table w-100" style="width: 100%;" id="table">
+        <table class="table" style="margin-bottom: 0 !important;">
+            <thead>
+            <tr>
+                <th scope="col"><b></b></th>
+                <th scope="col"><b>PROPERTY</b></th>
+                <th scope="col"><b>ARCHITECH</b></th>
+                <th scope="col"><b>ADRESS</b></th>
+                <th scope="col"><b>LOCATION</b></th>
+                <th scope="col"><b>STATUS</b></th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
+                <td class="td_text">Rossio</td>
+                <td class="td_text">DNSJ Arc</td>
+                <td class="td_text">Rossio</td>
+                <td class="td_text">Lisboa</td>
+                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
+
+            </tr>
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt=""></td>
+                <td class="td_text">Vila Maria Pia</td>
+                <td class="td_text">DNSJ Arc</td>
+                <td class="td_text">Vila Maria Pia</td>
+                <td class="td_text">Estpril</td>
+                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
+            </tr>
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt=""></td>
+                <td class="td_text">Augusta 170</td>
+                <td class="td_text">DNSJ Arc</td>
+                <td class="td_text">Augusta 170</td>
+                <td class="td_text">Lisboa</td>
+                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
+            </tr>
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
+                <td class="td_text">Santa Isabel</td>
+                <td class="td_text">DNSJ Arc</td>
+                <td class="td_text">Santa Isabel</td>
+                <td class="td_text">Lisboa</td>
+                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
+            </tr>
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt=""></td>
+                <td>Santa Justa</td>
+                <td>DNSJ Arc</td>
+                <td>Santa Justa</td>
+                <td>Lisboa</td>
+                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div></td>
+            </tr>
+            <tr>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+
+                <td id="td-special-2 d-flex ">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination pagination-sm pg-blue justify-content-end">
+                            <li class="page-item ">
+                                <a class="page-link" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"style="padding-right:10px;"><a class="page-link"style="background:#947956a1;color:white;">1</a></li>
+                            <li class="page-item active">
+                                <a class="page-link" style="background:#947956";>2 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="page-item ">
+                                <a class="page-link">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="d-block d-md-none w-100" id="table2">
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Rossio 93 <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Vila Maria Pia <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Rosa <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Santa Justa 60 <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Carissa Moore</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Jardim da Gloria <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Rossio 93 <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Vila Maria Pia <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Rosa <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater </b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Santa Justa 60 <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                         alt="">
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b> Ms. Carissa Moore </b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h5>
+
+                    <p class="card-text" style="margin:0;">
+
+                        +123 456 789<br>
+                        Jardim da Gloria <br>
+                        email@email.com<br>
+
+                    </p>
+                </div>
+
+            </div>
+
         </div>
     </div>
 </div>
-<div class="container-box clients-container" style="margin-top:2rem;">
-    <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5">
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
 
-                <!--Card content-->
-                <div class="card-body">
+<script>
+    document.getElementById('table').style.cssText = 'display:none !important';
+    document.getElementById('table2').style.cssText = 'display:none !important';
+    document.getElementById('iconGrid').style.cssText = 'display:none !important';
 
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Sofia Muller</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
+    function clickGrid() {
+        document.getElementById('table').style.cssText = 'display:none !important';
+        document.getElementById('table2').style.cssText = 'display:none !important';
+        document.getElementById('iconGrid').style.cssText = 'display:none !important';
+        document.getElementById('grid').style.display = 'flex';
+        document.getElementById('iconTable').style.display = 'flex';
 
-                </div>
 
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
+        document.getElementById('tabList').classList.remove("nav-item-selected-custom");
+        document.getElementById('tabGrid').classList.add("nav-item-selected-custom");
+    }
 
-                <!--Card content-->
-                <div class="card-body">
+    function clickTable() {
+        document.getElementById('grid').style.display = 'none';
+        document.getElementById('iconTable').style.display = 'none';
+        document.getElementById('table').style.display = 'flex';
+        document.getElementById('table2').style.display = 'flex';
+        document.getElementById('iconGrid').style.display = 'flex';
 
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Ana Peter</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Carlos Newman</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Maria Jones</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Hans Vollenwider</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Arthur Les Jardins</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Peter Thomas</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Cristian ALder</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Federico Da Silva</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4">
-            <div class="card h-100 z-depth-1">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title"><strong>Carlota De la Fuente</strong></h4>
-                    <!--Text-->
-                    <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-    </div>
-</div>
-
+        document.getElementById('tabGrid').classList.remove("nav-item-selected-custom");
+        document.getElementById('tabList').classList.add("nav-item-selected-custom");
+    }
+</script>
 
 <?php get_footer(); ?>

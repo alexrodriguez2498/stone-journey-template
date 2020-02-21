@@ -136,7 +136,7 @@
 </style>
 
 <div class="row container box-center container-box py-3 d-flex"
-     style="margin-top: 2rem !important; border-bottom: 2px solid #8c6f49; padding-bottom: .5rem !important;">
+     style="margin-top: 1rem !important; border-bottom: 2px solid #8c6f49; padding-bottom: .5rem !important;">
 
     <section class="px-md-2 mx-md-2 dark-grey-text w-100">
         <h3 class="h3">Rossio 93 - Beauty in motion</h3>
@@ -525,7 +525,7 @@
 
 
 <div class="d-block d-md-none w-100" id="table2">
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
@@ -556,7 +556,7 @@
         </div>
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
@@ -587,7 +587,7 @@
         </div>
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
@@ -617,7 +617,7 @@
         </div>
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
@@ -648,7 +648,7 @@
         </div>
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
@@ -680,7 +680,7 @@
 
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
@@ -711,7 +711,7 @@
         </div>
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
@@ -742,7 +742,7 @@
         </div>
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
@@ -772,7 +772,7 @@
         </div>
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
@@ -803,7 +803,7 @@
         </div>
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
