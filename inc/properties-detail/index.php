@@ -5,10 +5,11 @@
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
     #background_1 {
-   
+
         align-items: center;
         padding: 15px 15px;
     }
+
     body {
         background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
         background-size: cover;
@@ -18,82 +19,100 @@
         /* background-opacity:0.5; */
         font-family: "roboto";
     }
+
     #background_2 {
         padding: 8px 30px 10px 30px !important;
     }
+
     .button {
         color: white;
         background: #947956;
     }
+
     .second_nav {
         display: flex;
         list-style: none;
     }
+
     .second_nav .second_nav-item {
         color: black;
         font-weight: bold;
         padding: 10px 50px;
     }
+
     .card {
         margin: 20px;
     }
+
     @media (max-width: 938px) {
-        
+
         .second_nav .second_nav-item {
             display: none;
         }
     }
+
     #background_1 p {
         font-size: 1.43rem;
         line-height: 30px;
     }
+
     .card .card-body .card-text {
         font-size: 1rem;
     }
+
     #dropdownMenu1 {
         box-shadow: 0 0 0 0;
         margin: 0;
         padding-top: 0;
     }
+
     @media (max-width: 915px) {
         .card {
             margin-left: 0 !important;
             margin-right: 0 !important;
         }
     }
+
     .dropdown .dropdown-menu .dropdown-item:hover {
         background: #f9f8f6 !important;
         color: #000 !important;
         box-shadow: none;
     }
+
     @media (min-width: 900px) and (max-width: 995px) {
         .tittleCardCustom {
             font-size: 1.2rem !important;
         }
     }
+
     .nav-item-selected-custom {
         border-bottom: 1.5px solid #967c5c;
         height: fit-content;
         padding-bottom: 10px;
     }
+
     .last_container_table {
         border: 1px solid #dee2e6;
         background: #ffffff;
         padding: 1rem;
         padding-bottom: 0 !important;
     }
+
     .last_container_table table tbody tr td {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
+
     #seach {
         border-bottom: 1px solid #947956 !important;
         box-shadow: 0 1px 0 0 #947956 !important;
     }
+
     #seach:focus {
         border-bottom: 1px solid #947956 !important;
         box-shadow: 0 1px 0 0 #947956 !important;
     }
+
     .images_container {
         display: grid;
         grid-template: 250px / repeat(6, 1fr);
@@ -104,11 +123,13 @@
         margin-top: 30px;
         margin-bottom: 40px;
     }
+
     .images_container .image_content {
         background-image: url('https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     b {
         font-weight: bold;
     }
@@ -480,7 +501,9 @@
 
     </table>
     <div class="table-footer d-flex justify-content-between align-items-center">
-        <button type="button" class="btn button z-depth-1 add-button" style="margin-left:1rem; margin-top: -1rem;">CREATE CLIENTS</button>
+        <button type="button" class="btn btn-sm button z-depth-1 add-button"
+                style="margin-left:1rem; margin-top: -1rem;">CREATE CLIENTS
+        </button>
         <nav aria-label="Page navigation example">
             <ul class="pagination pagination-sm pg-blue ">
                 <li class="page-item ">
@@ -505,13 +528,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -521,11 +546,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Rossio 93 <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Portuhuese <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Ana Flores
+                    +123 456 789<br>
+                    Rossio 93 <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -536,13 +559,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -552,11 +577,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Vila Maria Pia <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> English <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Jose Lamego
+                    +123 456 789<br>
+                    Vila Maria Pia <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -567,13 +590,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -583,11 +608,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Rosa <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> American <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Rita Rufia
+                    +123 456 789<br>
+                    Rosa <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -597,13 +620,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -613,11 +638,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Santa Justa 60 <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Spanish <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Danny Ocean
+                    +123 456 789<br>
+                    Santa Justa 60 <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -628,13 +651,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Carissa Moore</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -644,11 +669,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Jardim da Gloria <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Portuguese <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Oscar Barreto
+                    +123 456 789<br>
+                    Jardim da Gloria <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -660,13 +683,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Ms. Layne Beachley</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -676,11 +701,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Rossio 93 <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Portuhuese <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Ana Flores
+                    +123 456 789<br>
+                    Rossio 93 <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -691,13 +714,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Gerry Lopez</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -707,11 +732,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Vila Maria Pia <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> English <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Jose Lamego
+                    +123 456 789<br>
+                    Vila Maria Pia <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -722,13 +745,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Rabbit Kekai</b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -738,11 +763,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Rosa <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> American <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Rita Rufia
+                    +123 456 789<br>
+                    Rosa <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -752,13 +775,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b>Mr. Kelly Slater </b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -768,11 +793,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Santa Justa 60 <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Spanish <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Danny Ocean
+                    +123 456 789<br>
+                    Santa Justa 60 <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -783,13 +806,15 @@
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+            <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                     alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
                 <h5 class="card-title d-flex justify-content-between mb-0"><b> Ms. Carissa Moore </b>
                     <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
@@ -799,11 +824,9 @@
 
                 <p class="card-text" style="margin:0;">
 
-                    <b>EMAIL: </b> email@email.com<br>
-                    <b>PROPERTY: </b> Jardim da Gloria <br>
-                    <b>PHONE: </b> +123 456 789<br>
-                    <b>NATIONALITY: </b> Portuguese <br>
-                    <b>LEGAL REPRESENTATIVE: </b> Oscar Barreto
+                    +123 456 789<br>
+                    Jardim da Gloria <br>
+                    email@email.com<br>
 
                 </p>
             </div>
@@ -814,51 +837,143 @@
 </div>
 
 
-<div class="container container-box box-center " style="margin-bottom: 10rem !important;">
-<div class="mdb-lightbox">
+<!--<div class="container container-box box-center "-->
+<!--     style="margin-bottom: 10rem !important;     margin-top: 2rem !important;">-->
+<!--    <div class="mdb-lightbox">-->
+<!---->
+<!--        <figure class="col-sm-6 col-md-2">-->
+<!--            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"-->
+<!--                 class="img-fluid">-->
+<!--            </a>-->
+<!--        </figure>-->
+<!---->
+<!--        <figure class="col-sm-6 col-md-2">-->
+<!--            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"-->
+<!--                 class="img-fluid"/>-->
+<!--            </a>-->
+<!--        </figure>-->
+<!---->
+<!--        <figure class="col-sm-6 col-md-2">-->
+<!--            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"-->
+<!--                 class="img-fluid"/>-->
+<!--            </a>-->
+<!--        </figure>-->
+<!---->
+<!--        <figure class="col-sm-6 col-md-2">-->
+<!--            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"-->
+<!--                 class="img-fluid"/>-->
+<!--            </a>-->
+<!--        </figure>-->
+<!---->
+<!--        <figure class="col-sm-6 col-md-2">-->
+<!--            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"-->
+<!--                 class="img-fluid"/>-->
+<!--            </a>-->
+<!--        </figure>-->
+<!---->
+<!--        <figure class="col-sm-6 col-md-2">-->
+<!--            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"-->
+<!--                 class="img-fluid"/>-->
+<!--            </a>-->
+<!--        </figure>-->
+<!---->
+<!---->
+<!--    </div>-->
+<!---->
+<!--</div>-->
+<div class="container container-box box-center clients-container" style="margin-top:2rem !important; margin-bottom: 10rem !important; background: none;">
+    <div class="row row-cols-3 row-cols-sm-4 row-cols-lg-5 row-cols-xl-6">
+        <div class="col mb-4" style="padding: 0;">
+            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="card-img-top"
+                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                         alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
 
-<figure class="col-sm-6 col-md-2">
-    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
-      class="img-fluid">
-  </a>
-</figure>
+            </div>
+            <!-- Card -->
+        </div>
+        <div class="col mb-4" style="padding: 0;">
+            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="card-img-top"
+                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                         alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
 
-<figure class="col-sm-6 col-md-2">
-    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
-      class="img-fluid" />
-  </a>
-</figure>
+            </div>
+            <!-- Card -->
+        </div>
+        <div class="col mb-4" style="padding: 0;">
+            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="card-img-top"
+                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                         alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
 
-<figure class="col-sm-6 col-md-2">
-    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
-      class="img-fluid" />
-  </a>
-</figure>
+            </div>
+            <!-- Card -->
+        </div>
+        <div class="col mb-4" style="padding: 0;">
+            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="card-img-top"
+                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                         alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
 
-<figure class="col-sm-6 col-md-2">
-    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
-      class="img-fluid" />
-  </a>
-</figure>
+            </div>
+            <!-- Card -->
+        </div>
+        <div class="col mb-4" style="padding: 0;">
+            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="card-img-top"
+                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                         alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
 
-<figure class="col-sm-6 col-md-2">
-    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
-      class="img-fluid" />
-  </a>
-</figure>
+            </div>
+            <!-- Card -->
+        </div>
+        <div class="col mb-4" style="padding: 0;">
+            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="card-img-top"
+                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                         alt="Card image cap">
+                    <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
 
-<figure class="col-sm-6 col-md-2">
-    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg" alt="placeholder"
-      class="img-fluid" />
-  </a>
-</figure>
-
-
-
-</div>
-
-</div>
-</div>
+            </div>
+            <!-- Card -->
+        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>
