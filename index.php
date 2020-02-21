@@ -15,6 +15,8 @@
         require_once('inc/properties-new/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'properties') !== false) {
         require_once('inc/properties/index.php');
+    } elseif (strpos($_SERVER['REQUEST_URI'], 'clients-new') !== false) {
+        require_once('inc/clients-new/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'clients') !== false) {
         require_once('inc/clients/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'documents') !== false) {
