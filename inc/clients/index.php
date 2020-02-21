@@ -314,7 +314,7 @@
             <h3>Clients</h3>
             <p>From this section you can quickly acces your clients. You can easily find them, filter them by property,
                 nationality or type of investment.</p>
-            <div class="row justify-content-end background_1-button">
+            <div class="row background_1-button">
                 <button type="button" class="btn button z-depth-1 add-button">ADD CLIENT</button>
             </div>
 
