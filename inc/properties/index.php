@@ -648,8 +648,8 @@
         <div class="card ">
             <div class="card-body d-flex" style="padding:1rem;">
                 <!-- card content -->
-                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
                 </div>
                 <div class="mobile-card-content"style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Rossio</b>  <div class="nav-item dropdown">
@@ -660,10 +660,9 @@
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div> </h5>
 
-                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                        <strong>ADRESS: </strong> Rossio<br>
-                        <strong>LOCATION: </strong> Lisboa  <br>
-                        <strong>STATUS: </strong> On Development</p>
+                    <p class="card-text"style="margin:0;"> Rossio<br>
+                        Lisboa<br>
+                        On Development</p>
                 </div>
 
             </div>
@@ -673,8 +672,8 @@
         <div class="card ">
             <div class="card-body d-flex" style="padding:1rem;">
                 <!-- card content -->
-                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
                 </div>
                 <div class="mobile-card-content"style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Vila Maria Pia</b>  <div class="nav-item dropdown">
@@ -685,10 +684,9 @@
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div> </h5>
 
-                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                        <strong>ADRESS: </strong> Vila Maria Pia<br>
-                        <strong>LOCATION: </strong> Estpril  <br>
-                        <strong>STATUS: </strong> On Development</p>
+                    <p class="card-text"style="margin:0;"> Vila Maria Pia<br>
+                        Estpril  <br>
+                        On Development</p>
                 </div>
 
             </div>
@@ -698,8 +696,8 @@
         <div class="card ">
             <div class="card-body d-flex" style="padding:1rem;">
                 <!-- card content -->
-                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
                 </div>
                 <div class="mobile-card-content"style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Augusta 170</b>  <div class="nav-item dropdown">
@@ -710,10 +708,9 @@
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div> </h5>
 
-                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                        <strong>ADRESS: </strong> Augusta 170<br>
-                        <strong>LOCATION: </strong> Lisboa  <br>
-                        <strong>STATUS: </strong> On Development</p>
+                    <p class="card-text"style="margin:0;"> Augusta 170<br>
+                        Lisboa  <br>
+                        On Development</p>
                 </div>
 
             </div>
@@ -722,8 +719,8 @@
         <div class="card ">
             <div class="card-body d-flex" style="padding:1rem;">
                 <!-- card content -->
-                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
                 </div>
                 <div class="mobile-card-content"style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Isable</b>  <div class="nav-item dropdown">
@@ -734,10 +731,9 @@
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div> </h5>
 
-                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                        <strong>ADRESS: </strong> Santa Isabel<br>
-                        <strong>LOCATION: </strong> Lisboa  <br>
-                        <strong>STATUS: </strong> On Development</p>
+                    <p class="card-text"style="margin:0;"> Santa Isabel<br>
+                        Lisboa  <br>
+                        On Development</p>
                 </div>
 
             </div>
@@ -747,8 +743,8 @@
         <div class="card ">
             <div class="card-body d-flex" style="padding:1rem;">
                 <!-- card content -->
-                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
-                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+                <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                    <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
                 </div>
                 <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Justa</b>  <div class="nav-item dropdown">
@@ -759,10 +755,9 @@
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div> </h5>
 
-                    <p class="card-text"style="margin:0;"> <strong>ARQCHITECH: </strong> DNSJ Arc <br>
-                        <strong>ADRESS: </strong> Sanya Justa<br>
-                        <strong>LOCATION: </strong> Lisboa  <br>
-                        <strong>STATUS: </strong> On Development</p>
+                    <p class="card-text"style="margin:0;"> Sanya Justa<br>
+                        Lisboa  <br>
+                        On Development</p>
                 </div>
 
             </div>
