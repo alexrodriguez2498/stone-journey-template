@@ -646,112 +646,213 @@
             <thead>
             <tr>
                 <th scope="col"><b></b></th>
+                <th scope="col"><b>NAME</b></th>
+                <th scope="col"><b>EMAIL</b></th>
                 <th scope="col"><b>PROPERTY</b></th>
-                <th scope="col"><b>ARCHITECH</b></th>
-                <th scope="col"><b>ADRESS</b></th>
-                <th scope="col"><b>LOCATION</b></th>
-                <th scope="col"><b>STATUS</b></th>
+                <th scope="col"><b>PHONE</b></th>
+                <th scope="col"><b>NATIONALITY</b></th>
+                <th scope="col"><b>LEGAL REPRESENTATIVE</b></th>
+
 
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
-                <td class="td_text">Rossio</td>
-                <td class="td_text">DNSJ Arc</td>
-                <td class="td_text">Rossio</td>
-                <td class="td_text">Lisboa</td>
-                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                                         alt=""></td>
+                <td class="td_text">Ms. Layne Beachley</td>
+                <td class="td_text">email@email.com</td>
+                <td class="td_text">Rossio 93</td>
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">Portuguese</td>
+                <td class="d-flex td_text justify-content-between"> Ana Flores
+                    <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
-                        </div></td>
+                        </div>
+                </td>
 
             </tr>
             <tr>
-                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt=""></td>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                                         alt=""></td>
+                <td class="td_text">Mr. Gerry Lopez</td>
+                <td class="td_text">email@email.com</td>
                 <td class="td_text">Vila Maria Pia</td>
-                <td class="td_text">DNSJ Arc</td>
-                <td class="td_text">Vila Maria Pia</td>
-                <td class="td_text">Estpril</td>
-                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">English</td>
+                <td class="d-flex td_text justify-content-between">Jose Lamergo
+                    <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
-                        </div></td>
+                        </div>
+                </td>
             </tr>
             <tr>
-                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt=""></td>
-                <td class="td_text">Augusta 170</td>
-                <td class="td_text">DNSJ Arc</td>
-                <td class="td_text">Augusta 170</td>
-                <td class="td_text">Lisboa</td>
-                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
+                                         alt=""></td>
+                <td class="td_text">Mr. Rabbit Kekai</td>
+                <td class="td_text">email@email.com</td>
+                <td class="td_text">Rosa</td>
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">American</td>
+                <td class="d-flex td_text justify-content-between">Rita Rufia
+                    <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
-                        </div></td>
+                        </div>
+                </td>
             </tr>
             <tr>
-                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt=""></td>
-                <td class="td_text">Santa Isabel</td>
-                <td class="td_text">DNSJ Arc</td>
-                <td class="td_text">Santa Isabel</td>
-                <td class="td_text">Lisboa</td>
-                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                                         alt=""></td>
+                <td class="td_text">Mr. Kelly Slater</td>
+                <td class="td_text">email@email.com</td>
+                <td class="td_text">Santa Justa 60</td>
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">Spanish</td>
+                <td class="d-flex td_text justify-content-between">Danny Ocean
+                    <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
-                        </div></td>
+                        </div>
+                </td>
             </tr>
             <tr>
-                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt=""></td>
-                <td>Santa Justa</td>
-                <td>DNSJ Arc</td>
-                <td>Santa Justa</td>
-                <td>Lisboa</td>
-                <td class="d-flex td_text justify-content-between"> On Development  <div class="nav-item dropdown">
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                                         alt=""></td>
+                <td class="td_text">Ms. Carissa Moore</td>
+                <td class="td_text">email@email.com</td>
+                <td class="td_text">Jardim da Gloria</td>
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">Portuguese</td>
+                <td class="d-flex td_text justify-content-between"> Oscar Barreto
+                    <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
-                        </div></td>
-            </tr>
-            <tr>
-                <td><b></b></td>
-                <td><b></b></td>
-                <td><b></b></td>
-                <td><b></b></td>
-                <td><b></b></td>
-
-                <td id="td-special-2 d-flex ">
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination pagination-sm pg-blue justify-content-end">
-                            <li class="page-item ">
-                                <a class="page-link" tabindex="-1">Previous</a>
-                            </li>
-                            <li class="page-item"style="padding-right:10px;"><a class="page-link"style="background:#947956a1;color:white;">1</a></li>
-                            <li class="page-item active">
-                                <a class="page-link" style="background:#947956";>2 <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="page-item ">
-                                <a class="page-link">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
+                        </div>
                 </td>
             </tr>
 
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                                         alt=""></td>
+                <td class="td_text">Ms. Layne Beachley</td>
+                <td class="td_text">email@email.com</td>
+                <td class="td_text">Rossio 93</td>
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">Portuguese</td>
+                <td class="d-flex td_text justify-content-between"> Ana Flores
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                                         alt=""></td>
+                <td class="td_text">Mr. Gerry Lopez</td>
+                <td class="td_text">email@email.com</td>
+                <td class="td_text">Vila Maria Pia</td>
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">English</td>
+                <td class="d-flex td_text justify-content-between">Jose Lamergo
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
+                                         alt=""></td>
+                <td class="td_text">Mr. Rabbit Kekai</td>
+                <td class="td_text">email@email.com</td>
+                <td class="td_text">Rosa</td>
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">American</td>
+                <td class="d-flex td_text justify-content-between">Rita Rufia
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                                         alt=""></td>
+                <td class="td_text">Mr. Kelly Slater</td>
+                <td class="td_text">email@email.com</td>
+                <td class="td_text">Santa Justa 60</td>
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">Spanish</td>
+                <td class="d-flex td_text justify-content-between">Danny Ocean
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                                         alt=""></td>
+                <td class="td_text">Ms. Carissa Moore</td>
+                <td class="td_text">email@email.com</td>
+                <td class="td_text">Jardim da Gloria</td>
+                <td class="td_text">+123 456 789</td>
+                <td class="td_text">Portuguese</td>
+                <td class="d-flex td_text justify-content-between"> Oscar Barreto
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+
+            </tr>
+
             </tbody>
+
         </table>
     </div>
 
