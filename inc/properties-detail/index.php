@@ -310,11 +310,14 @@
         <tr>
             <th scope="col"><b></b></th>
             <th scope="col"><b>NAME</b></th>
-            <th scope="col"><b>EMAIL</b></th>
             <th scope="col"><b>PROPERTY</b></th>
-            <th scope="col"><b>PHONE</b></th>
-            <th scope="col"><b>NATIONALITY</b></th>
-            <th scope="col"><b>LEGAL REPRESENTATIVE</b></th>
+            <th scope="col"><b>OWNER</b></th>
+            <th scope="col"><b>ADDRESSEE</b></th>
+            <th scope="col"><b>UNIT</b></th>
+            <th scope="col"><b>CATEGORY</b>
+            <th scope="col"><b>DATE</b>
+            <th scope="col"><b></b></th>
+        </th>
 
 
         </tr>
@@ -323,12 +326,20 @@
         <tr>
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                      alt=""></td>
-            <td class="td_text">Ms. Layne Beachley</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Rossio 93</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">Portuguese</td>
-            <td class="d-flex td_text justify-content-between"> Ana Flores
+            <td class="td_text">Payment Summons</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
@@ -343,11 +354,19 @@
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                      alt=""></td>
             <td class="td_text">Mr. Gerry Lopez</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Vila Maria Pia</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">English</td>
-            <td class="d-flex td_text justify-content-between">Jose Lamergo
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
@@ -361,12 +380,20 @@
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
                                      alt=""></td>
             <td class="td_text">Mr. Rabbit Kekai</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Rosa</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">American</td>
-            <td class="d-flex td_text justify-content-between">Rita Rufia
-                <div class="nav-item dropdown">
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">  
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>            
+                  <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -379,11 +406,19 @@
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                      alt=""></td>
             <td class="td_text">Mr. Kelly Slater</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Santa Justa 60</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">Spanish</td>
-            <td class="d-flex td_text justify-content-between">Danny Ocean
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
@@ -397,11 +432,19 @@
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                      alt=""></td>
             <td class="td_text">Ms. Carissa Moore</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Jardim da Gloria</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">Portuguese</td>
-            <td class="d-flex td_text justify-content-between"> Oscar Barreto
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
@@ -416,11 +459,19 @@
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                      alt=""></td>
             <td class="td_text">Ms. Layne Beachley</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Rossio 93</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">Portuguese</td>
-            <td class="d-flex td_text justify-content-between"> Ana Flores
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
@@ -435,11 +486,19 @@
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                      alt=""></td>
             <td class="td_text">Mr. Gerry Lopez</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Vila Maria Pia</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">English</td>
-            <td class="d-flex td_text justify-content-between">Jose Lamergo
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
@@ -453,12 +512,20 @@
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
                                      alt=""></td>
             <td class="td_text">Mr. Rabbit Kekai</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Rosa</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">American</td>
-            <td class="d-flex td_text justify-content-between">Rita Rufia
-                <div class="nav-item dropdown">
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">   
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>        
+                     <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -471,11 +538,19 @@
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                      alt=""></td>
             <td class="td_text">Mr. Kelly Slater</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Santa Justa 60</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">Spanish</td>
-            <td class="d-flex td_text justify-content-between">Danny Ocean
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
@@ -489,11 +564,282 @@
             <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                      alt=""></td>
             <td class="td_text">Ms. Carissa Moore</td>
-            <td class="td_text">email@email.com</td>
-            <td class="td_text">Jardim da Gloria</td>
-            <td class="td_text">+123 456 789</td>
-            <td class="td_text">Portuguese</td>
-            <td class="d-flex td_text justify-content-between"> Oscar Barreto
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+       
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                                     alt=""></td>
+            <td class="td_text">Payment Summons</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                                     alt=""></td>
+            <td class="td_text">Mr. Gerry Lopez</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
+                                     alt=""></td>
+            <td class="td_text">Mr. Rabbit Kekai</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">  
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>            
+                  <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                                     alt=""></td>
+            <td class="td_text">Mr. Kelly Slater</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                                     alt=""></td>
+            <td class="td_text">Ms. Carissa Moore</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                                     alt=""></td>
+            <td class="td_text">Ms. Layne Beachley</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                                     alt=""></td>
+            <td class="td_text">Mr. Gerry Lopez</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
+                                     alt=""></td>
+            <td class="td_text">Mr. Rabbit Kekai</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">   
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>        
+                     <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
+                                     alt=""></td>
+            <td class="td_text">Mr. Kelly Slater</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
+                                     alt=""></td>
+            <td class="td_text">Ms. Carissa Moore</td>
+            <td class="td_text">Rossio</td>
+            <td class="td_text">Private</td>
+            <td class="td_text">Ana Humble</td>
+            <td class="td_text">A1</td>
+            <td class="td_text">General</td>
+            <td class="td_text">20/02/2020</td>
+            <td class="d-flex td_text align-items-center justify-content-end">
+                <div class="footer-details-2 ">
+                    5   
+                    <i class="fas fa-file-signature"></i>
+                    2
+                    <i class="fas fa-file-pdf"></i>
+                </div>
                 <div class="nav-item dropdown">
                     <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false"></a>
@@ -511,16 +857,17 @@
             <td><b></b></td>
             <td><b></b></td>
             <td><b></b></td>
+            <td><b></b></td>
+            <td><b></b></td>
 
         </tr>
+
 
         </tbody>
 
     </table>
-    <div class="table-footer d-flex justify-content-between align-items-center">
-        <button type="button" class="btn btn-sm button z-depth-1 add-button"
-                style="margin-left:1rem; margin-top: -1rem;">CREATE CLIENTS
-        </button>
+    <div class="table-footer d-flex justify-content-end align-items-center">
+      
         <nav aria-label="Page navigation example">
             <ul class="pagination pagination-sm pg-blue ">
                 <li class="page-item ">
