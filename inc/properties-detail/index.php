@@ -49,6 +49,9 @@
         .second_nav .second_nav-item {
             display: none;
         }
+        .cards_container{
+            flex-direction:column;
+        }
     }
 
     #background_1 p {
@@ -132,6 +135,20 @@
 
     b {
         font-weight: bold;
+        color:black;
+    }
+    .cards_container {
+        display: flex;
+        /*margin-top: 30px;*/
+        justify-content: space-between;
+    }
+    .card-footer{
+        justify-content:space-between;
+        background:#947956;
+    
+    }
+    .card-footer div{
+        color:white;
     }
 </style>
 
@@ -241,7 +258,7 @@
             <div class="d-flex" style="margin-left: 1rem;">
 
                 <ul class="second_nav">
-                    <p style="padding-top:10px;"><strong>Filter by</strong></p>
+                    <p style="padding-top:10px;"><b>Filter by</b></p>
                     <div class="dropdown" style="line-height: 2.3rem;">
 
                         <!--Trigger-->
@@ -836,7 +853,280 @@
     </div>
 </div>
 
+                                                               <!-- documents-table-container -->
+<div class="container container-box box-center p-0">
+    <div class="container d-none d-md-block" id="last_container"style="background:white; padding-top:1rem; margin-top:2rem;     margin-left: 0; margin-right: 0; max-width: 100%; -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col"><b></b></th>
+                <th scope="col"><b>Name</b></th>
+                <th scope="col"><b>Adressee</b></th>
+                <th scope="col"><b>Milestone</b></th>
+                <th scope="col"><b>Category</b></th>
+                <th scope="col"><b>Date</b></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
+                <td>Payment Summons</td>
+                <td>Rossio</td>
+                <td>Payment Summons</td>
+                <td>Financial</td>
+                <td>20/02/2020</td>
 
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
+                <td>Promissory Contract Payment</td>
+                <td>Rossio</td>
+                <td>Promissory Contract Payment</td>
+                <td>Legal</td>
+                <td>20/02/2020</td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
+                <td>Reservation Fee Reinforcement</td>
+                <td>Rossio</td>
+                <td>Reservation Fee Reinforcement</td>
+                <td>Financial</td>
+                <td>20/02/2020</td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
+                <td>Reservation Form</td>
+                <td>Rossio</td>
+                <td>Reservation Form</td>
+                <td>Legal</td>
+                <td>20/02/2020</td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
+                <td>Welcome letter</td>
+                <td>Rossio, Ana Humble</td>
+                <td>Welcome letter</td>
+                <td>General</td>
+                <td>20/02/2020</td>
+            </tr>
+        
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container d-block d-md-none" id="ultimate_container" style="background:transparemt; padding-top:1rem;     margin-left: 0; margin-right: 0; max-width: 100%; padding-left: 0;
+        padding-right: 0;">
+
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                                                    <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <i class="fas fa-file-invoice-dollar fa-3x"></i>
+                </div>
+                <div class="mobile-card-content"style="width:100%;">
+                    <h5 class="card-title"><b>Payment Summons</b> <i class="fas fa-ellipsis-v"></i></h5>
+                    <p class="card-text"style="margin:0;"> <b>20/02/2020</b> <br>Rossio <br>
+                                        Payment Summons <br>
+                                        Fiancial</p>
+                </div>
+        
+            </div>
+    
+        </div>
+
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                                            <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <i class="fas fa-file-signature fa-3x"></i>
+                </div>
+                <div class="mobile-card-content"style="width:100%;">
+                    <h5 class="card-title"><b>Promissory Contract Payment</b> <i class="fas fa-ellipsis-v"></i></h5>
+                    <p class="card-text"style="margin:0;"><b>20/02/2020</b> <br>Rossio <br>
+                                        Payment Summons <br>
+                                        Fiancial  </p>
+                </div>
+        
+            </div>
+
+        </div>
+
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                                                    <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <i class="fas fa-file-invoice fa-3x"></i>
+                </div>
+                <div class="mobile-card-content"style="width:100%;">
+                    <h5 class="card-title"><b>Reservation Fee Reinforcement</b> <i class="fas fa-ellipsis-v"></i></h5>
+                    <p class="card-text"style="margin:0;"><b>20/02/2020</b> <br>Rossio <br>
+                                        Payment Summons <br>
+                                        Fiancial</p>
+                </div>
+            
+            </div>
+
+        </div>
+    
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                                                    <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <i class="fas fa-file-image fa-3x"></i>
+                </div>
+                <div class="mobile-card-content"style="width:100%;">
+                    <h5 class="card-title"><b>Reservation Form</b> <i class="fas fa-ellipsis-v"></i></h5>
+                    <p class="card-text"style="margin:0;"><b>20/02/2020</b> <br>Rossio <br>
+                                        Payment Summons <br>
+                                        Fiancial  </p>
+                </div>
+            
+            </div>
+
+        </div>
+
+        <div class="card ">
+            <div class="card-body d-flex" style="padding:1rem;">
+                                                    <!-- card content -->
+                <div class="mobile-card-icon" style="padding:1rem; padding-top:1rem; padding-right:2rem;">
+                    <i class="fas fa-images fa-3x"></i>
+                </div>
+                <div class="mobile-card-content"style="width:100%;">
+                    <h5 class="card-title"><b>Reservation Form</b> <i class="fas fa-ellipsis-v"></i></h5>
+                    <p class="card-text"style="margin:0;"><b>20/02/2020</b> <br>Rossio <br>
+                                        Payment Summons <br>
+                                        Fiancial</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+</div>
+                                                                  <!-- milestones-cards-container -->
+    <div class="container container-box box-center">
+    <div class="cards_container mt-2" style="width: 100%; margin-top:1.5rem!important;">
+        <!-- Card -->
+        <div class="card card-one">
+           
+            <!-- Card image -->
+            <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
+                 alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Welcome letter</a></h4>
+                <!-- Text -->
+                <p class="card-text"><b>Property:</b> Rossio <br>
+                    <b>Adressee:</b> Ana Humble <br>
+                    <b>Unit:</b> A1 <br>
+                    <b>Category:</b> General</p>
+
+
+            </div>
+            <div class="card-footer text-muted d-flex mt-4">
+            <div class="footer-details-1">
+            16/06/2020    
+            </div>
+
+            <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            </div>
+            
+
+        </div>
+        
+        <!-- Card -->
+        <!-- Card -->
+        <div class="card">
+            
+            <!-- Card image -->
+            <img class="card-img-top"
+                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
+                 alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Promissory Contract</a></h4>
+                <!-- Text -->
+                <p class="card-text"><b>Property:</b> Rossio <br>
+                    <b>Adressee:</b> Ana Humble <br>
+                    <b>Unit:</b> A1 <br>
+                    <b>Category:</b> General</p>
+
+
+            </div>
+             <!-- Card footer -->
+            <div class="card-footer text-muted d-flex mt-4">
+            <div class="footer-details-1">
+            16/06/2020    
+            </div>
+
+            <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            </div>
+            
+
+        </div>
+        <!-- Card -->
+        <!-- Card -->
+        <div class="card card-three">
+           
+            <!-- Card image -->
+            <img class="card-img-top"
+                 src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Aungusta170_ima.jpg"
+                 alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Final Floor Plan 1A</a></h4>
+                <!-- Text -->
+                <p class="card-text"><b>Property:</b> Rossio <br>
+                    <b>Adressee:</b> Ana Humble <br>
+                    <b>Unit:</b> A1 <br>
+                    <b>Category:</b> General</p>
+
+
+            </div>
+            <div class="card-footer text-muted d-flex mt-4">
+            <div class="footer-details-1">
+            16/06/2020    
+            </div>
+
+            <div class="footer-details-2 ">
+            5   
+            <i class="fas fa-file-signature"></i>
+            2
+            <i class="fas fa-file-pdf"></i>
+            </div>
+            </div>
+            
+
+        </div>
+
+        </div>
+        
+        <!-- Card -->
+    </div>
+    </div>
+                                                                  <!--/ milestones-cards-container -->
 <!--<div class="container container-box box-center "-->
 <!--     style="margin-bottom: 10rem !important;     margin-top: 2rem !important;">-->
 <!--    <div class="mdb-lightbox">-->
@@ -975,5 +1265,6 @@
         </div>
     </div>
 </div>
-
+ 
+                                                                          <!-- /documents-table-container -->
 <?php get_footer(); ?>
