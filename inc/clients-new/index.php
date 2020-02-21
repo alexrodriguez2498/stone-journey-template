@@ -28,7 +28,11 @@
     .rbr, .formmiddle{
         padding-left:3rem;
     }
-  
+
+    .select-wrapper{
+        margin-top: 0 !important;
+        padding-left: 1rem !important;
+    }
 
 </style>
 
@@ -150,20 +154,22 @@
                 <div class="col-md-3">
                     <h5>Discount:</h5>
                     <div class="radio-buttons d-flex align-items*center">
-                    <div class="custom-control custom-radio">
-                    <input type="radio" class="custom-control-input" id="defaultGroupExample9" name="groupOfDefaultRadiosRight">
-                    <label class="custom-control-label" for="defaultGroupExample9">Yes</label>
-                    </div>
-                    <select class="mdb-select md-form formmiddle">
-                        <option value="" disabled selected></option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                    </select>
-                    <div class="custom-control custom-radio rbr">
-                    <input type="radio" class="custom-control-input" id="defaultGroupExample9" name="groupOfDefaultRadiosRight">
-                    <label class="custom-control-label" for="defaultGroupExample9">No</label>
-                    </div>
+                        <div class="custom-control custom-radio" style="margin-top: 1rem;">
+                            <input type="radio" class="custom-control-input" id="defaultGroupExample9"
+                                   name="groupOfDefaultRadiosRight">
+                            <label class="custom-control-label" for="defaultGroupExample9">Yes</label>
+                        </div>
+                        <select class="mdb-select md-form formmiddle">
+                            <option value="" disabled selected></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                        <div class="custom-control custom-radio rbr" style="margin-top: 1rem;">
+                            <input type="radio" class="custom-control-input" id="defaultGroupExample9"
+                                   name="groupOfDefaultRadiosRight">
+                            <label class="custom-control-label" for="defaultGroupExample9">No</label>
+                        </div>
                     </div>
                 </div>
             </div>
