@@ -338,8 +338,10 @@
                     <a class="fas fa-filter d-block d-md-none" id="navbarDropdownMenuLink1" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false" style="padding:.7rem; margin-top: .3rem;"></a>
                     <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Edit Property</a>
-                        <a class="dropdown-item" href="#">Delete</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
                     </div>
 
                     <div class="dropdown d-none d-md-block" style="line-height: 2.3rem;">
