@@ -316,7 +316,7 @@
 
                 <ul class="second_nav second_nav_custom_one">
                     <p class="d-none d-md-block" style="padding-top:10px;"><b>Filter by</b></p>
-                    <i class="fas fa-filter d-block d-md-none" style="padding:.7rem;"></i>
+                    <i class="fas fa-filter d-block d-md-none" style="padding:.7rem; margin-top: .3rem;"></i>
                     <div class="dropdown d-none d-md-block" style="line-height: 2.3rem;">
 
                         <!--Trigger-->
