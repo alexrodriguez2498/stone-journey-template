@@ -368,13 +368,15 @@
                         <a class="nav-link second_nav-item d-none d-md-block" >Clients</a>
                         <a class="nav-link second_nav-item d-block d-md-none" ><i class="far fa-user-circle"></i></a>
                     </li>
-                    <li id="tabDocuments" class="nav-item" onclick="clickDocuments()">
-                        <a class="nav-link second_nav-item d-none d-md-block" >Documents</a>
-                        <a class="nav-link second_nav-item d-block d-md-none" ><i class="far fa-file-alt"></i></a>
-                    </li>
+
                     <li id="tabMilestones" class="nav-item" onclick="clickMilestones()">
                         <a class="nav-link second_nav-item d-none d-md-block" >Milestones</a>
                         <a class="nav-link second_nav-item d-block d-md-none" ><i class="fas fa-flag"></i></a>
+                    </li>
+
+                    <li id="tabDocuments" class="nav-item" onclick="clickDocuments()">
+                        <a class="nav-link second_nav-item d-none d-md-block" >Documents</a>
+                        <a class="nav-link second_nav-item d-block d-md-none" ><i class="far fa-file-alt"></i></a>
                     </li>
                 </ul>
             </div>
@@ -872,9 +874,8 @@
                         </div>
                     </div>
                 </h5>
-                <p class="card-text"style="margin:0;"> <strong>20/02/2020</strong> <br>Rossio <br>
-                    Payment Summons <br>
-                    Fiancial</p>
+                <p class="card-text"style="margin:0;"> Ana Hurnble<br>20/02/2020
+                    </p>
             </div>
 
         </div>
@@ -899,9 +900,8 @@
                         </div>
                     </div>
                 </h5>
-                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
-                    Payment Summons <br>
-                    Fiancial  </p>
+                <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                      </p>
             </div>
 
         </div>
@@ -926,9 +926,8 @@
                         </div>
                     </div>
                 </h5>
-                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
-                    Payment Summons <br>
-                    Fiancial</p>
+                <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                    </p>
             </div>
 
         </div>
@@ -953,9 +952,8 @@
                         </div>
                     </div>
                 </h5>
-                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
-                    Payment Summons <br>
-                    Fiancial  </p>
+                <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                      </p>
             </div>
 
         </div>
@@ -980,9 +978,8 @@
                         </div>
                     </div>
                 </h5>
-                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
-                    Payment Summons <br>
-                    Fiancial</p>
+                <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                    </p>
             </div>
 
         </div>
