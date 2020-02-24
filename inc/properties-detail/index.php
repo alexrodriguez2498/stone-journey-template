@@ -37,7 +37,7 @@
     .second_nav .second_nav-item {
         color: black;
         font-weight: bold;
-        padding: 10px 50px;
+        padding: .7rem .7rem 0;
     }
 
     .card {
@@ -153,6 +153,18 @@
 
     .card-footer div {
         color: white;
+    }
+
+
+
+    @media (max-width: 490px) {
+        .second_nav_custom_one {
+            padding-left: .2rem;
+        }
+
+        .second_nav_custom_two{
+            width: 40%;
+        }
     }
 </style>
 
@@ -302,9 +314,9 @@
         <div class="row justify-content-between" style="height:45px;">
             <div class="d-flex" style="margin-left: 1rem;">
 
-                <ul class="second_nav">
+                <ul class="second_nav second_nav_custom_one">
                     <p class="d-none d-md-block" style="padding-top:10px;"><b>Filter by</b></p>
-                    <i class="fas fa-filter d-block d-md-none" style="padding-top:15px;"></i>   
+                    <i class="fas fa-filter d-block d-md-none" style="padding:.7rem;"></i>
                     <div class="dropdown d-none d-md-block" style="line-height: 2.3rem;">
 
                         <!--Trigger-->
@@ -336,7 +348,7 @@
             </div>
 
             <!--/Dropdown primary-->
-            <ul class="second_nav">
+            <ul class="second_nav second_nav_custom_one second_nav_custom_two">
 
                 <form class="form-inline">
                     <div class="md-form my-0" style="padding-bottom:16px;">
