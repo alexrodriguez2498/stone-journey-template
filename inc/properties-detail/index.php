@@ -215,7 +215,7 @@
             <!--Section: Content-->
 
         </div>
-        <div class="col-sm-10 border-bottom pb-0  d-flex d-none d-md-block" id="background_1">
+        <div class="col-sm-10 pb-0  d-flex d-none d-md-block" id="background_1">
 
 
             <!--Section: Content-->
@@ -234,7 +234,7 @@
             <!--Section: Content-->
             <div class="row d-block d-md-none">
             <div class="col-4">
-                <p> <b>Adress:</b></p>
+                <p> <b>Address:</b></p>
             </div>
             <div class="col-12">
                <p>Praca do Rossio, 93, Baixa, Lisboa, Portugal </p> 
