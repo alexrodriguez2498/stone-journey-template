@@ -341,16 +341,16 @@
                         </div>
                     </div>
                     <li id="tabClients" class="nav-item nav-item-selected-custom" onclick="clickClients()">
-                        <a class="nav-link second_nav-item d-none d-md-block" href="#">Clients</a>
-                        <a class="nav-link second_nav-item d-block d-md-none" href="#"><i class="far fa-user-circle"></i></a>
+                        <a class="nav-link second_nav-item d-none d-md-block" >Clients</a>
+                        <a class="nav-link second_nav-item d-block d-md-none" ><i class="far fa-user-circle"></i></a>
                     </li>
                     <li id="tabDocuments" class="nav-item" onclick="clickDocuments()">
-                        <a class="nav-link second_nav-item d-none d-md-block" href="#">Documents</a>
-                        <a class="nav-link second_nav-item d-block d-md-none" href="#"><i class="far fa-file-alt"></i></a>
+                        <a class="nav-link second_nav-item d-none d-md-block" >Documents</a>
+                        <a class="nav-link second_nav-item d-block d-md-none" ><i class="far fa-file-alt"></i></a>
                     </li>
                     <li id="tabMilestones" class="nav-item" onclick="clickMilestones()">
-                        <a class="nav-link second_nav-item d-none d-md-block" href="#">Milestones</a>
-                        <a class="nav-link second_nav-item d-block d-md-none" href="#"><i class="fas fa-flag"></i></a>
+                        <a class="nav-link second_nav-item d-none d-md-block" >Milestones</a>
+                        <a class="nav-link second_nav-item d-block d-md-none" ><i class="fas fa-flag"></i></a>
                     </li>
                 </ul>
             </div>
@@ -753,11 +753,11 @@
         <thead>
         <tr>
             <th scope="col"><b></b></th>
-            <th scope="col"><b>Name</b></th>
-            <th scope="col"><b>Adressee</b></th>
-            <th scope="col"><b>Milestone</b></th>
-            <th scope="col"><b>Category</b></th>
-            <th scope="col"><b>Date</b></th>
+            <th scope="col"><b>NAME</b></th>
+            <th scope="col"><b>ADDRESS</b></th>
+            <th scope="col"><b>MILESTONE</b></th>
+            <th scope="col"><b>CATEGORY</b></th>
+            <th scope="col"><b>DATE</b></th>
         </tr>
         </thead>
         <tbody>
@@ -806,8 +806,10 @@
 
         </tbody>
     </table>
-    <div class="table-footer d-flex justify-content-end align-items-center">
-
+    <div class="table-footer d-flex justify-content-between align-items-center">
+        <button type="button" class="btn btn-sm button z-depth-1 add-button"
+                style="margin-left:1rem; margin-top: -1rem;">CREATE DOCUMENTS
+        </button>
         <nav aria-label="Page navigation example">
             <ul class="pagination pagination-sm pg-blue ">
                 <li class="page-item ">
@@ -1504,8 +1506,10 @@
         </tbody>
 
     </table>
-    <div class="table-footer d-flex justify-content-end align-items-center">
-
+    <div class="table-footer d-flex justify-content-between align-items-center">
+        <button type="button" class="btn btn-sm button z-depth-1 add-button"
+                style="margin-left:1rem; margin-top: -1rem;">CREATE MILESTONES
+        </button>
         <nav aria-label="Page navigation example">
             <ul class="pagination pagination-sm pg-blue ">
                 <li class="page-item ">
