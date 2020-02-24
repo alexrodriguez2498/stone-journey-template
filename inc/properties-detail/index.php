@@ -316,7 +316,15 @@
 
                 <ul class="second_nav second_nav_custom_one">
                     <p class="d-none d-md-block" style="padding-top:10px;"><b>Filter by</b></p>
-                    <i class="fas fa-filter d-block d-md-none" style="padding:.7rem; margin-top: .3rem;"></i>
+<!--                    <i class="fas fa-filter d-block d-md-none" style="padding:.7rem; margin-top: .3rem;"></i>-->
+
+                    <a class="fas fa-filter d-block d-md-none" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" style="padding:.7rem; margin-top: .3rem;"></a>
+                    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+
                     <div class="dropdown d-none d-md-block" style="line-height: 2.3rem;">
 
                         <!--Trigger-->
