@@ -186,7 +186,7 @@
             <!--Section: Content-->
             <section class="px-md-2 mx-md-2 dark-grey-text w-100">
 
-                <img class="w-100" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png "
+                <img class="w-100" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/Aungusta170_ima.jpg "
                      alt="">
 
             </section>
