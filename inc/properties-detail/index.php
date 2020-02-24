@@ -166,6 +166,12 @@
             width: 40%;
         }
     }
+    ul li a i{
+        color:#947956;
+    }
+    #navbarDropdownMenuLink1{
+        color:#947356;
+    }
 </style>
 
 <div class="row container box-center container-box py-3 d-flex"
@@ -318,7 +324,7 @@
                     <p class="d-none d-md-block" style="padding-top:10px;"><b>Filter by</b></p>
 <!--                    <i class="fas fa-filter d-block d-md-none" style="padding:.7rem; margin-top: .3rem;"></i>-->
 
-                    <a class="fas fa-filter d-block d-md-none" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    <a class="fas fa-filter d-block d-md-none" id="navbarDropdownMenuLink1" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false" style="padding:.7rem; margin-top: .3rem;"></a>
                     <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item">Edit Property</a>
