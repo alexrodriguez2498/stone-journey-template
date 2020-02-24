@@ -172,6 +172,17 @@
     #navbarDropdownMenuLink1{
         color:#947356;
     }
+
+    .card_custom {
+        margin: 20px !important;
+    }
+
+    @media (max-width: 915px) {
+        .card_custom {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    }
 </style>
 
 <div class="row container box-center container-box py-3 d-flex"
@@ -836,111 +847,135 @@
 </div>
 
 <div class="d-block d-md-none w-100" id="tableDocumentsMobile">
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
-            <i class="fas fa-file-invoice-dollar fa-2x"></i>
+            <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                <i class="fas fa-file-invoice-dollar fa-3x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Payment Summons</b> <br> Ana Humble<br>
-                    20/02/2020  </p> <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Payment Summons</b>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
-
-               
-                    
+                        </div>
+                    </div>
+                </h5>
+                <p class="card-text"style="margin:0;"> <strong>20/02/2020</strong> <br>Rossio <br>
+                    Payment Summons <br>
+                    Fiancial</p>
             </div>
 
         </div>
 
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
-            <i class="fas fa-file-signature fa-2x"></i>
+            <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                <i class="fas fa-file-signature fa-3x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Promissory Contract Payment</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Promissory Contract Payment</b>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
-
-             
+                        </div>
+                    </div>
+                </h5>
+                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
+                    Payment Summons <br>
+                    Fiancial  </p>
             </div>
 
         </div>
 
     </div>
 
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
-            <i class="fas fa-file-invoice fa-2x"></i>   
+            <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                <i class="fas fa-file-invoice fa-3x"></i>
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p> <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Fee Reinforcement</b>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
-
-               
-            </div>
-
-        </div>
-
-    </div>
-    <div class="card ">
-        <div class="card-body d-flex" style="padding:1rem;">
-            <!-- card content -->
-            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
-            <i class="fas fa-file-image fa-2x"></i>
-            </div>
-            <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"></a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
-                            <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
-
-               
+                        </div>
+                    </div>
+                </h5>
+                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
+                    Payment Summons <br>
+                    Fiancial</p>
             </div>
 
         </div>
 
     </div>
 
-
-    <div class="card ">
+    <div class="card card_custom">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
-            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
-            <i class="fas fa-images fa-2x"></i>
+            <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                <i class="fas fa-file-image fa-3x"></i>
             </div>
-            <div class="mobile-card-content" style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
-                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
-                        </div> </h5>
+                        </div>
+                    </div>
+                </h5>
+                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
+                    Payment Summons <br>
+                    Fiancial  </p>
+            </div>
 
+        </div>
+
+    </div>
+
+    <div class="card card_custom">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                <i class="fas fa-images fa-3x"></i>
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                    </div>
+                </h5>
+                <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
+                    Payment Summons <br>
+                    Fiancial</p>
             </div>
 
         </div>
@@ -1770,11 +1805,17 @@
 <script>
     document.getElementById('tableDocuments').style.cssText = 'display:none !important';
     document.getElementById('tableMilestoness').style.cssText = 'display:none !important';
+    document.getElementById('tableDocumentsMobile').style.cssText = 'display:none !important';
+    document.getElementById('tableMilestonesMobile').style.cssText = 'display:none !important';
 
     function clickClients() {
         document.getElementById('tableDocuments').style.cssText = 'display:none !important';
         document.getElementById('tableMilestoness').style.cssText = 'display:none !important';
         document.getElementById('tableClients').style.display = 'flex';
+
+        document.getElementById('tableDocumentsMobile').style.cssText = 'display:none !important';
+        document.getElementById('tableMilestonesMobile').style.cssText = 'display:none !important';
+        document.getElementById('tableClientsMobile').style.display = 'flex';
 
 
         document.getElementById('tabDocuments').classList.remove("nav-item-selected-custom");
@@ -1787,6 +1828,10 @@
         document.getElementById('tableMilestoness').style.cssText = 'display:none !important';
         document.getElementById('tableDocuments').style.display = 'flex';
 
+        document.getElementById('tableClientsMobile').style.cssText = 'display:none !important';
+        document.getElementById('tableMilestonesMobile').style.cssText = 'display:none !important';
+        document.getElementById('tableDocumentsMobile').style.display = 'flex';
+
 
         document.getElementById('tabClients').classList.remove("nav-item-selected-custom");
         document.getElementById('tabMilestones').classList.remove("nav-item-selected-custom");
@@ -1797,6 +1842,10 @@
         document.getElementById('tableClients').style.cssText = 'display:none !important';
         document.getElementById('tableDocuments').style.cssText = 'display:none !important';
         document.getElementById('tableMilestoness').style.display = 'flex';
+
+        document.getElementById('tableClientsMobile').style.cssText = 'display:none !important';
+        document.getElementById('tableDocumentsMobile').style.cssText = 'display:none !important';
+        document.getElementById('tableMilestonesMobile').style.display = 'flex';
 
 
         document.getElementById('tabClients').classList.remove("nav-item-selected-custom");
