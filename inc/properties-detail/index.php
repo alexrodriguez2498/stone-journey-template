@@ -44,7 +44,7 @@
         margin: 20px;
     }
 
-    @media (max-width: 938px) {
+    /* @media (max-width: 938px) {
 
         .second_nav .second_nav-item {
             display: none;
@@ -53,7 +53,7 @@
         .cards_container {
             flex-direction: column;
         }
-    }
+    } */
 
     #background_1 p {
         font-size: 1.43rem;
@@ -159,34 +159,34 @@
 <div class="row container box-center container-box py-3 d-flex"
      style="margin-top: 1rem !important; border-bottom: 2px solid #8c6f49; padding-bottom: .5rem !important;">
 
-    <section class="px-md-2 mx-md-2 dark-grey-text w-100">
-        <h3 class="h3">Rossio 93 - Beauty in motion</h3>
+    <section class="px-md-2 mx-md-2 dark-grey-text w-100 d-flex align-items-center">
+        <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"alt="">
+        <h3 class="h3 pl-3">Rossio 93 <h3 class="h3 d-none d-md-block"> - Beauty in motion</h3></h3>
     </section>
 </div>
 
 <div class="row container box-center container-box d-flex">
 
     <div class="row w-100" style="margin-top: 1rem;">
-        <div class="col-sm-2 pb-0" id="background_1">
+        <div class="col-sm-2 pb-0 d-none d-md-block" id="background_1">
 
 
             <!--Section: Content-->
             <section class="px-md-2 mx-md-2 dark-grey-text w-100">
 
-                <img class="w-100" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg"
+                <img class="w-100" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png "
                      alt="">
 
             </section>
             <!--Section: Content-->
 
         </div>
-        <div class="col-sm-10 border-bottom pb-0  d-flex" id="background_1">
+        <div class="col-sm-10 border-bottom pb-0  d-flex d-none d-md-block" id="background_1">
 
 
             <!--Section: Content-->
-
-
-            <p style="line-height:3rem;"><b>Architech:</b> Intergaup. <br>
+        
+            <p class="d-none d-md-block" style="line-height:3rem;"><b>Architech:</b> Intergaup. <br>
                 <b>Adress:</b> Praca do Rossio, 93, Baixa, Lisboa, Portugal <br>
                 <b>Location:</b> <u>www.googlemaps.com/rossio93</u></p>
 
@@ -194,11 +194,52 @@
             <!--Section: Content-->
 
         </div>
+        <div class="col-sm-10 pb-0  d-flex" id="background_1">
+
+
+            <!--Section: Content-->
+            <div class="row d-block d-md-none">
+            <div class="col-4">
+                <p> <b>Adress:</b></p>
+            </div>
+            <div class="col-12">
+               <p>Praca do Rossio, 93, Baixa, Lisboa, Portugal </p> 
+            </div>
+            <div class="col-4">
+                <p> <b>Location:</b> </p>
+            </div>
+            <div class="col-12">
+                <p><u>www.googlemaps.com/rossio93</u></p>
+            </div>
+            <div class="col-4">
+                <p><b>About</b></p>
+            </div>
+            <div class="col-12">
+                <p>in the myriad lights and wonders of the city, the
+                charming and centrally-located Rossio 93 is home to a shining jewel: a re-imagined classic. </p>
+            </div>
+            <div class="col-4">
+                <p><b>Info</b></p>
+            </div>
+            <div class="col-12">
+                <p style="line-height:2rem;">
+                    <b>Architech:</b> Intergaup  <br>
+                    <b>Foreseen conclusion:</b> 2019 <br>
+                    <b>Uses:</b> Residential and Retail <br>
+                    <b>Website:</b> https://www.rossio93.pt <br>
+                    <b>Status:</b> In development <br>
+                    <b>Estimated date for beginning of construction:</b> Sep 12, 2020 <br>
+                    <b>Estimated Delivery Date:</b> Sep 12, 2020 <br>
+                    <b>Number of Sellable Units:</b> 14
+                    </p>
+            </div>
+  
+        </div>
     </div>
 </div>
 <div class="row container box-center container-box" style="margin-top: 2rem;">
 
-    <div class=" col pb-0 pt-5" id="background_1">
+    <div class=" col pb-0 pt-5 d-none d-md-block" id="background_1">
 
 
         <!--Section: Content-->
@@ -214,7 +255,7 @@
     </div>
 </div>
 <div class="row container box-center container-box " style="margin-top: 2rem;">
-    <div class=" col-sm-12 col-md-6 pt-0" id="background_1">
+    <div class=" col-sm-12 col-md-6 pt-0 d-none d-md-block" id="background_1">
 
 
         <!--Section: Content-->
@@ -232,7 +273,7 @@
         <!--Section: Content-->
 
     </div>
-    <div class="col-sm-12 col-md-6 pt-0" id="background_1">
+    <div class="col-sm-12 col-md-6 pt-0 d-none d-md-block" id="background_1">
 
 
         <!--Section: Content-->
@@ -262,8 +303,9 @@
             <div class="d-flex" style="margin-left: 1rem;">
 
                 <ul class="second_nav">
-                    <p style="padding-top:10px;"><b>Filter by</b></p>
-                    <div class="dropdown" style="line-height: 2.3rem;">
+                    <p class="d-none d-md-block" style="padding-top:10px;"><b>Filter by</b></p>
+                    <i class="fas fa-filter d-block d-md-none" style="padding-top:15px;"></i>   
+                    <div class="dropdown d-none d-md-block" style="line-height: 2.3rem;">
 
                         <!--Trigger-->
                         <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
@@ -279,13 +321,16 @@
                         </div>
                     </div>
                     <li id="tabClients" class="nav-item nav-item-selected-custom" onclick="clickClients()">
-                        <a class="nav-link second_nav-item" href="#">Clients</a>
+                        <a class="nav-link second_nav-item d-none d-md-block" href="#">Clients</a>
+                        <a class="nav-link second_nav-item d-block d-md-none" href="#"><i class="far fa-user-circle"></i></a>
                     </li>
                     <li id="tabDocuments" class="nav-item" onclick="clickDocuments()">
-                        <a class="nav-link second_nav-item" href="#">Documents</a>
+                        <a class="nav-link second_nav-item d-none d-md-block" href="#">Documents</a>
+                        <a class="nav-link second_nav-item d-block d-md-none" href="#"><i class="far fa-file-alt"></i></a>
                     </li>
                     <li id="tabMilestones" class="nav-item" onclick="clickMilestones()">
-                        <a class="nav-link second_nav-item" href="#">Milestones</a>
+                        <a class="nav-link second_nav-item d-none d-md-block" href="#">Milestones</a>
+                        <a class="nav-link second_nav-item d-block d-md-none" href="#"><i class="fas fa-flag"></i></a>
                     </li>
                 </ul>
             </div>
@@ -543,6 +588,146 @@
     </div>
 </div>
 
+<div class="d-block d-md-none w-100" id="tableClientsMobile">
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Hans Vollenwider</b> <br> +123 456 789<br>
+                    ana@cto.com </p> <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+               
+                    
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Peter Thomas</b> <br> +123 456 789<br>
+                    ana@cto.com </p>  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+             
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Ana Peter</b> <br> +123 456 789<br>
+                    ana@cto.com </p> <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+               
+            </div>
+
+        </div>
+
+    </div>
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Paul Armand</b> <br> +123 456 789<br>
+                    ana@cto.com </p>  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+               
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
+            </div>
+            <div class="mobile-card-content" style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Helen Darko</b> <br> +123 456 789<br>
+                    ana@cto.com </p>  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
+            </div>
+            <div class="mobile-card-content" style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Federico Silva</b> <br> +123 456 789<br>
+                    ana@cto.com </p>  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
 <div class="container container-box box-center mt-2 last_container_table w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="tableDocuments">
     <table class="table">
         <thead>
@@ -621,6 +806,121 @@
         </nav>
     </div>
 </div>
+
+<div class="d-block d-md-none w-100" id="tableDocumentsMobile">
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+            <i class="fas fa-file-invoice-dollar fa-2x"></i>
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Payment Summons</b> <br> Ana Humble<br>
+                    20/02/2020  </p> <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+               
+                    
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+            <i class="fas fa-file-signature fa-2x"></i>
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Promissory Contract Payment</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+             
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+            <i class="fas fa-file-invoice fa-2x"></i>   
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p> <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+               
+            </div>
+
+        </div>
+
+    </div>
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+            <i class="fas fa-file-image fa-2x"></i>
+            </div>
+            <div class="mobile-card-content"style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+               
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+            <i class="fas fa-images fa-2x"></i>
+            </div>
+            <div class="mobile-card-content" style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+            </div>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+
 
 <div class=" container container-box box-center mt-2 last_container_table w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="tableMilestoness">
     <table class="table" style="margin-bottom: 0 !important;">
@@ -1205,7 +1505,7 @@
     </div>
 </div>
 
-<div class="d-block d-md-none w-100" id="table2">
+<div class="d-block d-md-none w-100" id="tableMilestonesMobile">
 
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
@@ -1214,7 +1514,8 @@
                 <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Rossio</b>  <div class="nav-item dropdown">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Payment Summons</b> <br> Ana Humble<br>
+                    20/02/2020  </p> <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -1222,9 +1523,8 @@
                             <a class="dropdown-item" href="#">Delete</a>
                         </div> </h5>
 
-                <p class="card-text"style="margin:0;"> Rossio<br>
-                    Lisboa<br>
-                    On Development</p>
+               
+                    
             </div>
 
         </div>
@@ -1238,7 +1538,7 @@
                 <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Vila Maria Pia</b>  <div class="nav-item dropdown">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Promissory Contract Payment</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -1246,9 +1546,7 @@
                             <a class="dropdown-item" href="#">Delete</a>
                         </div> </h5>
 
-                <p class="card-text"style="margin:0;"> Vila Maria Pia<br>
-                    Estpril  <br>
-                    On Development</p>
+             
             </div>
 
         </div>
@@ -1262,7 +1560,7 @@
                 <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Augusta 170</b>  <div class="nav-item dropdown">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p> <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -1270,9 +1568,7 @@
                             <a class="dropdown-item" href="#">Delete</a>
                         </div> </h5>
 
-                <p class="card-text"style="margin:0;"> Augusta 170<br>
-                    Lisboa  <br>
-                    On Development</p>
+               
             </div>
 
         </div>
@@ -1285,7 +1581,7 @@
                 <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
             </div>
             <div class="mobile-card-content"style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Isable</b>  <div class="nav-item dropdown">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -1293,14 +1589,13 @@
                             <a class="dropdown-item" href="#">Delete</a>
                         </div> </h5>
 
-                <p class="card-text"style="margin:0;"> Santa Isabel<br>
-                    Lisboa  <br>
-                    On Development</p>
+               
             </div>
 
         </div>
 
     </div>
+
 
     <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
@@ -1309,7 +1604,7 @@
                 <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
             </div>
             <div class="mobile-card-content" style="width:100%;">
-                <h5 class="card-title d-flex justify-content-between mb-0"><b>Santa Justa</b>  <div class="nav-item dropdown">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -1317,15 +1612,33 @@
                             <a class="dropdown-item" href="#">Delete</a>
                         </div> </h5>
 
-                <p class="card-text"style="margin:0;"> Sanya Justa<br>
-                    Lisboa  <br>
-                    On Development</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
+            </div>
+            <div class="mobile-card-content" style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Welcome Letter</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
             </div>
 
         </div>
 
     </div>
 </div>
+
 
 <div class="container container-box box-center clients-container"
      style="margin-top:2rem !important; margin-bottom: 10rem !important; background: none;">
