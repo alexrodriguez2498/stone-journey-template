@@ -158,12 +158,17 @@
 
 
     @media (max-width: 490px) {
+        .second_nav_custom_two{
+            width: 40%;
+        }
+    }
+
+    @media (max-width: 767px) {
         .second_nav_custom_one {
             padding-left: .2rem;
         }
-
-        .second_nav_custom_two{
-            width: 40%;
+        #background_2 {
+            padding-left: 0 !important;
         }
     }
     ul li a i{
