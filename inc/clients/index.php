@@ -403,7 +403,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Sofia Muller</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Sofia Muller</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
@@ -428,7 +438,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Ana Peter</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Ana Peter</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
@@ -453,7 +473,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Carlos Newman</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Carlos Newman</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
@@ -478,7 +508,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Maria Jones</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Maria Jones</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
@@ -503,7 +543,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Hans Vollenwider</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Hans Vollenwider</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
@@ -528,7 +578,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Arthur Les Jardins</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Arthur Les Jardins</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
@@ -553,7 +613,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Peter Thomas</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Peter Thomas</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
@@ -578,7 +648,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Cristian ALder</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Cristian ALder</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
@@ -603,7 +683,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Federico Da Silva</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Federico Da Silva</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
@@ -628,7 +718,17 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title"><strong>Carlota De la Fuente</strong></h4>
+                        <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Carlota De la Fuente</strong>
+                            <div class="nav-item dropdown d-flex">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                        </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
 
