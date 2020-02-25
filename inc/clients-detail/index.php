@@ -473,7 +473,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
 
             </tr>
@@ -491,7 +491,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
             </tr>
             <tr>
@@ -508,7 +508,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
             </tr>
             <tr>
@@ -525,7 +525,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
             </tr>
             <tr>
@@ -542,7 +542,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
             </tr>
             <tr>
@@ -559,7 +559,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
 
             </tr>
@@ -577,7 +577,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
             </tr>
             <tr>
@@ -594,7 +594,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
             </tr>
             <tr>
@@ -611,7 +611,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
             </tr>
             <tr>
@@ -628,7 +628,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              
+              </div>
                 </td>
             </tr>
             <tr>
