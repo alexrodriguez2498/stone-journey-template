@@ -254,14 +254,22 @@
                          alt="">
                 </section>
             </div>
-            <div class="col-sm-10 pb-0  d-flex d-none d-md-block" id="background_1">
-                <p class="d-none d-md-block" style="line-height:3rem;">
+            <div class="col-sm-4 pb-0 border-bottom d-flex d-none d-md-block" >
+                <p class="d-none d-md-block" style="line-height:2rem;">
                             <b>Telephone:</b> +351 93399448  <br>
                             <b>Nationality:</b> United States <br>
                             <b>Company:</b> Empire Holding <br>
                             <b>Email:</b> mcoelho@gmail.com <br>
+                            </p>
+            </div>
+            <div class="col-sm-4 pb-0 border-bottom d-flex d-none d-md-block" >
+                <p class="d-none d-md-block" style="line-height:2rem;">
+                           
                             <b>Birthday:</b> 21/10 <br>
-                            <b>Password: ****************</b> </p>
+                            <b>Password: ****************</b>  <br>
+                            <b>Extra Works:</b> Yes <br>
+                            <b>Porpuse:</b> Golden Visa
+                            </p>
             </div>
             <div class="col-sm-10 pb-0  d-flex" id="background_1" style="margin-left: 1rem !important;">
                 <div class="row d-block d-md-none">
@@ -296,8 +304,6 @@
                     </div>
                     <div class="col-12">
                         <p>
-                            <b>Properties:</b> Rossio, Vila Maria Pia  <br>
-                            <b>Account Manager:</b> Mariana Vozone<br>
                             <b>Extra Works:</b> Yes <br>
                             <b>Porpuse:</b> Golden Visa <br>
                             <b>Comission:</b> 10% <br>
@@ -311,37 +317,58 @@
             </div>
         </div>
         <div class="row container box-center container-box" style="margin-top: 2rem;">
-            <div class=" col pb-0 d-none d-md-block" id="background_1">
+            <div class=" col-sm-6 pb-0 d-none border-bottom d-md-block" id="background_1">
                 <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
-                    <p class="border-bottom pb-4"><b>About the property:</b> in the myriad lights and wonders of the city, the
-                        charming and centrally-located Rossio 93 is home to a shining jewel: a re-imagined classic.</p>
+                    <p><b>Properties:</b> Rossio, Vila Maria Pia </p>
+                </section>
+            </div>
+            <div class=" col-sm-6 pb-0 d-none border-bottom d-md-block" id="background_1">
+                <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
+                    <p><b>Account Manager:</b> Mariana Vozone</p>
                 </section>
             </div>
         </div>
-        <div class="row container box-center container-box " style="margin-top: 2rem;">
-            <div class=" col-sm-12 col-md-6 pt-0 d-none d-md-block" id="background_1">
+        <div class="row container box-center border-bottom container-box pt-4" style="margin-top: 2rem;">
+            <div class=" col-sm-6 pt-0 d-none d-md-block" id="background_1">
                 <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
                     <p style="line-height:3rem;">
-                            <b>Legal Representative:</b> Marco Coelho  <br>
-                            <b>Email:</b> mcoelho@gmail.com <br>
-                            <b>Phone:</b> +351 93399448 <br>
+                           
                             <b>Agent Representative:</b> Heidi Coelho <br>
                             <b>Email:</b> mcoelho@gmail.com <br>
                             <b>Phone:</b> +351 93399448
                     </p>
                 </section>
             </div>
-            <div class="col-sm-12 col-md-6 pt-0 d-none d-md-block" id="background_1">
+            <div class=" col-sm-6 pt-0 d-none d-md-block" id="background_1">
                 <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
                     <p style="line-height:3rem;">
-                            <b>Properties:</b> Rossio, Vila Maria Pia  <br>
-                            <b>Account Manager:</b> Mariana Vozone<br>
-                            <b>Extra Works:</b> Yes <br>
-                            <b>Porpuse:</b> Golden Visa <br>
+                            <b>Legal Representative:</b> Marco Coelho  <br>
+                            <b>Email:</b> mcoelho@gmail.com <br>
+                            <b>Phone:</b> +351 93399448 
+                            
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div class="row container box-center container-box pt-4">
+            <div class="col-sm-6 pt-0 d-none d-md-block" id="background_1">
+                <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
+                    <p style="line-height:3rem;">
+                           
                             <b>Comission:</b> 10% <br>
-                            <b>Observation:</b> None <br>
+                            <b>Observation:</b> None <br>   
                             <b>Discount:</b> Yes <br>
                             <b>Observation:</b> None
+                    </p>
+                </section>
+            </div>
+            <div class="col-sm-6 pt-0 d-none d-md-block" id="background_1">
+                <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
+                    <p style="line-height:3rem;">
+                           
+                            <b>Asking Price:</b> <br>
+                            <b>Closing Price:</b>  
+                           
                     </p>
                 </section>
             </div>
