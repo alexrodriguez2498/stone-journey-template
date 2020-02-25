@@ -255,7 +255,7 @@
                 </section>
             </div>
             <div class="col-sm-4 pb-0 border-bottom d-flex d-none d-md-block" >
-                <p class="d-none d-md-block" style="line-height:2rem;">
+                <p class="d-none d-md-block" style="line-height:2rem; font-size:1.2rem;">
                             <b>Telephone:</b> +351 93399448  <br>
                             <b>Nationality:</b> United States <br>
                             <b>Company:</b> Empire Holding <br>
@@ -263,7 +263,7 @@
                             </p>
             </div>
             <div class="col-sm-4 pb-0 border-bottom d-flex d-none d-md-block" >
-                <p class="d-none d-md-block" style="line-height:2rem;">
+                <p class="d-none d-md-block" style="line-height:2rem; font-size:1.2rem;">
                            
                             <b>Birthday:</b> 21/10 <br>
                             <b>Password: ****************</b>  <br>
