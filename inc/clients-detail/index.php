@@ -262,7 +262,7 @@
                             <b>Email:</b> mcoelho@gmail.com <br>
                             </p>
             </div>
-            <div class="col-sm-4 pb-0 border-bottom d-flex d-none d-md-block" style="padding-left: 2.5rem;>
+            <div class="col-sm-4 pb-0 border-bottom d-flex d-none d-md-block" style="padding-left: 2.5rem;">
                 <p class="d-none d-md-block" style="line-height:2rem; font-size:1.2rem;">
                            
                             <b>Birthday:</b> 21/10 <br>
