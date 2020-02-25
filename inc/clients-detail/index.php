@@ -262,7 +262,7 @@
                             <b>Email:</b> mcoelho@gmail.com <br>
                             </p>
             </div>
-            <div class="col-sm-4 pb-0 border-bottom d-flex d-none d-md-block" >
+            <div class="col-sm-4 pb-0 border-bottom d-flex d-none d-md-block" style="padding-left: 2.5rem;">
                 <p class="d-none d-md-block" style="line-height:2rem;">
                            
                             <b>Birthday:</b> 21/10 <br>
@@ -1969,7 +1969,7 @@
     </div>
 </div>
 
-<div class="cards_container container container-box box-center mt-2 mb-5 " style="width: 100%;background:transparent!important;" id="grid">
+<div class="cards_container container container-box box-center mt-2 mb-5 " style="width: 100%;background:transparent!important;     margin-bottom: 10rem !important;" id="grid">
         <!-- Card -->
         <div class="card card-one">
             <div class="card-icon-title d-flex justify-content-between">
@@ -2016,47 +2016,26 @@
     document.getElementById('tableDocumentsMobile').style.cssText = 'display:none !important';
     document.getElementById('tableMilestonesMobile').style.cssText = 'display:none !important';
 
-    function clickClients() {
-        document.getElementById('tableDocuments').style.cssText = 'display:none !important';
-        document.getElementById('tableMilestoness').style.cssText = 'display:none !important';
-        document.getElementById('tableClients').style.display = 'flex';
-
-        document.getElementById('tableDocumentsMobile').style.cssText = 'display:none !important';
-        document.getElementById('tableMilestonesMobile').style.cssText = 'display:none !important';
-        document.getElementById('tableClientsMobile').style.display = 'flex';
-
-
-        document.getElementById('tabDocuments').classList.remove("nav-item-selected-custom");
-        document.getElementById('tabMilestones').classList.remove("nav-item-selected-custom");
-        document.getElementById('tabClients').classList.add("nav-item-selected-custom");
-    }
-
     function clickDocuments() {
-        document.getElementById('tableClients').style.cssText = 'display:none !important';
         document.getElementById('tableMilestoness').style.cssText = 'display:none !important';
         document.getElementById('tableDocuments').style.display = 'flex';
 
-        document.getElementById('tableClientsMobile').style.cssText = 'display:none !important';
         document.getElementById('tableMilestonesMobile').style.cssText = 'display:none !important';
         document.getElementById('tableDocumentsMobile').style.display = 'flex';
 
 
-        document.getElementById('tabClients').classList.remove("nav-item-selected-custom");
         document.getElementById('tabMilestones').classList.remove("nav-item-selected-custom");
         document.getElementById('tabDocuments').classList.add("nav-item-selected-custom");
     }
 
     function clickMilestones() {
-        document.getElementById('tableClients').style.cssText = 'display:none !important';
         document.getElementById('tableDocuments').style.cssText = 'display:none !important';
         document.getElementById('tableMilestoness').style.display = 'flex';
 
-        document.getElementById('tableClientsMobile').style.cssText = 'display:none !important';
         document.getElementById('tableDocumentsMobile').style.cssText = 'display:none !important';
         document.getElementById('tableMilestonesMobile').style.display = 'flex';
 
 
-        document.getElementById('tabClients').classList.remove("nav-item-selected-custom");
         document.getElementById('tabDocuments').classList.remove("nav-item-selected-custom");
         document.getElementById('tabMilestones').classList.add("nav-item-selected-custom");
     }
