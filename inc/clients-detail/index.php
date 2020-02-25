@@ -194,11 +194,36 @@
             margin-left: 0 !important;
             margin-right: 0 !important;
         }
+        .cards_container{
+            flex-direction:column;
+        }
     }
 
     #background_1 {
         background: white;
     }
+    .cards_container .card .card-text strong {
+        font-weight: bold;
+        color: black;
+    }
+    .cards_container .card h4 {
+        font-weight: bold;
+    }
+    .cards_container {
+        display: flex;
+        /*margin-top: 30px;*/
+        justify-content: space-between;
+
+    }
+    .card-icon-title {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    .card-icon-title h4 {
+        padding-left: 10px;
+        padding-top: 10px;
+    }   
 </style>
 
 <!--<div class="row container box-center container-box py-3"-->
@@ -206,8 +231,8 @@
 <div class="row container box-center container-box py-3 background-none" style="margin-top: 2rem; padding-bottom: 0 !important;">
     <div class="py-4 z-depth-1 col justify-content-between" id="background_1" style="border-bottom: 2px solid #8c6f49; display: flex">
         <section class="px-md-2 mx-md-2 dark-grey-text w-100 d-flex align-items-center">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"alt="">
-            <h3 class="h3 pl-3">Rossio 93 <h3 class="h3 d-none d-md-block"> - Beauty in motion</h3></h3>
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg"alt="">
+            <h3 class="h3 pl-3">Kelly Slater</h3>
         </section>
 
         <div class="nav-item dropdown dropdown-main">
@@ -237,40 +262,47 @@
             <div class="col-sm-10 pb-0  d-flex" id="background_1" style="margin-left: 1rem !important;">
                 <div class="row d-block d-md-none">
                     <div class="col-4">
-                        <p> <b>Address:</b></p>
+                        <p> <b  style="border-bottom:2px solid #8c6f49;">Profile</b></p>
                     </div>
                     <div class="col-12">
-                        <p>Praca do Rossio, 93, Baixa, Lisboa, Portugal </p>
-                    </div>
-                    <div class="col-4">
-                        <p> <b>Location:</b> </p>
-                    </div>
-                    <div class="col-12">
-                        <p><u>www.googlemaps.com/rossio93</u></p>
-                    </div>
-                    <div class="col-4">
-                        <p><b>About</b></p>
-                    </div>
-                    <div class="col-12">
-                        <p>in the myriad lights and wonders of the city, the
-                            charming and centrally-located Rossio 93 is home to a shining jewel: a re-imagined classic. </p>
-                    </div>
-                    <div class="col-4">
-                        <p><b>Info</b></p>
-                    </div>
-                    <div class="col-12">
-                        <p style="line-height:2rem;">
-                            <b>Architech:</b> Intergaup  <br>
-                            <b>Foreseen conclusion:</b> 2019 <br>
-                            <b>Uses:</b> Residential and Retail <br>
-                            <b>Website:</b> https://www.rossio93.pt <br>
-                            <b>Status:</b> In development <br>
-                            <b>Estimated date for beginning of construction:</b> Sep 12, 2020 <br>
-                            <b>Estimated Delivery Date:</b> Sep 12, 2020 <br>
-                            <b>Number of Sellable Units:</b> 14
+                        <p>
+                            <b>Telephone:</b> +351 93399448  <br>
+                            <b>Nationality:</b> United States <br>
+                            <b>Company:</b> Empire Holding <br>
+                            <b>Email:</b> mcoelho@gmail.com <br>
+                            <b>Birthday:</b> 21/10 <br>
+                            <b>Password: ****************       </b>   
                         </p>
                     </div>
-  
+                    <div class="col-4">
+                        <p> <b  style="border-bottom:2px solid #8c6f49;">Representatives</b> </p>
+                    </div>
+                    <div class="col-12">
+                        <p>
+                            <b>Legal Representative:</b> Marco Coelho  <br>
+                            <b>Email:</b> mcoelho@gmail.com <br>
+                            <b>Phone:</b> +351 93399448 <br>
+                            <b>Agent Representative:</b> Heidi Coelho <br>
+                            <b>Email:</b> mcoelho@gmail.com <br>
+                            <b>Phone:</b> +351 93399448
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p><b style="border-bottom:2px solid #8c6f49;">  Properties Info</b></p>
+                    </div>
+                    <div class="col-12">
+                        <p>
+                            <b>Properties:</b> Rossio, Vila Maria Pia  <br>
+                            <b>Account Manager:</b> Mariana Vozone<br>
+                            <b>Extra Works:</b> Yes <br>
+                            <b>Porpuse:</b> Golden Visa <br>
+                            <b>Comission:</b> 10% <br>
+                            <b>Observation:</b> None <br>
+                            <b>Discount:</b> Yes <br>
+                            <b>Observation:</b> None
+                        </p>
+                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -1684,101 +1716,45 @@
     </div>
 </div>
 
-<div class="container container-box box-center clients-container"
-     style="margin-top:2rem !important; margin-bottom: 10rem !important; background: none;">
-    <div class="row row-cols-3 row-cols-sm-4 row-cols-lg-5 row-cols-xl-6">
-        <div class="col mb-4" style="padding: 0;">
-            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
+<div class="cards_container mt-2 mb-5" style="width: 100%;" id="grid">
+        <!-- Card -->
+        <div class="card card-one">
+            <div class="card-icon-title d-flex justify-content-between">
+                <div class="card-title-right d-flex ">
+                    <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
+                    <h4 class="tittleCardCustom">Rossio 93 </h4>
                 </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item">Edit Property</a>
+                        <a class="dropdown-item" href="#">Delete</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card image -->
+            <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
+                 alt="Card image cap">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Beauty in Motion</a></h4>
+                <!-- Text -->
+                <p class="card-text"><strong>Proyect status:</strong> On development <br>
+                    <strong>Architech:</strong> DNSJ. Arq <br>
+                    <strong>Location:</strong> Lisboa</p>
+
 
             </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4" style="padding: 0;">
-            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
 
-            </div>
-            <!-- Card -->
         </div>
-        <div class="col mb-4" style="padding: 0;">
-            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
+        <!-- Card -->
+    
 
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4" style="padding: 0;">
-            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4" style="padding: 0;">
-            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col mb-4" style="padding: 0;">
-            <div class="card h-100 z-depth-1" style="margin: 0 .5rem 0 0;">
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top"
-                         src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
     </div>
-</div>
 
 
 <script>
