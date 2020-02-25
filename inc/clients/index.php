@@ -405,7 +405,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Sofia Muller</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -440,7 +440,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Ana Peter</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -475,7 +475,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Carlos Newman</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -510,7 +510,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Maria Jones</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -545,7 +545,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Hans Vollenwider</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -580,7 +580,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Arthur Les Jardins</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -615,7 +615,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Peter Thomas</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -650,7 +650,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Cristian ALder</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -685,7 +685,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Federico Da Silva</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -720,7 +720,7 @@
                         <!--Title-->
                         <h4 class="card-title d-flex align-items-center justify-content-between"><strong>Carlota De la Fuente</strong>
                             <div class="nav-item dropdown d-flex">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" style="padding-right: 0 !important;"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
