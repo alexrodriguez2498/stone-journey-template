@@ -255,9 +255,13 @@
                 </section>
             </div>
             <div class="col-sm-10 pb-0  d-flex d-none d-md-block" id="background_1">
-                <p class="d-none d-md-block" style="line-height:3rem;"><b>Architech:</b> Intergaup. <br>
-                    <b>Adress:</b> Praca do Rossio, 93, Baixa, Lisboa, Portugal <br>
-                    <b>Location:</b> <u>www.googlemaps.com/rossio93</u></p>
+                <p class="d-none d-md-block" style="line-height:3rem;">
+                            <b>Telephone:</b> +351 93399448  <br>
+                            <b>Nationality:</b> United States <br>
+                            <b>Company:</b> Empire Holding <br>
+                            <b>Email:</b> mcoelho@gmail.com <br>
+                            <b>Birthday:</b> 21/10 <br>
+                            <b>Password: ****************</b> </p>
             </div>
             <div class="col-sm-10 pb-0  d-flex" id="background_1" style="margin-left: 1rem !important;">
                 <div class="row d-block d-md-none">
@@ -318,19 +322,26 @@
             <div class=" col-sm-12 col-md-6 pt-0 d-none d-md-block" id="background_1">
                 <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
                     <p style="line-height:3rem;">
-                        <b>Foreseen conclusion:</b> 2019 <br>
-                        <b>Uses:</b> Residential and Retail <br>
-                        <b>Website:</b> https://www.rossio93.pt <br>
-                        <b>Status:</b> In development
+                            <b>Legal Representative:</b> Marco Coelho  <br>
+                            <b>Email:</b> mcoelho@gmail.com <br>
+                            <b>Phone:</b> +351 93399448 <br>
+                            <b>Agent Representative:</b> Heidi Coelho <br>
+                            <b>Email:</b> mcoelho@gmail.com <br>
+                            <b>Phone:</b> +351 93399448
                     </p>
                 </section>
             </div>
             <div class="col-sm-12 col-md-6 pt-0 d-none d-md-block" id="background_1">
                 <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
                     <p style="line-height:3rem;">
-                        <b>Estimated date for beginning of construction:</b> Sep 12, 2020 <br>
-                        <b>Estimated Delivery Date:</b> Sep 12, 2020 <br>
-                        <b>Number of Sellable Units:</b> 14
+                            <b>Properties:</b> Rossio, Vila Maria Pia  <br>
+                            <b>Account Manager:</b> Mariana Vozone<br>
+                            <b>Extra Works:</b> Yes <br>
+                            <b>Porpuse:</b> Golden Visa <br>
+                            <b>Comission:</b> 10% <br>
+                            <b>Observation:</b> None <br>
+                            <b>Discount:</b> Yes <br>
+                            <b>Observation:</b> None
                     </p>
                 </section>
             </div>
@@ -1716,7 +1727,7 @@
     </div>
 </div>
 
-<div class="cards_container mt-2 mb-5" style="width: 100%;" id="grid">
+<div class="cards_container container container-box box-center mt-2 mb-5 " style="width: 100%;background:transparent!important;" id="grid">
         <!-- Card -->
         <div class="card card-one">
             <div class="card-icon-title d-flex justify-content-between">
