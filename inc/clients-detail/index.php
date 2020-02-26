@@ -833,14 +833,14 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
-                <td class="td_text">
+                <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                        
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color "></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -864,11 +864,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -891,11 +891,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -918,11 +918,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -945,11 +945,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -973,11 +973,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1001,11 +1001,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1028,11 +1028,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1055,11 +1055,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1082,11 +1082,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1109,11 +1109,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1137,11 +1137,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1164,11 +1164,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1191,11 +1191,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1218,11 +1218,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1246,11 +1246,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1274,11 +1274,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1301,11 +1301,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1328,11 +1328,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1355,11 +1355,11 @@
                 <td class="td_text">20/02/2020</td>
                 <td class="td_text align-items-center">
                          5
-                        <i class="fas fa-file-signature"></i></td>
+                        <i class="fas fa-file-signature main_color"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
                         2
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file-pdf main_color"></i>
                     </div>
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
