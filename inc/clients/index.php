@@ -312,8 +312,7 @@
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center" style="width: 100%;">
 
             <h3>Clients</h3>
-            <p>From this section you can quickly acces your clients. You can easily find them, filter them by property,
-                nationality or type of investment.</p>
+            <p>Find and manage your asigned clients, in a quick and easy way. You can also create a new client.</p>
             <div class="row background_1-button">
                 <button type="button" class="btn button z-depth-1 add-button">ADD CLIENT</button>
             </div>
