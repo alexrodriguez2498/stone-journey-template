@@ -496,8 +496,8 @@
                     </div>
 
                     <div class="footer-details-2 d-flex justify-content-between ">
-                       <div> 5 <i class="fas fa-file-signature"></i></div>
-                        <div> 2 <i class="fas fa-file-pdf"></i></div>
+                       <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
                 </div>
 
@@ -512,7 +512,7 @@
                 <img class="card-img-top"
                      src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/VilaMAria_ima.jpg"
                      alt="Card image cap">
-
+ 
                 <!-- Card content -->
                 <div class="card-body">
 
@@ -533,8 +533,8 @@
                     </div>
 
                     <div class="footer-details-2 d-flex justify-content-between ">
-                       <div> 5 <i class="fas fa-file-signature"></i></div>
-                        <div> 2 <i class="fas fa-file-pdf"></i></div>
+                       <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
                 </div>
 
@@ -568,8 +568,8 @@
                     </div>
 
                     <div class="footer-details-2 d-flex justify-content-between ">
-                       <div> 5 <i class="fas fa-file-signature"></i></div>
-                        <div> 2 <i class="fas fa-file-pdf"></i></div>
+                       <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
                 </div>
 
@@ -605,8 +605,8 @@
                     </div>
 
                     <div class="footer-details-2 d-flex justify-content-between ">
-                       <div> 5 <i class="fas fa-file-signature"></i></div>
-                        <div> 2 <i class="fas fa-file-pdf"></i></div>
+                       <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
                 </div>
 
@@ -642,8 +642,8 @@
                     </div>
 
                     <div class="footer-details-2 d-flex justify-content-between ">
-                       <div> 5 <i class="fas fa-file-signature"></i></div>
-                        <div> 2 <i class="fas fa-file-pdf"></i></div>
+                       <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
                 </div>
 
@@ -677,8 +677,8 @@
                     </div>
 
                     <div class="footer-details-2 d-flex justify-content-between ">
-                       <div> 5 <i class="fas fa-file-signature"></i></div>
-                        <div> 2 <i class="fas fa-file-pdf"></i></div>
+                       <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
                 </div>
 
