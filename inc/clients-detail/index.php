@@ -1549,7 +1549,7 @@
 
 <div class="cards_container container container-box box-center mt-2 mb-5 " style="width: 100%;background:transparent!important;     margin-bottom: 10rem !important;" id="grid">
         <!-- Card -->
-        <div class="card card-one">
+        <div class="card ml-0">
             <div class="card-icon-title d-flex justify-content-between">
                 <div class="card-title-right d-flex ">
                     <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
