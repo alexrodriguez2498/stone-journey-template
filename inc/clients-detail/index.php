@@ -473,7 +473,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
 
             </tr>
@@ -491,7 +491,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
             </tr>
             <tr>
@@ -508,7 +508,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
             </tr>
             <tr>
@@ -525,7 +525,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
             </tr>
             <tr>
@@ -542,7 +542,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
             </tr>
             <tr>
@@ -559,7 +559,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
 
             </tr>
@@ -577,7 +577,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
             </tr>
             <tr>
@@ -594,7 +594,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
             </tr>
             <tr>
@@ -611,7 +611,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
             </tr>
             <tr>
@@ -628,7 +628,7 @@
                           <a class="dropdown-item">Edit Property</a>
                           <a class="dropdown-item" href="#">Delete</a>
                       </div>
-              </div>
+              
                 </td>
             </tr>
             <tr>
@@ -815,6 +815,8 @@
                 <th scope="col"><b>CATEGORY</b>
                 <th scope="col"><b>DATE</b>
                 <th scope="col"><b></b></th>
+                <th scope="col"><b></b></th>
+
                 </th>
 
 
@@ -831,10 +833,12 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
+                       
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -858,10 +862,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -884,10 +889,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -910,10 +916,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -936,10 +943,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -963,10 +971,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -990,10 +999,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1016,10 +1026,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1042,10 +1053,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1068,10 +1080,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1094,10 +1107,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1121,10 +1135,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1147,10 +1162,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1173,10 +1189,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1199,10 +1216,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1226,10 +1244,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1253,10 +1272,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1279,10 +1299,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1305,10 +1326,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1331,10 +1353,11 @@
                 <td class="td_text">A1</td>
                 <td class="td_text">General</td>
                 <td class="td_text">20/02/2020</td>
+                <td class="td_text align-items-center">
+                         5
+                        <i class="fas fa-file-signature"></i></td>
                 <td class="d-flex td_text align-items-center justify-content-end">
                     <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
                         2
                         <i class="fas fa-file-pdf"></i>
                     </div>
@@ -1357,6 +1380,8 @@
                 <td><b></b></td>
                 <td><b></b></td>
                 <td><b></b></td>
+                <td><b></b></td>
+
 
             </tr>
 
