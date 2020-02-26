@@ -836,7 +836,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                        
                         2
@@ -865,7 +865,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end" style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -877,6 +877,7 @@
                             <a class="dropdown-item">Edit Property</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
+                    </div>
                 </td>
             </tr>
             <tr>
@@ -892,7 +893,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -919,7 +920,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -946,7 +947,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -974,7 +975,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1002,7 +1003,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1029,7 +1030,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1056,7 +1057,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1083,7 +1084,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1110,7 +1111,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1138,7 +1139,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1165,7 +1166,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1192,7 +1193,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1219,7 +1220,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1247,7 +1248,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1275,7 +1276,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1302,7 +1303,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1329,7 +1330,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
@@ -1356,7 +1357,7 @@
                 <td class="td_text align-items-center">
                          5
                         <i class="fas fa-file-signature main_color"></i></td>
-                <td class="d-flex td_text align-items-center justify-content-end">
+                <td class="d-flex td_text align-items-center justify-content-end"style="padding-top: 0.25rem !important;">
                     <div class="footer-details-2 ">
                         2
                         <i class="fas fa-file-pdf main_color"></i>
