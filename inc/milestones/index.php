@@ -390,7 +390,7 @@
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center" style="width: 100%;">
 
             <h3>Milestones</h3>
-            <p>This is your ....</p>
+            <p>Manage the properties milestones, by creating new ones or assinging them to property or client</p>
             <div class="row background_1-button">
                 <button type="button" class="btn button z-depth-1 add-button">ADD MILESTONE</button>
             </div>
