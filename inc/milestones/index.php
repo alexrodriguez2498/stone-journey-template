@@ -233,10 +233,12 @@
     
    .footer-details-1 {
        color: white;
+
    }
 
     .footer-details-2 {
         color: white;
+        width:7rem;
     }
 
 
@@ -390,7 +392,7 @@
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center" style="width: 100%;">
 
             <h3>Milestones</h3>
-            <p>Manage the properties milestones, by creating new ones or assinging them to property or client</p>
+            <p>Manage the properties milestones, by creating new ones or assinging them to property or client.</p>
             <div class="row background_1-button">
                 <button type="button" class="btn button z-depth-1 add-button">ADD MILESTONE</button>
             </div>
@@ -429,13 +431,13 @@
                 </div>
                 <ul class="second_nav">
                     <li id="tabGrid" class="nav-item nav-item-selected-custom" onclick="clickGrid()">
-                        <a class="nav-link second_nav-item" href="#">Grid</a>
+                        <a class="nav-link second_nav-item" href="">Grid</a>
                     </li>
                     <li id="tabList" class="nav-item" onclick="clickTable()">
-                        <a class="nav-link second_nav-item" href="#">List</a>
+                        <a class="nav-link second_nav-item" href="">List</a>
                     </li>
-                    <li id="tabList" class="nav-item" onclick="clickTable()">
-                        <a class="nav-link second_nav-item" href="#">Calendar</a>
+                    <li id="tabCalendar" class="nav-item" onclick="clickTable()">
+                        <a class="nav-link second_nav-item" href="">Calendar</a>
                     </li>
 
                 </ul>
@@ -493,11 +495,9 @@
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
-                        2
-                        <i class="fas fa-file-pdf"></i>
+                    <div class="footer-details-2 d-flex justify-content-between ">
+                       <div> 5 <i class="fas fa-file-signature"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf"></i></div>
                     </div>
                 </div>
 
@@ -532,11 +532,9 @@
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
-                        2
-                        <i class="fas fa-file-pdf"></i>
+                    <div class="footer-details-2 d-flex justify-content-between ">
+                       <div> 5 <i class="fas fa-file-signature"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf"></i></div>
                     </div>
                 </div>
 
@@ -569,11 +567,9 @@
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
-                        2
-                        <i class="fas fa-file-pdf"></i>
+                    <div class="footer-details-2 d-flex justify-content-between ">
+                       <div> 5 <i class="fas fa-file-signature"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf"></i></div>
                     </div>
                 </div>
 
@@ -608,11 +604,9 @@
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
-                        2
-                        <i class="fas fa-file-pdf"></i>
+                    <div class="footer-details-2 d-flex justify-content-between ">
+                       <div> 5 <i class="fas fa-file-signature"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf"></i></div>
                     </div>
                 </div>
 
@@ -647,11 +641,9 @@
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
-                        2
-                        <i class="fas fa-file-pdf"></i>
+                    <div class="footer-details-2 d-flex justify-content-between ">
+                       <div> 5 <i class="fas fa-file-signature"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf"></i></div>
                     </div>
                 </div>
 
@@ -684,11 +676,9 @@
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 ">
-                        5
-                        <i class="fas fa-file-signature"></i>
-                        2
-                        <i class="fas fa-file-pdf"></i>
+                    <div class="footer-details-2 d-flex justify-content-between ">
+                       <div> 5 <i class="fas fa-file-signature"></i></div>
+                        <div> 2 <i class="fas fa-file-pdf"></i></div>
                     </div>
                 </div>
 
