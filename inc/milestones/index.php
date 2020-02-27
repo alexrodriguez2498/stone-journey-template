@@ -10,21 +10,17 @@
         align-items: center;
         padding: 24px 30px;
     }
-
     #container__center h3 {
         font-size: 45px;
         font-weight: 400;
     }
-
     #container__center p {
         font-size: 22px;
     }
-
     .container-box {
         margin-right: 2rem;
         margin-left: 2rem;
     }
-
     body {
         background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
         background-size: cover;
@@ -34,38 +30,29 @@
         /* background-opacity:0.5; */
         font-family: "roboto";
     }
-
     @media (max-width: 425px) {
         .container-box {
             display: flex;
             flex-direction: column;
         }
-
         #background_3 {
             margin-left: 0;
         }
-
         #background_5 {
             margin-left: 0;
         }
-
-        /*                                                                     revisar lo que esta encerrado */
         #background_1 h3 {
             font-size: 16px;
         }
-
         .container-box-2 {
             margin-top: 0;
         }
     }
-
-    /*                                                                          revisar lo que esta encerrado */
     @media (min-width: 1300px) {
         .container-box {
             margin: auto 15%;
         }
     }
-
     @media (max-width: 650px) {
         #background_1 {
             padding-left: 1.5rem;
@@ -82,167 +69,77 @@
         #background_1 p {
         }
     }
-
-    #background_1 {
-        background: white;
-    }
-
-    #background_2 {
-        background: white;
-        /*display: flex;*/
-        align-items: center;
-        /* padding-bottom:0! important; */
-        justify-content: space-between;
-        padding: 16px 30px 0px 30px !important;
-
-    }
-
-    #background_3 {
-        background: white;
-
-    }
-
-    #background_4 {
-        background: white;
-
-    }
-
-    #background_5 {
-        background: white;
-
-    }
-
     .button {
         color: white;
         background: #947956;
     }
-
     .second_nav {
         display: flex;
         list-style: none;
     }
-
     .second_nav .second_nav-item {
         color: black;
         font-weight: bold;
         padding: 10px 50px;
     }
-
     .second_nav .search {
         color: #9e9fa0;
         border-bottom: 1px solid #9e9fa0;
         padding-left: 100px;
     }
-
     .cards_container {
         display: flex;
         /*margin-top: 30px;*/
         justify-content: space-between;
-
     }
-
     .card-icon-title {
         display: flex;
         align-items: center;
         padding: 20px;
     }
-
     .card-icon-title h4 {
         padding-left: 10px;
         padding-top: 10px;
     }
-
     .card {
         margin: 20px;
     }
-
-    .card-one {
-        margin-left: 0 !important;
-    }
-
-    .card-three {
-        margin-right: 0 !important;
-    }
-
     @media (max-width: 910px) {
         .cards_container {
             flex-direction: column;
         }
-
         .second_nav {
             display: none;
         }
-
-        .card {
-
-        }
-
     }
-
-    /* .background_1-button{
-        display:flex;
-    } */
     .cards_container .card h4 {
         font-weight: bold;
     }
-
     .cards_container .card .card-text strong {
         font-weight: bold;
         color: black;
     }
-
     #background_1 h4 {
         font-size: 52px;
     }
-
     #background_1 p {
         font-size: 24px;
         line-height: 30px;
     }
-
     .card .card-body .card-text {
         font-size: 16px;
     }
-
-    .half_container {
-        justify-content: center;
-    }
-
     #dropdownMenu1 {
         box-shadow: 0 0 0 0;
         margin: 0;
         padding-top: 0;
-
     }
-
     @media (max-width: 915px) {
         .card {
             margin-left: 0 !important;
             margin-right: 0 !important;
         }
     }
-    .card-footer{
-        background:#627db8;
-        padding:0.8rem 2rem;
-    }
-    .card-footer-2{
-        background:#797979;
-        padding:0.8rem 2rem;
-        
-    }
-    
-   .footer-details-1 {
-       color: white;
-
-   }
-
-    .footer-details-2 {
-        color: white;
-        width:7rem;
-    }
-
-
-
     .card-body{
         padding:0.5rem;
     }
@@ -269,8 +166,6 @@
             padding: 0.5rem 1rem !important;
         }
     }
-
-
     .card_custom {
         margin: 20px !important;
     }
@@ -281,67 +176,51 @@
             margin-right: 0 !important;
         }
     }
-
     .second_nav {
         display: flex;
         list-style: none;
     }
-
     .second_nav_icon {
         display: none;
         padding: .5rem;
         color: #947956;
     }
-
     .second_nav .second_nav-item {
         color: black;
         font-weight: bold;
         padding: 10px 100px;
     }
-
     .second_nav .search {
         color: #9e9fa0;
         border-bottom: 1px solid #9e9fa0;
         padding-left: 100px;
     }
-
     @media (max-width: 470px) {
         #searchContainer {
             width: 40%;
             padding-left: 0;
         }
     }
-
     @media (max-width: 910px) {
 
         .second_nav {
             display: none;
         }
-
         .second_nav_icon {
             display: flex;
         }
-
     }
-
     @media (min-width: 911px) {
 
         .second_nav_icon {
             display: none !important;
         }
-
     }
-
-    .half_container {
-        justify-content: center;
-    }
-
     .dropdown .dropdown-menu .dropdown-item:hover {
         background: #f9f8f6 !important;
         color: #000 !important;
         box-shadow: none;
     }
-
     .nav-item-selected-custom {
         border-bottom: 1.5px solid #967c5c;
         height: fit-content;
@@ -357,35 +236,23 @@
         padding-top:0.5rem;
         padding-bottom:0.5rem;
     }
-
     #seach {
         border-bottom: 1px solid #947956 !important;
         box-shadow: 0 1px 0 0 #947956 !important;
     }
-
     #seach:focus {
         border-bottom: 1px solid #947956 !important;
         box-shadow: 0 1px 0 0 #947956 !important;
     }
-
     .icon_size_custom {
         font-size: 1.4rem !important;
         height: fit-content;
         line-height: inherit;
     }
-
-    #background_2 {
-        background: white;
-        align-items: center;
-        justify-content: space-between;
-        padding: 8px 30px 10px 30px !important;
-
-    }
-
 </style>
 
 <div class="row container box-center container-box py-3 background-none" style="margin-top: 2rem;">
-    <div class="py-4 z-depth-1 col" id="background_1">
+    <div class="py-4 z-depth-1 col bg-white" id="background_1">
 
 
         <!--Section: Content-->
@@ -404,12 +271,9 @@
     </div>
 </div>
 
-<div class="row mt-4 container box-center container-box container-box half_container background-none" style="margin-bottom: 10rem !important;">
-    <div class="py-3 z-depth-1 col " id="background_2">
-        <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
-        <!-- <div class="background_2-content"> -->
-        <!--Dropdown primary-->
-
+<div class="row mt-4 container box-center container-box container-box  background-none" style="margin-bottom: 10rem !important;">
+    <div class=" z-depth-1 col bg-white align-items-center justify-content-between pr-4 pl-4 pt-2 pb-2">
+     
 
         <div class="row justify-content-between" style="height:45px;">
             <div class="d-flex" style="margin-left: 1rem;">
@@ -447,31 +311,20 @@
             <!--/Dropdown primary-->
             <ul class="d-flex " id="searchContainer">
                 <form class="form-inline d-none d-lg-block">
-                    <div class="md-form my-0" style="padding-bottom:16px;">
+                    <div class="md-form my-0">
                         <input id="seach" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     </div>
                 </form>
-                <!--                    <i class="fas fa-th-large fa-2x second_nav_icon" style="padding: .5rem; color: #947956;"></i>-->
             </ul>
-
             <i id="iconGrid" class="fas fa-th-large fa-2x second_nav_icon icon_size_custom" onclick="clickGrid()"></i>
             <i id="iconTable" class="fas fa-list fa-2x second_nav_icon icon_size_custom" onclick="clickTable()"></i>
-
         </div>
 
-        <!-- </div> -->
-        <!-- <form class="form-inline md-form form-sm mt-0">
-        <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
-            aria-label="Search">
-        </form> -->
-        <!-- </div> -->
-
-        <!-- </section> -->
     </div>
     <div class="cards_container mt-3" style="width: 100%;" id="grid">
         <div class="cards_container mt-2" style="width: 100%; margin-top:1.5rem!important;">
             <!-- Card -->
-            <div class="card card-one">
+            <div class="card ml-0">
 
                 <!-- Card image -->
                 <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
@@ -490,12 +343,12 @@
 
 
                 </div>
-                <div class="card-footer-2 justify-content-between text-muted d-flex mt-4">
-                    <div class="footer-details-1">
+                <div class="justify-content-between text-muted d-flex mt-4 py-2 px-5 " style=" background:#797979;">
+                    <div class="text-white">
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 d-flex justify-content-between ">
+                    <div class="w-50 text-white pl-4 d-flex justify-content-between" >
                        <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
                         <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
@@ -527,12 +380,12 @@
 
                 </div>
                 <!-- Card footer -->
-                <div class="card-footer-2 justify-content-between text-muted d-flex mt-4">
-                    <div class="footer-details-1">
+                <div class=" justify-content-between text-muted d-flex mt-4 py-2 px-5"style=" background:#797979;" >
+                    <div class="text-white">
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 d-flex justify-content-between ">
+                    <div class="w-50 text-white pl-4 d-flex justify-content-between ">
                        <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
                         <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
@@ -542,7 +395,7 @@
             </div>
             <!-- Card -->
             <!-- Card -->
-            <div class="card card-three">
+            <div class="card mr-0">
 
                 <!-- Card image -->
                 <img class="card-img-top"
@@ -562,12 +415,12 @@
 
 
                 </div>
-                <div class="card-footer-2 justify-content-between text-muted d-flex mt-4">
-                    <div class="footer-details-1">
+                <div class=" justify-content-between text-muted d-flex mt-4 py-2 px-5" style=" background:#797979;" >
+                    <div class="text-white">
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 d-flex justify-content-between ">
+                    <div class="w-50 text-white pl-4 d-flex justify-content-between ">
                        <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
                         <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
@@ -580,7 +433,7 @@
     </div>
     <div class="cards_container " style="width: 100%;">
             <!-- Card -->
-            <div class="card card-one">
+            <div class="card ml-0">
 
                 <!-- Card image -->
                 <img class="card-img-top" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/rossio_ima.jpg"
@@ -599,12 +452,12 @@
 
 
                 </div>
-                <div class="card-footer justify-content-between text-muted d-flex mt-4">
-                    <div class="footer-details-1">
+                <div class="justify-content-between text-muted d-flex mt-4 py-2 px-5" style="background:#627db8;">
+                    <div class="text-white">
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 d-flex justify-content-between ">
+                    <div class="w-50 text-white pl-4 d-flex justify-content-between ">
                        <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
                         <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
@@ -636,12 +489,12 @@
 
                 </div>
                 <!-- Card footer -->
-                <div class="card-footer justify-content-between text-muted d-flex mt-4">
-                    <div class="footer-details-1">
+                <div class="justify-content-between text-muted d-flex mt-4 py-2 px-5" style="background:#627db8;">
+                    <div class="text-white">
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 d-flex justify-content-between ">
+                    <div class="w-50 text-white pl-4 d-flex justify-content-between ">
                        <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
                         <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
@@ -651,7 +504,7 @@
             </div>
             <!-- Card -->
             <!-- Card -->
-            <div class="card card-three">
+            <div class="card mr-0">
 
                 <!-- Card image -->
                 <img class="card-img-top"
@@ -671,13 +524,13 @@
 
 
                 </div>
-                <div class="card-footer justify-content-between text-muted d-flex mt-4">
-                    <div class="footer-details-1">
+                <div class="justify-content-between text-muted d-flex mt-4 py-2 px-5" style="background:#627db8;"> 
+                    <div class="text-white">
                         16/06/2020
                     </div>
 
-                    <div class="footer-details-2 d-flex justify-content-between ">
-                       <div> 5 <i class="fas fa-file-signature pl-2"></i></div>
+                    <div class="w-50 text-white pl-4 d-flex justify-content-between ">
+                       <div> 5 <i class="fas fa-file-signature pl-2 "></i></div>
                         <div> 2 <i class="fas fa-file-pdf pl-2"></i></div>
                     </div>
                 </div>
@@ -688,7 +541,7 @@
         </div>
     </div>
 
-    <div class=" d-none d-md-block mt-3 last_container_table w-100" style="width: 100%;" id="table">
+    <div class=" d-none d-md-block mt-3 container container-box box-center last_container_table w-100" style="width: 100%;" id="table">
         <table class="table" style="margin-bottom: 0 !important;">
                 <thead>
                 <tr>
@@ -712,17 +565,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                             alt=""></td>
-                    <td class="td_text">Payment Summons</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Payment Summons</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-itemsstart justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-itemsstart justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                         
                             2
@@ -741,17 +594,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Gerry Lopez</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Gerry Lopez</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color" ></i>
@@ -769,17 +622,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Rabbit Kekai</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Rabbit Kekai</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -796,17 +649,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Kelly Slater</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Kelly Slater</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -823,17 +676,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                             alt=""></td>
-                    <td class="td_text">Ms. Carissa Moore</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Ms. Carissa Moore</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -851,17 +704,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                             alt=""></td>
-                    <td class="td_text">Ms. Layne Beachley</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Ms. Layne Beachley</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -879,17 +732,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Gerry Lopez</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Gerry Lopez</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -906,17 +759,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Rabbit Kekai</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Rabbit Kekai</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -933,17 +786,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Kelly Slater</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Kelly Slater</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -960,17 +813,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                             alt=""></td>
-                    <td class="td_text">Ms. Carissa Moore</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Ms. Carissa Moore</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -987,17 +840,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                             alt=""></td>
-                    <td class="td_text">Payment Summons</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Payment Summons</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1015,17 +868,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Gerry Lopez</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Gerry Lopez</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
@@ -1042,17 +895,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Rabbit Kekai</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Rabbit Kekai</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
@@ -1069,17 +922,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Kelly Slater</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Kelly Slater</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
@@ -1096,17 +949,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                             alt=""></td>
-                    <td class="td_text">Ms. Carissa Moore</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Ms. Carissa Moore</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
@@ -1124,17 +977,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                             alt=""></td>
-                    <td class="td_text">Ms. Layne Beachley</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Ms. Layne Beachley</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1152,17 +1005,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Gerry Lopez</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Gerry Lopez</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1179,17 +1032,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Rabbit Kekai</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Rabbit Kekai</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1206,17 +1059,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"
                                             alt=""></td>
-                    <td class="td_text">Mr. Kelly Slater</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Mr. Kelly Slater</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1233,17 +1086,17 @@
                 <tr>
                     <td class="td_icon"><img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg"
                                             alt=""></td>
-                    <td class="td_text">Ms. Carissa Moore</td>
-                    <td class="td_text">Rossio</td>
-                    <td class="td_text">Private</td>
-                    <td class="td_text">Ana Humble</td>
-                    <td class="td_text">A1</td>
-                    <td class="td_text">General</td>
-                    <td class="td_text">20/02/2020</td>
-                    <td class="td_text align-items-center">
+                    <td class="">Ms. Carissa Moore</td>
+                    <td class="">Rossio</td>
+                    <td class="">Private</td>
+                    <td class="">Ana Humble</td>
+                    <td class="">A1</td>
+                    <td class="">General</td>
+                    <td class="">20/02/2020</td>
+                    <td class=" align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex  align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
                         <div class="footer-details">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
