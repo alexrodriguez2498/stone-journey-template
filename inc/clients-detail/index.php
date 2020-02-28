@@ -44,17 +44,7 @@
             margin: 20px;
         }
 
-        /* @media (max-width: 938px) {
-
-            .second_nav .second_nav-item {
-                display: none;
-            }
-
-            .cards_container {
-                flex-direction: column;
-            }
-        } */
-
+       
         #background_1 p {
             font-size: 1.2rem;
             line-height: 2rem !important;

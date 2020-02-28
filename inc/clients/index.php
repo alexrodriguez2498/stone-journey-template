@@ -312,7 +312,8 @@
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center" style="width: 100%;">
 
             <h3>Clients</h3>
-            <p>Find and manage your asigned clients, in a quick and easy way. You can also create a new client.</p>
+            <p>Find and manage your asigned clients, in a quick and easy way. Yo
+            u can also create a new client.</p>
             <div class="row background_1-button">
                 <button type="button" class="btn button z-depth-1 add-button">ADD CLIENT</button>
             </div>
@@ -325,9 +326,7 @@
 <!--<div class="container">-->
 <div class="row mt-4 container box-center container-box container-box half_container background-none" style="margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col " id="background_2">
-        <!-- <section class="px-md-2 mx-md-2 dark-grey-text"> -->
-        <!-- <div class="background_2-content"> -->
-        <!--Dropdown primary-->
+  
 
 
         <div class="row justify-content-between" style="height:45px;">
@@ -375,14 +374,7 @@
 
         </div>
 
-        <!-- </div> -->
-        <!-- <form class="form-inline md-form form-sm mt-0">
-        <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
-            aria-label="Search">
-        </form> -->
-        <!-- </div> -->
-
-        <!-- </section> -->
+     
     </div>
     <div class="cards_container mt-3" style="width: 100%;" id="grid">
         <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5">
