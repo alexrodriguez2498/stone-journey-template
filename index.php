@@ -21,6 +21,8 @@
         require_once('inc/clients-detail/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'clients') !== false) {
         require_once('inc/clients/index.php');
+    } elseif (strpos($_SERVER['REQUEST_URI'], 'documents-detail') !== false) {
+        require_once('inc/documents-detail/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'documents') !== false) {
         require_once('inc/documents/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'milestones') !== false) {
