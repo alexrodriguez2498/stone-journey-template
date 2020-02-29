@@ -39,7 +39,7 @@
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center center;
-        font-family: "roboto";
+        font-family: "roboto", serif;
     }
 
     @media (max-width: 425px) {
@@ -58,10 +58,6 @@
 
         #background_1 h3 {
             font-size: 16px;
-        }
-
-        .container-box-2 {
-            margin-top: 0;
         }
 
         .container-child-right {
@@ -114,10 +110,6 @@
     #background_5 {
         background: white;
 
-    }
-
-    .col mb-4 {
-        height: fit-content;
     }
 
     @media (max-width: 450px) {
