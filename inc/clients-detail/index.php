@@ -435,6 +435,7 @@
 
             <!-- </section> -->
         </div>
+        </div>
 
         <div class="mt-2 last_container_table w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="tableDocuments">
             <table class="table">

@@ -93,8 +93,11 @@
         </div>
     </div>
 
-    <div class=" container container-box box-center d-none d-md-block">
-            <table class="table">
+    <div class="row mt-4 container box-center container-box container-box half_container background-none"
+        style=" margin-top: .5rem !important;">
+        <div class="py-3 z-depth-1 col " id="background_2" style="background: white !important;">
+
+        <table class="table">
                 <thead>
                 <tr>
                     <th scope="col"><b></b></th>
@@ -107,11 +110,11 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td class="text-center"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
-                    <td>Payment Summons</td>
-                    <td>20/02/2020</td>
-                    <td>20/02/2020</td>
-                    <td class="d-flex justify-content-between ">Word Document
+                    <td class="border-bottom text-center"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
+                    <td class="border-bottom">Payment Summons</td>
+                    <td class="border-bottom">20/02/2020</td>
+                    <td class="border-bottom">20/02/2020</td>
+                    <td class="d-flex justify-content-between border-bottom">Word Document
                     <div class="nav-item dropdown d-flex align-items-center ">
                         
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -125,21 +128,17 @@
 
                 </tr>
                
-                <tr>
-                    <td><b></b></td>
-                    <td><b></b></td>
-                    <td><b></b></td>
-                    <td><b></b></td>
-                    <td><b></b></td>
-                    
-                    
-                
-
-                </tr>
+              
 
 
                 </tbody>
             </table>
+           
+
+
+            <!-- </section> -->
+        </div>
+        </div
 
 
 
