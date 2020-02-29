@@ -414,10 +414,10 @@
                     </div>
                 </div>
                 <ul class="second_nav">
-                    <!-- <li id="tabGrid" class="nav-item " onclick="clickGrid()">
+                    <!-- <li id="tabGrid" class="nav-item " >
                         <a class="nav-link second_nav-item" href="#">Grid</a>
                     </li> -->
-                    <li id="tabList" class="nav-item nav-item-selected-custom" onclick="clickTable()">
+                    <li id="tabList" class="nav-item nav-item-selected-custom" >
                         <a class="nav-link second_nav-item" href="#">List</a>
                     </li>
 
@@ -435,8 +435,8 @@
                 <!--                    <i class="fas fa-th-large fa-2x second_nav_icon" style="padding: .5rem; color: #947956;"></i>-->
             </ul>
 
-            <i id="iconGrid" class="fas fa-th-large fa-2x second_nav_icon icon_size_custom" onclick="clickGrid()"></i>
-            <i id="iconTable" class="fas fa-list fa-2x second_nav_icon icon_size_custom" onclick="clickTable()"></i>
+            <i id="iconGrid" class="fas fa-th-large fa-2x second_nav_icon icon_size_custom" ></i>
+            <i id="iconTable" class="fas fa-list fa-2x second_nav_icon icon_size_custom" ></i>
 
         </div>
 
@@ -1147,32 +1147,11 @@
                     </div>
                 </div>
             </div>
-       
-       
-    
-
-     
-
-
-       
     </div>
 </div>
 <script>
-    document.getElementById('table').style.cssText = 'display:none !important';
-    document.getElementById('table2').style.cssText = 'display:none !important';
-    document.getElementById('iconGrid').style.cssText = 'display:none !important';
 
-    function clickGrid() {
-        document.getElementById('table').style.cssText = 'display:none !important';
-        document.getElementById('table2').style.cssText = 'display:none !important';
-        document.getElementById('iconGrid').style.cssText = 'display:none !important';
-        document.getElementById('grid').style.display = 'flex';
-        document.getElementById('iconTable').style.display = 'flex';
-
-
-        document.getElementById('tabList').classList.remove("nav-item-selected-custom");
-        document.getElementById('tabGrid').classList.add("nav-item-selected-custom");
-    }
+    clickTable();
 
     function clickTable() {
         document.getElementById('grid').style.display = 'none';
@@ -1181,7 +1160,6 @@
         document.getElementById('table2').style.display = 'flex';
         document.getElementById('iconGrid').style.display = 'flex';
 
-        document.getElementById('tabGrid').classList.remove("nav-item-selected-custom");
         document.getElementById('tabList').classList.add("nav-item-selected-custom");
     }
 </script>
