@@ -414,10 +414,10 @@
                     </div>
                 </div>
                 <ul class="second_nav">
-                    <li id="tabGrid" class="nav-item nav-item-selected-custom" onclick="clickGrid()">
+                    <!-- <li id="tabGrid" class="nav-item " onclick="clickGrid()">
                         <a class="nav-link second_nav-item" href="#">Grid</a>
-                    </li>
-                    <li id="tabList" class="nav-item" onclick="clickTable()">
+                    </li> -->
+                    <li id="tabList" class="nav-item nav-item-selected-custom" onclick="clickTable()">
                         <a class="nav-link second_nav-item" href="#">List</a>
                     </li>
 
@@ -711,8 +711,7 @@
             <tr>
                 <th scope="col"><b></b></th>
                 <th scope="col"><b>Name</b></th>
-                <th scope="col"><b>Adressee</b></th>
-                <th scope="col"><b>Milestone</b></th>
+                <th scope="col"><b>Owner</b></th>
                 <th scope="col"><b>Category</b></th>
                 <th scope="col"><b>Date</b></th>
             </tr>
@@ -721,9 +720,8 @@
             <tr>
                 <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
                 <td>Payment Summons</td>
-                <td>Rossio</td>
-                <td>Payment Summons</td>
-                <td>Financial</td>
+                <td>Private</td>
+                <td>Legal</td>
 <!--                <td>20/02/2020</td>-->
                 <td class="d-flex td_text justify-content-between"> 20/02/2020
                     <div class="nav-item dropdown">
@@ -738,9 +736,8 @@
             <tr>
                 <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
                 <td>Promissory Contract Payment</td>
-                <td>Rossio</td>
-                <td>Promissory Contract Payment</td>
-                <td>Legal</td>
+                <td>Private</td>
+                <td>Financial</td>
                  <td class="d-flex td_text justify-content-between"> 20/02/2020
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -754,9 +751,8 @@
             <tr>
                 <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
                 <td>Reservation Fee Reinforcement</td>
-                <td>Rossio</td>
-                <td>Reservation Fee Reinforcement</td>
-                <td>Financial</td>
+                <td>Private</td>
+                <td>Legal</td>
                  <td class="d-flex td_text justify-content-between"> 20/02/2020
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -770,9 +766,8 @@
             <tr>
                 <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
                 <td>Reservation Form</td>
-                <td>Rossio</td>
-                <td>Reservation Form</td>
-                <td>Legal</td>
+                <td>Private</td>
+                <td>Financial</td>
                  <td class="d-flex td_text justify-content-between"> 20/02/2020
                     <div class="nav-item dropdown">
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -786,8 +781,237 @@
             <tr>
                 <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
                 <td>Welcome letter</td>
-                <td>Rossio, Ana Humble</td>
+                <td>Private</td>
+                <td>General</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+           
+
+                <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
+                <td>Payment Summons</td>
+                <td>Private</td>
+                <td>Legal</td>
+<!--                <td>20/02/2020</td>-->
+                <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
+                <td>Promissory Contract Payment</td>
+                <td>Private</td>
+                <td>Financial</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
+                <td>Reservation Fee Reinforcement</td>
+                <td>Private</td>
+                <td>Legal</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
+                <td>Reservation Form</td>
+                <td>Private</td>
+                <td>Financial</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
                 <td>Welcome letter</td>
+                <td>Private</td>
+                <td>General</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
+                <td>Payment Summons</td>
+                <td>Private</td>
+                <td>Legal</td>
+<!--                <td>20/02/2020</td>-->
+                <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
+                <td>Promissory Contract Payment</td>
+                <td>Private</td>
+                <td>Financial</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
+                <td>Reservation Fee Reinforcement</td>
+                <td>Private</td>
+                <td>Legal</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
+                <td>Reservation Form</td>
+                <td>Private</td>
+                <td>Financial</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
+                <td>Welcome letter</td>
+                <td>Private</td>
+                <td>General</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
+                <td>Payment Summons</td>
+                <td>Private</td>
+                <td>Legal</td>
+<!--                <td>20/02/2020</td>-->
+                <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
+                <td>Promissory Contract Payment</td>
+                <td>Private</td>
+                <td>Financial</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
+                <td>Reservation Fee Reinforcement</td>
+                <td>Private</td>
+                <td>Legal</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
+                <td>Reservation Form</td>
+                <td>Private</td>
+                <td>Financial</td>
+                 <td class="d-flex td_text justify-content-between"> 20/02/2020
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
+                <td>Welcome letter</td>
+                <td>Private</td>
                 <td>General</td>
                  <td class="d-flex td_text justify-content-between"> 20/02/2020
                     <div class="nav-item dropdown">
@@ -804,7 +1028,7 @@
                 <td><b></b></td>
                 <td><b></b></td>
                 <td><b></b></td>
-                <td><b></b></td>
+            
                 <td id="td-special-2 d-flex ">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination pagination-sm pg-blue justify-content-end">
@@ -832,7 +1056,7 @@
         <div class="card card_custom">
             <div class="card-body d-flex" style="padding:1rem;">
                 <!-- card content -->
-                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                <div class="mobile-card-icon pt-3 px-3 pb-3">
                     <i class="fas fa-file-invoice-dollar fa-3x"></i>
                 </div>
                 <div class="mobile-card-content"style="width:100%;">
