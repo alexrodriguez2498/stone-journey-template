@@ -93,7 +93,7 @@
         </div>
     </div>
 
-    <div class="my-4 container container-box box-center w-100 d-none d-md-block">
+    <div class=" container container-box box-center d-none d-md-block">
             <table class="table">
                 <thead>
                 <tr>

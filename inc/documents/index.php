@@ -376,7 +376,7 @@
         <section class="px-md-2 mx-md-2 dark-grey-text" id="container__center" style="width: 100%;">
 
             <h3>Documents</h3>
-            <p>This is your <strong>Stone Journey Dashboard</strong>, from here you can manage your Properties, Clients, Milestones and Documents</p>
+            <p>Here you find all the associated documents of the properties/clients/milestones. <br>Manage or create new ones</p>
             <div class="row background_1-button">
                 <button type="button" class="btn button z-depth-1 add-button">ADD DOCUMENT</button>
             </div>
@@ -1053,140 +1053,108 @@
     </div>
 
     <div class="d-block d-md-none w-100" id="table2">
-        <div class="card card_custom">
-            <div class="card-body d-flex" style="padding:1rem;">
-                <!-- card content -->
-                <div class="mobile-card-icon pt-3 px-3 pb-3">
-                    <i class="fas fa-file-invoice-dollar fa-3x"></i>
+            <div class="card ">
+                <div class="card-body d-flex" style="padding:1rem;">
+                    <!-- card content -->
+                    <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                       <i class="fas fa-file-invoice-dollar fa-3x"></i>
+                    </div>
+                    <div class="mobile-card-content"style="width:100%;">
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Payment Summons</b> <br> Rossio<br>
+                                Payment Summons <br> Financial <br> 20/02/2020 </p> <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item" href="#">Delete</a>
+                                </div> </h5> 
+                    </div>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
-                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Payment Summons</b>
-                    <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-                               data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false"></a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
-                                <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                        </div>
-                    </h5>
-                    <p class="card-text"style="margin:0;"> <strong>20/02/2020</strong> <br>Rossio <br>
-                        Payment Summons <br>
-                        Fiancial</p>
-                </div>
-
             </div>
 
-        </div>
-
-        <div class="card card_custom">
-            <div class="card-body d-flex" style="padding:1rem;">
-                <!-- card content -->
-                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+            <div class="card ">
+                <div class="card-body d-flex" style="padding:1rem;">
+                    <!-- card content -->
+                    <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <i class="fas fa-file-signature fa-3x"></i>
+                    </div>
+                    <div class="mobile-card-content"style="width:100%;">
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Promissory Contract Payment</b> <br> Rossio<br>
+                        Promissory Contract Payment <br> Legal <br> 20/02/2020  </p> <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item" href="#">Delete</a>
+                                </div> </h5>
+                    </div>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
-                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Promissory Contract Payment</b>
-                    <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-                               data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false"></a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
-                                <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                        </div>
-                    </h5>
-                    <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
-                        Payment Summons <br>
-                        Fiancial  </p>
-                </div>
-
             </div>
 
-        </div>
-
-        <div class="card card_custom">
-            <div class="card-body d-flex" style="padding:1rem;">
-                <!-- card content -->
-                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+            <div class="card ">
+                <div class="card-body d-flex" style="padding:1rem;">
+                    <!-- card content -->
+                    <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <i class="fas fa-file-invoice fa-3x"></i>
+                    </div>
+                    <div class="mobile-card-content"style="width:100%;">
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Rossio<br>
+                        Reservation Fee Reinforcement <br> Financial <br>20/02/2020  </p> <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item" href="#">Delete</a>
+                                </div> </h5>
+                    </div>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
-                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Fee Reinforcement</b>
-                    <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-                               data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false"></a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
-                                <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                        </div>
-                    </h5>
-                    <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
-                        Payment Summons <br>
-                        Fiancial</p>
-                </div>
-
             </div>
 
-        </div>
-
-        <div class="card card_custom">
-            <div class="card-body d-flex" style="padding:1rem;">
-                <!-- card content -->
-                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+            <div class="card ">
+                <div class="card-body d-flex" style="padding:1rem;">
+                    <!-- card content -->
+                    <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <i class="fas fa-file-image fa-3x"></i>
+                    </div>
+                    <div class="mobile-card-content"style="width:100%;">
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Form</b> <br> Rossio<br>
+                        Reservation Form <br> Legal <br>20/02/2020  </p> <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item" href="#">Delete</a>
+                                </div> </h5>
+                    </div>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
-                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
-                    <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-                               data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false"></a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
-                                <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                        </div>
-                    </h5>
-                    <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
-                        Payment Summons <br>
-                        Fiancial  </p>
-                </div>
-
             </div>
-
-        </div>
-
-        <div class="card card_custom">
-            <div class="card-body d-flex" style="padding:1rem;">
-                <!-- card content -->
-                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+       
+            <div class="card ">
+                <div class="card-body d-flex" style="padding:1rem;">
+                    <!-- card content -->
+                    <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <i class="fas fa-images fa-3x"></i>
+                    </div>
+                    <div class="mobile-card-content"style="width:100%;">
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Welcome Letter</b> <br> Rossio<br>
+                        Welcome Letter <br> General <br>20/02/2020  </p> <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item" href="#">Delete</a>
+                                </div> </h5>
+                    </div>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
-                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
-                    <div class="nav-item dropdown">
-                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-                               data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false"></a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
-                                <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                        </div>
-                    </h5>
-                    <p class="card-text"style="margin:0;"><strong>20/02/2020</strong> <br>Rossio <br>
-                        Payment Summons <br>
-                        Fiancial</p>
-                </div>
-
             </div>
+       
+       
+    
 
-        </div>
+     
+
+
+       
     </div>
 </div>
 <script>
