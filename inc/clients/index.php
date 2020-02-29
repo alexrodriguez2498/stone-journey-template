@@ -10,8 +10,7 @@
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center center;
-        /* background-opacity:0.5; */
-        font-family: "roboto";
+        font-family: "roboto", serif;
     }
 
     .container-box {
@@ -55,10 +54,7 @@
         line-height: 30px;
     }
 
-    #background_5 {
-        background: white;
 
-    }
 
     .button {
         color: white;
@@ -76,13 +72,7 @@
             flex-direction: column;
         }
 
-        #background_3 {
-            margin-left: 0;
-        }
 
-        #background_5 {
-            margin-left: 0;
-        }
 
         #background_1 h3 {
             font-size: 16px;
@@ -134,19 +124,6 @@
         color: black;
         font-weight: bold;
         padding: 10px 50px;
-    }
-
-    .second_nav .search {
-        color: #9e9fa0;
-        border-bottom: 1px solid #9e9fa0;
-        padding-left: 100px;
-
-    }
-
-    .second_nav .second_nav-item-decoration {
-        color: black;
-        font-weight: bold;
-        border-bottom: 1px solid black;
     }
 
     /* END OF MIDDLE NAV SECTION */
@@ -227,12 +204,6 @@
         padding: 10px 100px;
     }
 
-    .second_nav .search {
-        color: #9e9fa0;
-        border-bottom: 1px solid #9e9fa0;
-        padding-left: 100px;
-    }
-
     @media (max-width: 470px) {
         #searchContainer {
             width: 40%;
@@ -271,7 +242,7 @@
     }
 
     .nav-item-selected-custom {
-        border-bottom: 1.5px solid #967c5c;
+        border-bottom:2px solid #967c5c;
         height: fit-content;
         padding-bottom: 10px;
     }
@@ -385,7 +356,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -420,7 +391,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -455,7 +426,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -490,7 +461,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -525,7 +496,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -560,7 +531,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -595,7 +566,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -630,7 +601,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -665,7 +636,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -700,7 +671,7 @@
                         <img class="card-img-top"
                              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                              alt="Card image cap">
-                        <a href="#!">
+                        <a href="#">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -718,7 +689,7 @@
                                 <a class="dropdown-item">Edit Property</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
-                        </div>
+                            </div>
                         </h4>
                         <!--Text-->
                         <p class="card-text">+351 93399448 <br>Rossio 93 <br>ana@cto.com</p>
@@ -1127,9 +1098,9 @@
                             <li class="page-item ">
                                 <a class="page-link" tabindex="-1">Previous</a>
                             </li>
-                            <li class="page-item"style="padding-right:10px;"><a class="page-link"style="background:#947956a1;color:white;">1</a></li>
+                            <li class="page-item"><a class="page-link">1</a></li>
                             <li class="page-item active">
-                                <a class="page-link" style="background:#947956";>2 <span class="sr-only">(current)</span></a>
+                                <a class="page-link" >2 <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="page-item ">
                                 <a class="page-link">Next</a>
@@ -1176,7 +1147,6 @@
 
             </div>
         </div>
-
         <div class="card card_custom">
             <div class="card-body d-flex" style="padding:1rem;">
                 <!-- card content -->
