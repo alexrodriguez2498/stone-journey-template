@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
     body {
         background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
@@ -9,7 +10,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         /* background-opacity:0.5; */
-        font-family: "roboto";
+        font-family: "roboto", serif;
     }
 
     /*.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {*/
@@ -29,10 +30,6 @@
         padding-left:3rem;
     }
 
-    .select-wrapper{
-        margin-top: 0 !important;
-        padding-left: 1rem !important;
-    }
 
 </style>
 
@@ -56,13 +53,13 @@
                         <input type="text" id="last-name" class="form-control">
                         <label for="name">Last Name</label>
                     </div>
-                    </div>
+                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-4 d-flex align-items-center ">
                     <h5 class="pr-4">Password</h5>
-                    <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;">GENERATE PASSWORD</button>
+                    <button type="button" class="btn btn-default btn-sm" style="background:#947956 !important;">GENERATE PASSWORD</button>
                 </div>
             </div>
             <div class="row">
@@ -254,7 +251,7 @@
                 <div class="col d-flex">
                     <div class="footer-form">
                         <h5>Main Image</h5>
-                        <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
+                        <button type="button" class="btn btn-default btn-sm" style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
                         <input type="text" id="form10" class="form-control">
@@ -267,7 +264,7 @@
                 <div class="col d-flex">
                     <div class="footer-form">
                         <h5>Documents</h5>
-                        <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
+                        <button type="button" class="btn btn-default btn-sm" style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
                         <input type="text" id="form13" class="form-control">

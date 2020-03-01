@@ -17,7 +17,7 @@
             background-repeat: no-repeat;
             background-position: center center;
             /* background-opacity:0.5; */
-            font-family: "roboto";
+            font-family: "roboto", serif;
         }
 
         #background_2 {
@@ -80,7 +80,7 @@
         }
 
         .nav-item-selected-custom {
-            border-bottom: 1.5px solid #967c5c;
+            border-bottom: 2px solid #967c5c;
             height: fit-content;
             padding-bottom: 10px;
         }
@@ -107,22 +107,8 @@
             box-shadow: 0 1px 0 0 #947956 !important;
         }
 
-        .images_container {
-            display: grid;
-            grid-template: 250px / repeat(6, 1fr);
-            padding-top: 1rem;
-            grid-gap: 0 5px;
-            padding-left: 0;
-            padding-right: 0;
-            margin-top: 30px;
-            margin-bottom: 40px;
-        }
 
-        .images_container .image_content {
-            background-image: url('https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+
 
         b {
             font-weight: bold;
@@ -135,11 +121,7 @@
             justify-content: space-between;
         }
 
-        .card-footer {
-            justify-content: space-between;
-            background: #947956;
 
-        }
 
         .card-footer div {
             color: white;
@@ -221,7 +203,7 @@
     <div class="row container box-center container-box py-3 background-none" style="margin-top: 2rem; padding-bottom: 0 !important;">
         <div class="py-4 z-depth-1 col justify-content-between" id="background_1" style="border-bottom: 2px solid #8c6f49; display: flex">
             <section class="px-md-2 mx-md-2 dark-grey-text w-100 d-flex align-items-center">
-                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg"alt="">
+                <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
                 <h3 class="h3 pl-3">Kelly Slater</h3>
             </section>
 
@@ -375,12 +357,14 @@
             <div class="row justify-content-between" style="height:45px;">
                 <div class="d-flex" style="margin-left: 1rem;">
 
-                    <ul class="second_nav second_nav_custom_one">
-                        <p class="d-none d-md-block" style="padding-top:10px;"><b>Filter by</b></p>
+                    <ul class="second_nav second_nav_custom_one pt-2">
+                        <p class="d-none d-md-block pt-2" >
+                            <b>Filter by</b>
+                        </p>
                         <!--                    <i class="fas fa-filter d-block d-md-none" style="padding:.7rem; margin-top: .3rem;"></i>-->
 
-                        <a class="fas fa-filter d-block d-md-none" id="navbarDropdownMenuLink1" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false" style="padding:.7rem; margin-top: .3rem;"></a>
+                        <a class="fas fa-filter d-block d-md-none p-2 mt-2" id="navbarDropdownMenuLink1" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
                             <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
@@ -650,7 +634,7 @@
                                                                             style="background:#947956a1;color:white;">1</a>
                         </li>
                         <li class="page-item active">
-                            <a class="page-link" style="background:#947956" ;>2 <span class="sr-only">(current)</span></a>
+                            <a class="page-link" style="background:#947956;">2 <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="page-item ">
                             <a class="page-link">Next</a>
@@ -667,7 +651,7 @@
                     <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                         <i class="fas fa-file-invoice-dollar fa-3x"></i>
                     </div>
-                    <div class="mobile-card-content"style="width:100%;">
+                    <div class="mobile-card-content" style="width:100%;">
                         <h5 class="card-title d-flex justify-content-between mb-0"><b>Payment Summons</b>
                             <div class="nav-item dropdown">
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -679,7 +663,7 @@
                                 </div>
                             </div>
                         </h5>
-                        <p class="card-text"style="margin:0;"> Ana Hurnble<br>20/02/2020
+                        <p class="card-text" style="margin:0;"> Ana Hurnble<br>20/02/2020
                         </p>
                     </div>
 
@@ -693,7 +677,7 @@
                     <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                         <i class="fas fa-file-signature fa-3x"></i>
                     </div>
-                    <div class="mobile-card-content"style="width:100%;">
+                    <div class="mobile-card-content" style="width:100%;">
                         <h5 class="card-title d-flex justify-content-between mb-0"><b>Promissory Contract Payment</b>
                             <div class="nav-item dropdown">
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -705,7 +689,7 @@
                                 </div>
                             </div>
                         </h5>
-                        <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                        <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
                         </p>
                     </div>
 
@@ -719,7 +703,7 @@
                     <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                         <i class="fas fa-file-invoice fa-3x"></i>
                     </div>
-                    <div class="mobile-card-content"style="width:100%;">
+                    <div class="mobile-card-content" style="width:100%;">
                         <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Fee Reinforcement</b>
                             <div class="nav-item dropdown">
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -731,7 +715,7 @@
                                 </div>
                             </div>
                         </h5>
-                        <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                        <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
                         </p>
                     </div>
 
@@ -745,7 +729,7 @@
                     <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                         <i class="fas fa-file-image fa-3x"></i>
                     </div>
-                    <div class="mobile-card-content"style="width:100%;">
+                    <div class="mobile-card-content" style="width:100%;">
                         <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
                             <div class="nav-item dropdown">
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -757,7 +741,7 @@
                                 </div>
                             </div>
                         </h5>
-                        <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                        <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
                         </p>
                     </div>
 
@@ -771,7 +755,7 @@
                     <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                         <i class="fas fa-images fa-3x"></i>
                     </div>
-                    <div class="mobile-card-content"style="width:100%;">
+                    <div class="mobile-card-content" style="width:100%;">
                         <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
                             <div class="nav-item dropdown">
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -783,7 +767,7 @@
                                 </div>
                             </div>
                         </h5>
-                        <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                        <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
                         </p>
                     </div>
 
@@ -793,7 +777,7 @@
         </div>
 
 
-        <div class="mt-2 last_container_table w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="tableMilestoness">
+        <div class="mt-2  container container-box box-center last_container_table w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="tableMilestoness">
             <table class="table" style="margin-bottom: 0 !important;">
                 <thead>
                 <tr>
@@ -808,7 +792,7 @@
                     <th scope="col"><b></b></th>
                     <th scope="col"><b></b></th>
 
-                    </th>
+
 
 
                 </tr>
@@ -827,7 +811,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-itemsstart justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-itemsstart justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                         
                             2
@@ -884,7 +868,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -911,7 +895,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -938,7 +922,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -966,7 +950,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -994,7 +978,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1021,7 +1005,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1048,7 +1032,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1075,7 +1059,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1102,7 +1086,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1130,7 +1114,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
@@ -1157,7 +1141,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
@@ -1184,7 +1168,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
@@ -1211,7 +1195,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
@@ -1239,7 +1223,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1267,7 +1251,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1294,7 +1278,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1321,7 +1305,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color "></i>
@@ -1348,7 +1332,7 @@
                     <td class="td_text align-items-center">
                             5
                             <i class="fas fa-file-signature main_color"></i></td>
-                    <td class="d-flex td_text align-items-start justify-content-end"style="padding-top: 0.45rem !important;">
+                    <td class="d-flex td_text align-items-start justify-content-end" style="padding-top: 0.45rem !important;">
                         <div class="footer-details-2 ">
                             2
                             <i class="fas fa-file-pdf main_color"></i>
@@ -1394,7 +1378,7 @@
                                                                             style="background:#947956a1;color:white;">1</a>
                         </li>
                         <li class="page-item active">
-                            <a class="page-link" style="background:#947956" ;>2 <span class="sr-only">(current)</span></a>
+                            <a class="page-link" style="background:#947956;" >2 <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="page-item ">
                             <a class="page-link">Next</a>
@@ -1412,7 +1396,7 @@
                     <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                         <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
                     </div>
-                    <div class="mobile-card-content"style="width:100%;">
+                    <div class="mobile-card-content" style="width:100%;">
                         <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Payment Summons</b> <br> Ana Humble<br>
                                 20/02/2020  </p> <div class="nav-item dropdown">
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1537,7 +1521,7 @@
 
             </div>
         </div>
-    </div>
+
 
     <div class="cards_container container container-box box-center mt-2 mb-5 " style="width: 100%;background:transparent!important;     margin-bottom: 10rem !important;" id="grid">
             <!-- Card -->
