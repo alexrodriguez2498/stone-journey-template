@@ -126,8 +126,7 @@
     </div>
 </div>
 
-<div class="row mt-4 container box-center container-box  d-none d-sm-block background-none"
-     style=" margin-top: .5rem !important;">
+<div class="row mt-4 container box-center container-box  d-none d-sm-block background-none" style=" margin-top: .5rem !important; margin-bottom: 10rem !important;">
     <div class="py-3 z-depth-1 col " id="background_2" style="background: white !important;">
 
         <table class="table">
@@ -170,8 +169,8 @@
         <!-- </section> -->
     </div>
 </div>
-<div class="row mt-4 container box-center container-box  d-block d-sm-none background-none"
-     style=" margin-top: .5rem !important;">    <div class="card ">
+<div class="row mt-4 container box-center container-box  d-block d-sm-none background-none"      style=" margin-top: .5rem !important; margin-bottom: 10rem !important;">
+    <div class="card ">
         <div class="card-body d-flex" style="padding:1rem;">
             <!-- card content -->
             <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
