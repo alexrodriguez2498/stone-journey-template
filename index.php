@@ -25,6 +25,9 @@
         require_once('inc/documents-detail/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'documents') !== false) {
         require_once('inc/documents/index.php');
+
+    } elseif (strpos($_SERVER['REQUEST_URI'], 'milestones-detail') !== false) {
+        require_once('inc/milestones-detail/index.php');
     }elseif (strpos($_SERVER['REQUEST_URI'], 'milestones') !== false) {
         require_once('inc/milestones/index.php');
     } else {
