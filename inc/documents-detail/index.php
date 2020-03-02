@@ -90,7 +90,7 @@
 
                         <b>Owner:</b> Private <br>
                         <b>Category:</b> Legal <br>
-                        <b><Address></Address>:</b> Rossio 93
+                        <b>Address:</b> Rossio 93
                     </p>
                 </section>
             </div>
