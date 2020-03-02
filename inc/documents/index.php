@@ -1060,14 +1060,26 @@
                        <i class="fas fa-file-invoice-dollar fa-3x"></i>
                     </div>
                     <div class="mobile-card-content"style="width:100%;">
-                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Payment Summons</b> <br> Rossio<br>
-                                Payment Summons <br> Financial <br> 20/02/2020 </p> <div class="nav-item dropdown">
-                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false"></a>
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p style="margin-bottom: 0;"><b>Payment Summons</b> <br> Rossio<br>
+                                Payment Summons </p>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                                   data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item">Edit Property</a>
                                     <a class="dropdown-item" href="#">Delete</a>
-                                </div> </h5> 
+                                </div>
+                            </div>
+                        </h5>
+                        <h5 class="card-title d-flex justify-content-between mb-0">
+                            <span>
+                                Financial
+                            </span>
+                            <span>
+                                20/02/2020
+                            </span>
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -1079,14 +1091,27 @@
                     <i class="fas fa-file-signature fa-3x"></i>
                     </div>
                     <div class="mobile-card-content"style="width:100%;">
-                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Promissory Contract Payment</b> <br> Rossio<br>
-                        Promissory Contract Payment <br> Legal <br> 20/02/2020  </p> <div class="nav-item dropdown">
-                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false"></a>
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p style="margin-bottom: 0;"><b>Promissory Contract Payment</b>
+                                <br> Rossio<br>
+                                Promissory Contract Payment</p>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                                   data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item">Edit Property</a>
                                     <a class="dropdown-item" href="#">Delete</a>
-                                </div> </h5>
+                                </div>
+                            </div>
+                        </h5>
+                        <h5 class="card-title d-flex justify-content-between mb-0">
+                            <span>
+                                Legal
+                            </span>
+                            <span>
+                                20/02/2020
+                            </span>
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -1098,14 +1123,27 @@
                     <i class="fas fa-file-invoice fa-3x"></i>
                     </div>
                     <div class="mobile-card-content"style="width:100%;">
-                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Rossio<br>
-                        Reservation Fee Reinforcement <br> Financial <br>20/02/2020  </p> <div class="nav-item dropdown">
-                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false"></a>
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p style="margin-bottom: 0;"><b>Reservation Fee
+                                    Reinforcement</b> <br> Rossio<br>
+                                Reservation Fee Reinforcement</p>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                                   data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item">Edit Property</a>
                                     <a class="dropdown-item" href="#">Delete</a>
-                                </div> </h5>
+                                </div>
+                            </div>
+                        </h5>
+                        <h5 class="card-title d-flex justify-content-between mb-0">
+                            <span>
+                                Financial
+                            </span>
+                            <span>
+                                20/02/2020
+                            </span>
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -1117,14 +1155,27 @@
                     <i class="fas fa-file-image fa-3x"></i>
                     </div>
                     <div class="mobile-card-content"style="width:100%;">
-                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Form</b> <br> Rossio<br>
-                        Reservation Form <br> Legal <br>20/02/2020  </p> <div class="nav-item dropdown">
-                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false"></a>
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p style="margin-bottom: 0;"><b>Reservation Form</b> <br>
+                                Rossio<br>
+                                Reservation Form </p>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                                   data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item">Edit Property</a>
                                     <a class="dropdown-item" href="#">Delete</a>
-                                </div> </h5>
+                                </div>
+                            </div>
+                        </h5>
+                        <h5 class="card-title d-flex justify-content-between mb-0">
+                            <span>
+                                Legal
+                            </span>
+                            <span>
+                                20/02/2020
+                            </span>
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -1136,14 +1187,27 @@
                     <i class="fas fa-images fa-3x"></i>
                     </div>
                     <div class="mobile-card-content"style="width:100%;">
-                        <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Welcome Letter</b> <br> Rossio<br>
-                        Welcome Letter <br> General <br>20/02/2020  </p> <div class="nav-item dropdown">
-                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false"></a>
+                        <h5 class="card-title d-flex justify-content-between mb-0"><p style="margin-bottom: 0;"><b>Welcome Letter</b> <br>
+                                Rossio<br>
+                                Welcome Letter</p>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                                   data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item">Edit Property</a>
                                     <a class="dropdown-item" href="#">Delete</a>
-                                </div> </h5>
+                                </div>
+                            </div>
+                        </h5>
+                        <h5 class="card-title d-flex justify-content-between mb-0">
+                            <span>
+                                General
+                            </span>
+                            <span>
+                                20/02/2020
+                            </span>
+                        </h5>
                     </div>
                 </div>
             </div>
