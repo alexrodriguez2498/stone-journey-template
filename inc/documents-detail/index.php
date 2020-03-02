@@ -20,6 +20,22 @@
         font-weight: bold;
     }
 
+    @media (max-width:576px){
+        .second-row section p{
+            margin: 0;
+        }
+        .second-row{
+            border-bottom:none!important;
+        }
+        .third-row{
+            padding-top: 0px!important;
+            padding-bottom:2rem;
+        }
+        .third-row p{
+            margin:0;
+        }
+    }
+
 </style>
 
 <div class="row container box-center container-box py-3 background-white"
@@ -57,29 +73,29 @@
             </div>
 
         </div>
-        <div class="row container box-center border-bottom container-box pt-4" style="margin-top: 2rem;">
-            <div class=" col-sm-6 pt-0 " id="background_1">
+        <div class="row container box-center border-bottom container-box pt-4 second-row" style="margin-top: 2rem;">
+            <div class=" col-sm-6 pt-0 " >
                 <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
                     <p style="line-height:2rem;">
 
                         <b>Owner:</b> Private <br>
                         <b>Category:</b> Legal <br>
-                        <b>Adress:</b> Rossio 93
+                        <b>Address:</b> Rossio 93
                     </p>
                 </section>
             </div>
-            <div class=" col-sm-6 pt-0 " id="background_1">
+            <div class=" col-sm-6 pt-0" >
                 <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
                     <p style="line-height:2rem;">
-                        <b>Adress:</b> Ana Humble <br>
+                        <b>Date:</b> 20/02/2020 <br>
                         <b>Property:</b> Rossio 93 <br>
-                        <b>Segment:</b>
+                        <b>Segment:</b> None
 
                     </p>
                 </section>
             </div>
         </div>
-        <div class="row container box-center border-bottom container-box pt-4" style="margin-top: 2rem;">
+        <div class="row container box-center border-bottom container-box pt-4 third-row" style="margin-top: 2rem;">
             <div class=" col-sm-6 pt-0 " id="background_1">
                 <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
                     <p style="line-height:2rem;">
@@ -100,7 +116,7 @@
     </div>
 </div>
 
-<div class="row mt-4 container box-center container-box container-box half_container background-none"
+<div class="row mt-4 container box-center container-box  d-none d-sm-block background-none"
      style=" margin-top: .5rem !important;">
     <div class="py-3 z-depth-1 col " id="background_2" style="background: white !important;">
 
@@ -142,6 +158,31 @@
 
 
         <!-- </section> -->
+    </div>
+</div>
+<div class="row mt-4 container box-center container-box  d-block d-sm-none background-none"
+     style=" margin-top: .5rem !important;">    <div class="card ">
+        <div class="card-body d-flex" style="padding:1rem;">
+            <!-- card content -->
+            <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
+                <i class="fas fa-file-invoice-dollar fa-2x pr-3"></i>
+            </div>
+            <div class="mobile-card-content" style="width:100%;">
+                <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Payment Summons</b> <br> Ana Humble<br>
+                        20/02/2020  </p> <div class="nav-item dropdown">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div> </h5>
+
+
+
+            </div>
+
+        </div>
+
     </div>
 </div>
 
