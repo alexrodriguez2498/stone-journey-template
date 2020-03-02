@@ -19,6 +19,9 @@
     p b {
         font-weight: bold;
     }
+    b{
+        font-weight: bold   ;
+    }
 
     @media (max-width:576px){
         .second-row section p{
@@ -34,6 +37,9 @@
         .third-row p{
             margin:0;
         }
+    }
+    .first-row .col-3{
+        border-bottom:  1px solid #967c5c;
     }
 
 </style>
@@ -58,7 +64,11 @@
 
 <div class="row mt-4 container box-center container-box container-box half_container background-none">
     <div class="py-3 z-depth-1 col " id="background_2" style="background: white !important; padding: 0 !important;">
-
+        <div class="row first-row d-block d-sm-none container container-box box-center py-3 pl-4">
+            <div class="col-3 " >
+                <b> Rossio 93</b>
+            </div>
+        </div>
         <div class="row container box-center container-box" style="margin-top: 2rem;">
             <div class=" col py-4 border-bottom ">
                 <section class="px-md-2 mx-md-2 dark-grey-text" style="width: 100%;">
@@ -80,7 +90,7 @@
 
                         <b>Owner:</b> Private <br>
                         <b>Category:</b> Legal <br>
-                        <b>Address:</b> Rossio 93
+                        <b><Address></Address>:</b> Rossio 93
                     </p>
                 </section>
             </div>
