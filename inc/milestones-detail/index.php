@@ -1,74 +1,200 @@
 <?php get_header(); ?>
 
 <style>
-	body {
-		background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
-		background-size: cover;
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-position: center center;
-		/* background-opacity:0.5; */
-		font-family: "roboto";
-		font-size: 1.2rem;
-	}
-	p b {
-		font-weight: bold;
-	}
-	#background_2 {
-		padding: 8px 30px 10px 30px !important;
-	}
-	@media (max-width: 767px) {
-		.second_nav_custom_one {
-			padding-left: .2rem;
-		}
-		#background_2 {
-			padding-left: 0 !important;
-		}
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-		.dropdown-main {
-			display: flex !important;
-		}
+    #background_1 {
 
-	}
-	.second_nav {
-		display: flex;
-		list-style: none;
-	}
+        align-items: center;
+        padding: 15px 15px;
+    }
 
-	.second_nav .second_nav-item {
-		color: black;
-		font-weight: bold;
-		padding: .7rem .7rem 0;
-	}
-	@media (max-width: 490px) {
-		.second_nav_custom_two{
-			width: 40%;
-		}
-	}
-	.button {
-		color: white;
-		background: #947956;
-	}
-	.nav-item-selected-custom {
-		border-bottom: 2px solid #967c5c;
-		height: fit-content;
-		padding-bottom: 10px;
-	}
-	#seach {
-		border-bottom: 1px solid #947956 !important;
-		box-shadow: 0 1px 0 0 #947956 !important;
-	}
+    body {
+        background-image: url("https://stonejstaging.wpengine.com/wp-content/uploads/2020/02/P1_Quarto_white-scaled.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* background-opacity:0.5; */
+        font-family: "roboto", serif;
+    }
 
-	#seach:focus {
-		border-bottom: 1px solid #947956 !important;
-		box-shadow: 0 1px 0 0 #947956 !important;
-	}
-	ul li a i{
-		color:#947956;
-	}
-	#navbarDropdownMenuLink1{
-		color:#947356;
-	}
+    #background_2 {
+        padding: 8px 30px 10px 30px !important;
+    }
+
+    .button {
+        color: white;
+        background: #947956;
+    }
+
+    .second_nav {
+        display: flex;
+        list-style: none;
+    }
+
+    .second_nav .second_nav-item {
+        color: black;
+        font-weight: bold;
+        padding: .7rem .7rem 0;
+    }
+
+    .card {
+        margin: 20px;
+    }
+
+
+    #background_1 p {
+        font-size: 1.2rem;
+        line-height: 2rem !important;
+    }
+
+    .card .card-body .card-text {
+        font-size: 1rem;
+    }
+
+    #dropdownMenu1 {
+        box-shadow: 0 0 0 0;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    @media (max-width: 915px) {
+        .card {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    }
+
+    .dropdown .dropdown-menu .dropdown-item:hover {
+        background: #f9f8f6 !important;
+        color: #000 !important;
+        box-shadow: none;
+    }
+
+    @media (min-width: 900px) and (max-width: 995px) {
+        .tittleCardCustom {
+            font-size: 1.2rem !important;
+        }
+    }
+
+    .nav-item-selected-custom {
+        border-bottom: 2px solid #967c5c;
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+
+    .last_container_table {
+        border: 1px solid #dee2e6;
+        background: #ffffff;
+        padding: 1rem;
+        padding-bottom: 0 !important;
+    }
+
+    .last_container_table table tbody tr td {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #seach {
+        border-bottom: 1px solid #947956 !important;
+        box-shadow: 0 1px 0 0 #947956 !important;
+    }
+
+    #seach:focus {
+        border-bottom: 1px solid #947956 !important;
+        box-shadow: 0 1px 0 0 #947956 !important;
+    }
+
+
+
+
+    b {
+        font-weight: bold;
+        color: black;
+    }
+
+    .cards_container {
+        display: flex;
+        /*margin-top: 30px;*/
+        justify-content: space-between;
+    }
+
+
+
+    .card-footer div {
+        color: white;
+    }
+
+
+    .dropdown-main {
+        display: none !important;
+    }
+
+    @media (max-width: 490px) {
+        .second_nav_custom_two{
+            width: 40%;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .second_nav_custom_one {
+            padding-left: .2rem;
+        }
+        #background_2 {
+            padding-left: 0 !important;
+        }
+
+        .dropdown-main {
+            display: flex !important;
+        }
+    }
+    ul li a i{
+        color:#947956;
+    }
+    #navbarDropdownMenuLink1{
+        color:#947356;
+    }
+
+    .card_custom {
+        margin: 20px !important;
+    }
+
+    @media (max-width: 915px) {
+        .card_custom {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .cards_container{
+            flex-direction:column;
+        }
+    }
+
+    #background_1 {
+        background: white;
+    }
+    .cards_container .card .card-text strong {
+        font-weight: bold;
+        color: black;
+    }
+    .cards_container .card h4 {
+        font-weight: bold;
+    }
+    .cards_container {
+        display: flex;
+        /*margin-top: 30px;*/
+        justify-content: space-between;
+
+    }
+    .card-icon-title {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    .card-icon-title h4 {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
 
 
 </style>
@@ -165,39 +291,35 @@
 			<div class="d-flex" style="margin-left: 1rem;">
 
 				<ul class="second_nav second_nav_custom_one pt-2">
-					<p class="d-none d-md-block pt-2" >
-						<b>Filter by</b>
-					</p>
-					<!--                    <i class="fas fa-filter d-block d-md-none" style="padding:.7rem; margin-top: .3rem;"></i>-->
+                    <p class="d-none d-md-block pt-2" >
+                        <b>Filter by</b>
+                    </p>
+                    <!--                    <i class="fas fa-filter d-block d-md-none" style="padding:.7rem; margin-top: .3rem;"></i>-->
 
-					<a class="fas fa-filter d-block d-md-none p-2 mt-2" id="navbarDropdownMenuLink1" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
-						<a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
-						<a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
-						<a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
-					</div>
+                    <a class="fas fa-filter d-block d-md-none p-2 mt-2" id="navbarDropdownMenuLink1" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
+                    </div>
 
-					<div class="dropdown d-none d-md-block" style="line-height: 2.3rem;">
+                    <div class="dropdown d-none d-md-block" style="line-height: 2.3rem;">
 
-						<!--Trigger-->
-						<button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
-						        aria-haspopup="true" aria-expanded="false" style="padding-left: 5px; padding-top:14px;">
-						</button>
+                        <!--Trigger-->
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" style="padding-left: 5px; padding-top:14px;">
+                        </button>
 
-						<!--Menu-->
-						<div class="dropdown-menu dropdown-menu-right  p-0">
-							<a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
-							<a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
-							<a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
-							<a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
-						</div>
-					</div>
-					<!-- <li id="tabClients" class="nav-item " onclick="clickClients()">
-						<a class="nav-link second_nav-item d-none d-md-block" >Clients</a>
-						<a class="nav-link second_nav-item d-block d-md-none" ><i class="far fa-user-circle"></i></a>
-					</li> -->
+                        <!--Menu-->
+                        <div class="dropdown-menu dropdown-menu-right  p-0">
+                            <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
+                            <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
+                            <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
+                            <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
+                        </div>
+                    </div>
 
 					<li id="tabMilestones" class="nav-item nav-item-selected-custom" onclick="clickFiles()">
 						<a class="nav-link second_nav-item d-none d-md-block" >Files</a>
