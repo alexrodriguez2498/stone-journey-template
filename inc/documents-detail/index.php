@@ -38,7 +38,7 @@
             margin:0;
         }
     }
-    .first-row .col-3{
+    .first-row .col-6{
         border-bottom:  1px solid #967c5c;
     }
 
@@ -65,7 +65,7 @@
 <div class="row mt-4 container box-center container-box container-box half_container background-none">
     <div class="py-3 z-depth-1 col " id="background_2" style="background: white !important; padding: 0 !important;">
         <div class="row first-row d-block d-sm-none container container-box box-center py-3 pl-4">
-            <div class="col-3 " >
+            <div class="col-sm-3 col-6" >
                 <b> Rossio 93</b>
             </div>
         </div>
