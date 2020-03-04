@@ -210,7 +210,7 @@
 			<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
 			   aria-haspopup="true" aria-expanded="false"></a>
 			<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-				<a class="dropdown-item">Edit Property</a>
+				<a class="dropdown-item">Edit Milestone</a>
 				<a class="dropdown-item" href="#">Delete</a>
 			</div>
 		</div>
@@ -282,8 +282,7 @@
 		</div>
 	</div>
 </div>
-<div class="row mt-4 container box-center container-box  half_container background-none"
-     style=" margin-top: .5rem !important;">
+<div class="row mt-4 container box-center container-box  half_container background-none" style=" margin-top: .5rem !important; margin-bottom: 10rem !important;">
 	<div class="py-3 z-depth-1 col " id="background_2" style="background: white !important;">
 
 
@@ -345,360 +344,361 @@
 
 		<!-- </section> -->
 	</div>
-</div>
-<div class="mt-2 last_container_table p-4 container container-box box-center z-depth-1 w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="tableDocuments">
-	<table class="table">
-		<thead>
-		<tr>
-			<th scope="col"><b></b></th>
-			<th scope="col"><b>NAME</b></th>
-			<th scope="col"><b>MODIFIED</b></th>
-			<th scope="col"><b>RECENT ACTIVITY</b></th>
-			<th scope="col"><b>TYPE</b></th>
 
-		</tr>
-		</thead>
-		<tbody>
-		<tr>
-			<td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
-			<td>Payment Summons</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">Word Document
-				<div class="nav-item dropdown d-flex align-items-center ">
+    <div class="mt-2 last_container_table z-depth-1 w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="tableDocuments">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col"><b></b></th>
+                <th scope="col"><b>NAME</b></th>
+                <th scope="col"><b>MODIFIED</b></th>
+                <th scope="col"><b>RECENT ACTIVITY</b></th>
+                <th scope="col"><b>TYPE</b></th>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
+                <td>Payment Summons</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">Word Document
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-		</tr>
-		<tr>
-			<td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
-			<td>Promissory Contract Payment</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">Word Document
-				<div class="nav-item dropdown d-flex align-items-center ">
+                </td>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
+                <td>Promissory Contract Payment</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">Word Document
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
-		</tr>
-		<tr>
-			<td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
-			<td>Reservation Fee Reinforcement</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">PDF Document
-				<div class="nav-item dropdown d-flex align-items-center ">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
+                <td>Reservation Fee Reinforcement</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">PDF Document
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
-		</tr>
-		<tr>
-			<td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
-			<td>Reservation Form</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">JPEG Image
-				<div class="nav-item dropdown d-flex align-items-center ">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
+                <td>Reservation Form</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">JPEG Image
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
-		</tr>
-		<tr>
-			<td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
-			<td>Welcome letter</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">PDF Document
-				<div class="nav-item dropdown d-flex align-items-center ">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
+                <td>Welcome letter</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">PDF Document
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
-		</tr>
-		<tr>
-			<td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
-			<td>Payment Summons</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">PDF Document
-				<div class="nav-item dropdown d-flex align-items-center ">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice-dollar fa-2x"></i></td>
+                <td>Payment Summons</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">PDF Document
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-		</tr>
-		<tr>
-			<td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
-			<td>Promissory Contract Payment</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">PDF Document
-				<div class="nav-item dropdown d-flex align-items-center ">
+                </td>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-signature fa-2x"></i></td>
+                <td>Promissory Contract Payment</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">PDF Document
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
-		</tr>
-		<tr>
-			<td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
-			<td>Reservation Fee Reinforcement</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">Html
-				<div class="nav-item dropdown d-flex align-items-center ">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-invoice fa-2x"></i></td>
+                <td>Reservation Fee Reinforcement</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">Html
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
-		</tr>
-		<tr>
-			<td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
-			<td>Reservation Form</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">JPEG Image
-				<div class="nav-item dropdown d-flex align-items-center ">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-file-image fa-2x"></i></td>
+                <td>Reservation Form</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">JPEG Image
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
-		</tr>
-		<tr>
-			<td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
-			<td>Welcome letter</td>
-			<td>20/02/2020</td>
-			<td>20/02/2020</td>
-			<td class="d-flex justify-content-between ">MP4 Video
-				<div class="nav-item dropdown d-flex align-items-center ">
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-					<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
-					   aria-haspopup="true" aria-expanded="false"></a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item">Edit Property</a>
-						<a class="dropdown-item" href="#">Delete</a>
-					</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_icon"><i class="fas fa-images fa-2x"></i></td>
+                <td>Welcome letter</td>
+                <td>20/02/2020</td>
+                <td>20/02/2020</td>
+                <td class="d-flex justify-content-between ">MP4 Video
+                    <div class="nav-item dropdown d-flex align-items-center ">
 
-			</td>
-		</tr>
-		<tr>
-			<td><b></b></td>
-			<td><b></b></td>
-			<td><b></b></td>
-			<td><b></b></td>
-			<td><b></b></td>
+                        <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item">Edit</a>
+                            <a class="dropdown-item" href="#">Delete</a>
+                        </div>
 
-
+                </td>
+            </tr>
+            <tr>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
+                <td><b></b></td>
 
 
-		</tr>
 
 
-		</tbody>
-	</table>
-	<div class="table-footer d-flex justify-content-between align-items-center">
-		<button type="button" class="btn btn-sm button z-depth-1 add-button"
-		        style="margin-left:1rem; margin-top: -1rem;">CREATE DOCUMENTS
-		</button>
-		<nav aria-label="Page navigation example">
-			<ul class="pagination pagination-sm pg-blue ">
-				<li class="page-item ">
-					<a class="page-link" tabindex="-1">Previous</a>
-				</li>
-				<li class="page-item" style="padding-right:10px;"><a class="page-link"
-				                                                     style="background:#947956a1;color:white;">1</a>
-				</li>
-				<li class="page-item active">
-					<a class="page-link" style="background:#947956;">2 <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="page-item ">
-					<a class="page-link">Next</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
-</div>
+            </tr>
 
-<div class="d-block d-md-none w-100" id="tableDocumentsMobile">
-	<div class="card card_custom">
-		<div class="card-body d-flex" style="padding:1rem;">
-			<!-- card content -->
-			<div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
-				<i class="fas fa-file-invoice-dollar fa-3x"></i>
-			</div>
-			<div class="mobile-card-content" style="width:100%;">
-				<h5 class="card-title d-flex justify-content-between mb-0"><b>Payment Summons</b>
-					<div class="nav-item dropdown">
-						<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-						   data-toggle="dropdown"
-						   aria-haspopup="true" aria-expanded="false"></a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item">Edit Property</a>
-							<a class="dropdown-item" href="#">Delete</a>
-						</div>
-					</div>
-				</h5>
-				<p class="card-text" style="margin:0;"> Ana Hurnble<br>20/02/2020
-				</p>
-			</div>
 
-		</div>
+            </tbody>
+        </table>
+        <div class="table-footer d-flex justify-content-between align-items-center">
+            <button type="button" class="btn btn-sm button z-depth-1 add-button"
+                    style="margin-left:1rem; margin-top: -1rem;">CREATE FILE
+            </button>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm pg-blue ">
+                    <li class="page-item ">
+                        <a class="page-link" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item" style="padding-right:10px;"><a class="page-link"
+                                                                         style="background:#947956a1;color:white;">1</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" style="background:#947956;">2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item ">
+                        <a class="page-link">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
-	</div>
+    <div class="d-block d-md-none w-100" id="tableDocumentsMobile">
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                    <i class="fas fa-file-invoice-dollar fa-3x"></i>
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Payment Summons</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                    </h5>
+                    <p class="card-text" style="margin:0;"> Ana Hurnble<br>20/02/2020
+                    </p>
+                </div>
 
-	<div class="card card_custom">
-		<div class="card-body d-flex" style="padding:1rem;">
-			<!-- card content -->
-			<div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
-				<i class="fas fa-file-signature fa-3x"></i>
-			</div>
-			<div class="mobile-card-content" style="width:100%;">
-				<h5 class="card-title d-flex justify-content-between mb-0"><b>Promissory Contract Payment</b>
-					<div class="nav-item dropdown">
-						<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-						   data-toggle="dropdown"
-						   aria-haspopup="true" aria-expanded="false"></a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item">Edit Property</a>
-							<a class="dropdown-item" href="#">Delete</a>
-						</div>
-					</div>
-				</h5>
-				<p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
-				</p>
-			</div>
+            </div>
 
-		</div>
+        </div>
 
-	</div>
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                    <i class="fas fa-file-signature fa-3x"></i>
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Promissory Contract Payment</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                    </h5>
+                    <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
+                    </p>
+                </div>
 
-	<div class="card card_custom">
-		<div class="card-body d-flex" style="padding:1rem;">
-			<!-- card content -->
-			<div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
-				<i class="fas fa-file-invoice fa-3x"></i>
-			</div>
-			<div class="mobile-card-content" style="width:100%;">
-				<h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Fee Reinforcement</b>
-					<div class="nav-item dropdown">
-						<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-						   data-toggle="dropdown"
-						   aria-haspopup="true" aria-expanded="false"></a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item">Edit Property</a>
-							<a class="dropdown-item" href="#">Delete</a>
-						</div>
-					</div>
-				</h5>
-				<p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
-				</p>
-			</div>
+            </div>
 
-		</div>
+        </div>
 
-	</div>
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                    <i class="fas fa-file-invoice fa-3x"></i>
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Fee Reinforcement</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                    </h5>
+                    <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
+                    </p>
+                </div>
 
-	<div class="card card_custom">
-		<div class="card-body d-flex" style="padding:1rem;">
-			<!-- card content -->
-			<div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
-				<i class="fas fa-file-image fa-3x"></i>
-			</div>
-			<div class="mobile-card-content" style="width:100%;">
-				<h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
-					<div class="nav-item dropdown">
-						<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-						   data-toggle="dropdown"
-						   aria-haspopup="true" aria-expanded="false"></a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item">Edit Property</a>
-							<a class="dropdown-item" href="#">Delete</a>
-						</div>
-					</div>
-				</h5>
-				<p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
-				</p>
-			</div>
+            </div>
 
-		</div>
+        </div>
 
-	</div>
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                    <i class="fas fa-file-image fa-3x"></i>
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                    </h5>
+                    <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
+                    </p>
+                </div>
 
-	<div class="card card_custom">
-		<div class="card-body d-flex" style="padding:1rem;">
-			<!-- card content -->
-			<div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
-				<i class="fas fa-images fa-3x"></i>
-			</div>
-			<div class="mobile-card-content" style="width:100%;">
-				<h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
-					<div class="nav-item dropdown">
-						<a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
-						   data-toggle="dropdown"
-						   aria-haspopup="true" aria-expanded="false"></a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item">Edit Property</a>
-							<a class="dropdown-item" href="#">Delete</a>
-						</div>
-					</div>
-				</h5>
-				<p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
-				</p>
-			</div>
+            </div>
 
-		</div>
+        </div>
 
-	</div>
+        <div class="card card_custom">
+            <div class="card-body d-flex" style="padding:1rem;">
+                <!-- card content -->
+                <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
+                    <i class="fas fa-images fa-3x"></i>
+                </div>
+                <div class="mobile-card-content" style="width:100%;">
+                    <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </div>
+                    </h5>
+                    <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>
