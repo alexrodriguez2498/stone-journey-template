@@ -321,8 +321,7 @@
     </div>
 </div>
 
-<div class="row mt-4 container box-center container-box container-box  background-none"
-     style="margin-bottom: 10rem !important;">
+<div class="row mt-4 container box-center container-box container-box  background-none" style="margin-bottom: 10rem !important;">
     <div class=" z-depth-1 col bg-white align-items-center justify-content-between pr-4 pl-4 pt-2 pb-2">
 
 
@@ -361,7 +360,7 @@
 
             <!--/Dropdown primary-->
             <ul class="d-flex " id="searchContainer">
-                <form class="form-inline d-none d-lg-block">
+                <form class="form-inline">
                     <div class="md-form my-0">
                         <input id="seach" class="form-control mr-sm-2" type="text" placeholder="Search"
                                aria-label="Search">
@@ -643,7 +642,7 @@
         </div>
     </div>
 
-    <div class=" d-none d-md-block mt-3 container container-box box-center last_container_table w-100" style="width: 100%;" id="table">
+    <div class=" d-none d-md-block mt-2 last_container_table w-100" style="width: 100%;" id="table">
         <table class="table" style="margin-bottom: 0 !important;">
             <thead>
             <tr>
@@ -651,7 +650,7 @@
                 <th scope="col"><b>NAME</b></th>
                 <th scope="col"><b>PROPERTY</b></th>
                 <th scope="col"><b>OWNER</b></th>
-                <th scope="col"><b>ADDRESSEE</b></th>
+                <th scope="col"><b>ADDRESS</b></th>
                 <th scope="col"><b>UNIT</b></th>
                 <th scope="col"><b>CATEGORY</b>
                 <th scope="col"><b>DATE</b>
@@ -1274,7 +1273,7 @@
         </div>
     </div>
 
-    <div class="d-block d-md-none w-100" id="table2">
+    <div class="d-block d-md-none mt-2 w-100" id="table2">
         <div class="card card_custom">
             <div class="card-body d-flex" style="padding:1rem;">
                 <!-- card content -->
@@ -1289,7 +1288,7 @@
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </h5>
@@ -1319,7 +1318,7 @@
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </h5>
@@ -1349,7 +1348,7 @@
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </h5>
@@ -1379,7 +1378,7 @@
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </h5>
@@ -1409,7 +1408,7 @@
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </h5>
@@ -1439,7 +1438,7 @@
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </h5>
@@ -1455,12 +1454,6 @@
 
             </div>
         </div>
-    </div>
-</div>
-
-<div class="container container-box box-center">
-    <div id="calendar">
-
     </div>
 </div>
 

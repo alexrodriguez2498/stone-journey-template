@@ -331,8 +331,9 @@
             </div>
 
             <!--/Dropdown primary-->
+
             <ul class="d-flex " id="searchContainer">
-                <form class="form-inline d-none d-lg-block">
+                <form class="form-inline">
                     <div class="md-form my-0" style="padding-bottom:16px;">
                         <input id="seach" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     </div>
