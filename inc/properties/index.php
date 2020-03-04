@@ -269,21 +269,11 @@
         }
     }
 
-    /* footer{
-        position:fixed;
-        width:100%;
-    } */
+
     .middle-nav a {
         color: black;
     }
 
-    .middle-nav .nav-space {
-        padding: 0 100px;
-    }
-
-    .middle-nav {
-        box-sizing: border-box !important;
-    }
 
     .dropdown .dropdown-menu .dropdown-item:hover {
         background: #f9f8f6 !important;
@@ -375,10 +365,10 @@
 
                     <!--Menu-->
                     <div class="dropdown-menu dropdown-menu-right  p-0">
-                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Proyect Status</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Architech</a>
                         <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Location</a>
-                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
+                        <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Project Status</a>
                     </div>
                 </div>
                 <ul class="second_nav">

@@ -153,7 +153,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -182,7 +182,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div> </h5>
 

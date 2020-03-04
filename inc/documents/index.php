@@ -728,7 +728,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -743,7 +743,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -758,7 +758,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -773,7 +773,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -788,7 +788,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -806,7 +806,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -821,7 +821,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -836,7 +836,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -851,7 +851,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -866,7 +866,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -882,7 +882,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -897,7 +897,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -912,7 +912,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -927,7 +927,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -942,7 +942,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -958,7 +958,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -973,7 +973,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -988,7 +988,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1003,7 +1003,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1018,7 +1018,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1028,28 +1028,33 @@
                 <td><b></b></td>
                 <td><b></b></td>
                 <td><b></b></td>
-            
-                <td id="td-special-2 d-flex ">
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination pagination-sm pg-blue justify-content-end">
-                            <li class="page-item ">
-                                <a class="page-link" tabindex="-1">Previous</a>
-                            </li>
-                            <li class="page-item"style="padding-right:10px;"><a class="page-link"style="background:#947956a1;color:white;">1</a></li>
-                            <li class="page-item active">
-                                <a class="page-link" style="background:#947956";>2 <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="page-item ">
-                                <a class="page-link">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </td>
+                <td><b></b></td>
 
             </tr>
 
             </tbody>
         </table>
+        <div class="table-footer d-flex justify-content-between align-items-center">
+            <button type="button" class="btn btn-sm button z-depth-1 add-button"
+                    style="margin-left:1rem; margin-top: -1rem;">CREATE DOCUMENTS
+            </button>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm pg-blue ">
+                    <li class="page-item ">
+                        <a class="page-link" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item" style="padding-right:10px;"><a class="page-link"
+                                                                         style="background:#947956a1;color:white;">1</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" style="background:#947956" ;>2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item ">
+                        <a class="page-link">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
     <div class="d-block d-md-none w-100" id="table2">
@@ -1067,7 +1072,7 @@
                                    data-toggle="dropdown"
                                    aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>
@@ -1099,7 +1104,7 @@
                                    data-toggle="dropdown"
                                    aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>
@@ -1131,7 +1136,7 @@
                                    data-toggle="dropdown"
                                    aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>
@@ -1163,7 +1168,7 @@
                                    data-toggle="dropdown"
                                    aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>
@@ -1195,7 +1200,7 @@
                                    data-toggle="dropdown"
                                    aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>

@@ -421,7 +421,7 @@
         </div>
         </div>
 
-         <div class="mt-2 last_container_table w-100 d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="tableDocuments">
+         <div class="mt-2 last_container_table w-100  container container-box box-center d-none d-md-block" style="width: 100%; margin-top: .5rem !important;" id="tableDocuments">
         <table class="table">
             <thead>
             <tr>
@@ -445,7 +445,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -463,7 +463,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -480,7 +480,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -497,7 +497,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -514,7 +514,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -531,7 +531,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -549,7 +549,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -566,7 +566,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -583,7 +583,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -600,7 +600,7 @@
                         <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Document</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
 
@@ -658,7 +658,7 @@
                                 data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>
@@ -684,7 +684,7 @@
                                 data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>
@@ -710,7 +710,7 @@
                                 data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>
@@ -736,7 +736,7 @@
                                 data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>
@@ -762,7 +762,7 @@
                                 data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Document</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div>
                             </div>
@@ -821,7 +821,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -849,7 +849,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                         </div>
@@ -877,7 +877,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -904,7 +904,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -931,7 +931,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -959,7 +959,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -987,7 +987,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1014,7 +1014,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1041,7 +1041,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1068,7 +1068,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1095,7 +1095,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1123,7 +1123,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1150,7 +1150,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1177,7 +1177,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1204,7 +1204,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1232,7 +1232,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1260,7 +1260,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1287,7 +1287,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1314,7 +1314,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1341,7 +1341,7 @@
                             <a class="nav-link fas fa-ellipsis-v main_color pt-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false"></a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item">Edit Property</a>
+                                <a class="dropdown-item">Edit Milestone</a>
                                 <a class="dropdown-item" href="#">Delete</a>
                             </div>
                     </td>
@@ -1402,7 +1402,7 @@
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Milestone</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div> </h5>
 
@@ -1425,7 +1425,7 @@
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Milestone</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div> </h5>
 
@@ -1447,7 +1447,7 @@
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Milestone</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div> </h5>
 
@@ -1468,7 +1468,7 @@
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Milestone</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div> </h5>
 
@@ -1491,7 +1491,7 @@
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Milestone</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div> </h5>
 
@@ -1511,7 +1511,7 @@
                                 <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false"></a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item">Edit Property</a>
+                                    <a class="dropdown-item">Edit Milestone</a>
                                     <a class="dropdown-item" href="#">Delete</a>
                                 </div> </h5>
 

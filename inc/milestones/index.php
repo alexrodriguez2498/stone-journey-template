@@ -388,7 +388,15 @@
                     <div class="card-body">
 
                         <!-- Title -->
-                        <h4 class="card-title pl-4 pt-3"><a>Welcome letter</a></h4>
+                        <h4 class="card-title pl-4 pt-3 d-flex justify-content-between align-items-center"><a>Welcome letter</a>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Milestone</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </h4>
                         <!-- Text -->
                         <p class="card-text pl-4"><strong>Property:</strong> Rossio <br>
                             <strong>Adressee:</strong> Ana Humble <br>
@@ -424,7 +432,15 @@
                     <div class="card-body">
 
                         <!-- Title -->
-                        <h4 class="card-title pl-4 pt-3"><a>Promissory Contract</a></h4>
+                        <h4 class="card-title pl-4 pt-3 d-flex justify-content-between align-items-center"><a>Promissory Contract</a>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Milestone</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </h4>
                         <!-- Text -->
                         <p class="card-text pl-4"><strong>Property:</strong> Rossio <br>
                             <strong>Adressee:</strong> Ana Humble <br>
@@ -460,7 +476,15 @@
                     <div class="card-body ">
 
                         <!-- Title -->
-                        <h4 class="card-title pl-4 pt-3"><a>Final Floor Plan 1A</a></h4>
+                        <h4 class="card-title pl-4 pt-3 d-flex justify-content-between align-items-center"><a>Final Floor Plan 1A</a>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Milestone</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                        </h4>
                         <!-- Text -->
                         <p class="card-text pl-4"><strong>Property:</strong> Rossio <br>
                             <strong>Adressee:</strong> Ana Humble <br>
@@ -497,7 +521,15 @@
                 <div class="card-body">
 
                     <!-- Title -->
-                    <h4 class="card-title pl-4 pt-3"><a>Welcome letter</a></h4>
+                    <h4 class="card-title pl-4 pt-3 d-flex justify-content-between align-items-center"><a>Welcome letter</a>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Milestone</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h4>
                     <!-- Text -->
                     <p class="card-text pl-4"><strong>Property:</strong> Rossio <br>
                         <strong>Adressee:</strong> Ana Humble <br>
@@ -533,7 +565,15 @@
                 <div class="card-body">
 
                     <!-- Title -->
-                    <h4 class="card-title pl-4 pt-3"><a>Promissory Contract</a></h4>
+                    <h4 class="card-title pl-4 pt-3 d-flex justify-content-between align-items-center"><a>Promissory Contract</a>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Milestone</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h4>
                     <!-- Text -->
                     <p class="card-text pl-4"><strong>Property:</strong> Rossio <br>
                         <strong>Adressee:</strong> Ana Humble <br>
@@ -569,7 +609,15 @@
                 <div class="card-body">
 
                     <!-- Title -->
-                    <h4 class="card-title pl-4 pt-3"><a>Final Floor Plan 1A</a></h4>
+                    <h4 class="card-title pl-4 pt-3 d-flex justify-content-between align-items-center"><a>Final Floor Plan 1A</a>  <div class="nav-item dropdown">
+                            <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item">Edit Milestone</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                            </div>
+                    </h4>
                     <!-- Text -->
                     <p class="card-text pl-4"><strong>Property:</strong> Rossio <br>
                         <strong>Adressee:</strong> Ana Humble <br>
@@ -640,7 +688,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -669,7 +717,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                     </div>
@@ -698,7 +746,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -726,7 +774,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -754,7 +802,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -783,7 +831,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -812,7 +860,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -840,7 +888,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -868,7 +916,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -896,7 +944,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -924,7 +972,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -953,7 +1001,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -981,7 +1029,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1009,7 +1057,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1037,7 +1085,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1066,7 +1114,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1095,7 +1143,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1123,7 +1171,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1151,7 +1199,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1179,7 +1227,7 @@
                            data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item">Edit Property</a>
+                            <a class="dropdown-item">Edit Milestone</a>
                             <a class="dropdown-item" href="#">Delete</a>
                         </div>
                 </td>
@@ -1203,8 +1251,10 @@
             </tbody>
 
         </table>
-        <div class="table-footer d-flex justify-content-end align-items-center">
-
+        <div class="table-footer d-flex justify-content-between align-items-center">
+            <button type="button" class="btn btn-sm button z-depth-1 add-button"
+                    style="margin-left:1rem; margin-top: -1rem;">CREATE MILESTONES
+            </button>
             <nav aria-label="Page navigation example">
                 <ul class="pagination pagination-sm pg-blue ">
                     <li class="page-item ">
