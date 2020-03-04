@@ -9,7 +9,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         /* background-opacity:0.5; */
-        font-family: "roboto";
+        font-family: "roboto", serif;
     }
 
     /*.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {*/
@@ -220,7 +220,7 @@
                 <div class="col-md-6 d-flex">
                     <div class="footer-form">
                         <h5>Main Image</h5>
-                        <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
+                        <button type="button" class="btn btn-default btn-sm" style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
                         <input type="text" id="form10" class="form-control">
@@ -230,7 +230,7 @@
                 <div class="col-md-6 d-flex">
                     <div class="footer-form">
                         <h5>Gallery Image</h5>
-                        <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
+                        <button type="button" class="btn btn-default btn-sm" style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
                         <input type="text" id="form11" class="form-control">
@@ -242,7 +242,7 @@
                 <div class="col-md-6 d-flex">
                     <div class="footer-form">
                         <h5>Logo</h5>
-                        <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
+                        <button type="button" class="btn btn-default btn-sm" style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
                         <input type="text" id="form12" class="form-control">
@@ -252,11 +252,11 @@
                 <div class="col-md-6 d-flex">
                     <div class="footer-form">
                         <h5>Documents</h5>
-                        <button type="button" class="btn btn-default btn-sm"style="background:#947956 !important;width:8rem;">Upload</button>
+                        <button type="button" class="btn btn-default btn-sm" style="background:#947956 !important;width:8rem;">Upload</button>
                     </div>
                     <div class="md-form">
                         <input type="text" id="form13" class="form-control">
-                        <label for="name">Choose your file</label>
+                        <label for="form13">Choose your file</label>
                     </div>
                 </div>
             </div>

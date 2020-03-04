@@ -17,7 +17,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         /* background-opacity:0.5; */
-        font-family: "roboto";
+        font-family: "roboto", serif;
     }
 
     #background_2 {
@@ -37,12 +37,13 @@
     .second_nav .second_nav-item {
         color: black;
         font-weight: bold;
-        padding: .7rem .7rem 0;
+        padding: .9rem .9rem 0;
     }
 
     .card {
         margin: 20px;
     }
+
 
     /* @media (max-width: 938px) {
 
@@ -83,11 +84,11 @@
         box-shadow: none;
     }
 
-    @media (min-width: 900px) and (max-width: 995px) {
-        .tittleCardCustom {
-            font-size: 1.2rem !important;
-        }
-    }
+    /*@media (min-width: 900px) and (max-width: 995px) {*/
+    /*    .tittleCardCustom {*/
+    /*        font-size: 1.2rem !important;*/
+    /*    }*/
+    /*}*/
 
     .nav-item-selected-custom {
         border-bottom: 1.5px solid #967c5c;
@@ -117,37 +118,37 @@
         box-shadow: 0 1px 0 0 #947956 !important;
     }
 
-    .images_container {
-        display: grid;
-        grid-template: 250px / repeat(6, 1fr);
-        padding-top: 1rem;
-        grid-gap: 0 5px;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 30px;
-        margin-bottom: 40px;
-    }
+    /*.images_container {*/
+    /*    display: grid;*/
+    /*    grid-template: 250px / repeat(6, 1fr);*/
+    /*    padding-top: 1rem;*/
+    /*    grid-gap: 0 5px;*/
+    /*    padding-left: 0;*/
+    /*    padding-right: 0;*/
+    /*    margin-top: 30px;*/
+    /*    margin-bottom: 40px;*/
+    /*}*/
 
-    .images_container .image_content {
-        background-image: url('https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    /*.images_container .image_content {*/
+    /*    background-image: url('https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/profile_woman.jpg');*/
+    /*    background-repeat: no-repeat;*/
+    /*    background-size: cover;*/
+    /*}*/
 
     b {
         font-weight: bold;
         color: black;
     }
 
-    .cards_container {
-        display: flex;
-        /*margin-top: 30px;*/
-        justify-content: space-between;
-    }
+    /*.cards_container {*/
+    /*    display: flex;*/
+    /*    !*margin-top: 30px;*!*/
+    /*    justify-content: space-between;*/
+    /*}*/
 
-    .card-footer {
-        justify-content: space-between;
-        background: #947956;
+    /*.card-footer {*/
+    /*    justify-content: space-between;*/
+    /*    background: #947956;*/
 
     }
 
@@ -206,9 +207,10 @@
 <div class="row container box-center container-box py-3 background-none" style="margin-top: 2rem; padding-bottom: 0 !important;">
     <div class="py-4 z-depth-1 col justify-content-between" id="background_1" style="border-bottom: 2px solid #8c6f49; display: flex">
         <section class="px-md-2 mx-md-2 dark-grey-text w-100 d-flex align-items-center">
-            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg"alt="">
+            <img src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
             <h3 class="h3 pl-3">Rossio 93 <h3 class="h3 d-none d-md-block"> - Beauty in motion</h3></h3>
         </section>
+
 
         <div class="nav-item dropdown dropdown-main">
             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
@@ -343,17 +345,17 @@
                             <a class="dropdown-item" style="padding-left:1.5rem;" href="#">Name</a>
                         </div>
                     </div>
-                    <li id="tabClients" class="nav-item nav-item-selected-custom" onclick="clickClients()">
+                    <li id="tabClients" class="nav-item nav-item-selected-custom pb-3" onclick="clickClients()">
                         <a class="nav-link second_nav-item d-none d-md-block" >Clients</a>
                         <a class="nav-link second_nav-item d-block d-md-none" ><i class="far fa-user-circle"></i></a>
                     </li>
 
-                    <li id="tabMilestones" class="nav-item" onclick="clickMilestones()">
+                    <li id="tabMilestones" class="nav-item pb-3" onclick="clickMilestones()">
                         <a class="nav-link second_nav-item d-none d-md-block" >Milestones</a>
                         <a class="nav-link second_nav-item d-block d-md-none" ><i class="fas fa-flag"></i></a>
                     </li>
 
-                    <li id="tabDocuments" class="nav-item" onclick="clickDocuments()">
+                    <li id="tabDocuments" class="nav-item pb-3" onclick="clickDocuments()">
                         <a class="nav-link second_nav-item d-none d-md-block" >Documents</a>
                         <a class="nav-link second_nav-item d-block d-md-none" ><i class="far fa-file-alt"></i></a>
                     </li>
@@ -619,7 +621,7 @@
                 <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Hans Vollenwider</b> <br> +123 456 789<br>
                             ana@cto.com </p> <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -643,7 +645,7 @@
                 <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Peter Thomas</b> <br> +123 456 789<br>
                             ana@cto.com </p>  <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -666,7 +668,7 @@
                 <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Ana Peter</b> <br> +123 456 789<br>
                             ana@cto.com </p> <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -688,7 +690,7 @@
                 <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/face.jpg" alt="">
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Paul Armand</b> <br> +123 456 789<br>
                             ana@cto.com </p>  <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -838,7 +840,7 @@
                 <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                     <i class="fas fa-file-invoice-dollar fa-3x"></i>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Payment Summons</b>
                         <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -850,7 +852,7 @@
                             </div>
                         </div>
                     </h5>
-                    <p class="card-text"style="margin:0;"> Ana Hurnble<br>20/02/2020
+                    <p class="card-text" style="margin:0;"> Ana Hurnble<br>20/02/2020
                     </p>
                 </div>
 
@@ -864,7 +866,7 @@
                 <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                     <i class="fas fa-file-signature fa-3x"></i>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Promissory Contract Payment</b>
                         <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -876,7 +878,7 @@
                             </div>
                         </div>
                     </h5>
-                    <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                    <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
                     </p>
                 </div>
 
@@ -890,7 +892,7 @@
                 <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                     <i class="fas fa-file-invoice fa-3x"></i>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Fee Reinforcement</b>
                         <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -902,7 +904,7 @@
                             </div>
                         </div>
                     </h5>
-                    <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                    <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
                     </p>
                 </div>
 
@@ -916,7 +918,7 @@
                 <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                     <i class="fas fa-file-image fa-3x"></i>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
                         <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -928,7 +930,7 @@
                             </div>
                         </div>
                     </h5>
-                    <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                    <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
                     </p>
                 </div>
 
@@ -942,7 +944,7 @@
                 <div class="mobile-card-icon" style="    padding: 0.5rem 1rem 1rem;">
                     <i class="fas fa-images fa-3x"></i>
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><b>Reservation Form</b>
                         <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink"
@@ -954,7 +956,7 @@
                             </div>
                         </div>
                     </h5>
-                    <p class="card-text"style="margin:0;">Ana Hurnble<br>20/02/2020
+                    <p class="card-text" style="margin:0;">Ana Hurnble<br>20/02/2020
                     </p>
                 </div>
 
@@ -977,9 +979,6 @@
                 <th scope="col"><b>CATEGORY</b>
                 <th scope="col"><b>DATE</b>
                 <th scope="col"><b></b></th>
-                </th>
-
-
             </tr>
             </thead>
             <tbody>
@@ -1557,7 +1556,7 @@
                 <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Payment Summons</b> <br> Ana Humble<br>
                             20/02/2020  </p> <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -1581,7 +1580,7 @@
                 <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building2.jpg" alt="">
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Promissory Contract Payment</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
@@ -1603,7 +1602,7 @@
                 <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building1.jpg" alt="">
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p> <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
@@ -1624,7 +1623,7 @@
                 <div class="mobile-card-icon" style="padding: 0.5rem 1rem 1rem;">
                     <img width="60px" src="https://stonejstaging.wpengine.com/wp-content/uploads/2020/01/Building5.jpg" alt="">
                 </div>
-                <div class="mobile-card-content"style="width:100%;">
+                <div class="mobile-card-content" style="width:100%;">
                     <h5 class="card-title d-flex justify-content-between mb-0"><p><b>Reservation Fee Reinforcement</b> <br> Ana Humble <br> 20/02/2020</p>  <div class="nav-item dropdown">
                             <a class="nav-link fas fa-ellipsis-v main_color" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false"></a>
@@ -1694,7 +1693,7 @@
                     <img class="card-img-top"
                          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                          alt="Card image cap">
-                    <a href="#!">
+                    <a href="#">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -1709,7 +1708,7 @@
                     <img class="card-img-top"
                          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                          alt="Card image cap">
-                    <a href="#!">
+                    <a href="#">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -1724,7 +1723,7 @@
                     <img class="card-img-top"
                          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                          alt="Card image cap">
-                    <a href="#!">
+                    <a href="#">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -1739,7 +1738,7 @@
                     <img class="card-img-top"
                          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                          alt="Card image cap">
-                    <a href="#!">
+                    <a href="#">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -1754,7 +1753,7 @@
                     <img class="card-img-top"
                          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                          alt="Card image cap">
-                    <a href="#!">
+                    <a href="#">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -1769,7 +1768,7 @@
                     <img class="card-img-top"
                          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
                          alt="Card image cap">
-                    <a href="#!">
+                    <a href="#">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
